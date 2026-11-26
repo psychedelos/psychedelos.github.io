@@ -1,0 +1,6657 @@
+{
+ "11. Encounters/11.1.1. Reaction.md": {
+  "book": "toa",
+  "pages": [
+   68
+  ],
+  "issues": []
+ },
+ "11. Encounters/11.2.1. Activity.md": {
+  "book": "toa",
+  "pages": [
+   68
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d6 | STATUS | INTELLIGENT CREATURE | OTHER CREATURES |",
+    "type": "cell-not-in-row",
+    "cell": 1,
+    "text": "d 6",
+    "found": null,
+    "where": "not in this column of the page",
+    "owner_line": null,
+    "row_band": "p068 y456-456"
+   },
+   {
+    "line": 3,
+    "row": "| 1 | **Threat** [dagger icon] | Ambush, battling a person or creature, dealing with a tra",
+    "type": "cell-spans-rows",
+    "cell": 3,
+    "text": "ambush battling a person or creature dealing with a trap or ",
+    "found": "p068 y479",
+    "parts": [
+     "ambush battling a person or creature dea",
+     "hazard stand off verbal altercation"
+    ],
+    "where": [
+     "p068 y479",
+     "p068 y501"
+    ],
+    "owner_lines": [
+     3,
+     3
+    ]
+   },
+   {
+    "line": 3,
+    "row": "| 1 | **Threat** [dagger icon] | Ambush, battling a person or creature, dealing with a tra",
+    "type": "cell-not-in-row",
+    "cell": 2,
+    "text": "threat dagger icon",
+    "found": null,
+    "where": "not in this column of the page",
+    "owner_line": null,
+    "row_band": "p068 y479-501"
+   },
+   {
+    "line": 4,
+    "row": "| 2 | **Socialising** [group of people icon] | Conversing, sporting activity, trading, gam",
+    "type": "cell-spans-rows",
+    "cell": 3,
+    "text": "conversing sporting activity trading gambling teaching child",
+    "found": "p068 y520",
+    "parts": [
+     "conversing sporting activity trading gam",
+     "intimate relations"
+    ],
+    "where": [
+     "p068 y520",
+     "p068 y542"
+    ],
+    "owner_lines": [
+     4,
+     null
+    ]
+   },
+   {
+    "line": 4,
+    "row": "| 2 | **Socialising** [group of people icon] | Conversing, sporting activity, trading, gam",
+    "type": "cell-not-in-row",
+    "cell": 2,
+    "text": "socialising group of people icon",
+    "found": null,
+    "where": "not in this column of the page",
+    "owner_line": null,
+    "row_band": "p068 y520-537"
+   },
+   {
+    "line": 5,
+    "row": "| 3 | **Eating** [drumstick icon] | Having a meal, cooking, preparing food, drinking alcoh",
+    "type": "cell-not-in-row",
+    "cell": 2,
+    "text": "eating drumstick icon",
+    "found": null,
+    "where": "not in this column of the page",
+    "owner_line": null,
+    "row_band": "p068 y562-584"
+   },
+   {
+    "line": 6,
+    "row": "| 4 | **Working** [shovel icon] | Plying their trade, making repairs, gathering resources,",
+    "type": "cell-not-in-row",
+    "cell": 2,
+    "text": "working shovel icon",
+    "found": null,
+    "where": "not in this column of the page",
+    "owner_line": null,
+    "row_band": "p068 y603-625"
+   },
+   {
+    "line": 7,
+    "row": "| 5 | **Traveling** [footprint icon] | Hunting, passing by, exploring, on patrol, messenge",
+    "type": "cell-not-in-row",
+    "cell": 2,
+    "text": "traveling footprint icon",
+    "found": null,
+    "where": "not in this column of the page",
+    "owner_line": null,
+    "row_band": "p068 y644-666"
+   },
+   {
+    "line": 8,
+    "row": "| 6 | **Resting** [campfire icon] | Sleeping, relaxing, reading, drawing, recovering (eg h",
+    "type": "cell-not-in-row",
+    "cell": 2,
+    "text": "resting campfire icon",
+    "found": null,
+    "where": "not in this column of the page",
+    "owner_line": null,
+    "row_band": "p068 y685-707"
+   }
+  ]
+ },
+ "12. Combat/12.5.1. Chase Events.md": {
+  "book": "toa",
+  "pages": [
+   75,
+   76
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d20 | |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 7,
+    "row": "| 5 | **Random Setback** Roll 1d6:<br>**i. Drop Something** The leader accidentally drops ",
+    "type": "row-unlocated"
+   }
+  ]
+ },
+ "13. Injury & Death/13.1.1. Injuries & Setbacks.md": {
+  "book": "toa",
+  "pages": [
+   85,
+   86
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d20 | |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 16,
+    "row": "| 16 | **Ear Injury** You suffer disadvantage on hearing Perc checks and balance related c",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "ear injury you suffer disadvantage on hearing perc checks an",
+    "found": "p086 y240",
+    "parts": [
+     "ear injury you suffer disadvantage on he",
+     "the ear is lost on a success the ear is "
+    ],
+    "where": [
+     "p086 y240",
+     "p086 y276"
+    ],
+    "owner_lines": [
+     16,
+     null
+    ]
+   },
+   {
+    "type": "text-between-rows",
+    "line": 16,
+    "row": "| 16 | **Ear Injury** You suffer disadvantage on hearing Perc checks and balance related c",
+    "next_line": 17,
+    "text": "the ear is lost on a success the ear is damaged but will hea",
+    "found": "p086 y270"
+   }
+  ]
+ },
+ "13. Injury & Death/13.2.1. Blade Trauma.md": {
+  "book": "toa",
+  "pages": [
+   86,
+   87
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d12 | |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 6,
+    "row": "| 4 | **Damaged Gear** A random piece of Battle Gear is damaged. The item is non functiona",
+    "type": "row-cells-apart"
+   },
+   {
+    "line": 13,
+    "row": "| 11 | **Severed Leg or Foot** Roll 1d6: 1-3: foot, 4-5: below knee, 6: leg. Target's move",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "severed leg or foot roll 1 d 6 1 3 foot 4 5 below knee 6 leg",
+    "found": "p087 y148",
+    "parts": [
+     "severed leg or foot roll 1 d 6 1 3 foot ",
+     "limb is severed unless they make a luck "
+    ],
+    "where": [
+     "p087 y148",
+     "p087 y95"
+    ],
+    "owner_lines": [
+     13,
+     12
+    ]
+   },
+   {
+    "type": "cell-cut-short",
+    "line": 13,
+    "row": "| 11 | **Severed Leg or Foot** Roll 1d6: 1-3: foot, 4-5: below knee, 6: leg. Target's move",
+    "cell": 2,
+    "text": "heal with treatment and eight weeks rest",
+    "next": "limb is",
+    "found": "p087 y148"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 13,
+    "row": "| 11 | **Severed Leg or Foot** Roll 1d6: 1-3: foot, 4-5: below knee, 6: leg. Target's move",
+    "next_line": 14,
+    "text": "severed unless they make a con save on a success the limb is",
+    "found": "p087 y202"
+   }
+  ]
+ },
+ "13. Injury & Death/13.2.2. Blast Trauma.md": {
+  "book": "toa",
+  "pages": [
+   87
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d12 | |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 6,
+    "row": "| 5 | **Destroyed Gear** The target falls *Prone* and loses their next turn. A random piec",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "destroyed gear the target falls prone and loses their next t",
+    "found": "p087 y631",
+    "parts": [
+     "destroyed gear the target falls prone",
+     "and loses their next turn a random piece"
+    ],
+    "where": [
+     "p087 y631",
+     "p087 y643"
+    ],
+    "owner_lines": [
+     null,
+     6
+    ]
+   },
+   {
+    "type": "text-between-rows",
+    "line": 5,
+    "row": "| 4 | **Structural Damage** The target falls *Prone* and loses their next turn. Minor cove",
+    "next_line": 6,
+    "text": "prone destroyed gear the target falls",
+    "found": "p087 y620"
+   }
+  ]
+ },
+ "13. Injury & Death/13.2.3. Blunt Trauma.md": {
+  "book": "toa",
+  "pages": [
+   87,
+   88
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d12 | |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 7,
+    "row": "| 5 | **Damaged Gear** A random piece of Battle Gear is damaged. The item is non functiona",
+    "type": "row-cells-apart"
+   },
+   {
+    "line": 12,
+    "row": "| 10 | **Broken Arm or Hand** Roll 1d6: 1-3 hand, 4-5: below elbow, 6: arm. Target's limb ",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "broken arm or hand roll 1 d 6 1 3 hand 4 5 below elbow 6 arm",
+    "found": "p088 y383",
+    "parts": [
+     "broken arm or hand roll 1 d 6 1 3 hand 4",
+     "non functional but will heal with treatm"
+    ],
+    "where": [
+     "p088 y383",
+     "p088 y543"
+    ],
+    "owner_lines": [
+     12,
+     13
+    ]
+   },
+   {
+    "type": "cell-cut-short",
+    "line": 12,
+    "row": "| 10 | **Broken Arm or Hand** Roll 1d6: 1-3 hand, 4-5: below elbow, 6: arm. Target's limb ",
+    "cell": 2,
+    "text": "heal with treatment and eight weeks rest",
+    "next": "non",
+    "found": "p088 y383"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 12,
+    "row": "| 10 | **Broken Arm or Hand** Roll 1d6: 1-3 hand, 4-5: below elbow, 6: arm. Target's limb ",
+    "next_line": 13,
+    "text": "functional but will heal with treatment and eight weeks rest",
+    "found": "p088 y425"
+   }
+  ]
+ },
+ "13. Injury & Death/13.2.4. Missile Trauma.md": {
+  "book": "toa",
+  "pages": [
+   88,
+   89
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d12 | |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 4,
+    "row": "| 2 | **Damaged Gear** A random piece of Battle Gear is damaged. The item is non functiona",
+    "type": "row-cells-apart"
+   }
+  ]
+ },
+ "13. Injury & Death/13.2.5. Toxin Trauma.md": {
+  "book": "toa",
+  "pages": [
+   89
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d12 | |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "15. Sorcery/15.1.1. Spell Casting.md": {
+  "book": "toa",
+  "pages": [
+   93
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "|  |  |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "15. Sorcery/15.10.1. Ritual Components.md": {
+  "book": "toa",
+  "pages": [
+   113
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d66 | |",
+    "type": "header-unlocated"
+   },
+   {
+    "type": "cell-cut-short",
+    "line": 5,
+    "row": "| 13 | Sap of a **Flesh Eating Vine.** |",
+    "cell": 2,
+    "text": "sap of a flesh eating vine",
+    "next": "33 53",
+    "found": "p113 y435"
+   },
+   {
+    "type": "cell-cut-short",
+    "line": 15,
+    "row": "| 31 | Acid sack of a **Fire Beetle.** |",
+    "cell": 2,
+    "text": "acid sack of a fire beetle",
+    "next": "51 hooks of",
+    "found": "p113 y375"
+   }
+  ]
+ },
+ "15. Sorcery/15.5.1. Dark and Dangerous Magic.md": {
+  "book": "toa",
+  "pages": [
+   94,
+   95,
+   96,
+   97
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d100 | |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 10,
+    "row": "| 11-12 | **Rift** A random enraged monster<sup>1</sup> from the Veil appears within Close",
+    "type": "row-cells-apart"
+   },
+   {
+    "line": 17,
+    "row": "| 21-22 | **Rift** A random enraged monster<sup>1</sup> from the Veil appears within Close",
+    "type": "row-cells-apart"
+   },
+   {
+    "line": 18,
+    "row": "| 23-24 | **Spellburst** You cast a random spell<sup>2</sup> at the intended target. The s",
+    "type": "row-cells-apart"
+   },
+   {
+    "line": 24,
+    "row": "| 31-32 | **Rift** A random enraged monster<sup>1</sup> from the Veil appears within Close",
+    "type": "row-cells-apart"
+   },
+   {
+    "line": 26,
+    "row": "| 35-36 | **Spellburst** You cast a random spell<sup>2</sup> at the intended target. The s",
+    "type": "row-cells-apart"
+   },
+   {
+    "line": 31,
+    "row": "| 41-42 | **Rift** A random enraged monster<sup>1</sup> from the Veil appears within Close",
+    "type": "row-cells-apart"
+   },
+   {
+    "line": 40,
+    "row": "| 55-56 | **Spellburst** You cast a random spell<sup>2</sup> at the intended target. The s",
+    "type": "row-cells-apart"
+   },
+   {
+    "line": 45,
+    "row": "| 61-62 | **Rift:** A random enraged monster<sup>1</sup> from the Veil appears within Clos",
+    "type": "row-cells-apart"
+   },
+   {
+    "line": 50,
+    "row": "| 69 | **Spellburst** You cast a random spell<sup>2</sup> at the intended target. The spel",
+    "type": "row-cells-apart"
+   },
+   {
+    "line": 52,
+    "row": "| 71-72 | **Rift** A random enraged monster<sup>1</sup> from the Veil appears within Melee",
+    "type": "row-cells-apart"
+   },
+   {
+    "line": 59,
+    "row": "| 81-82 | **Rift** A random enraged monster<sup>1</sup> from the Veil appears within Close",
+    "type": "row-cells-apart"
+   },
+   {
+    "line": 61,
+    "row": "| 85-86 | **Spellburst** You cast a random spell<sup>2</sup> at the intended target. The s",
+    "type": "row-cells-apart"
+   },
+   {
+    "line": 66,
+    "row": "| 91-92 | **Rift** A random enraged monster<sup>1</sup> from the Veil appears within Melee",
+    "type": "row-cells-apart"
+   },
+   {
+    "line": 68,
+    "row": "| 95-96 | **Spellburst** You cast a random spell<sup>2</sup> at a random Close target. The",
+    "type": "row-unlocated"
+   }
+  ]
+ },
+ "15. Sorcery/15.6.1. Divine Rebuke.md": {
+  "book": "toa",
+  "pages": [
+   98,
+   99,
+   100
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d100 | |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 3,
+    "row": "| 1-2 | **Dark Interference** Roll on the *Dark & Dangerous Magic* table. |",
+    "type": "cell-not-in-row",
+    "cell": 1,
+    "text": "1 2",
+    "found": null,
+    "where": "not in this column of the page",
+    "owner_line": null,
+    "row_band": "p099 y165-177"
+   }
+  ]
+ },
+ "15. Sorcery/15.7.1. Rites of Atonement.md": {
+  "book": "toa",
+  "pages": [
+   100,
+   101
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d20 | |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 16,
+    "row": "| 14 | **Render Their Idols Dust** Destroy a relic, holy symbol, or other sanctified parap",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "render their idols dust destroy a relic holy symbol or other",
+    "found": "p101 y124",
+    "parts": [
+     "render their idols dust destroy a relic ",
+     "of an opposing god"
+    ],
+    "where": [
+     "p101 y124",
+     "p101 y148"
+    ],
+    "owner_lines": [
+     16,
+     20
+    ]
+   },
+   {
+    "type": "cell-cut-short",
+    "line": 16,
+    "row": "| 14 | **Render Their Idols Dust** Destroy a relic, holy symbol, or other sanctified parap",
+    "cell": 2,
+    "text": "ctified paraphernalia of an opposing god",
+    "next": "worth 1 x",
+    "found": "p101 y124"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 16,
+    "row": "| 14 | **Render Their Idols Dust** Destroy a relic, holy symbol, or other sanctified parap",
+    "next_line": 17,
+    "text": "paraphernalia of an opposing god",
+    "found": "p101 y142"
+   }
+  ]
+ },
+ "15. Sorcery/15.8.1. Spell List.md": {
+  "book": "toa",
+  "pages": [
+   102,
+   103,
+   104
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d100 | | | |",
+    "type": "header-unlocated"
+   },
+   {
+    "type": "cell-cut-short",
+    "line": 5,
+    "row": "| 5-6 | **Arcane Aegis** Shield | Combat | Conjure a hovering shield that protects you. |",
+    "cell": 2,
+    "text": "arcane aegis shield",
+    "next": "protects you",
+    "found": "p102 y169"
+   }
+  ]
+ },
+ "15. Sorcery/15.9. Spells/Conjuring.md": {
+  "book": "toa",
+  "pages": [
+   106
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "|  |  |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 6,
+    "row": "| **Terrible Failure** | An uncontrolled, enraged random entity appears within Melee range",
+    "type": "cell-misplaced",
+    "cell": 1,
+    "text": "terrible failure",
+    "found": "p106 y543",
+    "row_band": "p106 y338-374",
+    "owner_line": null
+   }
+  ]
+ },
+ "15. Sorcery/15.9. Spells/Enchantment.md": {
+  "book": "toa",
+  "pages": [
+   112
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d6 | |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "15. Sorcery/15.9. Spells/Gabbling of the Jade Moon - Madness.md": {
+  "book": "toa",
+  "pages": [
+   108
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d4 | |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "16. Downtime/16.1.1. Downtime Period.md": {
+  "book": "toa",
+  "pages": [
+   115
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| 2d6 | |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "16. Downtime/16.1.2. Downtime Event.md": {
+  "book": "toa",
+  "pages": [
+   115
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d6 | |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "16. Downtime/16.3.1. Complication.md": {
+  "book": "toa",
+  "pages": [
+   118
+  ],
+  "issues": []
+ },
+ "16. Downtime/16.4.1. Carousing.md": {
+  "book": "toa",
+  "pages": [
+   119,
+   120,
+   121,
+   122,
+   123
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d100 | |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 18,
+    "row": "| 31-32 | **Unexpected** You come into possession of something unexpected. Roll 1d6: (i) a",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "unexpected you come into possession of something unexpected ",
+    "found": "p120 y577",
+    "parts": [
+     "unexpected you come into possession of",
+     "something unexpected roll 1 d 6 i a youn"
+    ],
+    "where": [
+     "p120 y577",
+     "p120 y589"
+    ],
+    "owner_lines": [
+     24,
+     18
+    ]
+   },
+   {
+    "line": 38,
+    "row": "| 71-72 | **Peacekeeper** You step in to quell a disturbance amongst unruly patrons after ",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "peacekeeper you step in to quell a disturbance amongst unrul",
+    "found": "p122 y284",
+    "parts": [
+     "peacekeeper you step in to quell a distu",
+     "you too roll on the injuries setbacks ta"
+    ],
+    "where": [
+     "p122 y284",
+     "p122 y368"
+    ],
+    "owner_lines": [
+     38,
+     45
+    ]
+   },
+   {
+    "line": 40,
+    "row": "| 75-76 | **Injected** A nefarious artificer, alchemist or other dangerous scob injects yo",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "injected a nefarious artificer alchemist or other dangerous ",
+    "found": "p122 y485",
+    "parts": [
+     "injected a nefarious artificer alchemist",
+     "your muscle mass improves gain 2 str max"
+    ],
+    "where": [
+     "p122 y485",
+     "p122 y605"
+    ],
+    "owner_lines": [
+     40,
+     48
+    ]
+   },
+   {
+    "type": "text-between-rows",
+    "line": 17,
+    "row": "| 29-30 | **New Contact** Your amicable merriment attracts a new contact, with whom you be",
+    "next_line": 18,
+    "text": "unexpected you come into possession",
+    "found": "p120 y566"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 38,
+    "row": "| 71-72 | **Peacekeeper** You step in to quell a disturbance amongst unruly patrons after ",
+    "next_line": 39,
+    "text": "you too roll on the injuries setbacks table no permanent inj",
+    "found": "p122 y362"
+   }
+  ]
+ },
+ "16. Downtime/16.6.1. Pet Qualities.md": {
+  "issues": [
+   {
+    "type": "no-source-match"
+   }
+  ]
+ },
+ "16. Downtime/16.6.2. Monstrous Instincts.md": {
+  "book": "toa",
+  "pages": [
+   124
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d6 | |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "16. Downtime/16.9.1. Standard Research.md": {
+  "book": "toa",
+  "pages": [
+   127
+  ],
+  "issues": []
+ },
+ "17. GM Tools/17.2.1. Diseases.md": {
+  "book": "toa",
+  "pages": [
+   132,
+   133
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d12 |  |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "17. GM Tools/17.2.2. Parasites.md": {
+  "book": "toa",
+  "pages": [
+   133
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d3 |  |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "17. GM Tools/17.3.1. Fancy Meeting You Here.md": {
+  "book": "toa",
+  "pages": [
+   134
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d6 |  |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 3,
+    "row": "| 1 | **Lone Survivor** of an adventuring party, lost in the tunnels. Half hp & rations, n",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "lone survivor of an adventuring party lost in the tunnels ha",
+    "found": "p134 y378",
+    "parts": [
+     "lone survivor of an adventuring party lo",
+     "the tunnels half hp rations no torches m"
+    ],
+    "where": [
+     "p134 y378",
+     "p134 y390"
+    ],
+    "owner_lines": [
+     null,
+     3
+    ]
+   },
+   {
+    "line": 4,
+    "row": "| 2 | **Prisoner** of the next monster or chained up to a pillar, makeshift shrine, in a p",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "prisoner of the next monster or chained up to a pillar makes",
+    "found": "p134 y415",
+    "parts": [
+     "prisoner of the next monster or chained ",
+     "a pillar makeshift shrine in a pit or ce"
+    ],
+    "where": [
+     "p134 y415",
+     "p134 y427"
+    ],
+    "owner_lines": [
+     null,
+     4
+    ]
+   },
+   {
+    "line": 5,
+    "row": "| 3 | **I'm Standing Right Here** the PC was always with the party, just in the background",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "i m standing right here the pc was always with the party jus",
+    "found": "p134 y453",
+    "parts": [
+     "i m standing right here the pc was alway",
+     "with the party just in the background as"
+    ],
+    "where": [
+     "p134 y453",
+     "p134 y465"
+    ],
+    "owner_lines": [
+     null,
+     5
+    ]
+   },
+   {
+    "line": 6,
+    "row": "| 4 | **I've Got a Bad Feeling About This** PC was minding the horses, guarding the entran",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "i ve got a bad feeling about this pc was minding the horses ",
+    "found": "p134 y502",
+    "parts": [
+     "i ve got a bad feeling about this pc was",
+     "help same rations as party but when the "
+    ],
+    "where": [
+     "p134 y502",
+     "p134 y538"
+    ],
+    "owner_lines": [
+     6,
+     null
+    ]
+   },
+   {
+    "line": 7,
+    "row": "| 5 | **Stone Curse** the PC is the victim of a decades old Veil curse encasing them in st",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "stone curse the pc is the victim of a decades old veil curse",
+    "found": "p134 y576",
+    "parts": [
+     "stone curse the pc is the victim of a de",
+     "pushing the statue over will break the r"
+    ],
+    "where": [
+     "p134 y576",
+     "p134 y624"
+    ],
+    "owner_lines": [
+     7,
+     null
+    ]
+   },
+   {
+    "line": 8,
+    "row": "| 6 | **Belly of the Beast** a hostile ten ft burrowing worm (as *Plague Worm* but AC 12) ",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "belly of the beast a hostile ten ft burrowing worm as plague",
+    "found": "p134 y673",
+    "parts": [
+     "belly of the beast a hostile ten ft burr",
+     "killed the new pc is in its belly stewin"
+    ],
+    "where": [
+     "p134 y673",
+     "p134 y697"
+    ],
+    "owner_lines": [
+     null,
+     8
+    ]
+   },
+   {
+    "type": "text-between-rows",
+    "line": 3,
+    "row": "| 1 | **Lone Survivor** of an adventuring party, lost in the tunnels. Half hp & rations, n",
+    "next_line": 4,
+    "text": "prisoner of the next monster or chained",
+    "found": "p134 y408"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 4,
+    "row": "| 2 | **Prisoner** of the next monster or chained up to a pillar, makeshift shrine, in a p",
+    "next_line": 5,
+    "text": "i m standing right here the pc was always",
+    "found": "p134 y445"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 6,
+    "row": "| 4 | **I've Got a Bad Feeling About This** PC was minding the horses, guarding the entran",
+    "next_line": 7,
+    "text": "help same rations as party but when the eventually depart th",
+    "found": "p134 y538"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 7,
+    "row": "| 5 | **Stone Curse** the PC is the victim of a decades old Veil curse encasing them in st",
+    "next_line": 8,
+    "text": "pushing the statue over will break the rock free the pc trig",
+    "found": "p134 y623"
+   }
+  ]
+ },
+ "17. GM Tools/17.3.2. Dungeon Event.md": {
+  "book": "toa",
+  "pages": [
+   135
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| 2d6 |  |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "17. GM Tools/17.4.1. Fortune Die Examples.md": {
+  "book": "toa",
+  "pages": [
+   137
+  ],
+  "issues": [
+   {
+    "line": 3,
+    "row": "| d8 |  |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 8,
+    "row": "| 4 | Find a piece of Pack Gear |",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "find a piece of pack gear",
+    "found": "p137 y696",
+    "parts": [
+     "find a piece",
+     "of pack gear"
+    ],
+    "where": [
+     "p137 y696",
+     "p137 y708"
+    ],
+    "owner_lines": [
+     8,
+     12
+    ]
+   }
+  ]
+ },
+ "17. GM Tools/17.4.2. Weather Shift.md": {
+  "issues": [
+   {
+    "type": "no-source-match"
+   }
+  ]
+ },
+ "17. GM Tools/17.4.3. Exploring.md": {
+  "book": "toa",
+  "pages": [
+   138,
+   139
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d20 |  |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 3,
+    "row": "| 1 | Sacred site, Ley Line, etc |",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "sacred site ley line etc",
+    "found": "p139 y446",
+    "parts": [
+     "sacred site ley",
+     "line etc"
+    ],
+    "where": [
+     "p139 y446",
+     "p138 y211"
+    ],
+    "owner_lines": [
+     3,
+     13
+    ]
+   },
+   {
+    "line": 3,
+    "row": "| 1 | Sacred site, Ley Line, etc |",
+    "type": "cell-not-in-row",
+    "cell": 1,
+    "text": "1",
+    "found": "p139 y243",
+    "where": "p139 y243",
+    "owner_line": null,
+    "row_band": "p139 y446-446"
+   },
+   {
+    "line": 4,
+    "row": "| 2 | Landmark or Natural Wonder |",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "landmark or natural wonder",
+    "found": "p138 y224",
+    "parts": [
+     "landmark or",
+     "natural wonder"
+    ],
+    "where": [
+     "p138 y224",
+     "p138 y236"
+    ],
+    "owner_lines": [
+     4,
+     14
+    ]
+   },
+   {
+    "line": 9,
+    "row": "| 7 | Game Trail, Short Cut, Path |",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "game trail short cut path",
+    "found": "p138 y346",
+    "parts": [
+     "game trail",
+     "short cut path"
+    ],
+    "where": [
+     "p138 y346",
+     "p138 y358"
+    ],
+    "owner_lines": [
+     null,
+     9
+    ]
+   },
+   {
+    "type": "cell-cut-short",
+    "line": 3,
+    "row": "| 1 | Sacred site, Ley Line, etc |",
+    "cell": 2,
+    "text": "sacred site ley line etc",
+    "next": "line or other",
+    "found": "p139 y446"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 4,
+    "row": "| 2 | Landmark or Natural Wonder |",
+    "next_line": 5,
+    "text": "natural wonder stream creek",
+    "found": "p138 y236"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 8,
+    "row": "| 6 | Camp |",
+    "next_line": 9,
+    "text": "game trail large lair",
+    "found": "p138 y334"
+   }
+  ]
+ },
+ "17. GM Tools/17.4.4. Travel Events.md": {
+  "book": "toa",
+  "pages": [
+   138,
+   139,
+   140
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d20 | OVERLAND | UNDERGROUND | VOYAGE |",
+    "type": "cell-not-in-row",
+    "cell": 1,
+    "text": "d 20",
+    "found": null,
+    "where": "not in this column of the page",
+    "owner_line": null,
+    "row_band": "p138 y493-493"
+   },
+   {
+    "line": 3,
+    "row": "| 1 | **Freak weather change** Roll for Weather (reroll 6s and 7s), and exaggerate the eff",
+    "type": "cell-spans-rows",
+    "cell": 4,
+    "text": "a substantial weather change occurs roll 1 d 6 i perfect wea",
+    "found": "p138 y519",
+    "parts": [
+     "a substantial weather change occurs roll",
+     "i perfect weather ii storm iii fog iv ga"
+    ],
+    "where": [
+     "p138 y519",
+     "p138 y550"
+    ],
+    "owner_lines": [
+     3,
+     3
+    ]
+   },
+   {
+    "line": 5,
+    "row": "| 3 | A **Random Encounter** occurs. Roll for *Reaction* and *Activity* (p.66) if appropri",
+    "type": "cell-not-in-row",
+    "cell": 3,
+    "text": "a random encounter occurs roll for reaction and activity p 6",
+    "found": null,
+    "where": "not in this column of the page",
+    "owner_line": null,
+    "row_band": "p138 y704-716"
+   },
+   {
+    "line": 5,
+    "row": "| 3 | A **Random Encounter** occurs. Roll for *Reaction* and *Activity* (p.66) if appropri",
+    "type": "cell-not-in-row",
+    "cell": 4,
+    "text": "a random encounter occurs roll for reaction and activity p 6",
+    "found": null,
+    "where": "not in this column of the page",
+    "owner_line": null,
+    "row_band": "p138 y704-716"
+   },
+   {
+    "line": 8,
+    "row": "| 6 | **Overwhelming Numbers** of enemies or rivals block the party's present course (xeno",
+    "type": "cell-spans-rows",
+    "cell": 4,
+    "text": "chance salvage a grounded vessel shipwreck drift cargo etc a",
+    "found": "p139 y288",
+    "parts": [
+     "chance salvage a grounded vessel shipwre",
+     "valuables b and 1 x trinkets consult the"
+    ],
+    "where": [
+     "p139 y288",
+     "p139 y333"
+    ],
+    "owner_lines": [
+     8,
+     8
+    ]
+   },
+   {
+    "line": 9,
+    "row": "| 7 | A **Random Encounter** occurs. Roll for *Reaction* and *Activity* (p.66) if appropri",
+    "type": "cell-not-in-row",
+    "cell": 3,
+    "text": "a random encounter occurs roll for reaction and activity p 6",
+    "found": null,
+    "where": "not in this column of the page",
+    "owner_line": null,
+    "row_band": "p139 y380-380"
+   },
+   {
+    "line": 9,
+    "row": "| 7 | A **Random Encounter** occurs. Roll for *Reaction* and *Activity* (p.66) if appropri",
+    "type": "cell-not-in-row",
+    "cell": 4,
+    "text": "a random encounter occurs roll for reaction and activity p 6",
+    "found": null,
+    "where": "not in this column of the page",
+    "owner_line": null,
+    "row_band": "p139 y380-380"
+   },
+   {
+    "line": 13,
+    "row": "| 11 | A **Random Encounter** occurs. Roll for *Reaction* and *Activity* (p.66) if appropr",
+    "type": "cell-not-in-row",
+    "cell": 3,
+    "text": "a random encounter occurs roll for reaction and activity p 6",
+    "found": null,
+    "where": "not in this column of the page",
+    "owner_line": null,
+    "row_band": "p139 y621-622"
+   },
+   {
+    "line": 13,
+    "row": "| 11 | A **Random Encounter** occurs. Roll for *Reaction* and *Activity* (p.66) if appropr",
+    "type": "cell-not-in-row",
+    "cell": 4,
+    "text": "a random encounter occurs roll for reaction and activity p 6",
+    "found": null,
+    "where": "not in this column of the page",
+    "owner_line": null,
+    "row_band": "p139 y621-622"
+   },
+   {
+    "line": 17,
+    "row": "| 15 | A **Random Encounter** occurs. Roll for *Reaction* and *Activity* (p.66) if appropr",
+    "type": "cell-not-in-row",
+    "cell": 3,
+    "text": "a random encounter occurs roll for reaction and activity p 6",
+    "found": null,
+    "where": "not in this column of the page",
+    "owner_line": null,
+    "row_band": "p140 y274-274"
+   },
+   {
+    "line": 17,
+    "row": "| 15 | A **Random Encounter** occurs. Roll for *Reaction* and *Activity* (p.66) if appropr",
+    "type": "cell-not-in-row",
+    "cell": 4,
+    "text": "a random encounter occurs roll for reaction and activity p 6",
+    "found": null,
+    "where": "not in this column of the page",
+    "owner_line": null,
+    "row_band": "p140 y274-274"
+   },
+   {
+    "line": 21,
+    "row": "| 19 | A **Random Encounter** occurs. Roll for *Reaction* and *Activity* (p.66) if appropr",
+    "type": "cell-not-in-row",
+    "cell": 3,
+    "text": "a random encounter occurs roll for reaction and activity p 6",
+    "found": null,
+    "where": "not in this column of the page",
+    "owner_line": null,
+    "row_band": "p140 y600-600"
+   },
+   {
+    "line": 21,
+    "row": "| 19 | A **Random Encounter** occurs. Roll for *Reaction* and *Activity* (p.66) if appropr",
+    "type": "cell-not-in-row",
+    "cell": 4,
+    "text": "a random encounter occurs roll for reaction and activity p 6",
+    "found": null,
+    "where": "not in this column of the page",
+    "owner_line": null,
+    "row_band": "p140 y600-600"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 8,
+    "row": "| 6 | **Overwhelming Numbers** of enemies or rivals block the party's present course (xeno",
+    "next_line": 9,
+    "text": "pcs are exposed to a disease",
+    "found": "p139 y354"
+   }
+  ]
+ },
+ "17. GM Tools/17.4.5. Back to Base.md": {
+  "book": "toa",
+  "pages": [
+   141
+  ],
+  "issues": []
+ },
+ "17. GM Tools/17.5.1. Aerial.md": {
+  "book": "toa",
+  "pages": [
+   142
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d20 | |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 3,
+    "row": "| 1 | **Winds** Hurricane strength winds force the party to remain on the ground for 4d6 h",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "winds hurricane strength winds force the party to remain on ",
+    "found": "p142 y250",
+    "parts": [
+     "winds hurricane strength winds force the",
+     "party to remain on the ground for 4 d 6 "
+    ],
+    "where": [
+     "p142 y250",
+     "p142 y262"
+    ],
+    "owner_lines": [
+     14,
+     3
+    ]
+   },
+   {
+    "line": 4,
+    "row": "| 2 | **Eclipse** A once a millennia full solar or lunar eclipse occurs, turning the sky p",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "eclipse a once a millennia full solar or lunar eclipse occur",
+    "found": "p142 y287",
+    "parts": [
+     "eclipse a once a millennia full solar or",
+     "their fates altered by otherworldly forc"
+    ],
+    "where": [
+     "p142 y287",
+     "p142 y323"
+    ],
+    "owner_lines": [
+     15,
+     4
+    ]
+   },
+   {
+    "line": 5,
+    "row": "| 3 | **Intercept** Another flying ship, mounted adventurers or guard patrol, or a single ",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "intercept another flying ship mounted adventurers or guard p",
+    "found": "p142 y373",
+    "parts": [
+     "intercept another flying ship mounted ad",
+     "sorcerer appear on the horizon taking up"
+    ],
+    "where": [
+     "p142 y373",
+     "p142 y397"
+    ],
+    "owner_lines": [
+     5,
+     17
+    ]
+   },
+   {
+    "line": 6,
+    "row": "| 4 | **Dust Storm** A heavy dust storm blows in, turning the sky red grey with fine silt.",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "dust storm a heavy dust storm blows in turning the sky red g",
+    "found": "p142 y422",
+    "parts": [
+     "dust storm a heavy dust storm blows in t",
+     "breathing becomes difficult even with a "
+    ],
+    "where": [
+     "p142 y422",
+     "p142 y446"
+    ],
+    "owner_lines": [
+     17,
+     6
+    ]
+   },
+   {
+    "line": 8,
+    "row": "| 6 | **Cloud Vortex** On the horizon, an unnatural cloud system is forming, lightning fla",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "cloud vortex on the horizon an unnatural cloud system is for",
+    "found": "p142 y533",
+    "parts": [
+     "cloud vortex on the horizon an unnatural",
+     "around a swirling vortex of clouds even "
+    ],
+    "where": [
+     "p142 y533",
+     "p142 y557"
+    ],
+    "owner_lines": [
+     19,
+     8
+    ]
+   },
+   {
+    "line": 9,
+    "row": "| 7 | **Malfunction** The PCs' ship, mounts or flying magic falters, disrupted by poor mai",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "malfunction the pcs ship mounts or flying magic falters disr",
+    "found": "p142 y583",
+    "parts": [
+     "malfunction the pcs ship mounts or flyin",
+     "company are forced to land and lose 1 da"
+    ],
+    "where": [
+     "p142 y583",
+     "p142 y619"
+    ],
+    "owner_lines": [
+     20,
+     9
+    ]
+   },
+   {
+    "line": 11,
+    "row": "| 9 | **Eagles** 3d6 *Giant Eagles* with humanoid riders approach from across the skyline,",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "eagles 3 d 6 giant eagles with humanoid riders approach from",
+    "found": "p142 y71",
+    "parts": [
+     "eagles 3 d 6 giant eagles with humanoid",
+     "riders approach from across the skyline "
+    ],
+    "where": [
+     "p142 y71",
+     "p142 y83"
+    ],
+    "owner_lines": [
+     null,
+     11
+    ]
+   },
+   {
+    "type": "text-between-rows",
+    "line": 3,
+    "row": "| 1 | **Winds** Hurricane strength winds force the party to remain on the ground for 4d6 h",
+    "next_line": 4,
+    "text": "eclipse a once a millennia full solar or eclipse occurs turn",
+    "found": "p142 y280"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 5,
+    "row": "| 3 | **Intercept** Another flying ship, mounted adventurers or guard patrol, or a single ",
+    "next_line": 6,
+    "text": "sorcerer appear on the horizon taking heading to intercept t",
+    "found": "p142 y396"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 7,
+    "row": "| 5 | **Peak** On a high mountain peak, an ancient spire juts toward the sky, its jade tip",
+    "next_line": 8,
+    "text": "cloud vortex on the horizon an unnatural cloud system is for",
+    "found": "p142 y526"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 8,
+    "row": "| 6 | **Cloud Vortex** On the horizon, an unnatural cloud system is forming, lightning fla",
+    "next_line": 9,
+    "text": "malfunction the pcs ship mounts or flying magic falters disr",
+    "found": "p142 y575"
+   }
+  ]
+ },
+ "17. GM Tools/17.5.10. Snow & Ice.md": {
+  "book": "toa",
+  "pages": [
+   154,
+   155
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d20 | |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 3,
+    "row": "| 1 | **Blizzard** A terrible blizzard lasting many hours erupts. Unless the party can fin",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "blizzard a terrible blizzard lasting many hours erupts unles",
+    "found": "p154 y98",
+    "parts": [
+     "blizzard a terrible blizzard lasting man",
+     "build adequate shelter each pc must make"
+    ],
+    "where": [
+     "p154 y98",
+     "p154 y122"
+    ],
+    "owner_lines": [
+     10,
+     3
+    ]
+   },
+   {
+    "line": 4,
+    "row": "| 2 | **Glacier** A breaking glacier has unearthed a metallic, forty foot cylindrical obje",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "glacier a breaking glacier has unearthed a metallic forty fo",
+    "found": "p154 y160",
+    "parts": [
+     "glacier a breaking glacier has unearthed",
+     "metallic forty foot cylindrical object m"
+    ],
+    "where": [
+     "p154 y160",
+     "p154 y172"
+    ],
+    "owner_lines": [
+     null,
+     4
+    ]
+   },
+   {
+    "line": 5,
+    "row": "| 3 | **Crevasse** A crevasse breaks open beneath the lead traveller, who must make a *Luc",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "crevasse a crevasse breaks open beneath the lead traveller w",
+    "found": "p154 y197",
+    "parts": [
+     "crevasse a crevasse breaks open beneath ",
+     "save or fall to the bottom 1 d 3 x 10 fe"
+    ],
+    "where": [
+     "p154 y197",
+     "p154 y221"
+    ],
+    "owner_lines": [
+     11,
+     5
+    ]
+   },
+   {
+    "line": 6,
+    "row": "| 4 | **Cave** A serpent like cave mouth is set into a low rise, ridge, or escarpment. Fli",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "cave a serpent like cave mouth is set into a low rise ridge ",
+    "found": "p154 y247",
+    "parts": [
+     "cave a serpent like cave mouth is set in",
+     "low rise ridge or escarpment flickering "
+    ],
+    "where": [
+     "p154 y247",
+     "p154 y259"
+    ],
+    "owner_lines": [
+     12,
+     6
+    ]
+   },
+   {
+    "line": 8,
+    "row": "| 6 | **Smoke** The smoke from a single campfire wafts into the air beyond the next rise. ",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "smoke the smoke from a single campfire wafts into the air be",
+    "found": "p154 y346",
+    "parts": [
+     "smoke the smoke from a single campfire w",
+     "mysterious explorer sits by the flames a"
+    ],
+    "where": [
+     "p154 y346",
+     "p154 y370"
+    ],
+    "owner_lines": [
+     7,
+     14
+    ]
+   },
+   {
+    "line": 9,
+    "row": "| 7 | **Altar** A ring of humanoid statues, seemingly made of ice, encircle a black, altar",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "altar a ring of humanoid statues seemingly made of ice encir",
+    "found": "p154 y396",
+    "parts": [
+     "altar a ring of humanoid statues seeming",
+     "a yellowed bone drinking horn sits atop "
+    ],
+    "where": [
+     "p154 y396",
+     "p154 y420"
+    ],
+    "owner_lines": [
+     9,
+     15
+    ]
+   },
+   {
+    "line": 10,
+    "row": "| 8 | **Encampment** An encampment of 5d10 *Urgot*, led by an *Urgozer*, live nearby in a ",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "encampment an encampment of 5 d 10 urgot led by an urgozer l",
+    "found": "p154 y70",
+    "parts": [
+     "encampment an encampment of 5 d 10 urgot",
+     "desolate wastes they practice dark and d"
+    ],
+    "where": [
+     "p154 y70",
+     "p154 y106"
+    ],
+    "owner_lines": [
+     10,
+     null
+    ]
+   },
+   {
+    "line": 11,
+    "row": "| 9 | **Frost Worms** 2d4 *Frost Worms* (fifteen feet long, AC 15, 7 HD, 2d8 dmg) are burr",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "frost worms 2 d 4 frost worms fifteen feet long ac 15 7 hd 2",
+    "found": "p154 y145",
+    "parts": [
+     "frost worms 2 d 4 frost worms fifteen fe",
+     "their way through the surface ice or sno"
+    ],
+    "where": [
+     "p154 y145",
+     "p154 y169"
+    ],
+    "owner_lines": [
+     3,
+     4
+    ]
+   },
+   {
+    "type": "text-between-rows",
+    "line": 3,
+    "row": "| 1 | **Blizzard** A terrible blizzard lasting many hours erupts. Unless the party can fin",
+    "next_line": 4,
+    "text": "glacier a breaking glacier has unearthed",
+    "found": "p154 y152"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 4,
+    "row": "| 2 | **Glacier** A breaking glacier has unearthed a metallic, forty foot cylindrical obje",
+    "next_line": 5,
+    "text": "crevasse a crevasse breaks open beneath lead traveller who m",
+    "found": "p154 y190"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 5,
+    "row": "| 3 | **Crevasse** A crevasse breaks open beneath the lead traveller, who must make a *Luc",
+    "next_line": 6,
+    "text": "cave a serpent like cave mouth is set into",
+    "found": "p154 y239"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 8,
+    "row": "| 6 | **Smoke** The smoke from a single campfire wafts into the air beyond the next rise. ",
+    "next_line": 9,
+    "text": "mysterious explorer sits by the flames a fur cowl pulled ove",
+    "found": "p154 y370"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 10,
+    "row": "| 8 | **Encampment** An encampment of 5d10 *Urgot*, led by an *Urgozer*, live nearby in a ",
+    "next_line": 11,
+    "text": "desolate wastes they practice dark dangerous rituals hidden ",
+    "found": "p154 y106"
+   }
+  ]
+ },
+ "17. GM Tools/17.5.11. Swamps.md": {
+  "book": "toa",
+  "pages": [
+   155,
+   156
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d20 | |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 3,
+    "row": "| 1 | **Quicksand!** The lead traveller must make a *Luck* (Dex) save or be sucked underwa",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "quicksand the lead traveller must make a luck dex save or be",
+    "found": "p155 y476",
+    "parts": [
+     "quicksand the lead traveller must make a",
+     "luck dex save or be sucked underwater lo"
+    ],
+    "where": [
+     "p155 y476",
+     "p155 y488"
+    ],
+    "owner_lines": [
+     10,
+     3
+    ]
+   },
+   {
+    "line": 4,
+    "row": "| 2 | **Scales** A gigantic, half submerged dragon skeleton lies in the water. Although an",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "scales a gigantic half submerged dragon skeleton lies in the",
+    "found": "p155 y514",
+    "parts": [
+     "scales a gigantic half submerged dragon ",
+     "and highly decomposed a handful of scale"
+    ],
+    "where": [
+     "p155 y514",
+     "p155 y538"
+    ],
+    "owner_lines": [
+     11,
+     4
+    ]
+   },
+   {
+    "line": 5,
+    "row": "| 3 | **Bog Fumes** Each traveller must make a *Luck* (Con) save or suffer 1d6 damage and ",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "bog fumes each traveller must make a luck con save or suffer",
+    "found": "p155 y588",
+    "parts": [
+     "bog fumes each traveller must make a luc",
+     "con save or suffer 1 d 6 damage and a ra"
+    ],
+    "where": [
+     "p155 y588",
+     "p155 y600"
+    ],
+    "owner_lines": [
+     12,
+     5
+    ]
+   },
+   {
+    "line": 6,
+    "row": "| 4 | **Stirges** 3d10 ravenous *Stirges* descend on the party in a buzzing swarm. |",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "stirges 3 d 10 ravenous stirges descend on the party in a bu",
+    "found": "p155 y628",
+    "parts": [
+     "stirges 3 d 10 ravenous stirges descend ",
+     "party in a buzzing swarm"
+    ],
+    "where": [
+     "p155 y628",
+     "p155 y640"
+    ],
+    "owner_lines": [
+     6,
+     13
+    ]
+   },
+   {
+    "line": 7,
+    "row": "| 5 | **Chest** An ancient mangrove tree has carvings of capering, demonic frogmen lording",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "chest an ancient mangrove tree has carvings of capering demo",
+    "found": "p155 y656",
+    "parts": [
+     "chest an ancient mangrove tree has carvi",
+     "chest 1 x valuables b sealing it shut co"
+    ],
+    "where": [
+     "p155 y656",
+     "p155 y692"
+    ],
+    "owner_lines": [
+     13,
+     7
+    ]
+   },
+   {
+    "line": 8,
+    "row": "| 6 | **Vermin** 5d4 *Projectile Leeches* lurking within shallow pools (50%), or concealed",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "vermin 5 d 4 projectile leeches lurking within shallow pools",
+    "found": "p155 y319",
+    "parts": [
+     "vermin 5 d 4 projectile leeches lurking ",
+     "shallow pools 50 or concealed in bracken"
+    ],
+    "where": [
+     "p155 y319",
+     "p155 y331"
+    ],
+    "owner_lines": [
+     null,
+     8
+    ]
+   },
+   {
+    "line": 9,
+    "row": "| 7 | **Refuse** A ten foot wide pile of green brown refuse sits in the middle of a dark p",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "refuse a ten foot wide pile of green brown refuse sits in th",
+    "found": "p155 y357",
+    "parts": [
+     "refuse a ten foot wide pile of green bro",
+     "careful inspection of the pile reveals a"
+    ],
+    "where": [
+     "p155 y357",
+     "p155 y381"
+    ],
+    "owner_lines": [
+     null,
+     9
+    ]
+   },
+   {
+    "line": 10,
+    "row": "| 8 | **Hut** A wooden hut stands elevated on stilts within a bog cluttered moor. Smoke ri",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "hut a wooden hut stands elevated on stilts within a bog clut",
+    "found": "p155 y430",
+    "parts": [
+     "hut a wooden hut stands elevated on stil",
+     "from a small chimney and light flickers "
+    ],
+    "where": [
+     "p155 y430",
+     "p155 y454"
+    ],
+    "owner_lines": [
+     null,
+     10
+    ]
+   },
+   {
+    "line": 11,
+    "row": "| 9 | **Stinging** insect swarm. Each adventurer must make a *Luck* (Con) save or contract",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "stinging insect swarm each adventurer must make a luck con s",
+    "found": "p155 y492",
+    "parts": [
+     "stinging insect swarm each adventurer mu",
+     "str loss each day save each morning to e"
+    ],
+    "where": [
+     "p155 y492",
+     "p155 y528"
+    ],
+    "owner_lines": [
+     3,
+     null
+    ]
+   },
+   {
+    "line": 20,
+    "row": "| 18 | **Fog** A curious fog descends on the moorlands that persists for 1d4 hours. *Consu",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "fog a curious fog descends on the moorlands that persists fo",
+    "found": "p156 y392",
+    "parts": [
+     "fog a curious fog descends on the moorla",
+     "gloom hoping to lure travellers into sin"
+    ],
+    "where": [
+     "p156 y392",
+     "p156 y428"
+    ],
+    "owner_lines": [
+     20,
+     null
+    ]
+   },
+   {
+    "type": "cell-cut-short",
+    "line": 20,
+    "row": "| 18 | **Fog** A curious fog descends on the moorlands that persists for 1d4 hours. *Consu",
+    "cell": 2,
+    "text": " travellers into sink holes or quicksand",
+    "next": "ceiling to attack",
+    "found": "p156 y392"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 3,
+    "row": "| 1 | **Quicksand!** The lead traveller must make a *Luck* (Dex) save or be sucked underwa",
+    "next_line": 4,
+    "text": "scales a gigantic half submerged dragon skeleton lies in the",
+    "found": "p155 y506"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 4,
+    "row": "| 2 | **Scales** A gigantic, half submerged dragon skeleton lies in the water. Although an",
+    "next_line": 5,
+    "text": "bog fumes each traveller must make a",
+    "found": "p155 y580"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 6,
+    "row": "| 4 | **Stirges** 3d10 ravenous *Stirges* descend on the party in a buzzing swarm. |",
+    "next_line": 7,
+    "text": "party in a buzzing swarm chest an ancient mangrove tree has ",
+    "found": "p155 y639"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 8,
+    "row": "| 6 | **Vermin** 5d4 *Projectile Leeches* lurking within shallow pools (50%), or concealed",
+    "next_line": 9,
+    "text": "refuse a ten foot wide pile of green brown refuse sits in th",
+    "found": "p155 y349"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 9,
+    "row": "| 7 | **Refuse** A ten foot wide pile of green brown refuse sits in the middle of a dark p",
+    "next_line": 10,
+    "text": "hut a wooden hut stands elevated on within a bog cluttered m",
+    "found": "p155 y423"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 11,
+    "row": "| 9 | **Stinging** insect swarm. Each adventurer must make a *Luck* (Con) save or contract",
+    "next_line": 12,
+    "text": "str loss each day save each morning to an apothecary might b",
+    "found": "p155 y527"
+   }
+  ]
+ },
+ "17. GM Tools/17.5.12. Underground.md": {
+  "book": "toa",
+  "pages": [
+   156,
+   157
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d20 | |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 3,
+    "row": "| 1 | **Rockfall!** Party requires a group *Luck* (Dex) save or 2d4 dmg and *Blunt Trauma*",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "rockfall party requires a group luck dex save or 2 d 4 dmg a",
+    "found": "p156 y274",
+    "parts": [
+     "rockfall party requires a group luck dex",
+     "save or 2 d 4 dmg and blunt trauma 1 d 1"
+    ],
+    "where": [
+     "p156 y274",
+     "p156 y286"
+    ],
+    "owner_lines": [
+     null,
+     3
+    ]
+   },
+   {
+    "line": 4,
+    "row": "| 2 | **Crevasse** Tremors have opened a large crevasse here, blocking the way. The crevas",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "crevasse tremors have opened a large crevasse here blocking ",
+    "found": "p156 y302",
+    "parts": [
+     "crevasse tremors have opened a large cre",
+     "is 1 d 4 x 10 ft wide and 1 d 10 x 10 ft"
+    ],
+    "where": [
+     "p156 y302",
+     "p156 y326"
+    ],
+    "owner_lines": [
+     null,
+     4
+    ]
+   },
+   {
+    "line": 6,
+    "row": "| 4 | **Clanking** An empty well or narrow vertical chute sits in the middle of a small ch",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "clanking an empty well or narrow vertical chute sits in the ",
+    "found": "p156 y425",
+    "parts": [
+     "clanking an empty well or narrow vertica",
+     "travellers listen carefully they might h"
+    ],
+    "where": [
+     "p156 y425",
+     "p156 y449"
+    ],
+    "owner_lines": [
+     6,
+     null
+    ]
+   },
+   {
+    "line": 7,
+    "row": "| 5 | **Fungi Forest** A naturally formed side tunnel opens up into a gigantic cavern fill",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "fungi forest a naturally formed side tunnel opens up into a ",
+    "found": "p156 y475",
+    "parts": [
+     "fungi forest a naturally formed side tun",
+     "still dark lake in the centre of which i"
+    ],
+    "where": [
+     "p156 y475",
+     "p156 y499"
+    ],
+    "owner_lines": [
+     null,
+     7
+    ]
+   },
+   {
+    "line": 8,
+    "row": "| 6 | **Webs** are strung across much of this area, on the walls, floor, and ceiling. 2d4 ",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "webs are strung across much of this area on the walls floor ",
+    "found": "p156 y536",
+    "parts": [
+     "webs are strung across much of this area",
+     "behind trapdoors concealed in the ground"
+    ],
+    "where": [
+     "p156 y536",
+     "p156 y572"
+    ],
+    "owner_lines": [
+     8,
+     null
+    ]
+   },
+   {
+    "line": 9,
+    "row": "| 7 | **Mould** 2d4 patches of *Yellow Mould* are growing in dark corners (or are in stasi",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "mould 2 d 4 patches of yellow mould are growing in dark corn",
+    "found": "p156 y610",
+    "parts": [
+     "mould 2 d 4 patches of yellow mould are",
+     "growing in dark corners or are in stasis"
+    ],
+    "where": [
+     "p156 y610",
+     "p156 y622"
+    ],
+    "owner_lines": [
+     null,
+     9
+    ]
+   },
+   {
+    "line": 10,
+    "row": "| 8 | **Mouth** A six foot carved red devil face, with a wide open mouth, is set into the ",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "mouth a six foot carved red devil face with a wide open mout",
+    "found": "p156 y648",
+    "parts": [
+     "mouth a six foot carved red devil face w",
+     "mouth is large enough to crawl into the "
+    ],
+    "where": [
+     "p156 y648",
+     "p156 y672"
+    ],
+    "owner_lines": [
+     null,
+     10
+    ]
+   },
+   {
+    "type": "text-between-rows",
+    "line": 3,
+    "row": "| 1 | **Rockfall!** Party requires a group *Luck* (Dex) save or 2d4 dmg and *Blunt Trauma*",
+    "next_line": 4,
+    "text": "crevasse tremors have opened a crevasse here blocking the wa",
+    "found": "p156 y292"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 6,
+    "row": "| 4 | **Clanking** An empty well or narrow vertical chute sits in the middle of a small ch",
+    "next_line": 7,
+    "text": "travellers listen carefully they might grinding noises echoi",
+    "found": "p156 y449"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 8,
+    "row": "| 6 | **Webs** are strung across much of this area, on the walls, floor, and ceiling. 2d4 ",
+    "next_line": 9,
+    "text": "behind trapdoors concealed in the ground walls a perc detect",
+    "found": "p156 y572"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 9,
+    "row": "| 7 | **Mould** 2d4 patches of *Yellow Mould* are growing in dark corners (or are in stasi",
+    "next_line": 10,
+    "text": "mouth a six foot carved red devil face a wide open mouth is ",
+    "found": "p156 y640"
+   }
+  ]
+ },
+ "17. GM Tools/17.5.2. City, Town, Village.md": {
+  "book": "toa",
+  "pages": [
+   143,
+   144,
+   145
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d100 | |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 26,
+    "row": "| 47-48 | **Execution** A magistrate is presiding over an execution in the square. Three m",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "execution a magistrate is presiding over an execution in the",
+    "found": "p144 y563",
+    "parts": [
+     "execution a magistrate is presiding over",
+     "consult the bones to determine if there "
+    ],
+    "where": [
+     "p144 y563",
+     "p144 y622"
+    ],
+    "owner_lines": [
+     26,
+     35
+    ]
+   },
+   {
+    "type": "text-between-rows",
+    "line": 26,
+    "row": "| 47-48 | **Execution** A magistrate is presiding over an execution in the square. Three m",
+    "next_line": 27,
+    "text": "consult the bones to determine if there rescue attempt by re",
+    "found": "p144 y616"
+   }
+  ]
+ },
+ "17. GM Tools/17.5.3. Deserts.md": {
+  "book": "toa",
+  "pages": [
+   145,
+   146
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d20 | |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 3,
+    "row": "| 1 | **Plateau** A rocky outcropping rises from the sand, stretching forty feet high to f",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "plateau a rocky outcropping rises from the sand stretching f",
+    "found": "p145 y410",
+    "parts": [
+     "plateau a rocky outcropping rises from t",
+     "reach the top at the uppermost edge ston"
+    ],
+    "where": [
+     "p145 y410",
+     "p145 y446"
+    ],
+    "owner_lines": [
+     3,
+     null
+    ]
+   },
+   {
+    "line": 5,
+    "row": "| 3 | **Sandstorm** A powerful sandstorm sweeps through the region. All travellers must ma",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "sandstorm a powerful sandstorm sweeps through the region all",
+    "found": "p145 y545",
+    "parts": [
+     "sandstorm a powerful sandstorm sweeps",
+     "through the region all travellers must m"
+    ],
+    "where": [
+     "p145 y545",
+     "p145 y557"
+    ],
+    "owner_lines": [
+     null,
+     5
+    ]
+   },
+   {
+    "line": 6,
+    "row": "| 4 | **Heat** The unrelenting heat threatens to overcome even the most careful explorer. ",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "heat the unrelenting heat threatens to overcome even the mos",
+    "found": "p145 y582",
+    "parts": [
+     "heat the unrelenting heat threatens to o",
+     "travellers must make a con check or roll"
+    ],
+    "where": [
+     "p145 y582",
+     "p145 y606"
+    ],
+    "owner_lines": [
+     null,
+     6
+    ]
+   },
+   {
+    "line": 7,
+    "row": "| 5 | **Statue** A twenty foot statue of a many headed serpent is half buried in the sand.",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "statue a twenty foot statue of a many headed serpent is half",
+    "found": "p145 y632",
+    "parts": [
+     "statue a twenty foot statue of a many he",
+     "giant serpents and perhaps 1 d 4 serpent"
+    ],
+    "where": [
+     "p145 y632",
+     "p145 y656"
+    ],
+    "owner_lines": [
+     null,
+     7
+    ]
+   },
+   {
+    "line": 8,
+    "row": "| 6 | **Raiders** 3d10 *Human Berserkers* (60%) or 3d6 *Bandits* (40%) looking for an easy",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "raiders 3 d 10 human berserkers 60 or 3 d 6 bandits 40 looki",
+    "found": "p145 y696",
+    "parts": [
+     "raiders 3 d 10 human berserkers 60 or 3 ",
+     "bandits 40 looking for an easy raid"
+    ],
+    "where": [
+     "p145 y696",
+     "p145 y707"
+    ],
+    "owner_lines": [
+     8,
+     null
+    ]
+   },
+   {
+    "line": 9,
+    "row": "| 7 | **Dungeon** A recent tremor or sandstorm has unearthed a humanoid statute with a bee",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "dungeon a recent tremor or sandstorm has unearthed a humanoi",
+    "found": "p146 y70",
+    "parts": [
+     "dungeon a recent tremor or sandstorm has",
+     "like head holding a whip aloft beside th"
+    ],
+    "where": [
+     "p146 y70",
+     "p146 y94"
+    ],
+    "owner_lines": [
+     17,
+     9
+    ]
+   },
+   {
+    "line": 10,
+    "row": "| 8 | **Pillars** Six foot salt pillars rise from the sands, shedding wispy trails in the ",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "pillars six foot salt pillars rise from the sands shedding w",
+    "found": "p146 y132",
+    "parts": [
+     "pillars six foot salt pillars rise from ",
+     "despite the winds the columns do not shr"
+    ],
+    "where": [
+     "p146 y132",
+     "p146 y156"
+    ],
+    "owner_lines": [
+     17,
+     10
+    ]
+   },
+   {
+    "line": 11,
+    "row": "| 9 | **Beetles** 2d4 *Giant Scarab Beetles* (as *Fire Beetles* but jet black) playing in ",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "beetles 2 d 4 giant scarab beetles as fire beetles but jet b",
+    "found": "p146 y193",
+    "parts": [
+     "beetles 2 d 4 giant scarab beetles as fi",
+     "beetles but jet black playing in the sha"
+    ],
+    "where": [
+     "p146 y193",
+     "p146 y205"
+    ],
+    "owner_lines": [
+     18,
+     11
+    ]
+   },
+   {
+    "line": 14,
+    "row": "| 12 | **Scorpions** 1d6 *Giant Scorpions* crawl out of the sand, hoping to ambush their p",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "scorpions 1 d 6 giant scorpions crawl out of the sand hoping",
+    "found": "p146 y331",
+    "parts": [
+     "scorpions 1 d 6 giant scorpions crawl ou",
+     "sand hoping to ambush their prey from be"
+    ],
+    "where": [
+     "p146 y331",
+     "p146 y343"
+    ],
+    "owner_lines": [
+     14,
+     21
+    ]
+   },
+   {
+    "line": 14,
+    "row": "| 12 | **Scorpions** 1d6 *Giant Scorpions* crawl out of the sand, hoping to ambush their p",
+    "type": "cell-not-in-row",
+    "cell": 1,
+    "text": "12",
+    "found": "p146 y343",
+    "where": "p146 y343",
+    "owner_line": 21,
+    "row_band": "p146 y331-331"
+   },
+   {
+    "type": "cell-cut-short",
+    "line": 14,
+    "row": "| 12 | **Scorpions** 1d6 *Giant Scorpions* crawl out of the sand, hoping to ambush their p",
+    "cell": 2,
+    "text": " hoping to ambush their prey from behind",
+    "next": "next dune",
+    "found": "p146 y331"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 3,
+    "row": "| 1 | **Plateau** A rocky outcropping rises from the sand, stretching forty feet high to f",
+    "next_line": 4,
+    "text": "reach the top at the uppermost edge stones have been placed ",
+    "found": "p145 y445"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 4,
+    "row": "| 2 | **Oasis** An oasis with a watering pool and shady palms. The water is bitter but non",
+    "next_line": 5,
+    "text": "sandstorm a powerful sandstorm sweeps",
+    "found": "p145 y537"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 5,
+    "row": "| 3 | **Sandstorm** A powerful sandstorm sweeps through the region. All travellers must ma",
+    "next_line": 6,
+    "text": "heat the unrelenting heat threatens overcome even the most c",
+    "found": "p145 y575"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 6,
+    "row": "| 4 | **Heat** The unrelenting heat threatens to overcome even the most careful explorer. ",
+    "next_line": 7,
+    "text": "statue a twenty foot statue of a many headed serpent is half",
+    "found": "p145 y624"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 9,
+    "row": "| 7 | **Dungeon** A recent tremor or sandstorm has unearthed a humanoid statute with a bee",
+    "next_line": 10,
+    "text": "pillars six foot salt pillars rise from the sands shedding w",
+    "found": "p146 y124"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 10,
+    "row": "| 8 | **Pillars** Six foot salt pillars rise from the sands, shedding wispy trails in the ",
+    "next_line": 11,
+    "text": "beetles 2 d 4 giant scarab beetles as",
+    "found": "p146 y186"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 14,
+    "row": "| 12 | **Scorpions** 1d6 *Giant Scorpions* crawl out of the sand, hoping to ambush their p",
+    "next_line": 15,
+    "text": "the sand hoping to ambush their prey behind",
+    "found": "p146 y337"
+   }
+  ]
+ },
+ "17. GM Tools/17.5.4. Jungles.md": {
+  "book": "toa",
+  "pages": [
+   147
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d20 | |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 3,
+    "row": "| 1 | **Poison** Poisonous vines or mind altering fungi spores cause all travellers 1d10 d",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "poison poisonous vines or mind altering fungi spores cause a",
+    "found": "p147 y98",
+    "parts": [
+     "poison poisonous vines or mind altering ",
+     "and inflict a random madness for 2 d 4 d"
+    ],
+    "where": [
+     "p147 y98",
+     "p147 y122"
+    ],
+    "owner_lines": [
+     3,
+     15
+    ]
+   },
+   {
+    "line": 5,
+    "row": "| 3 | **Pit** Pit traps with spikes, set by cannibals or territorial *Skorn*, causing 3d6 ",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "pit pit traps with spikes set by cannibals or territorial sk",
+    "found": "p147 y233",
+    "parts": [
+     "pit pit traps with spikes set by canniba",
+     "alternatively tree snares suspend travel"
+    ],
+    "where": [
+     "p147 y233",
+     "p147 y257"
+    ],
+    "owner_lines": [
+     5,
+     17
+    ]
+   },
+   {
+    "line": 6,
+    "row": "| 4 | **Statue** A 15 ft stone statute,in the likeness of a serpentman, stares imperiously",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "statue a 15 ft stone statute in the likeness of a serpentman",
+    "found": "p147 y283",
+    "parts": [
+     "statue a 15 ft stone statute in the like",
+     "jaws agape the base is wrapped in flower"
+    ],
+    "where": [
+     "p147 y283",
+     "p147 y307"
+    ],
+    "owner_lines": [
+     6,
+     19
+    ]
+   },
+   {
+    "line": 7,
+    "row": "| 5 | **Hut** A wooden hut is set into the branches of an enormous kapok tree high above. ",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "hut a wooden hut is set into the branches of an enormous kap",
+    "found": "p147 y332",
+    "parts": [
+     "hut a wooden hut is set into the branche",
+     "twisted into knotted ropes hang down to "
+    ],
+    "where": [
+     "p147 y332",
+     "p147 y356"
+    ],
+    "owner_lines": [
+     7,
+     20
+    ]
+   },
+   {
+    "line": 8,
+    "row": "| 6 | **Monkeys** 5d6 *Man Eating Monkeys* are in the trees, stalking the travellers and h",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "monkeys 5 d 6 man eating monkeys are in the trees stalking t",
+    "found": "p147 y383",
+    "parts": [
+     "monkeys 5 d 6 man eating monkeys are in ",
+     "trees stalking the travellers and hoping"
+    ],
+    "where": [
+     "p147 y383",
+     "p147 y395"
+    ],
+    "owner_lines": [
+     20,
+     8
+    ]
+   },
+   {
+    "line": 9,
+    "row": "| 7 | **Centipedes** 2d12 *Giant Centipedes* are crawling through the undergrowth, looking",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "centipedes 2 d 12 giant centipedes are crawling through the ",
+    "found": "p147 y423",
+    "parts": [
+     "centipedes 2 d 12 giant centipedes are",
+     "crawling through the undergrowth looking"
+    ],
+    "where": [
+     "p147 y423",
+     "p147 y435"
+    ],
+    "owner_lines": [
+     21,
+     9
+    ]
+   },
+   {
+    "line": 10,
+    "row": "| 8 | **Ants** 2d6 foraging *Giant Worker Ants* (70%), possibly with 1d4 *Soldier* escorts",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "ants 2 d 6 foraging giant worker ants 70 possibly with 1 d 4",
+    "found": "p147 y463",
+    "parts": [
+     "ants 2 d 6 foraging giant worker ants 70",
+     "suddenly emerge from behind a cluster of"
+    ],
+    "where": [
+     "p147 y463",
+     "p147 y487"
+    ],
+    "owner_lines": [
+     10,
+     22
+    ]
+   },
+   {
+    "line": 11,
+    "row": "| 9 | **Splintering** The crack and crash of great trees being broken and hitting the grou",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "splintering the crack and crash of great trees being broken ",
+    "found": "p147 y513",
+    "parts": [
+     "splintering the crack and crash of great",
+     "treetops can be seen bending and bucklin"
+    ],
+    "where": [
+     "p147 y513",
+     "p147 y549"
+    ],
+    "owner_lines": [
+     22,
+     11
+    ]
+   },
+   {
+    "type": "text-between-rows",
+    "line": 3,
+    "row": "| 1 | **Poison** Poisonous vines or mind altering fungi spores cause all travellers 1d10 d",
+    "next_line": 4,
+    "text": "and inflict a random madness for 2 d 4 days a have been luck",
+    "found": "p147 y122"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 5,
+    "row": "| 3 | **Pit** Pit traps with spikes, set by cannibals or territorial *Skorn*, causing 3d6 ",
+    "next_line": 6,
+    "text": "alternatively tree snares suspend travellers six feet in the",
+    "found": "p147 y257"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 6,
+    "row": "| 4 | **Statue** A 15 ft stone statute,in the likeness of a serpentman, stares imperiously",
+    "next_line": 7,
+    "text": "jaws agape the base is wrapped in flowering vines which appe",
+    "found": "p147 y306"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 7,
+    "row": "| 5 | **Hut** A wooden hut is set into the branches of an enormous kapok tree high above. ",
+    "next_line": 8,
+    "text": "twisted into knotted ropes hang down to feet above the jungl",
+    "found": "p147 y356"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 8,
+    "row": "| 6 | **Monkeys** 5d6 *Man Eating Monkeys* are in the trees, stalking the travellers and h",
+    "next_line": 9,
+    "text": "giant centipedes centipedes 2 d 12",
+    "found": "p147 y413"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 10,
+    "row": "| 8 | **Ants** 2d6 foraging *Giant Worker Ants* (70%), possibly with 1d4 *Soldier* escorts",
+    "next_line": 11,
+    "text": "suddenly emerge from behind a cluster eight foot broad leafe",
+    "found": "p147 y487"
+   }
+  ]
+ },
+ "17. GM Tools/17.5.5. Forests.md": {
+  "book": "toa",
+  "pages": [
+   148
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d20 | |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 3,
+    "row": "| 1 | **Poison** Poisonous trees, vines, undergrowth, or noxious spores, causing all trave",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "poison poisonous trees vines undergrowth or noxious spores c",
+    "found": "p148 y98",
+    "parts": [
+     "poison poisonous trees vines undergrowth",
+     "damage 1 con loss and a random madness f"
+    ],
+    "where": [
+     "p148 y98",
+     "p148 y122"
+    ],
+    "owner_lines": [
+     12,
+     3
+    ]
+   },
+   {
+    "line": 4,
+    "row": "| 2 | **Huts** A trio of dilapidated thatched huts sit in a small clearing beside a bubbli",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "huts a trio of dilapidated thatched huts sit in a small clea",
+    "found": "p148 y148",
+    "parts": [
+     "huts a trio of dilapidated thatched huts",
+     "a small clearing beside a bubbling brook"
+    ],
+    "where": [
+     "p148 y148",
+     "p148 y160"
+    ],
+    "owner_lines": [
+     13,
+     4
+    ]
+   },
+   {
+    "line": 5,
+    "row": "| 3 | **Snared** A female barbarian named *Iriti* is struggling against a tree snare that ",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "snared a female barbarian named iriti is struggling against ",
+    "found": "p148 y186",
+    "parts": [
+     "snared a female barbarian named iriti is",
+     "suspending her ten feet in the air setti"
+    ],
+    "where": [
+     "p148 y186",
+     "p148 y210"
+    ],
+    "owner_lines": [
+     14,
+     5
+    ]
+   },
+   {
+    "line": 6,
+    "row": "| 4 | **Bridge** A very old, stone arch bridge stretches across a long, dry riverbed. In c",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "bridge a very old stone arch bridge stretches across a long ",
+    "found": "p148 y247",
+    "parts": [
+     "bridge a very old stone arch bridge stre",
+     "distant spirits attempting to cross the "
+    ],
+    "where": [
+     "p148 y247",
+     "p148 y283"
+    ],
+    "owner_lines": [
+     6,
+     15
+    ]
+   },
+   {
+    "line": 7,
+    "row": "| 5 | **Carving** A lone tree, gnarled and white, spotted with age, stands in a clearing. ",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "carving a lone tree gnarled and white spotted with age stand",
+    "found": "p148 y321",
+    "parts": [
+     "carving a lone tree gnarled and white sp",
+     "to tell what from afar a fey might resid"
+    ],
+    "where": [
+     "p148 y321",
+     "p148 y357"
+    ],
+    "owner_lines": [
+     null,
+     7
+    ]
+   },
+   {
+    "line": 8,
+    "row": "| 6 | **Stones** A sinkhole has opened beside an arrangement of man sized stones. Scraping",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "stones a sinkhole has opened beside an arrangement of man si",
+    "found": "p148 y418",
+    "parts": [
+     "stones a sinkhole has opened beside an a",
+     "away some moss reveals runes from a forg"
+    ],
+    "where": [
+     "p148 y418",
+     "p148 y442"
+    ],
+    "owner_lines": [
+     18,
+     8
+    ]
+   },
+   {
+    "line": 9,
+    "row": "| 7 | **Puff** Small black & white mushrooms herald the appearance of an enormous, two foo",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "puff small black white mushrooms herald the appearance of an",
+    "found": "p148 y480",
+    "parts": [
+     "puff small black white mushrooms herald ",
+     "mushroom puffs out a cloud of spores if "
+    ],
+    "where": [
+     "p148 y480",
+     "p148 y528"
+    ],
+    "owner_lines": [
+     18,
+     9
+    ]
+   },
+   {
+    "line": 10,
+    "row": "| 8 | **Webs** Thick, sticky webbing covers the ground and lower branches of this heavily ",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "webs thick sticky webbing covers the ground and lower branch",
+    "found": "p148 y577",
+    "parts": [
+     "webs thick sticky webbing covers the gro",
+     "wooded area in the shadows of the higher"
+    ],
+    "where": [
+     "p148 y577",
+     "p148 y601"
+    ],
+    "owner_lines": [
+     20,
+     10
+    ]
+   },
+   {
+    "line": 11,
+    "row": "| 9 | **Hive** A *Giant Ant* hive is beneath the earth nearby. 2d6 scouting *Giant Worker ",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "hive a giant ant hive is beneath the earth nearby 2 d 6 scou",
+    "found": "p148 y627",
+    "parts": [
+     "hive a giant ant hive is beneath the ear",
+     "30 can be heard chittering beyond some n"
+    ],
+    "where": [
+     "p148 y627",
+     "p148 y663"
+    ],
+    "owner_lines": [
+     11,
+     22
+    ]
+   },
+   {
+    "type": "text-between-rows",
+    "line": 3,
+    "row": "| 1 | **Poison** Poisonous trees, vines, undergrowth, or noxious spores, causing all trave",
+    "next_line": 4,
+    "text": "huts a trio of dilapidated thatched huts",
+    "found": "p148 y140"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 4,
+    "row": "| 2 | **Huts** A trio of dilapidated thatched huts sit in a small clearing beside a bubbli",
+    "next_line": 5,
+    "text": "iriti snared a female barbarian named struggling against a t",
+    "found": "p148 y178"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 6,
+    "row": "| 4 | **Bridge** A very old, stone arch bridge stretches across a long, dry riverbed. In c",
+    "next_line": 7,
+    "text": "distant spirits attempting to cross the bridge has a chance ",
+    "found": "p148 y283"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 7,
+    "row": "| 5 | **Carving** A lone tree, gnarled and white, spotted with age, stands in a clearing. ",
+    "next_line": 8,
+    "text": "stones a sinkhole has opened beside arrangement of man sized",
+    "found": "p148 y411"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 8,
+    "row": "| 6 | **Stones** A sinkhole has opened beside an arrangement of man sized stones. Scraping",
+    "next_line": 9,
+    "text": "puff small black white mushrooms herald the appearance of an",
+    "found": "p148 y472"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 9,
+    "row": "| 7 | **Puff** Small black & white mushrooms herald the appearance of an enormous, two foo",
+    "next_line": 10,
+    "text": "webs thick sticky webbing covers ground and lower branches o",
+    "found": "p148 y570"
+   }
+  ]
+ },
+ "17. GM Tools/17.5.6. Mountains & Hills.md": {
+  "book": "toa",
+  "pages": [
+   149,
+   150
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d20 | |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 3,
+    "row": "| 1 | **Obelisk** A tall obelisk with ancient silver markings rises from the depths of a s",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "obelisk a tall obelisk with ancient silver markings rises fr",
+    "found": "p149 y98",
+    "parts": [
+     "obelisk a tall obelisk with ancient silv",
+     "crater the floor of the crater is mirror"
+    ],
+    "where": [
+     "p149 y98",
+     "p149 y122"
+    ],
+    "owner_lines": [
+     3,
+     null
+    ]
+   },
+   {
+    "line": 5,
+    "row": "| 3 | **Steep** A steep slope or cliff like ridge must be climbed, requiring a Str (Athlet",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "steep a steep slope or cliff like ridge must be climbed requ",
+    "found": "p149 y233",
+    "parts": [
+     "steep a steep slope or cliff like ridge ",
+     "failed the traveller is fatigued by the "
+    ],
+    "where": [
+     "p149 y233",
+     "p149 y257"
+    ],
+    "owner_lines": [
+     5,
+     null
+    ]
+   },
+   {
+    "line": 6,
+    "row": "| 4 | **Cave** Flickering torchlight can be seen from a large cave mouth. 4d6 *Skorn* (60%",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "cave flickering torchlight can be seen from a large cave mou",
+    "found": "p149 y283",
+    "parts": [
+     "cave flickering torchlight can be seen f",
+     "urgot with an urgozer 40 are inside taki"
+    ],
+    "where": [
+     "p149 y283",
+     "p149 y306"
+    ],
+    "owner_lines": [
+     null,
+     6
+    ]
+   },
+   {
+    "line": 7,
+    "row": "| 5 | **Encampment** Dozens of campfire smoke columns can be seen wafting over a high ridg",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "encampment dozens of campfire smoke columns can be seen waft",
+    "found": "p149 y344",
+    "parts": [
+     "encampment dozens of campfire smoke",
+     "columns can be seen wafting over a high "
+    ],
+    "where": [
+     "p149 y344",
+     "p149 y356"
+    ],
+    "owner_lines": [
+     null,
+     7
+    ]
+   },
+   {
+    "line": 8,
+    "row": "| 6 | **Cloud** A small, low lying cloud seems to be following the party, matching their s",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "cloud a small low lying cloud seems to be following the part",
+    "found": "p149 y383",
+    "parts": [
+     "cloud a small low lying cloud seems to b",
+     "direction as each hour passes it slowly "
+    ],
+    "where": [
+     "p149 y383",
+     "p149 y407"
+    ],
+    "owner_lines": [
+     8,
+     null
+    ]
+   },
+   {
+    "line": 9,
+    "row": "| 7 | **Quarrel** From around a bend, quarrelling in broken, guttural language can be hear",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "quarrel from around a bend quarrelling in broken guttural la",
+    "found": "p149 y432",
+    "parts": [
+     "quarrel from around a bend quarrelling i",
+     "continue in the same direction or change"
+    ],
+    "where": [
+     "p149 y432",
+     "p149 y468"
+    ],
+    "owner_lines": [
+     null,
+     9
+    ]
+   },
+   {
+    "line": 10,
+    "row": "| 8 | **Nest** On a stony escarpment, a one hundred foot latticework of small trees and bo",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "nest on a stony escarpment a one hundred foot latticework of",
+    "found": "p149 y518",
+    "parts": [
+     "nest on a stony escarpment a one hundred",
+     "twelve feet long litter the ground if th"
+    ],
+    "where": [
+     "p149 y518",
+     "p149 y554"
+    ],
+    "owner_lines": [
+     null,
+     10
+    ]
+   },
+   {
+    "type": "text-between-rows",
+    "line": 3,
+    "row": "| 1 | **Obelisk** A tall obelisk with ancient silver markings rises from the depths of a s",
+    "next_line": 4,
+    "text": "crater the floor of the crater is mirrored reflecting the st",
+    "found": "p149 y122"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 5,
+    "row": "| 3 | **Steep** A steep slope or cliff like ridge must be climbed, requiring a Str (Athlet",
+    "next_line": 6,
+    "text": "failed the traveller is fatigued by the they reach the top c",
+    "found": "p149 y257"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 6,
+    "row": "| 4 | **Cave** Flickering torchlight can be seen from a large cave mouth. 4d6 *Skorn* (60%",
+    "next_line": 7,
+    "text": "encampment dozens of campfire smoke",
+    "found": "p149 y337"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 8,
+    "row": "| 6 | **Cloud** A small, low lying cloud seems to be following the party, matching their s",
+    "next_line": 9,
+    "text": "direction as each hour passes it slowly descends drawing nea",
+    "found": "p149 y407"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 9,
+    "row": "| 7 | **Quarrel** From around a bend, quarrelling in broken, guttural language can be hear",
+    "next_line": 10,
+    "text": "nest on a stony escarpment a one hundred foot latticework of",
+    "found": "p149 y510"
+   }
+  ]
+ },
+ "17. GM Tools/17.5.7. Oceans, Lakes, Rivers.md": {
+  "book": "toa",
+  "pages": [
+   150,
+   151
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d20 | |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 3,
+    "row": "| 1 | **Storm** A powerful storm with heavy rain and high winds blows in. Watercraft might",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "storm a powerful storm with heavy rain and high winds blows ",
+    "found": "p150 y267",
+    "parts": [
+     "storm a powerful storm with heavy rain a",
+     "to break apart visibility is reduced and"
+    ],
+    "where": [
+     "p150 y267",
+     "p150 y303"
+    ],
+    "owner_lines": [
+     3,
+     null
+    ]
+   },
+   {
+    "line": 4,
+    "row": "| 2 | **Becalmed** This region of water is becalmed, stranding sailing vessels without oar",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "becalmed this region of water is becalmed stranding sailing ",
+    "found": "p150 y340",
+    "parts": [
+     "becalmed this region of water is becalme",
+     "travellers must make a group luck save e"
+    ],
+    "where": [
+     "p150 y340",
+     "p150 y364"
+    ],
+    "owner_lines": [
+     null,
+     4
+    ]
+   },
+   {
+    "line": 5,
+    "row": "| 3 | **Raiders** Viking like raiders in a longship (2d10+40 crew, including rowers) appea",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "raiders viking like raiders in a longship 2 d 10 40 crew inc",
+    "found": "p150 y390",
+    "parts": [
+     "raiders viking like raiders in a longshi",
+     "the horizon changing course to intercept"
+    ],
+    "where": [
+     "p150 y390",
+     "p150 y414"
+    ],
+    "owner_lines": [
+     5,
+     null
+    ]
+   },
+   {
+    "line": 6,
+    "row": "| 4 | **Dolphins** 2d6 dolphins, seals, otters, or other inquisitive but harmless marine l",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "dolphins 2 d 6 dolphins seals otters or other inquisitive bu",
+    "found": "p150 y439",
+    "parts": [
+     "dolphins 2 d 6 dolphins seals otters or ",
+     "inquisitive but harmless marine life tak"
+    ],
+    "where": [
+     "p150 y439",
+     "p150 y451"
+    ],
+    "owner_lines": [
+     null,
+     6
+    ]
+   },
+   {
+    "line": 7,
+    "row": "| 5 | **Wreck** A damaged merchant caravel from a nearby port or village, or another water",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "wreck a damaged merchant caravel from a nearby port or villa",
+    "found": "p150 y477",
+    "parts": [
+     "wreck a damaged merchant caravel from a ",
+     "bobs in the current half submerged consu"
+    ],
+    "where": [
+     "p150 y477",
+     "p150 y501"
+    ],
+    "owner_lines": [
+     null,
+     7
+    ]
+   },
+   {
+    "line": 8,
+    "row": "| 6 | **Inky Depths** The water surrounding the travellers turns jet black in all directio",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "inky depths the water surrounding the travellers turns jet b",
+    "found": "p150 y538",
+    "parts": [
+     "inky depths the water surrounding the tr",
+     "birds diving for fish do not resurface f"
+    ],
+    "where": [
+     "p150 y538",
+     "p150 y562"
+    ],
+    "owner_lines": [
+     8,
+     null
+    ]
+   },
+   {
+    "line": 9,
+    "row": "| 7 | **Balloon** A one of a kind hot air balloon ship flies overhead. The captain and his",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "balloon a one of a kind hot air balloon ship flies overhead ",
+    "found": "p150 y588",
+    "parts": [
+     "balloon a one of a kind hot air balloon ",
+     "might be spying on the travellers passin"
+    ],
+    "where": [
+     "p150 y588",
+     "p150 y612"
+    ],
+    "owner_lines": [
+     9,
+     null
+    ]
+   },
+   {
+    "line": 9,
+    "row": "| 7 | **Balloon** A one of a kind hot air balloon ship flies overhead. The captain and his",
+    "type": "cell-not-in-row",
+    "cell": 1,
+    "text": "7",
+    "found": "p150 y612",
+    "where": "p150 y612",
+    "owner_line": null,
+    "row_band": "p150 y588-600"
+   },
+   {
+    "line": 10,
+    "row": "| 8 | **Fog** A thick fog rolls in, reducing visibility to Far range. *Consult the Bones* ",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "fog a thick fog rolls in reducing visibility to far range co",
+    "found": "p150 y649",
+    "parts": [
+     "fog a thick fog rolls in reducing visibi",
+     "will o wisps emerge from the fog keen to"
+    ],
+    "where": [
+     "p150 y649",
+     "p150 y673"
+    ],
+    "owner_lines": [
+     null,
+     10
+    ]
+   },
+   {
+    "line": 11,
+    "row": "| 9 | **Trolls** 2d6 *Sea Trolls* (as *Troll* but hooked tentacle arms, with Swim Close) i",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "trolls 2 d 6 sea trolls as troll but hooked tentacle arms wi",
+    "found": "p151 y70",
+    "parts": [
+     "trolls 2 d 6 sea trolls as troll but hoo",
+     "vessel and cling to the hull beneath the"
+    ],
+    "where": [
+     "p151 y70",
+     "p151 y94"
+    ],
+    "owner_lines": [
+     21,
+     11
+    ]
+   },
+   {
+    "line": 12,
+    "row": "| 10 | **Pirates** A pirate ship (carrack, crew 2d10+40 pirates) appears on the horizon an",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "pirates a pirate ship carrack crew 2 d 10 40 pirates appears",
+    "found": "p151 y132",
+    "parts": [
+     "pirates a pirate ship carrack crew 2 d 1",
+     "slavers otherwise they leave no survivor"
+    ],
+    "where": [
+     "p151 y132",
+     "p151 y168"
+    ],
+    "owner_lines": [
+     12,
+     22
+    ]
+   },
+   {
+    "type": "cell-cut-short",
+    "line": 12,
+    "row": "| 10 | **Pirates** A pirate ship (carrack, crew 2d10+40 pirates) appears on the horizon an",
+    "cell": 2,
+    "text": "lavers otherwise they leave no survivors",
+    "next": "with them or",
+    "found": "p151 y132"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 3,
+    "row": "| 1 | **Storm** A powerful storm with heavy rain and high winds blows in. Watercraft might",
+    "next_line": 4,
+    "text": "to break apart visibility is reduced checks to retain steady",
+    "found": "p150 y302"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 5,
+    "row": "| 3 | **Raiders** Viking like raiders in a longship (2d10+40 crew, including rowers) appea",
+    "next_line": 6,
+    "text": "the horizon changing course to intercept travellers dolphins",
+    "found": "p150 y413"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 6,
+    "row": "| 4 | **Dolphins** 2d6 dolphins, seals, otters, or other inquisitive but harmless marine l",
+    "next_line": 7,
+    "text": "wreck a damaged merchant caravel from nearby port or village",
+    "found": "p150 y469"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 8,
+    "row": "| 6 | **Inky Depths** The water surrounding the travellers turns jet black in all directio",
+    "next_line": 9,
+    "text": "birds diving for fish do not resurface from inky depths",
+    "found": "p150 y562"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 9,
+    "row": "| 7 | **Balloon** A one of a kind hot air balloon ship flies overhead. The captain and his",
+    "next_line": 10,
+    "text": "might be spying on the travellers passing through coincident",
+    "found": "p150 y606"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 12,
+    "row": "| 10 | **Pirates** A pirate ship (carrack, crew 2d10+40 pirates) appears on the horizon an",
+    "next_line": 13,
+    "text": "are slavers otherwise they leave no survivors",
+    "found": "p151 y162"
+   }
+  ]
+ },
+ "17. GM Tools/17.5.8. Plains & Grasslands.md": {
+  "book": "toa",
+  "pages": [
+   151,
+   152
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d20 | |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 3,
+    "row": "| 1 | **Wildfire** erupts in nearby grassland, sweeping through neighbouring plains, filli",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "wildfire erupts in nearby grassland sweeping through neighbo",
+    "found": "p151 y223",
+    "parts": [
+     "wildfire erupts in nearby grassland swee",
+     "to avoid being caught in the flames and "
+    ],
+    "where": [
+     "p151 y223",
+     "p151 y283"
+    ],
+    "owner_lines": [
+     null,
+     3
+    ]
+   },
+   {
+    "line": 4,
+    "row": "| 2 | **Shaman** In the distance a single humanoid wearing a bird skull mask can be seen, ",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "shaman in the distance a single humanoid wearing a bird skul",
+    "found": "p151 y356",
+    "parts": [
+     "shaman in the distance a single humanoid",
+     "her arms and voice to the sky moments la"
+    ],
+    "where": [
+     "p151 y356",
+     "p151 y380"
+    ],
+    "owner_lines": [
+     4,
+     null
+    ]
+   },
+   {
+    "line": 5,
+    "row": "| 3 | **Palisade** A wooden palisade fifty feet on a side has been erected here, protectin",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "palisade a wooden palisade fifty feet on a side has been ere",
+    "found": "p151 y406",
+    "parts": [
+     "palisade a wooden palisade fifty feet on",
+     "side has been erected here protecting a "
+    ],
+    "where": [
+     "p151 y406",
+     "p151 y418"
+    ],
+    "owner_lines": [
+     null,
+     5
+    ]
+   },
+   {
+    "line": 6,
+    "row": "| 4 | **Scavengers** 5d4 *Giant Rats* (70%) or 3d4 *Dire Rats* (30%) are scavenging an ani",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "scavengers 5 d 4 giant rats 70 or 3 d 4 dire rats 30 are sca",
+    "found": "p151 y456",
+    "parts": [
+     "scavengers 5 d 4 giant rats 70 or 3 d 4 ",
+     "they might take their chances against an"
+    ],
+    "where": [
+     "p151 y456",
+     "p151 y480"
+    ],
+    "owner_lines": [
+     6,
+     null
+    ]
+   },
+   {
+    "line": 6,
+    "row": "| 4 | **Scavengers** 5d4 *Giant Rats* (70%) or 3d4 *Dire Rats* (30%) are scavenging an ani",
+    "type": "cell-not-in-row",
+    "cell": 1,
+    "text": "4",
+    "found": "p151 y479",
+    "where": "p151 y479",
+    "owner_line": null,
+    "row_band": "p151 y456-468"
+   },
+   {
+    "line": 7,
+    "row": "| 5 | **Crater** A fifty foot crater blackens the earth, at the centre of which lies a man",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "crater a fifty foot crater blackens the earth at the centre ",
+    "found": "p151 y518",
+    "parts": [
+     "crater a fifty foot crater blackens the ",
+     "meteorite of blue veined crystal serpent"
+    ],
+    "where": [
+     "p151 y518",
+     "p151 y542"
+    ],
+    "owner_lines": [
+     7,
+     null
+    ]
+   },
+   {
+    "line": 8,
+    "row": "| 6 | **Footprints** A clear pond is located here. Wet humanoid footprints can be found ne",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "footprints a clear pond is located here wet humanoid footpri",
+    "found": "p151 y567",
+    "parts": [
+     "footprints a clear pond is located here ",
+     "circling the area if the pond is explore"
+    ],
+    "where": [
+     "p151 y567",
+     "p151 y591"
+    ],
+    "owner_lines": [
+     8,
+     null
+    ]
+   },
+   {
+    "line": 9,
+    "row": "| 7 | **Centaurs** 2d8 *Centaurs* are on sentry duty in this region, which they have recen",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "centaurs 2 d 8 centaurs are on sentry duty in this region wh",
+    "found": "p151 y617",
+    "parts": [
+     "centaurs 2 d 8 centaurs are on sentry du",
+     "extremely hostile towards outsiders and "
+    ],
+    "where": [
+     "p151 y617",
+     "p151 y653"
+    ],
+    "owner_lines": [
+     9,
+     null
+    ]
+   },
+   {
+    "line": 9,
+    "row": "| 7 | **Centaurs** 2d8 *Centaurs* are on sentry duty in this region, which they have recen",
+    "type": "cell-not-in-row",
+    "cell": 1,
+    "text": "7",
+    "found": "p151 y652",
+    "where": "p151 y652",
+    "owner_line": null,
+    "row_band": "p151 y617-641"
+   },
+   {
+    "line": 10,
+    "row": "| 8 | **Fog** Clouds roll in and a thick fog settles over the grasslands, reducing visibil",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "fog clouds roll in and a thick fog settles over the grasslan",
+    "found": "p152 y71",
+    "parts": [
+     "fog clouds roll in and a thick fog settl",
+     "range consult the bones to see if 3 d 6 "
+    ],
+    "where": [
+     "p152 y71",
+     "p152 y95"
+    ],
+    "owner_lines": [
+     17,
+     10
+    ]
+   },
+   {
+    "line": 11,
+    "row": "| 9 | **Eagles** 2d4 *Giant Eagles* are wheeling over head, descending from the thermals o",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "eagles 2 d 4 giant eagles are wheeling over head descending ",
+    "found": "p152 y121",
+    "parts": [
+     "eagles 2 d 4 giant eagles are wheeling o",
+     "distant peaks as they survey the grassla"
+    ],
+    "where": [
+     "p152 y121",
+     "p152 y145"
+    ],
+    "owner_lines": [
+     11,
+     18
+    ]
+   },
+   {
+    "type": "text-between-rows",
+    "line": 4,
+    "row": "| 2 | **Shaman** In the distance a single humanoid wearing a bird skull mask can be seen, ",
+    "next_line": 5,
+    "text": "her arms and voice to the sky moments a peal of thunder soun",
+    "found": "p151 y380"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 6,
+    "row": "| 4 | **Scavengers** 5d4 *Giant Rats* (70%) or 3d4 *Dire Rats* (30%) are scavenging an ani",
+    "next_line": 7,
+    "text": "they might take their chances against adventurer particularl",
+    "found": "p151 y474"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 7,
+    "row": "| 5 | **Crater** A fifty foot crater blackens the earth, at the centre of which lies a man",
+    "next_line": 8,
+    "text": "meteorite of blue veined crystal serpent tracks lead away fr",
+    "found": "p151 y541"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 8,
+    "row": "| 6 | **Footprints** A clear pond is located here. Wet humanoid footprints can be found ne",
+    "next_line": 9,
+    "text": "circling the area if the pond is explored dark underwater tu",
+    "found": "p151 y591"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 11,
+    "row": "| 9 | **Eagles** 2d4 *Giant Eagles* are wheeling over head, descending from the thermals o",
+    "next_line": 12,
+    "text": "distant peaks as they survey the grasslands for food their c",
+    "found": "p152 y144"
+   }
+  ]
+ },
+ "17. GM Tools/17.5.9. Roads & Trails.md": {
+  "book": "toa",
+  "pages": [
+   152,
+   153
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d20 | |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 3,
+    "row": "| 1 | **Cart** A broken down cart, filled with firewood and other timber. Two elderly wago",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "cart a broken down cart filled with firewood and other timbe",
+    "found": "p152 y421",
+    "parts": [
+     "cart a broken down cart filled with fire",
+     "mend the axle and get them back on the r"
+    ],
+    "where": [
+     "p152 y421",
+     "p152 y457"
+    ],
+    "owner_lines": [
+     null,
+     3
+    ]
+   },
+   {
+    "line": 4,
+    "row": "| 2 | **Visitors** 2d6 wealthy tourists visiting from the neighbouring towns and villages.",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "visitors 2 d 6 wealthy tourists visiting from the neighbouri",
+    "found": "p152 y494",
+    "parts": [
+     "visitors 2 d 6 wealthy tourists visiting",
+     "are accompanied by 4 d 6 guards they are"
+    ],
+    "where": [
+     "p152 y494",
+     "p152 y518"
+    ],
+    "owner_lines": [
+     null,
+     4
+    ]
+   },
+   {
+    "line": 5,
+    "row": "| 3 | **Crow Cage** A thief named *Beth* is locked in a crow cage dying of starvation. She",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "crow cage a thief named beth is locked in a crow cage dying ",
+    "found": "p152 y556",
+    "parts": [
+     "crow cage a thief named beth is locked i",
+     "with the travellers to release her in re"
+    ],
+    "where": [
+     "p152 y556",
+     "p152 y580"
+    ],
+    "owner_lines": [
+     5,
+     null
+    ]
+   },
+   {
+    "line": 6,
+    "row": "| 4 | **Patrol** 4d6 local *Soldiers* or militia on patrol. They don't suffer cheek. |",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "patrol 4 d 6 local soldiers or militia on patrol they don t ",
+    "found": "p152 y608",
+    "parts": [
+     "patrol 4 d 6 local soldiers or militia o",
+     "they don t suffer cheek"
+    ],
+    "where": [
+     "p152 y608",
+     "p152 y620"
+    ],
+    "owner_lines": [
+     6,
+     null
+    ]
+   },
+   {
+    "line": 7,
+    "row": "| 5 | **Caravan** A merchant caravan protected by 5d6 guards. Roll 1d8 (i) cloth, (ii) win",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "caravan a merchant caravan protected by 5 d 6 guards roll 1 ",
+    "found": "p152 y635",
+    "parts": [
+     "caravan a merchant caravan protected by ",
+     "foodstuffs iv oil v trinkets or art vi t"
+    ],
+    "where": [
+     "p152 y635",
+     "p152 y659"
+    ],
+    "owner_lines": [
+     7,
+     null
+    ]
+   },
+   {
+    "line": 8,
+    "row": "| 6 | **Pilgrims** 4d6 pilgrims making their way to a near (or far) shrine or temple. |",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "pilgrims 4 d 6 pilgrims making their way to a near or far sh",
+    "found": "p152 y687",
+    "parts": [
+     "pilgrims 4 d 6 pilgrims making their way",
+     "near or far shrine or temple"
+    ],
+    "where": [
+     "p152 y687",
+     "p152 y699"
+    ],
+    "owner_lines": [
+     8,
+     null
+    ]
+   },
+   {
+    "line": 9,
+    "row": "| 7 | **Carriage** A carriage carrying the highborn *Lord Verne*, escorted by 3d4 knights ",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "carriage a carriage carrying the highborn lord verne escorte",
+    "found": "p153 y70",
+    "parts": [
+     "carriage a carriage carrying the highbor",
+     "lord verne escorted by 3 d 4 knights or "
+    ],
+    "where": [
+     "p153 y70",
+     "p153 y82"
+    ],
+    "owner_lines": [
+     18,
+     9
+    ]
+   },
+   {
+    "line": 10,
+    "row": "| 8 | **Quest** A robed woman with a shaved head on a horse, escorted by three men with fe",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "quest a robed woman with a shaved head on a horse escorted b",
+    "found": "p153 y108",
+    "parts": [
+     "quest a robed woman with a shaved head o",
+     "horse escorted by three men with feature"
+    ],
+    "where": [
+     "p153 y108",
+     "p153 y120"
+    ],
+    "owner_lines": [
+     18,
+     10
+    ]
+   },
+   {
+    "line": 11,
+    "row": "| 9 | **Bandits** 3d6 bandits block the road, extorting a \"road tax\" from travellers. If a",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "bandits 3 d 6 bandits block the road extorting a road tax fr",
+    "found": "p153 y169",
+    "parts": [
+     "bandits 3 d 6 bandits block the road ext",
+     "much the leader grent replies how much y"
+    ],
+    "where": [
+     "p153 y169",
+     "p153 y193"
+    ],
+    "owner_lines": [
+     11,
+     19
+    ]
+   },
+   {
+    "type": "text-between-rows",
+    "line": 3,
+    "row": "| 1 | **Cart** A broken down cart, filled with firewood and other timber. Two elderly wago",
+    "next_line": 4,
+    "text": "visitors 2 d 6 wealthy tourists visiting the neighbouring to",
+    "found": "p152 y487"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 5,
+    "row": "| 3 | **Crow Cage** A thief named *Beth* is locked in a crow cage dying of starvation. She",
+    "next_line": 6,
+    "text": "with the travellers to release her in return a service or va",
+    "found": "p152 y579"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 6,
+    "row": "| 4 | **Patrol** 4d6 local *Soldiers* or militia on patrol. They don't suffer cheek. |",
+    "next_line": 7,
+    "text": "they don t suffer cheek",
+    "found": "p152 y619"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 7,
+    "row": "| 5 | **Caravan** A merchant caravan protected by 5d6 guards. Roll 1d8 (i) cloth, (ii) win",
+    "next_line": 8,
+    "text": "foodstuffs iv oil v trinkets or art tools vii wheat iv iron",
+    "found": "p152 y659"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 9,
+    "row": "| 7 | **Carriage** A carriage carrying the highborn *Lord Verne*, escorted by 3d4 knights ",
+    "next_line": 10,
+    "text": "quest a robed woman with a shaved head",
+    "found": "p153 y100"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 11,
+    "row": "| 9 | **Bandits** 3d6 bandits block the road, extorting a \"road tax\" from travellers. If a",
+    "next_line": 12,
+    "text": "much the leader grent replies how much got",
+    "found": "p153 y193"
+   }
+  ]
+ },
+ "18. Hirelings/18.1.1. Names.md": {
+  "book": "toa",
+  "pages": [
+   158
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d100 | |",
+    "type": "header-unlocated"
+   },
+   {
+    "type": "cell-cut-short",
+    "line": 7,
+    "row": "| 9-10 | Maarika (v,f) |",
+    "cell": 2,
+    "text": "maarika v f",
+    "next": "29 30 vance 49 50",
+    "found": "p158 y598"
+   },
+   {
+    "type": "cell-cut-short",
+    "line": 8,
+    "row": "| 11-12 | Costana (k,f) |",
+    "cell": 2,
+    "text": "costana k f",
+    "next": "31 32 carter 51 52",
+    "found": "p158 y619"
+   },
+   {
+    "type": "cell-cut-short",
+    "line": 13,
+    "row": "| 21-22 | Pax (n,f) |",
+    "cell": 2,
+    "text": "pax n f",
+    "next": "41 42 jugath t",
+    "found": "p158 y513"
+   },
+   {
+    "type": "cell-cut-short",
+    "line": 14,
+    "row": "| 23-24 | Herotta (v,f) |",
+    "cell": 2,
+    "text": "herotta v f",
+    "next": "43 44 merek 63 64",
+    "found": "p158 y534"
+   },
+   {
+    "type": "cell-cut-short",
+    "line": 34,
+    "row": "| 63-64 | Sula (t,f) |",
+    "cell": 2,
+    "text": "sula t f",
+    "next": "83 84 carver",
+    "found": "p158 y534"
+   },
+   {
+    "type": "cell-cut-short",
+    "line": 38,
+    "row": "| 71-72 | Iovis (n,f) |",
+    "cell": 2,
+    "text": "iovis n f",
+    "next": "91 92 orok t",
+    "found": "p158 y619"
+   },
+   {
+    "type": "cell-cut-short",
+    "line": 39,
+    "row": "| 73-74 | Luta (v,f) |",
+    "cell": 2,
+    "text": "luta v f",
+    "next": "93 94",
+    "found": "p158 y641"
+   },
+   {
+    "type": "cell-cut-short",
+    "line": 41,
+    "row": "| 77-78 | Hothra (t,f) |",
+    "cell": 2,
+    "text": "hothra t f",
+    "next": "97 98 tybalt",
+    "found": "p158 y683"
+   }
+  ]
+ },
+ "18. Hirelings/18.3.1. Personality.md": {
+  "issues": [
+   {
+    "type": "no-source-match"
+   }
+  ]
+ },
+ "18. Hirelings/18.4.1. Traits.md": {
+  "book": "toa",
+  "pages": [
+   159
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d100 | |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 3,
+    "row": "| 1-2 | Random Disease |",
+    "type": "row-unlocated"
+   },
+   {
+    "line": 4,
+    "row": "| 3-4 | Half Dwarf (Con 15) |",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "half dwarf con 15",
+    "found": "p159 y209",
+    "parts": [
+     "half dwarf",
+     "con 15"
+    ],
+    "where": [
+     "p159 y209",
+     "p159 y221"
+    ],
+    "owner_lines": [
+     4,
+     29
+    ]
+   },
+   {
+    "line": 18,
+    "row": "| 31-32 | Refuses to Wear Pants |",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "refuses to wear pants",
+    "found": "p159 y509",
+    "parts": [
+     "refuses to",
+     "wear pants"
+    ],
+    "where": [
+     "p159 y509",
+     "p159 y521"
+    ],
+    "owner_lines": [
+     18,
+     43
+    ]
+   },
+   {
+    "line": 23,
+    "row": "| 41-42 | Lucky (like a Halfling) |",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "lucky like a halfling",
+    "found": "p159 y614",
+    "parts": [
+     "lucky like",
+     "a halfling"
+    ],
+    "where": [
+     "p159 y614",
+     "p159 y626"
+    ],
+    "owner_lines": [
+     23,
+     48
+    ]
+   },
+   {
+    "type": "cell-cut-short",
+    "line": 10,
+    "row": "| 15-16 | Limp or Pegleg |",
+    "cell": 2,
+    "text": "limp or pegleg",
+    "next": "65 66",
+    "found": "p159 y337"
+   },
+   {
+    "type": "cell-cut-short",
+    "line": 12,
+    "row": "| 19-20 | Pox, Warts, etc |",
+    "cell": 2,
+    "text": "pox warts etc",
+    "next": "69 70 nose ring",
+    "found": "p159 y382"
+   },
+   {
+    "type": "cell-cut-short",
+    "line": 14,
+    "row": "| 23-24 | 7 ft Giant Str 17 |",
+    "cell": 2,
+    "text": "7 ft giant str 17",
+    "next": "73 74 hook hand",
+    "found": "p159 y422"
+   },
+   {
+    "type": "cell-cut-short",
+    "line": 19,
+    "row": "| 33-34 | Hard of Hearing |",
+    "cell": 2,
+    "text": "hard of hearing",
+    "next": "83 84 crude glasses",
+    "found": "p159 y538"
+   },
+   {
+    "type": "cell-cut-short",
+    "line": 26,
+    "row": "| 47-48 | Twins (2 for 1) |",
+    "cell": 2,
+    "text": "twins 2 for 1",
+    "next": "97 98",
+    "found": "p159 y683"
+   }
+  ]
+ },
+ "18. Hirelings/18.5.1. Hireling Gear.md": {
+  "book": "toa",
+  "pages": [
+   160
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d4/d12 | |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "18. Hirelings/18.5.2. Catchphrase.md": {
+  "book": "toa",
+  "pages": [
+   160,
+   161
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d100 | |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "18. Hirelings/18.6.1. Hireling Advancement.md": {
+  "book": "toa",
+  "pages": [
+   161
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| 2d6 | |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "18. Hirelings/18.7.1. Payback.md": {
+  "book": "toa",
+  "pages": [
+   161,
+   162
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| 2d6 | |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 6,
+    "row": "| 5 | **Undermined** The hireling actively works to undermine the PC behind her back. With",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "undermined the hireling actively works to undermine the pc b",
+    "found": "p162 y70",
+    "parts": [
+     "undermined the hireling actively works t",
+     "become reluctant to assist the pc might "
+    ],
+    "where": [
+     "p162 y70",
+     "p162 y106"
+    ],
+    "owner_lines": [
+     6,
+     null
+    ]
+   },
+   {
+    "type": "text-between-rows",
+    "line": 6,
+    "row": "| 5 | **Undermined** The hireling actively works to undermine the PC behind her back. With",
+    "next_line": 7,
+    "text": "become reluctant to assist the pc might require cha checks e",
+    "found": "p162 y101"
+   }
+  ]
+ },
+ "19. Madness/19.1.1. Madness.md": {
+  "book": "toa",
+  "pages": [
+   163
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d20 | |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "2. Character Creation/2.1.1. Backgrounds.md": {
+  "book": "toa",
+  "pages": [
+   10,
+   11
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d66 | | | |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 11,
+    "row": "| 23 | **Street Preacher** | +1 Cha | Divine Lore, Holy Symbol |",
+    "type": "cell-not-in-row",
+    "cell": 2,
+    "text": "street preacher",
+    "found": null,
+    "where": "not in this column of the page",
+    "owner_line": null,
+    "row_band": "p010 y703-715"
+   },
+   {
+    "line": 28,
+    "row": "| 52 | **Street Acrobat** | +1 Dex | Acrobatics, 10 ft Pole |",
+    "type": "cell-not-in-row",
+    "cell": 2,
+    "text": "street acrobat",
+    "found": null,
+    "where": "not in this column of the page",
+    "owner_line": null,
+    "row_band": "p011 y584-596"
+   },
+   {
+    "type": "cell-cut-short",
+    "line": 14,
+    "row": "| 26 | **Tinkerer** | +1 Int | Traps & Locks, Pouch of Marbles |",
+    "cell": 3,
+    "text": "plus 1 int",
+    "next": "pouch of marbles",
+    "found": "p011 y135"
+   },
+   {
+    "type": "cell-cut-short",
+    "line": 16,
+    "row": "| 32 | **Actor** | +1 Cha | Deception, Lucky Coin (1 use reroll) |",
+    "cell": 4,
+    "text": "deception lucky coin 1 use reroll",
+    "next": "64 street crier",
+    "found": "p011 y198"
+   },
+   {
+    "type": "cell-cut-short",
+    "line": 17,
+    "row": "| 33 | **Graverobber** | +1 Str | Athletics, String of Garlic |",
+    "cell": 3,
+    "text": "plus 1 str",
+    "next": "string of garlic",
+    "found": "p011 y229"
+   },
+   {
+    "type": "cell-cut-short",
+    "line": 34,
+    "row": "| 62 | **Swineherd** | +1 Perc | Animal Lore, Burly Pig (as Dog) |",
+    "cell": 3,
+    "text": "plus 1 perc",
+    "next": "burly pig as",
+    "found": "p011 y142"
+   }
+  ]
+ },
+ "20. Mass Battle/20.1.1. Field Events.md": {
+  "book": "toa",
+  "pages": [
+   164,
+   165,
+   166
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d20 | |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "20. Mass Battle/20.2.1. Sudden Twist.md": {
+  "book": "toa",
+  "pages": [
+   166,
+   167
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d20 | |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "21. Monsters/21.2.1. Monsters by HD.md": {
+  "book": "toa",
+  "pages": [
+   169
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| HD | |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "21. Monsters/21.3.1. Heavy Abilities.md": {
+  "book": "toa",
+  "pages": [
+   171
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d20 | |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "21. Monsters/21.4. Bestiary/Mutations.md": {
+  "book": "toa",
+  "pages": [
+   204,
+   205
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d20 | |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "21. Monsters/21.4. Bestiary/Ooze Traits.md": {
+  "book": "toa",
+  "pages": [
+   196
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d10 | |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "21. Monsters/21.4. Bestiary/Shrieker Traits.md": {
+  "book": "toa",
+  "pages": [
+   200
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d6 | |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "21. Monsters/21.4. Bestiary/Terror Traits.md": {
+  "book": "toa",
+  "pages": [
+   175
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d12 | |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "22. Naval Combat/22.3.1. Artillery.md": {
+  "book": "toa",
+  "pages": [
+   211
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d20 |  |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 11,
+    "row": "| 12 | **Mast** 1d6 crew killed and Group *Luck* save to determine whether the mast has be",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "mast 1 d 6 crew killed and group luck save to determine whet",
+    "found": "p211 y443",
+    "parts": [
+     "mast 1 d 6 crew killed and group luck sa",
+     "render ship stranded if no other means o"
+    ],
+    "where": [
+     "p211 y443",
+     "p211 y479"
+    ],
+    "owner_lines": [
+     11,
+     null
+    ]
+   },
+   {
+    "type": "cell-cut-short",
+    "line": 11,
+    "row": "| 12 | **Mast** 1d6 crew killed and Group *Luck* save to determine whether the mast has be",
+    "cell": 2,
+    "text": "stranded if no other means of propulsion",
+    "next": "on pieces of",
+    "found": "p211 y443"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 11,
+    "row": "| 12 | **Mast** 1d6 crew killed and Group *Luck* save to determine whether the mast has be",
+    "next_line": 12,
+    "text": "or render ship stranded if no other means of propulsion",
+    "found": "p211 y473"
+   }
+  ]
+ },
+ "22. Naval Combat/22.5.1. Boarding.md": {
+  "book": "toa",
+  "pages": [
+   212,
+   213
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d20 |  |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "22. Naval Combat/22.5.2. Crew vs Crew.md": {
+  "book": "toa",
+  "pages": [
+   213
+  ],
+  "issues": []
+ },
+ "25. Solo Rules/25.4.1. Dungeon Site.md": {
+  "issues": [
+   {
+    "type": "no-source-match"
+   }
+  ]
+ },
+ "25. Solo Rules/25.4.10. Room Contents.md": {
+  "book": "toa",
+  "pages": [
+   222
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d20 |  |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 6,
+    "row": "| 11 | **As #9-10** plus a **Dungeon Event** p.133 or **Complication** (*Consult the Bones",
+    "type": "sign-not-printed",
+    "cell": 2,
+    "text": "as 9 10 plus a dungeon event p 133 or complication consult t"
+   }
+  ]
+ },
+ "25. Solo Rules/25.4.11. Theme Items.md": {
+  "book": "toa",
+  "pages": [
+   223
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "|  | d20 |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 3,
+    "row": "| **Artistic, Ornate** | **1-3** Sculptures, **4-6** Tapestries, **7-9** Murals, **10-12**",
+    "type": "cell-misplaced",
+    "cell": 1,
+    "text": "artistic ornate",
+    "found": "p222 y134",
+    "row_band": "p223 y132-156",
+    "owner_line": null
+   }
+  ]
+ },
+ "25. Solo Rules/25.4.12. Complications.md": {
+  "book": "toa",
+  "pages": [
+   223
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d20 |  |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "25. Solo Rules/25.4.2. Size.md": {
+  "book": "toa",
+  "pages": [
+   220
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d20 |  |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "25. Solo Rules/25.4.3. Objective.md": {
+  "book": "toa",
+  "pages": [
+   220
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d6 | TASK | THING |",
+    "type": "cell-not-in-row",
+    "cell": 1,
+    "text": "d 6",
+    "found": null,
+    "where": "not in this column of the page",
+    "owner_line": null,
+    "row_band": "p220 y306-306"
+   },
+   {
+    "line": 7,
+    "row": "| 5 | Sabotage, Destroy | Special or Magical Weapon, Armour |",
+    "type": "cell-spans-rows",
+    "cell": 3,
+    "text": "special or magical weapon armour",
+    "found": "p220 y426",
+    "parts": [
+     "special or magical",
+     "weapon armour"
+    ],
+    "where": [
+     "p220 y426",
+     "p220 y438"
+    ],
+    "owner_lines": [
+     7,
+     null
+    ]
+   },
+   {
+    "line": 8,
+    "row": "| 6 | Examine, Solve, Verify, Understand | Special or Sacred Object, Curio |",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "examine solve verify understand",
+    "found": "p220 y452",
+    "parts": [
+     "examine solve",
+     "verify understand"
+    ],
+    "where": [
+     "p220 y452",
+     "p220 y464"
+    ],
+    "owner_lines": [
+     8,
+     8
+    ]
+   }
+  ]
+ },
+ "25. Solo Rules/25.4.4. Reward.md": {
+  "book": "toa",
+  "pages": [
+   220
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d20 |  |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 3,
+    "row": "| 1 | Performed out of Obligation |",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "performed out of obligation",
+    "found": "p220 y553",
+    "parts": [
+     "performed out",
+     "of obligation"
+    ],
+    "where": [
+     "p220 y553",
+     "p220 y565"
+    ],
+    "owner_lines": [
+     3,
+     9
+    ]
+   }
+  ]
+ },
+ "25. Solo Rules/25.4.5. Main Opposition.md": {
+  "issues": [
+   {
+    "type": "no-source-match"
+   }
+  ]
+ },
+ "25. Solo Rules/25.4.6. Special Leader.md": {
+  "book": "toa",
+  "pages": [
+   221
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d20 |  |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "25. Solo Rules/25.4.7. Doors.md": {
+  "book": "toa",
+  "pages": [
+   222
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d20 |  |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "25. Solo Rules/25.4.8. Rooms & Corridors.md": {
+  "book": "toa",
+  "pages": [
+   222
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d20 |  |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "25. Solo Rules/25.4.9. Room Theme.md": {
+  "book": "toa",
+  "pages": [
+   222,
+   223
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d20 |  |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 8,
+    "row": "| 9 | Power, Respect, Awe |",
+    "type": "cell-not-in-row",
+    "cell": 1,
+    "text": "9",
+    "found": null,
+    "where": "not in this column of the page",
+    "owner_line": null,
+    "row_band": "p223 y304-328"
+   },
+   {
+    "line": 11,
+    "row": "| 12-13 | Sleep, Rest, Comfort |",
+    "type": "cell-not-in-row",
+    "cell": 1,
+    "text": "12 13",
+    "found": null,
+    "where": "not in this column of the page",
+    "owner_line": null,
+    "row_band": "p223 y465-489"
+   }
+  ]
+ },
+ "26. Traps/26.4.1. Danger Level.md": {
+  "book": "toa",
+  "pages": [
+   225
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| 2d6 |  |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "26. Traps/26.4.10. Drowning.md": {
+  "book": "toa",
+  "pages": [
+   227
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "|  |  |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 4,
+    "row": "| **Moderate** | Fills with water (75%) or another liquid (25%) in 4d6 rounds. *Luck* (Dex",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "fills with water 75 or another liquid 25 in 4 d 6 rounds luc",
+    "found": "p227 y557",
+    "parts": [
+     "fills with water 75 or another liquid 25",
+     "something in an opening before the room "
+    ],
+    "where": [
+     "p227 y557",
+     "p227 y643"
+    ],
+    "owner_lines": [
+     4,
+     5
+    ]
+   },
+   {
+    "type": "cell-cut-short",
+    "line": 4,
+    "row": "| **Moderate** | Fills with water (75%) or another liquid (25%) in 4d6 rounds. *Luck* (Dex",
+    "cell": 2,
+    "text": "hing in an opening before the room seals",
+    "next": "something",
+    "found": "p227 y557"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 4,
+    "row": "| **Moderate** | Fills with water (75%) or another liquid (25%) in 4d6 rounds. *Luck* (Dex",
+    "next_line": 5,
+    "text": "dex save to wedge something in an opening before the room se",
+    "found": "p227 y581"
+   }
+  ]
+ },
+ "26. Traps/26.4.11. Fire, Explosion.md": {
+  "book": "toa",
+  "pages": [
+   227
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "|  |  |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "26. Traps/26.4.12. Gas.md": {
+  "book": "toa",
+  "pages": [
+   227
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "|  |  |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "26. Traps/26.4.13. Lockdown.md": {
+  "book": "toa",
+  "pages": [
+   227
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "|  |  |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "26. Traps/26.4.14. Magic.md": {
+  "book": "toa",
+  "pages": [
+   228
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d12 |  |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 3,
+    "row": "| 1 | *Glimpse the True Gods* |",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "glimpse the true gods",
+    "found": "p228 y145",
+    "parts": [
+     "glimpse the",
+     "true gods"
+    ],
+    "where": [
+     "p228 y145",
+     "p228 y157"
+    ],
+    "owner_lines": [
+     3,
+     9
+    ]
+   },
+   {
+    "line": 4,
+    "row": "| 2 | *Hex of Volcanic Steel* |",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "hex of volcanic steel",
+    "found": "p228 y173",
+    "parts": [
+     "hex of",
+     "volcanic steel"
+    ],
+    "where": [
+     "p228 y173",
+     "p228 y185"
+    ],
+    "owner_lines": [
+     4,
+     10
+    ]
+   },
+   {
+    "line": 6,
+    "row": "| 4 | *Fetid Fog of the Pit People* |",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "fetid fog of the pit people",
+    "found": "p228 y230",
+    "parts": [
+     "fetid fog of",
+     "the pit people"
+    ],
+    "where": [
+     "p228 y230",
+     "p228 y242"
+    ],
+    "owner_lines": [
+     6,
+     null
+    ]
+   },
+   {
+    "line": 7,
+    "row": "| 5 | *Thunderous Invocation* |",
+    "type": "row-unlocated"
+   },
+   {
+    "line": 8,
+    "row": "| 6 | Roll for a DDM effect |",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "roll for a ddm effect",
+    "found": "p228 y287",
+    "parts": [
+     "roll for a",
+     "ddm effect"
+    ],
+    "where": [
+     "p228 y287",
+     "p228 y299"
+    ],
+    "owner_lines": [
+     8,
+     null
+    ]
+   },
+   {
+    "type": "text-between-rows",
+    "line": 3,
+    "row": "| 1 | *Glimpse the True Gods* |",
+    "next_line": 4,
+    "text": "true gods the jade moon",
+    "found": "p228 y157"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 4,
+    "row": "| 2 | *Hex of Volcanic Steel* |",
+    "next_line": 5,
+    "text": "volcanic steel bound curse",
+    "found": "p228 y185"
+   }
+  ]
+ },
+ "26. Traps/26.4.15. Monster.md": {
+  "book": "toa",
+  "pages": [
+   228
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "|  |  |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "26. Traps/26.4.16. Needle.md": {
+  "book": "toa",
+  "pages": [
+   228
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "|  |  |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "26. Traps/26.4.17. Pit.md": {
+  "book": "toa",
+  "pages": [
+   228
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "|  |  |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "26. Traps/26.4.18. Poison.md": {
+  "book": "toa",
+  "pages": [
+   228
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d20 |  |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 3,
+    "row": "| 1 | 1d6 *Toxin Trauma* |",
+    "type": "row-unlocated"
+   },
+   {
+    "line": 4,
+    "row": "| 2 | Lose memory of last 48 hours |",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "lose memory of last 48 hours",
+    "found": "p228 y474",
+    "parts": [
+     "lose memory",
+     "of last 48 hours"
+    ],
+    "where": [
+     "p228 y474",
+     "p228 y486"
+    ],
+    "owner_lines": [
+     14,
+     4
+    ]
+   },
+   {
+    "line": 5,
+    "row": "| 3 | 1d12 *Toxin Trauma* |",
+    "type": "row-unlocated"
+   },
+   {
+    "line": 7,
+    "row": "| 5 | 1d4 Str, Dex, or Con loss |",
+    "type": "row-unlocated"
+   },
+   {
+    "line": 11,
+    "row": "| 9 | Choking for 3d6 rounds |",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "choking for 3 d 6 rounds",
+    "found": "p228 y673",
+    "parts": [
+     "choking for",
+     "3 d 6 rounds"
+    ],
+    "where": [
+     "p228 y673",
+     "p228 y685"
+    ],
+    "owner_lines": [
+     21,
+     11
+    ]
+   },
+   {
+    "type": "text-between-rows",
+    "line": 10,
+    "row": "| 8 | Madness for 2d6 hours |",
+    "next_line": 11,
+    "text": "choking for death or 4 d 8",
+    "found": "p228 y662"
+   }
+  ]
+ },
+ "26. Traps/26.4.19. Relocation.md": {
+  "book": "toa",
+  "pages": [
+   229
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "|  |  |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 3,
+    "row": "| **Minor** | A wall turns on its axis, pushing the nearest PC into an adjacent room (50%)",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "a wall turns on its axis pushing the nearest pc into an adja",
+    "found": "p229 y101",
+    "parts": [
+     "a wall turns on its axis pushing the nea",
+     "acro check resists"
+    ],
+    "where": [
+     "p229 y101",
+     "p229 y137"
+    ],
+    "owner_lines": [
+     3,
+     null
+    ]
+   },
+   {
+    "type": "cell-cut-short",
+    "line": 3,
+    "row": "| **Minor** | A wall turns on its axis, pushing the nearest PC into an adjacent room (50%)",
+    "cell": 2,
+    "text": "o a spike trap 50 dex acro check resists",
+    "next": "save or contents",
+    "found": "p229 y101"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 3,
+    "row": "| **Minor** | A wall turns on its axis, pushing the nearest PC into an adjacent room (50%)",
+    "next_line": 4,
+    "text": "dex acro check resists",
+    "found": "p229 y131"
+   }
+  ]
+ },
+ "26. Traps/26.4.2. Triggers & Counters.md": {
+  "book": "toa",
+  "pages": [
+   225
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| 2d6 | TRIGGER | COUNTER |",
+    "type": "cell-not-in-row",
+    "cell": 1,
+    "text": "2 d 6",
+    "found": "p225 y218",
+    "where": "p225 y218",
+    "owner_line": null,
+    "row_band": "p225 y461-461"
+   }
+  ]
+ },
+ "26. Traps/26.4.20. Rolling Boulder.md": {
+  "book": "toa",
+  "pages": [
+   229
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "|  |  |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "26. Traps/26.4.21. Scything Blades.md": {
+  "book": "toa",
+  "pages": [
+   229
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "|  |  |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 3,
+    "row": "| **Minor** | Dex (Acro) check or 2d8 dmg. |",
+    "type": "row-unlocated"
+   },
+   {
+    "line": 4,
+    "row": "| **Moderate** | Close range line along floor, ceiling, or wall. *Luck* (Dex) save or 4d8 ",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "close range line along floor ceiling or wall luck dex save o",
+    "found": "p229 y564",
+    "parts": [
+     "close range line along floor ceiling or ",
+     "and blade trauma 1 d 10 2"
+    ],
+    "where": [
+     "p229 y564",
+     "p229 y588"
+    ],
+    "owner_lines": [
+     4,
+     null
+    ]
+   },
+   {
+    "line": 5,
+    "row": "| **Major** | Close area along floor, ceiling, or wall. *Luck* (Dex) save or 8d8 dmg and *",
+    "type": "row-unlocated"
+   }
+  ]
+ },
+ "26. Traps/26.4.22. Self Destruct.md": {
+  "book": "toa",
+  "pages": [
+   229
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "|  |  |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "26. Traps/26.4.23. Snare.md": {
+  "book": "toa",
+  "pages": [
+   229
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "|  |  |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "26. Traps/26.4.24. Spear, Spikes.md": {
+  "book": "toa",
+  "pages": [
+   229
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "|  |  |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "26. Traps/26.4.3. Mode of Attack.md": {
+  "book": "toa",
+  "pages": [
+   225
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d20 |  |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "26. Traps/26.4.4. Bypasses.md": {
+  "book": "toa",
+  "pages": [
+   226
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| 2d6 |  |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "26. Traps/26.4.5. Acid.md": {
+  "book": "toa",
+  "pages": [
+   226
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "|  |  |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "26. Traps/26.4.6. Alarm.md": {
+  "book": "toa",
+  "pages": [
+   226
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "|  |  |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "26. Traps/26.4.7. Arrows, Darts.md": {
+  "book": "toa",
+  "pages": [
+   226
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "|  |  |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "26. Traps/26.4.8. Crushing Walls.md": {
+  "book": "toa",
+  "pages": [
+   227
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "|  |  |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "26. Traps/26.4.9. Deadfall.md": {
+  "book": "toa",
+  "pages": [
+   227
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "|  |  |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "27. Treasure/27.1.1. Carry Loot A.md": {
+  "book": "toa",
+  "pages": [
+   231
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d100 | |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "27. Treasure/27.1.2. Carry Loot B.md": {
+  "book": "toa",
+  "pages": [
+   232
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d100 | |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "27. Treasure/27.10.1. Item Type.md": {
+  "book": "toa",
+  "pages": [
+   258
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d20 | |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 7,
+    "row": "| 14 | Light-Med Armour p.61 |",
+    "type": "row-unlocated"
+   },
+   {
+    "type": "cell-cut-short",
+    "line": 3,
+    "row": "| 1-4 | Jewellery, d8 |",
+    "cell": 2,
+    "text": "jewellery d 8",
+    "next": "14",
+    "found": "p258 y155"
+   }
+  ]
+ },
+ "27. Treasure/27.10.2. Jewellery.md": {
+  "issues": [
+   {
+    "type": "no-source-match"
+   }
+  ]
+ },
+ "27. Treasure/27.10.3. Clothing.md": {
+  "issues": [
+   {
+    "type": "no-source-match"
+   }
+  ]
+ },
+ "27. Treasure/27.10.4. Miscellaneous.md": {
+  "book": "toa",
+  "pages": [
+   258
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d20 | |",
+    "type": "header-unlocated"
+   },
+   {
+    "type": "cell-cut-short",
+    "line": 12,
+    "row": "| 10 | Book, Tome, Scroll |",
+    "cell": 2,
+    "text": "book tome scroll",
+    "next": "20 rod sceptre",
+    "found": "p258 y711"
+   }
+  ]
+ },
+ "27. Treasure/27.10.5. Number of Powers.md": {
+  "book": "toa",
+  "pages": [
+   258
+  ],
+  "issues": [
+   {
+    "type": "text-between-rows",
+    "line": 4,
+    "row": "| 3 | Two Obvious & One Discreet |",
+    "next_line": 5,
+    "text": "one discreet one obvious",
+    "found": "p258 y298"
+   }
+  ]
+ },
+ "27. Treasure/27.10.6. Obvious Powers.md": {
+  "book": "toa",
+  "pages": [
+   258,
+   259,
+   260
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d100 | |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 33,
+    "row": "| 89-90 | **Opening** Once every 1d4 days, open any and all locks, manacles, knots, barred",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "opening once every 1 d 4 days open any and all locks manacle",
+    "found": "p260 y220",
+    "parts": [
+     "opening once every 1 d 4 days open any",
+     "and all locks manacles knots barred door"
+    ],
+    "where": [
+     "p260 y220",
+     "p260 y232"
+    ],
+    "owner_lines": [
+     null,
+     33
+    ]
+   },
+   {
+    "type": "text-between-rows",
+    "line": 32,
+    "row": "| 87-88 | **Storm Caller** Once per week, summon light, moderate or heavy weather of your ",
+    "next_line": 33,
+    "text": "opening once every 1 d 4 days open any",
+    "found": "p260 y209"
+   }
+  ]
+ },
+ "27. Treasure/27.10.7. Discreet Powers.md": {
+  "book": "toa",
+  "pages": [
+   260,
+   261
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d100 | |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 19,
+    "row": "| 49-51 | **Sixth Sense** You are never surprised, auto wake from sleep if in danger, and ",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "sixth sense you are never surprised auto wake from sleep if ",
+    "found": "p261 y374",
+    "parts": [
+     "sixth sense you are never surprised auto",
+     "ddm effect each time you may have been s"
+    ],
+    "where": [
+     "p261 y374",
+     "p261 y410"
+    ],
+    "owner_lines": [
+     19,
+     33
+    ]
+   },
+   {
+    "line": 21,
+    "row": "| 54-56 | **True Blood** Immune to poisons and diseases of all kinds (including magical). ",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "true blood immune to poisons and diseases of all kinds inclu",
+    "found": "p261 y515",
+    "parts": [
+     "true blood immune to poisons and disease",
+     "check for a ddm effect each time this pr"
+    ],
+    "where": [
+     "p261 y515",
+     "p261 y539"
+    ],
+    "owner_lines": [
+     21,
+     35
+    ]
+   },
+   {
+    "type": "text-between-rows",
+    "line": 19,
+    "row": "| 49-51 | **Sixth Sense** You are never surprised, auto wake from sleep if in danger, and ",
+    "next_line": 20,
+    "text": "ddm effect each time you may have been surprised but for thi",
+    "found": "p261 y404"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 21,
+    "row": "| 54-56 | **True Blood** Immune to poisons and diseases of all kinds (including magical). ",
+    "next_line": 22,
+    "text": "check for a ddm effect each time this protection triggers",
+    "found": "p261 y538"
+   }
+  ]
+ },
+ "27. Treasure/27.2.1. Valuables A.md": {
+  "book": "toa",
+  "pages": [
+   232,
+   233
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d100 | |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 18,
+    "row": "| 55-57 | A six foot **tapestry** depicting a ferocious battle between armour clad giants ",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "a six foot tapestry depicting a ferocious battle between arm",
+    "found": "p233 y382",
+    "parts": [
+     "a six foot tapestry depicting a ferociou",
+     "amethyst pendant 340 sp"
+    ],
+    "where": [
+     "p233 y382",
+     "p233 y418"
+    ],
+    "owner_lines": [
+     18,
+     null
+    ]
+   },
+   {
+    "type": "cell-cut-short",
+    "line": 18,
+    "row": "| 55-57 | A six foot **tapestry** depicting a ferocious battle between armour clad giants ",
+    "cell": 2,
+    "text": "necklace with an amethyst pendant 340 sp",
+    "next": "intricate silver double",
+    "found": "p233 y382"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 18,
+    "row": "| 55-57 | A six foot **tapestry** depicting a ferocious battle between armour clad giants ",
+    "next_line": 19,
+    "text": "an amethyst pendant sp",
+    "found": "p233 y412"
+   }
+  ]
+ },
+ "27. Treasure/27.2.2. Valuables B.md": {
+  "book": "toa",
+  "pages": [
+   233,
+   234
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d100 | |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 15,
+    "row": "| 46-48 | A platinum **ring** with lion motif (780 sp) or a platinum **compass** (810 sp).",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "a platinum ring with lion motif 780 sp or a platinum compass",
+    "found": "p234 y316",
+    "parts": [
+     "a platinum ring with lion motif 780 sp o",
+     "a platinum compass 810 sp"
+    ],
+    "where": [
+     "p234 y316",
+     "p234 y328"
+    ],
+    "owner_lines": [
+     15,
+     null
+    ]
+   },
+   {
+    "type": "cell-cut-short",
+    "line": 15,
+    "row": "| 46-48 | A platinum **ring** with lion motif (780 sp) or a platinum **compass** (810 sp).",
+    "cell": 2,
+    "text": "otif 780 sp or a platinum compass 810 sp",
+    "next": "the seed of",
+    "found": "p234 y316"
+   }
+  ]
+ },
+ "27. Treasure/27.3.1. Trinkets & Curios.md": {
+  "book": "toa",
+  "pages": [
+   234,
+   235,
+   236,
+   237,
+   238,
+   239
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d100 | |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 26,
+    "row": "| 24 | A hemp **sack** contains a two foot length of reinforced, *silvered* chain, attache",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "a hemp sack contains a two foot length of reinforced silvere",
+    "found": "p236 y70",
+    "parts": [
+     "a hemp sack contains a two foot length o",
+     "reinforced silvered chain attached to si"
+    ],
+    "where": [
+     "p236 y70",
+     "p236 y82"
+    ],
+    "owner_lines": [
+     26,
+     32
+    ]
+   },
+   {
+    "line": 26,
+    "row": "| 24 | A hemp **sack** contains a two foot length of reinforced, *silvered* chain, attache",
+    "type": "cell-not-in-row",
+    "cell": 1,
+    "text": "24",
+    "found": "p236 y82",
+    "where": "p236 y82",
+    "owner_line": 32,
+    "row_band": "p236 y70-70"
+   },
+   {
+    "line": 90,
+    "row": "| 88 | A two inch **lead figurine**, depicting a striking young priestess, holding aloft a",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "a two inch lead figurine depicting a striking young priestes",
+    "found": "p239 y445",
+    "parts": [
+     "a two inch lead figurine depicting a str",
+     "person s ear the tentacled orb animates "
+    ],
+    "where": [
+     "p239 y445",
+     "p239 y505"
+    ],
+    "owner_lines": [
+     94,
+     90
+    ]
+   },
+   {
+    "type": "cell-cut-short",
+    "line": 26,
+    "row": "| 24 | A hemp **sack** contains a two foot length of reinforced, *silvered* chain, attache",
+    "cell": 2,
+    "text": "ain attached to silvered manacles 300 sp",
+    "next": "the local currency",
+    "found": "p236 y70"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 26,
+    "row": "| 24 | A hemp **sack** contains a two foot length of reinforced, *silvered* chain, attache",
+    "next_line": 27,
+    "text": "of reinforced silvered chain attached to silvered manacles s",
+    "found": "p236 y76"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 89,
+    "row": "| 87 | A **brick**. Looks harmless enough, but then, most bricks do. Might be inscribed wi",
+    "next_line": 90,
+    "text": "a two inch lead figurine depicting striking young priestess ",
+    "found": "p239 y436"
+   }
+  ]
+ },
+ "27. Treasure/27.4.1. Lair Treasure.md": {
+  "book": "toa",
+  "pages": [
+   240
+  ],
+  "issues": [
+   {
+    "line": 4,
+    "row": "| 3-4 | 6d100 | **10 x d100** | 1d100 | **1** | 50% | **1** | 2 | **1** |",
+    "type": "cell-misplaced",
+    "cell": 4,
+    "text": "1 d 100",
+    "found": "p240 y259",
+    "row_band": "p240 y284-296",
+    "owner_line": null
+   },
+   {
+    "line": 4,
+    "row": "| 3-4 | 6d100 | **10 x d100** | 1d100 | **1** | 50% | **1** | 2 | **1** |",
+    "type": "cell-not-in-row",
+    "cell": 1,
+    "text": "3 4",
+    "found": "p240 y259",
+    "where": "p240 y259",
+    "owner_line": null,
+    "row_band": "p240 y284-296"
+   },
+   {
+    "line": 4,
+    "row": "| 3-4 | 6d100 | **10 x d100** | 1d100 | **1** | 50% | **1** | 2 | **1** |",
+    "type": "cell-not-in-row",
+    "cell": 2,
+    "text": "6 d 100",
+    "found": "p240 y259",
+    "where": "p240 y259",
+    "owner_line": null,
+    "row_band": "p240 y284-296"
+   },
+   {
+    "line": 4,
+    "row": "| 3-4 | 6d100 | **10 x d100** | 1d100 | **1** | 50% | **1** | 2 | **1** |",
+    "type": "cell-not-in-row",
+    "cell": 6,
+    "text": "50",
+    "found": null,
+    "where": "not in this column of the page",
+    "owner_line": null,
+    "row_band": "p240 y284-296"
+   },
+   {
+    "line": 4,
+    "row": "| 3-4 | 6d100 | **10 x d100** | 1d100 | **1** | 50% | **1** | 2 | **1** |",
+    "type": "cell-not-in-row",
+    "cell": 8,
+    "text": "2",
+    "found": null,
+    "where": "not in this column of the page",
+    "owner_line": null,
+    "row_band": "p240 y284-296"
+   },
+   {
+    "line": 4,
+    "row": "| 3-4 | 6d100 | **10 x d100** | 1d100 | **1** | 50% | **1** | 2 | **1** |",
+    "type": "cell-not-in-row",
+    "cell": 9,
+    "text": "1",
+    "found": null,
+    "where": "not in this column of the page",
+    "owner_line": null,
+    "row_band": "p240 y284-296"
+   },
+   {
+    "line": 9,
+    "row": "| 13+ | 400 x d100 | **100 x d100** | 6d100 | **6** | 4 | **1d3** | 4 | **3** |",
+    "type": "cell-misplaced",
+    "cell": 3,
+    "text": "100 x d 100",
+    "found": "p240 y347",
+    "row_band": "p240 y409-421",
+    "owner_line": 7
+   },
+   {
+    "type": "text-between-rows",
+    "line": 3,
+    "row": "| 1-2 | 3d100 | **5d100** | 2d20 | **50%** | NA | **1** | 1 | **NA** |",
+    "next_line": 4,
+    "text": "x 6 d 100 1 d 100 d 100",
+    "found": "p240 y234"
+   }
+  ]
+ },
+ "27. Treasure/27.5.1. Minor Magical Items.md": {
+  "book": "toa",
+  "pages": [
+   241
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d100 | |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "27. Treasure/27.5.2. Potions.md": {
+  "book": "toa",
+  "pages": [
+   241,
+   242
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d100 | |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "27. Treasure/27.5.3. Old Magic Grimoires.md": {
+  "book": "toa",
+  "pages": [
+   242
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d12 | |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 6,
+    "row": "| 4 | *Phylactery of the Undying* |",
+    "type": "row-cells-apart"
+   },
+   {
+    "type": "cell-cut-short",
+    "line": 7,
+    "row": "| 5 | *Ray of Unmaking* |",
+    "cell": 2,
+    "text": "ray of unmaking",
+    "next": "11 veil of",
+    "found": "p242 y644"
+   }
+  ]
+ },
+ "27. Treasure/27.7.1. Minor Charms.md": {
+  "book": "toa",
+  "pages": [
+   246,
+   247,
+   248,
+   249
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d100 | |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 21,
+    "row": "| 37-38 | A scrap of **mottled skin** bears the tattoo of a black wyvern. Touching the tat",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "a scrap of mottled skin bears the tattoo of a black wyvern t",
+    "found": "p247 y633",
+    "parts": [
+     "a scrap of mottled skin bears the tattoo",
+     "a black wyvern touching the tattoo trans"
+    ],
+    "where": [
+     "p247 y633",
+     "p247 y645"
+    ],
+    "owner_lines": [
+     26,
+     21
+    ]
+   },
+   {
+    "type": "text-between-rows",
+    "line": 20,
+    "row": "| 35-36 | These old, **blood stained bandages** have prayers of healing sewn into them. If",
+    "next_line": 21,
+    "text": "a scrap of mottled skin bears the tattoo",
+    "found": "p247 y624"
+   }
+  ]
+ },
+ "27. Treasure/27.8.1. Major Magical Items.md": {
+  "book": "toa",
+  "pages": [
+   251
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d20 | |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 5,
+    "row": "| 3 | Orb of T'Seroskk p.250 |",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "orb of t seroskk p 250",
+    "found": "p251 y443",
+    "parts": [
+     "orb of",
+     "t seroskk p 250"
+    ],
+    "where": [
+     "p251 y443",
+     "p251 y455"
+    ],
+    "owner_lines": [
+     15,
+     5
+    ]
+   },
+   {
+    "line": 7,
+    "row": "| 5 | Cowl of the North p.250 |",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "cowl of the north p 250",
+    "found": "p251 y516",
+    "parts": [
+     "cowl of the",
+     "north p 250"
+    ],
+    "where": [
+     "p251 y516",
+     "p251 y528"
+    ],
+    "owner_lines": [
+     7,
+     17
+    ]
+   },
+   {
+    "line": 10,
+    "row": "| 8 | Staff of Mensicor p.251 |",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "staff of mensicor p 251",
+    "found": "p251 y625",
+    "parts": [
+     "staff of",
+     "mensicor p 251"
+    ],
+    "where": [
+     "p251 y625",
+     "p251 y637"
+    ],
+    "owner_lines": [
+     null,
+     10
+    ]
+   },
+   {
+    "line": 11,
+    "row": "| 9 | Horn of Karagoss p.252 |",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "horn of karagoss p 252",
+    "found": "p251 y659",
+    "parts": [
+     "horn of",
+     "karagoss p 252"
+    ],
+    "where": [
+     "p251 y659",
+     "p251 y671"
+    ],
+    "owner_lines": [
+     21,
+     11
+    ]
+   },
+   {
+    "type": "text-between-rows",
+    "line": 4,
+    "row": "| 2 | Storm Spear p.249 |",
+    "next_line": 5,
+    "text": "orb of unflinching",
+    "found": "p251 y422"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 7,
+    "row": "| 5 | Cowl of the North p.250 |",
+    "next_line": 8,
+    "text": "north p 250 p 254",
+    "found": "p251 y528"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 9,
+    "row": "| 7 | Talisman of the Black Sun p.251 |",
+    "next_line": 10,
+    "text": "staff of cyldimere p 255",
+    "found": "p251 y613"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 10,
+    "row": "| 8 | Staff of Mensicor p.251 |",
+    "next_line": 11,
+    "text": "horn of dusker s vest",
+    "found": "p251 y643"
+   }
+  ]
+ },
+ "5. Classes/5.10.1. Tricks & Techniques.md": {
+  "book": "toa",
+  "pages": [
+   44
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d12 | |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "5. Classes/5.2.1. Alchemy & Mechanica.md": {
+  "book": "toa",
+  "pages": [
+   19,
+   20
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d12 | |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "5. Classes/5.2.2. Mutagen.md": {
+  "book": "toa",
+  "pages": [
+   20
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d8 | |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "5. Classes/5.5.1. Blessings.md": {
+  "book": "toa",
+  "pages": [
+   27
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d12 | |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 4,
+    "row": "| 2 | **Holy Smite** When you hit with a melee attack, instead of rolling damage you cause",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "holy smite when you hit with a melee attack instead of rolli",
+    "found": "p027 y350",
+    "parts": [
+     "holy smite when you hit with a melee att",
+     "may not be used more than once per comba"
+    ],
+    "where": [
+     "p027 y350",
+     "p027 y398"
+    ],
+    "owner_lines": [
+     4,
+     null
+    ]
+   },
+   {
+    "type": "text-between-rows",
+    "line": 4,
+    "row": "| 2 | **Holy Smite** When you hit with a melee attack, instead of rolling damage you cause",
+    "next_line": 5,
+    "text": "may not be used more than once per combat",
+    "found": "p027 y392"
+   }
+  ]
+ },
+ "5. Classes/5.5.2. Spell Like Blessings.md": {
+  "issues": [
+   {
+    "type": "no-source-match"
+   }
+  ]
+ },
+ "5. Classes/5.6.1. Adaptable.md": {
+  "book": "toa",
+  "pages": [
+   33
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d12 | |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "5. Classes/5.8.1. Monk Techniques.md": {
+  "book": "toa",
+  "pages": [
+   38
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d12 | |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "5. Classes/5.9.1. Rangercraft.md": {
+  "book": "toa",
+  "pages": [
+   41,
+   42
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d12 | |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 8,
+    "row": "| 6 | **Cover Fire** If you or an ally is hit by a ranged attack, you may trigger this tal",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "cover fire if you or an ally is hit by a ranged attack you m",
+    "found": "p042 y335",
+    "parts": [
+     "cover fire if you or an ally is hit by a",
+     "the attack and apply the lowest result y"
+    ],
+    "where": [
+     "p042 y335",
+     "p042 y359"
+    ],
+    "owner_lines": [
+     null,
+     8
+    ]
+   },
+   {
+    "line": 8,
+    "row": "| 6 | **Cover Fire** If you or an ally is hit by a ranged attack, you may trigger this tal",
+    "type": "cell-not-in-row",
+    "cell": 1,
+    "text": "6",
+    "found": "p042 y335",
+    "where": "p042 y335",
+    "owner_line": null,
+    "row_band": "p042 y359-395"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 7,
+    "row": "| 5 | **Off Hand Adept** If Two Weapon Fighting (p.80), before rolling to hit with your Ex",
+    "next_line": 8,
+    "text": "cover fire if you or an ally is hit by a ranged attack you m",
+    "found": "p042 y319"
+   }
+  ]
+ },
+ "6. Party Bonds/6.1.1. Party Bonds.md": {
+  "book": "toa",
+  "pages": [
+   46
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d66 | |",
+    "type": "header-unlocated"
+   },
+   {
+    "type": "cell-cut-short",
+    "line": 3,
+    "row": "| 11 | Lone survivors of a battle |",
+    "cell": 2,
+    "text": "lone survivors of a battle",
+    "next": "31 sailing or",
+    "found": "p046 y293"
+   },
+   {
+    "type": "cell-cut-short",
+    "line": 6,
+    "row": "| 14 | Served in the town militia |",
+    "cell": 2,
+    "text": "served in the town militia",
+    "next": "33 prison cell",
+    "found": "p046 y357"
+   },
+   {
+    "type": "cell-cut-short",
+    "line": 10,
+    "row": "| 22 | Stole something for someone |",
+    "cell": 2,
+    "text": "stole something for someone",
+    "next": "41 plague lockdown",
+    "found": "p046 y442"
+   },
+   {
+    "type": "cell-cut-short",
+    "line": 19,
+    "row": "| 35 | Deceased teacher or mentor |",
+    "cell": 2,
+    "text": "deceased teacher or mentor",
+    "next": "54 bouncers in",
+    "found": "p046 y378"
+   },
+   {
+    "type": "cell-cut-short",
+    "line": 21,
+    "row": "| 41 | Plague lockdown survivors |",
+    "cell": 2,
+    "text": "plague lockdown survivors",
+    "next": "56 saved people",
+    "found": "p046 y421"
+   },
+   {
+    "type": "cell-cut-short",
+    "line": 22,
+    "row": "| 42 | Joint debt to someone/thing |",
+    "cell": 2,
+    "text": "joint debt to someone thing",
+    "next": "61 drinking buddies",
+    "found": "p046 y442"
+   },
+   {
+    "type": "cell-cut-short",
+    "line": 26,
+    "row": "| 46 | Expedition to find a lost ruin |",
+    "cell": 2,
+    "text": "expedition to find a lost ruin",
+    "next": "66 related cousins",
+    "found": "p046 y536"
+   }
+  ]
+ },
+ "7. Unique Features/7.2. Example Unique Features/Pilfer Pouch - d100 Table.md": {
+  "book": "toa",
+  "pages": [
+   50
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d100 | |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 13,
+    "row": "| 21-22 | Pipe & pipeweed |",
+    "type": "row-unlocated"
+   },
+   {
+    "line": 27,
+    "row": "| 49-50 | Signet ring 40 sp |",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "signet ring 40 sp",
+    "found": "p050 y71",
+    "parts": [
+     "signet ring",
+     "40 sp"
+    ],
+    "where": [
+     "p050 y71",
+     "p050 y83"
+    ],
+    "owner_lines": [
+     27,
+     40
+    ]
+   },
+   {
+    "line": 37,
+    "row": "| 69-70 | *Cold iron* chain 2 ft |",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "cold iron chain 2 ft",
+    "found": "p050 y300",
+    "parts": [
+     "cold iron",
+     "chain 2 ft"
+    ],
+    "where": [
+     "p050 y300",
+     "p050 y313"
+    ],
+    "owner_lines": [
+     50,
+     37
+    ]
+   },
+   {
+    "line": 39,
+    "row": "| 73-74 | Roll on *Carry Loot A* table |",
+    "type": "cell-spans-rows",
+    "cell": 2,
+    "text": "roll on carry loot a table",
+    "found": "p050 y349",
+    "parts": [
+     "roll on carry",
+     "loot a table"
+    ],
+    "where": [
+     "p050 y349",
+     "p050 y361"
+    ],
+    "owner_lines": [
+     39,
+     52
+    ]
+   },
+   {
+    "type": "cell-cut-short",
+    "line": 7,
+    "row": "| 9-10 | Gemstone 30 sp |",
+    "cell": 2,
+    "text": "gemstone 30 sp",
+    "next": "33 34",
+    "found": "p050 y548"
+   },
+   {
+    "type": "cell-cut-short",
+    "line": 33,
+    "row": "| 61-62 | Flask of grease |",
+    "cell": 2,
+    "text": "flask of grease",
+    "next": "87 88 cheese wedge",
+    "found": "p050 y214"
+   },
+   {
+    "type": "cell-cut-short",
+    "line": 34,
+    "row": "| 63-64 | Bag of caltrops |",
+    "cell": 2,
+    "text": "bag of caltrops",
+    "next": "89 90",
+    "found": "p050 y237"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 27,
+    "row": "| 49-50 | Signet ring 40 sp |",
+    "next_line": 28,
+    "text": "sp ointment",
+    "found": "p050 y82"
+   },
+   {
+    "type": "text-between-rows",
+    "line": 36,
+    "row": "| 67-68 | Tin of wax |",
+    "next_line": 37,
+    "text": "cold iron ferret or",
+    "found": "p050 y288"
+   }
+  ]
+ },
+ "9. Equipment/9.15.1. Masterforged Weapon.md": {
+  "book": "toa",
+  "pages": [
+   64
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d8 | | |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "9. Equipment/9.15.2. Masterforged Armour.md": {
+  "book": "toa",
+  "pages": [
+   64
+  ],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d6 | | |",
+    "type": "header-unlocated"
+   }
+  ]
+ },
+ "9. Equipment/9.3.1. Common Gear.md": {
+  "book": "toa",
+  "pages": [],
+  "issues": [
+   {
+    "line": 1,
+    "row": "| d66 | |",
+    "type": "header-unlocated"
+   },
+   {
+    "line": 3,
+    "row": "| 11 | Arrows (20\\*) |",
+    "type": "row-unlocated"
+   },
+   {
+    "line": 4,
+    "row": "| 12 | Bedroll |",
+    "type": "row-unlocated"
+   },
+   {
+    "line": 5,
+    "row": "| 13 | Bell, Steel (5) |",
+    "type": "row-unlocated"
+   },
+   {
+    "line": 6,
+    "row": "| 14 | Block & Tackle |",
+    "type": "row-unlocated"
+   },
+   {
+    "line": 7,
+    "row": "| 15 | Candles (5) |",
+    "type": "row-unlocated"
+   },
+   {
+    "line": 8,
+    "row": "| 16 | Canvas, large |",
+    "type": "row-unlocated"
+   },
+   {
+    "line": 9,
+    "row": "| 21 | Chain 10 ft |",
+    "type": "row-unlocated"
+   },
+   {
+    "line": 10,
+    "row": "| 22 | Chalk (5 sticks) |",
+    "type": "row-unlocated"
+   },
+   {
+    "line": 11,
+    "row": "| 23 | Chest, small |",
+    "type": "row-unlocated"
+   },
+   {
+    "line": 12,
+    "row": "| 24 | Clothes |",
+    "type": "row-unlocated"
+   },
+   {
+    "line": 13,
+    "row": "| 25 | Crowbar |",
+    "type": "row-unlocated"
+   },
+   {
+    "line": 14,
+    "row": "| 26 | Grappling Hook |",
+    "type": "row-unlocated"
+   },
+   {
+    "line": 15,
+    "row": "| 31 | Hammer |",
+    "type": "row-unlocated"
+   },
+   {
+    "line": 16,
+    "row": "| 32 | Ink, 1 oz |",
+    "type": "row-unlocated"
+   },
+   {
+    "line": 17,
+    "row": "| 33 | Ladder, 10 ft |",
+    "type": "row-unlocated"
+   },
+   {
+    "line": 18,
+    "row": "| 34 | Lamp |",
+    "type": "row-unlocated"
+   },
+   {
+    "line": 19,
+    "row": "| 35 | Lantern, hooded |",
+    "type": "row-unlocated"
+   },
+   {
+    "line": 20,
+    "row": "| 36 | Lantern, bullseye |",
+    "type": "row-unlocated"
+   },
+   {
+    "line": 21,
+    "row": "| 41 | Mirror, small |",
+    "type": "row-unlocated"
+   },
+   {
+    "line": 22,
+    "row": "| 42 | Oil Flask |",
+    "type": "row-unlocated"
+   },
+   {
+    "line": 23,
+    "row": "| 43 | Parchment (5) |",
+    "type": "row-unlocated"
+   },
+   {
+    "line": 24,
+    "row": "| 44 | Pickaxe |",
+    "type": "row-unlocated"
+   },
+   {
+    "line": 25,
+    "row": "| 44 | Pole, 10 ft |",
+    "type": "row-unlocated"
+   },
+   {
+    "line": 26,
+    "row": "| 46 | Pot, Bowl |",
+    "type": "row-unlocated"
+   },
+   {
+    "line": 27,
+    "row": "| 51 | Rations inc water (5) |",
+    "type": "row-unlocated"
+   },
+   {
+    "line": 28,
+    "row": "| 52 | Rope, 60 ft |",
+    "type": "row-unlocated"
+   },
+   {
+    "line": 29,
+    "row": "| 53 | Sealing Wax |",
+    "type": "row-unlocated"
+   },
+   {
+    "line": 30,
+    "row": "| 54 | Shovel |",
+    "type": "row-unlocated"
+   },
+   {
+    "line": 31,
+    "row": "| 55 | Signal Whistle |",
+    "type": "row-unlocated"
+   },
+   {
+    "line": 32,
+    "row": "| 56 | Spices |",
+    "type": "row-unlocated"
+   },
+   {
+    "line": 33,
+    "row": "| 61 | Spikes, Iron (5) |",
+    "type": "row-unlocated"
+   },
+   {
+    "line": 34,
+    "row": "| 62 | Tent, two person |",
+    "type": "row-unlocated"
+   },
+   {
+    "line": 35,
+    "row": "| 63 | Tobacco (5) |",
+    "type": "row-unlocated"
+   },
+   {
+    "line": 36,
+    "row": "| 64 | Tool |",
+    "type": "row-unlocated"
+   },
+   {
+    "line": 37,
+    "row": "| 65 | Torches (5) |",
+    "type": "row-unlocated"
+   },
+   {
+    "line": 38,
+    "row": "| 66 | Wineskin (5) |",
+    "type": "row-unlocated"
+   }
+  ]
+ }
+}

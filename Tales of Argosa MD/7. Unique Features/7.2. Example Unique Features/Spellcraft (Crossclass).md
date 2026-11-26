@@ -1,0 +1,1 @@
+Gain a limited version of the Magic User *[[5.7. Magic User_#Spellcraft|Spellcraft]]* ability. Learn two spells (one random, one chosen). You begin an adventure with two uses of this ability, and a DDM tally of 3.

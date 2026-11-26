@@ -1,0 +1,3 @@
+These half man, half horse hybrids are xenophobic and highly hostile to strangers encroaching on their territory (typically deep forests, low hills, or expansive plains). Corrupted tribes are a terror to behold, fast and deadly raiders that descend on remote homesteads and outposts to snatch away victims for eating or worse.
+
+**CENTAUR** #2d4 **AC** 12 **HD** 2 **Kick** 1d6 **and Spear** 1d6+1 **Nat 19** Mule Kick: Double damage and knocked prone **S**18 **D**14 **C**15 **I**8 **P**13 **W**13 **Ch**10 **L**5. **Move** Fast, double spear damage on a charge. **Reac** 2-5 Charge! 6-7 Bellicose 8-9 Aloof 10-11 Cautious 12 Inquisitive.

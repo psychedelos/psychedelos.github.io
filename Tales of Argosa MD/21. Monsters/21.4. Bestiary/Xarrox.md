@@ -1,0 +1,3 @@
+The *Xarrox* is a terrifying 10 ft centipede monster with a steel carapace, giant claws, and snapping mandibles. Capable of rapid swimming and earth burrowing, these man eating predators ambush caravans or ships in packs, bursting up from the earth or sea to devour travellers.
+
+**XARROX** #2d4 **AC** 15 **HD** 6 **Bite** 2d8 **Nat 19** *[[13.2.1. Blade Trauma|Blade Trauma]]* (1d8+4) **S**19 **D**13 **C**16 **I**3 **P**10 **W**11 **Ch**4 **L**8. **Burrow** Fast, **Swim** Close. Tremorsense, Echolocation. *Xarrox* claws are perfectly evolved to burrow through earth and soft stone. **Reac** 2-5 Destructive 6-9 Hungry 10-12 Unconcerned.

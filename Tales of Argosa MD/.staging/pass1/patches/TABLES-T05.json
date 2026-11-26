@@ -1,0 +1,106 @@
+{
+ "patches": [],
+ "confirmed": [
+  {
+   "file": "16. Downtime/16.4.1. Carousing.md",
+   "note": "all 50 rows (1-2 .. 99-100) match pp119-123 word for word, incl. bold/italic; header d100 inferred from prose 'd100 roll' (no die printed in the table frame); no footnote in frame"
+  },
+  {
+   "file": "16. Downtime/16.6.1. Pet Qualities.md",
+   "note": "all 36 rows match p124 (two-column table, rendered in roll order 11-66); print duplicates '44' (Stubborn / Grumpy) where 45 is expected -- kept as printed; header d66 from prose 'Roll d66'"
+  },
+  {
+   "file": "16. Downtime/16.6.2. Monstrous Instincts.md",
+   "note": "all 6 rows match p124 incl. emphasis (**Sojourn**, *Prone*, *Dazed*, *Consult the Bones*); header d6 from prose 'rolling 1d6'"
+  },
+  {
+   "file": "16. Downtime/16.9.1. Standard Research.md",
+   "note": "all 4 rows match p127 incl. **Roll 1d6**, **most of it**, **all of it**; row labels printed bold but kept plain as the roll column per convention; header 'Int check' is inferred from prose (not printed) -- left as is"
+  },
+  {
+   "file": "17. GM Tools/17.2.1. Diseases.md",
+   "note": "all 12 rows match pp132-133 (1-7 on p132, 8-12 on p133) incl. every bold/italic span; header d12 from prose 'roll 1d12'"
+  },
+  {
+   "file": "17. GM Tools/17.2.2. Parasites.md",
+   "note": "all 3 rows match p133 incl. ***Luck*** bold-italic and escaped Apothecary\\*/Wilderness Lore\\*; header d3 inferred (nothing printed)"
+  },
+  {
+   "file": "17. GM Tools/17.3.1. Fancy Meeting You Here.md",
+   "note": "all 6 rows match p134 incl. emphasis; header d6 from prose 'roll 1d6'"
+  },
+  {
+   "file": "17. GM Tools/17.3.2. Dungeon Event.md",
+   "note": "all 7 rows (2-3, 4, 5, 6-8, 9, 10, 11-12) match p135 incl. emphasis; header 2d6 from prose 'roll 2d6'; 'bas-relief' hyphen is mid-line in print (real compound)"
+  }
+ ],
+ "rows_checked": {
+  "16. Downtime/16.4.1. Carousing.md": 50,
+  "16. Downtime/16.6.1. Pet Qualities.md": 36,
+  "16. Downtime/16.6.2. Monstrous Instincts.md": 6,
+  "16. Downtime/16.9.1. Standard Research.md": 4,
+  "17. GM Tools/17.2.1. Diseases.md": 12,
+  "17. GM Tools/17.2.2. Parasites.md": 3,
+  "17. GM Tools/17.3.1. Fancy Meeting You Here.md": 6,
+  "17. GM Tools/17.3.2. Dungeon Event.md": 7
+ },
+ "source_typos": [
+  {
+   "file": "16. Downtime/16.4.1. Carousing.md",
+   "quote": "*Cutpurse Cinder Gribshanks (ii) Alchemist Lilian*",
+   "page": 120
+  },
+  {
+   "file": "16. Downtime/16.4.1. Carousing.md",
+   "quote": "You end up with of 1d3+1 adventure hooks",
+   "page": 122
+  },
+  {
+   "file": "16. Downtime/16.4.1. Carousing.md",
+   "quote": "**Desecrater**",
+   "page": 122
+  },
+  {
+   "file": "16. Downtime/16.4.1. Carousing.md",
+   "quote": "Poorly timed boasts of your many plunders reaches the ears",
+   "page": 123
+  },
+  {
+   "file": "16. Downtime/16.6.2. Monstrous Instincts.md",
+   "quote": "Attempts to dissuade it provokes",
+   "page": 124
+  },
+  {
+   "file": "16. Downtime/16.6.1. Pet Qualities.md",
+   "quote": "| 44 | Grumpy |",
+   "page": 124
+  },
+  {
+   "file": "17. GM Tools/17.2.1. Diseases.md",
+   "quote": "(patients as Str zero die)",
+   "page": 133
+  },
+  {
+   "file": "17. GM Tools/17.2.1. Diseases.md",
+   "quote": "chaffing feet",
+   "page": 133
+  },
+  {
+   "file": "17. GM Tools/17.2.2. Parasites.md",
+   "quote": "their vocal chords",
+   "page": 133
+  },
+  {
+   "file": "17. GM Tools/17.2.2. Parasites.md",
+   "quote": "**Throat leeches**",
+   "page": 133
+  }
+ ],
+ "questions": [
+  {
+   "file": "16. Downtime/16.9.1. Standard Research.md",
+   "question": "Header 'Int check' is not printed in the table frame (inferred from prose 'an Int check is required'). Keep, or leave the first header cell empty since the first column is result tiers rather than a die?"
+  }
+ ],
+ "notes": "No patches needed: every row of all 8 notes matches the page images and pNNN.md font data (words, order, die ranges, signs, bold/italic). Automated flags were layout noise (vertically centred die numbers, interleaved column reading order, Gambling prose on p123 picked up as 'words' diffs). Notes contain no out-of-frame prose. Pet Qualities was located on p124 despite the checker note. Die headers d100/d66/d6/d12/2d6 come from the surrounding prose; d3 (Parasites) and 'Int check' (Standard Research) are inferred, nothing printed."
+}

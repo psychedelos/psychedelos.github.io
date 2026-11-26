@@ -1,0 +1,1 @@
+When all your blessing uses have been expended, you may invoke a blessing in exchange for a price or debt brokered with an agent of your deity (played by the GM). If no agreement can be reached, you trigger a *[[15.6.1. Divine Rebuke|Divine Rebuke]]* and your action is wasted. Once per adventure only.

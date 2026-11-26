@@ -1,0 +1,3 @@
+*Invisible Stalkers* are 7 ft supernatural assassins from the void, most commonly encountered as a result of *[[Reaper of Hidden Shadow|Reaper of Hidden Shadow]]* (an *[[27.6. Old Magic Grimoires_|Old Magic Grimoire]]* spell) or wayward DDM effect. They are invisible, winged monsters, compelled to pursue a single mission set by their conjurer until they succeed or are destroyed in the attempt.
+
+**INVISIBLE STALKER** #1 **AC** 16 **HD** 8 **"Bite"** 2d8 **Nat 19** Special **S**18 **D**19 **C**15 **I**15 **P**19 **W**15 **Ch**7 **L**9, **Fly** Norm. *Invisible.* Magic Resistance 50%. On a Nat 19 the target and *Stalker* disappear to the void to finish their duel. If the *Stalker* is defeated, the target reappears. **Reac** As creator's orders or Hostile.

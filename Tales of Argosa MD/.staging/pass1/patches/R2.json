@@ -1,0 +1,448 @@
+{
+ "patches": [],
+ "no_change": [
+  {
+   "file": "21. Monsters/21.4. Bestiary/Gelatinous Cube.md",
+   "issue": "words/insert: 183 183",
+   "reason": "Lone printed page number (183) from the running foot."
+  },
+  {
+   "file": "21. Monsters/21.4. Bestiary/Harpy.md",
+   "issue": "words/insert: 187",
+   "reason": "Lone printed page number (187)."
+  },
+  {
+   "file": "21. Monsters/21.4. Bestiary/Human, Cultist.md",
+   "issue": "words/insert: humans 188",
+   "reason": "Running head/page number ('Humans 188'); group title is carried by the Humans note."
+  },
+  {
+   "file": "21. Monsters/21.4. Bestiary/Lycanthropes.md",
+   "issue": "words/delete: lycanthropes",
+   "reason": "Section title carried by the filename; text matches p192."
+  },
+  {
+   "file": "21. Monsters/21.4. Bestiary/N'Tarc.md",
+   "issue": "words/insert: 193",
+   "reason": "Lone printed page number (193)."
+  },
+  {
+   "file": "21. Monsters/21.4. Bestiary/Ooze, Sentient.md",
+   "issue": "words/delete: ooze traits",
+   "reason": "Words are the embed basename ![[Ooze Traits]] (Phase A roll table)."
+  },
+  {
+   "file": "21. Monsters/21.4. Bestiary/Serpent, Giant.md",
+   "issue": "words/insert: 197 197",
+   "reason": "Lone printed page number (197)."
+  },
+  {
+   "file": "21. Monsters/21.4. Bestiary/Shrieker.md",
+   "issue": "words/delete: shrieker traits",
+   "reason": "Words are the embed basename ![[Shrieker Traits]] (Phase A roll table)."
+  },
+  {
+   "file": "21. Monsters/21.4. Bestiary/Swarm, Bone Cutter Ant.md",
+   "issue": "words/insert: 201",
+   "reason": "Lone printed page number (201)."
+  },
+  {
+   "file": "21. Monsters/21.4. Bestiary/Treant, Bloodroot.md",
+   "issue": "words/insert: 202",
+   "reason": "Lone printed page number (202)."
+  },
+  {
+   "file": "21. Monsters/21.4. Bestiary/Triceratops.md",
+   "issue": "words/insert: 179",
+   "reason": "Lone printed page number (179)."
+  },
+  {
+   "file": "21. Monsters/21.4. Bestiary/Vampire.md",
+   "issue": "words/insert: 18 sudden blob when wounded these urgot split into twin blob forms ac 12 half remaining hp",
+   "reason": "Rows 18-20 of the Urgot Mutations roll table (p204) plus page number; they sit in the Phase A note Mutations.md, embedded by Urgot.md."
+  },
+  {
+   "file": "21. Monsters/21.4. Bestiary/Wolf (or Dog).md",
+   "issue": "words/delete: wolf or",
+   "reason": "Title carried by the filename (text layer reads 'WOLF (0r DOg)'); body matches p174."
+  },
+  {
+   "file": "21. Monsters/21.4. Bestiary/Yellow Mould.md",
+   "issue": "words/insert: 207",
+   "reason": "Lone printed page number (207)."
+  },
+  {
+   "file": "21. Monsters/21.4. Bestiary_.md",
+   "issue": "words/delete: bestiary",
+   "reason": "Section title carried by the filename; text matches p175."
+  },
+  {
+   "file": "22. Naval Combat/22.3. Artillery_.md",
+   "issue": "not-in-text-layer/delete: 22 3 1 artillery repairs the gm decides whether ship repairs can be made at sea or if the ",
+   "reason": "Text is in the p211 text layer verbatim; flag caused by the embed line and column order (Repairs heading prints after the Artillery table). Repairs is a printed heading (larger font), ### correct."
+  },
+  {
+   "file": "22. Naval Combat/22.5. Boarding_.md",
+   "issue": "not-in-text-layer/delete: 22 5 1 boarding crew vs crew at the end of each pc round resolve crew fighting with a 2 d ",
+   "reason": "Text is in the p213 text layer verbatim; flag caused by embed lines 22.5.1/22.5.2 and column order."
+  },
+  {
+   "file": "23. Oracle Tools/23.1. Oracle Tools_.md",
+   "issue": "words/delete: oracle tools",
+   "reason": "Section title carried by the filename."
+  },
+  {
+   "file": "23. Oracle Tools/23.2. Consult the Bones_.md",
+   "issue": "words/delete: yes rune icon",
+   "reason": "Bracketed icon words for the printed rune/sun/skull icons (convention)."
+  },
+  {
+   "file": "23. Oracle Tools/23.2. Consult the Bones_.md",
+   "issue": "words/delete: no rune icon",
+   "reason": "Bracketed icon words for the printed rune/sun/skull icons (convention)."
+  },
+  {
+   "file": "23. Oracle Tools/23.2. Consult the Bones_.md",
+   "issue": "words/delete: yes rune icon",
+   "reason": "Bracketed icon words for the printed rune/sun/skull icons (convention)."
+  },
+  {
+   "file": "23. Oracle Tools/23.2. Consult the Bones_.md",
+   "issue": "words/delete: no rune icon",
+   "reason": "Bracketed icon words for the printed rune/sun/skull icons (convention)."
+  },
+  {
+   "file": "23. Oracle Tools/23.2. Consult the Bones_.md",
+   "issue": "words/delete: sun icon",
+   "reason": "Bracketed icon words for the printed rune/sun/skull icons (convention)."
+  },
+  {
+   "file": "23. Oracle Tools/23.2. Consult the Bones_.md",
+   "issue": "words/delete: skull icon",
+   "reason": "Bracketed icon words for the printed rune/sun/skull icons (convention)."
+  },
+  {
+   "file": "23. Oracle Tools/23.2. Consult the Bones_.md",
+   "issue": "words/delete: sun icon",
+   "reason": "Bracketed icon words for the printed rune/sun/skull icons (convention)."
+  },
+  {
+   "file": "23. Oracle Tools/23.2. Consult the Bones_.md",
+   "issue": "words/delete: skull icon",
+   "reason": "Bracketed icon words for the printed rune/sun/skull icons (convention)."
+  },
+  {
+   "file": "23. Oracle Tools/23.3. Read the Signs_.md",
+   "issue": "emphasis/: plain",
+   "reason": "Labelled card diagram rendered as a bracketed description: card words (REBEL, DEFYING, OUTSPOKEN, UNSTABLE) are image-only, verified on p215 image; printed bold labels Noun/Direction/Verb/Adjective/Ambience, Tone, Mood/Light Sun = Morning are bold in the note; 'direction' flagged plain is the icon word '[direction arrow icon]'."
+  },
+  {
+   "file": "23. Oracle Tools/23.3. Read the Signs_.md",
+   "issue": "words/replace: arrow icon top centre direction defying top right verb sun icon right",
+   "reason": "Labelled card diagram rendered as a bracketed description: card words (REBEL, DEFYING, OUTSPOKEN, UNSTABLE) are image-only, verified on p215 image; printed bold labels Noun/Direction/Verb/Adjective/Ambience, Tone, Mood/Light Sun = Morning are bold in the note; 'direction' flagged plain is the icon word '[direction arrow icon]'."
+  },
+  {
+   "file": "23. Oracle Tools/23.3. Read the Signs_.md",
+   "issue": "not-in-text-layer/delete: outspoken bottom left adjective unstable bottom right ambience tone mood",
+   "reason": "Labelled card diagram rendered as a bracketed description: card words (REBEL, DEFYING, OUTSPOKEN, UNSTABLE) are image-only, verified on p215 image; printed bold labels Noun/Direction/Verb/Adjective/Ambience, Tone, Mood/Light Sun = Morning are bold in the note; 'direction' flagged plain is the icon word '[direction arrow icon]'."
+  },
+  {
+   "file": "24. Rival Adventurers/24.1. Rival Adventurers_.md",
+   "issue": "words/insert: rival adventurers 215 class lvl ac hp luck abilities uses equip",
+   "reason": "Running head/page number and the table's header row repeated on p217 (reference table header printed once in the note)."
+  },
+  {
+   "file": "25. Solo Rules/25.1. Solo Rules_.md",
+   "issue": "words/delete: solo rules",
+   "reason": "Section title carried by the filename."
+  },
+  {
+   "file": "25. Solo Rules/25.2. Lone Wolf_.md",
+   "issue": "words/delete: sun icon",
+   "reason": "Bracketed icon words for the printed sun/skull icons (convention)."
+  },
+  {
+   "file": "25. Solo Rules/25.2. Lone Wolf_.md",
+   "issue": "words/delete: skull icon",
+   "reason": "Bracketed icon words for the printed sun/skull icons (convention)."
+  },
+  {
+   "file": "25. Solo Rules/25.4. Dungeon Generator_.md",
+   "issue": "emphasis/: plain",
+   "reason": "Words are rows of Phase A roll tables 25.4.1-25.4.12 (embedded) plus page numbers; emphasis flags ('site', '10') are misalignments against embed basenames (25.4.1. Dungeon Site, 25.4.10. Room Contents). Prose verified verbatim against p220-223."
+  },
+  {
+   "file": "25. Solo Rules/25.4. Dungeon Generator_.md",
+   "issue": "words/replace: 25",
+   "reason": "Words are rows of Phase A roll tables 25.4.1-25.4.12 (embedded) plus page numbers; emphasis flags ('site', '10') are misalignments against embed basenames (25.4.1. Dungeon Site, 25.4.10. Room Contents). Prose verified verbatim against p220-223."
+  },
+  {
+   "file": "25. Solo Rules/25.4. Dungeon Generator_.md",
+   "issue": "words/insert: obtain capture",
+   "reason": "Words are rows of Phase A roll tables 25.4.1-25.4.12 (embedded) plus page numbers; emphasis flags ('site', '10') are misalignments against embed basenames (25.4.1. Dungeon Site, 25.4.10. Room Contents). Prose verified verbatim against p220-223."
+  },
+  {
+   "file": "25. Solo Rules/25.4. Dungeon Generator_.md",
+   "issue": "words/insert: coin valuables loot 5 sabotage destroy 5 special or magical weapon armour 6 examine solve ",
+   "reason": "Words are rows of Phase A roll tables 25.4.1-25.4.12 (embedded) plus page numbers; emphasis flags ('site', '10') are misalignments against embed basenames (25.4.1. Dungeon Site, 25.4.10. Room Contents). Prose verified verbatim against p220-223."
+  },
+  {
+   "file": "25. Solo Rules/25.4. Dungeon Generator_.md",
+   "issue": "words/insert: 1 performed out of obligation 11 12 special metal weapon 2 knowledge or secret information",
+   "reason": "Words are rows of Phase A roll tables 25.4.1-25.4.12 (embedded) plus page numbers; emphasis flags ('site', '10') are misalignments against embed basenames (25.4.1. Dungeon Site, 25.4.10. Room Contents). Prose verified verbatim against p220-223."
+  },
+  {
+   "file": "25. Solo Rules/25.4. Dungeon Generator_.md",
+   "issue": "words/insert: main opposition 1 3 hd 1 13 14 hd 6 4 6 hd 2 15 16 hd 7 7 8 hd 3 17 18 hd 8 9 10 hd 4 19 h",
+   "reason": "Words are rows of Phase A roll tables 25.4.1-25.4.12 (embedded) plus page numbers; emphasis flags ('site', '10') are misalignments against embed basenames (25.4.1. Dungeon Site, 25.4.10. Room Contents). Prose verified verbatim against p220-223."
+  },
+  {
+   "file": "25. Solo Rules/25.4. Dungeon Generator_.md",
+   "issue": "words/replace: 25",
+   "reason": "Words are rows of Phase A roll tables 25.4.1-25.4.12 (embedded) plus page numbers; emphasis flags ('site', '10') are misalignments against embed basenames (25.4.1. Dungeon Site, 25.4.10. Room Contents). Prose verified verbatim against p220-223."
+  },
+  {
+   "file": "25. Solo Rules/25.4. Dungeon Generator_.md",
+   "issue": "words/insert: food drink 12 13 sleep rest comfort 5 health recovery 14 15 supplies 6 knowledge 16 traini",
+   "reason": "Words are rows of Phase A roll tables 25.4.1-25.4.12 (embedded) plus page numbers; emphasis flags ('site', '10') are misalignments against embed basenames (25.4.1. Dungeon Site, 25.4.10. Room Contents). Prose verified verbatim against p220-223."
+  },
+  {
+   "file": "25. Solo Rules/25.4. Dungeon Generator_.md",
+   "issue": "emphasis/: plain",
+   "reason": "Words are rows of Phase A roll tables 25.4.1-25.4.12 (embedded) plus page numbers; emphasis flags ('site', '10') are misalignments against embed basenames (25.4.1. Dungeon Site, 25.4.10. Room Contents). Prose verified verbatim against p220-223."
+  },
+  {
+   "file": "25. Solo Rules/25.4. Dungeon Generator_.md",
+   "issue": "words/insert: secret and roll again 19 20 working",
+   "reason": "Words are rows of Phase A roll tables 25.4.1-25.4.12 (embedded) plus page numbers; emphasis flags ('site', '10') are misalignments against embed basenames (25.4.1. Dungeon Site, 25.4.10. Room Contents). Prose verified verbatim against p220-223."
+  },
+  {
+   "file": "25. Solo Rules/25.4. Dungeon Generator_.md",
+   "issue": "words/insert: 1 4 empty or effectively so any gear broken spoiled burnt crumbling ransacked etc 5 8 empt",
+   "reason": "Words are rows of Phase A roll tables 25.4.1-25.4.12 (embedded) plus page numbers; emphasis flags ('site', '10') are misalignments against embed basenames (25.4.1. Dungeon Site, 25.4.10. Room Contents). Prose verified verbatim against p220-223."
+  },
+  {
+   "file": "26. Traps/26.4. Simple Traps_.md",
+   "issue": "words/replace: 3",
+   "reason": "Words are rows of Phase A roll tables 26.4.1-26.4.24 (embedded) and embed basenames; page numbers. Prose verified verbatim against p225-228."
+  },
+  {
+   "file": "26. Traps/26.4. Simple Traps_.md",
+   "issue": "words/insert: 1 magic 11 deadfall 2 needle 12 drowning 3 gas 13 rolling boulder 4 arrows or darts 14 rel",
+   "reason": "Words are rows of Phase A roll tables 26.4.1-26.4.24 (embedded) and embed basenames; page numbers. Prose verified verbatim against p225-228."
+  },
+  {
+   "file": "26. Traps/26.4. Simple Traps_.md",
+   "issue": "words/insert: acid minor luck dex save or 2 d 8 damage moderate 4 d 6 damage in a melee area luck dex sa",
+   "reason": "Words are rows of Phase A roll tables 26.4.1-26.4.24 (embedded) and embed basenames; page numbers. Prose verified verbatim against p225-228."
+  },
+  {
+   "file": "26. Traps/26.4. Simple Traps_.md",
+   "issue": "words/replace: 26 4 5 acid 26 4 6 alarm 26 4 7 arrows darts 26 4 8",
+   "reason": "Words are rows of Phase A roll tables 26.4.1-26.4.24 (embedded) and embed basenames; page numbers. Prose verified verbatim against p225-228."
+  },
+  {
+   "file": "26. Traps/26.4. Simple Traps_.md",
+   "issue": "words/replace: 26 4 12",
+   "reason": "Words are rows of Phase A roll tables 26.4.1-26.4.24 (embedded) and embed basenames; page numbers. Prose verified verbatim against p225-228."
+  },
+  {
+   "file": "26. Traps/26.4. Simple Traps_.md",
+   "issue": "words/replace: 26 4 13",
+   "reason": "Words are rows of Phase A roll tables 26.4.1-26.4.24 (embedded) and embed basenames; page numbers. Prose verified verbatim against p225-228."
+  },
+  {
+   "file": "26. Traps/26.4. Simple Traps_.md",
+   "issue": "words/insert: minor chamber locks entry ways luck dex save to wedge something in an opening before doors",
+   "reason": "Words are rows of Phase A roll tables 26.4.1-26.4.24 (embedded) and embed basenames; page numbers. Prose verified verbatim against p225-228."
+  },
+  {
+   "file": "26. Traps/26.4. Simple Traps_.md",
+   "issue": "not-in-text-layer/delete: 26 4 14 magic 26 4 15 monster 26 4 16 needle 26 4 17 pit",
+   "reason": "Words are rows of Phase A roll tables 26.4.1-26.4.24 (embedded) and embed basenames; page numbers. Prose verified verbatim against p225-228."
+  },
+  {
+   "file": "26. Traps/26.4. Simple Traps_.md",
+   "issue": "not-in-text-layer/delete: 26 4 18 poison 26 4 19 relocation 26 4 20 rolling boulder 26 4 21 scything blades 26 4 22 ",
+   "reason": "Words are rows of Phase A roll tables 26.4.1-26.4.24 (embedded) and embed basenames; page numbers. Prose verified verbatim against p225-228."
+  },
+  {
+   "file": "27. Treasure/27.1. Treasure_.md",
+   "issue": "emphasis/: plain",
+   "reason": "Carry Loot A/B and Valuables A table rows are Phase A notes (embedded); 'Carry Loot A' bold flag is the boxed sidebar title (parchment box on p231 -> callout title); page number 230; Valuables text belongs to 27.2."
+  },
+  {
+   "file": "27. Treasure/27.1. Treasure_.md",
+   "issue": "emphasis/: plain",
+   "reason": "Carry Loot A/B and Valuables A table rows are Phase A notes (embedded); 'Carry Loot A' bold flag is the boxed sidebar title (parchment box on p231 -> callout title); page number 230; Valuables text belongs to 27.2."
+  },
+  {
+   "file": "27. Treasure/27.1. Treasure_.md",
+   "issue": "words/insert: b table carry loot acarry loot",
+   "reason": "Carry Loot A/B and Valuables A table rows are Phase A notes (embedded); 'Carry Loot A' bold flag is the boxed sidebar title (parchment box on p231 -> callout title); page number 230; Valuables text belongs to 27.2."
+  },
+  {
+   "file": "27. Treasure/27.1. Treasure_.md",
+   "issue": "words/replace: 27 1 1",
+   "reason": "Carry Loot A/B and Valuables A table rows are Phase A notes (embedded); 'Carry Loot A' bold flag is the boxed sidebar title (parchment box on p231 -> callout title); page number 230; Valuables text belongs to 27.2."
+  },
+  {
+   "file": "27. Treasure/27.1. Treasure_.md",
+   "issue": "words/replace: a carry loot b carry",
+   "reason": "Carry Loot A/B and Valuables A table rows are Phase A notes (embedded); 'Carry Loot A' bold flag is the boxed sidebar title (parchment box on p231 -> callout title); page number 230; Valuables text belongs to 27.2."
+  },
+  {
+   "file": "27. Treasure/27.1. Treasure_.md",
+   "issue": "words/replace: 27",
+   "reason": "Carry Loot A/B and Valuables A table rows are Phase A notes (embedded); 'Carry Loot A' bold flag is the boxed sidebar title (parchment box on p231 -> callout title); page number 230; Valuables text belongs to 27.2."
+  },
+  {
+   "file": "27. Treasure/27.10. Major Item Generator_.md",
+   "issue": "not-in-text-layer/delete: 27 10 1 item type 27 10 2 jewellery 27 10 3 clothing 27 10 4 miscellaneous",
+   "reason": "Embed basenames 27.10.1-27.10.7 and the Side Effects box (bordered box on p261 -> callout), text in the layer verbatim."
+  },
+  {
+   "file": "27. Treasure/27.10. Major Item Generator_.md",
+   "issue": "not-in-text-layer/delete: 27 10 6 obvious powers 27 10 7 discreet powers side effects if desired read the signs to s",
+   "reason": "Embed basenames 27.10.1-27.10.7 and the Side Effects box (bordered box on p261 -> callout), text in the layer verbatim."
+  },
+  {
+   "file": "27. Treasure/27.2. Valuables_.md",
+   "issue": "not-in-text-layer/delete: valuables valuables a valuables a captures lesser art objects 10 360 sp lesser gems 50 500",
+   "reason": "Section title carried by filename plus embed basenames; Valuables A/B intros verified verbatim on p232/p233."
+  },
+  {
+   "file": "27. Treasure/27.5. Minor Magical Items_.md",
+   "issue": "words/insert: potions 1 3 a wisp unseen as the spell 4 6 abrupt diminution you instantly shrink to a min",
+   "reason": "Words are rows of Phase A tables 27.5.1 Minor Magical Items / 27.5.2 Potions (embedded); '27' emphasis is an embed-basename misalignment. Prose verified verbatim against p241-242."
+  },
+  {
+   "file": "27. Treasure/27.5. Minor Magical Items_.md",
+   "issue": "emphasis/: plain",
+   "reason": "Words are rows of Phase A tables 27.5.1 Minor Magical Items / 27.5.2 Potions (embedded); '27' emphasis is an embed-basename misalignment. Prose verified verbatim against p241-242."
+  },
+  {
+   "file": "27. Treasure/27.5. Minor Magical Items_.md",
+   "issue": "words/replace: 5",
+   "reason": "Words are rows of Phase A tables 27.5.1 Minor Magical Items / 27.5.2 Potions (embedded); '27' emphasis is an embed-basename misalignment. Prose verified verbatim against p241-242."
+  },
+  {
+   "file": "27. Treasure/27.5. Minor Magical Items_.md",
+   "issue": "words/replace: potions",
+   "reason": "Words are rows of Phase A tables 27.5.1 Minor Magical Items / 27.5.2 Potions (embedded); '27' emphasis is an embed-basename misalignment. Prose verified verbatim against p241-242."
+  },
+  {
+   "file": "27. Treasure/27.5. Minor Magical Items_.md",
+   "issue": "words/replace: 27 5",
+   "reason": "Words are rows of Phase A tables 27.5.1 Minor Magical Items / 27.5.2 Potions (embedded); '27' emphasis is an embed-basename misalignment. Prose verified verbatim against p241-242."
+  },
+  {
+   "file": "27. Treasure/27.5. Minor Magical Items_.md",
+   "issue": "words/insert: d 4 d 6 d 8 d 10 d 12 2 d 8 2 d 10 etc 98 100 one with the deep as the spell 34 56 mend fl",
+   "reason": "Words are rows of Phase A tables 27.5.1 Minor Magical Items / 27.5.2 Potions (embedded); '27' emphasis is an embed-basename misalignment. Prose verified verbatim against p241-242."
+  },
+  {
+   "file": "27. Treasure/27.8. Major Magical Items/Ballard's Blade.md",
+   "issue": "words/delete: ballard s blade",
+   "reason": "Table title 'BALLARD ' S BLADE' (spaced apostrophe in text layer) vs '### Ballard's Blade'; heading words correct."
+  },
+  {
+   "file": "27. Treasure/27.8. Major Magical Items/Coil of the Worm.md",
+   "issue": "words/insert: plague demon sclasp this fine cooper brooch is fashioned in the likeness of a cockroach de",
+   "reason": "Item entries print as two-page spreads with intro paragraphs and power tables in separate columns; the flagged words belong to neighbouring item notes (each present verbatim in its own note) or to this note's own power table title. Note verified verbatim against the page."
+  },
+  {
+   "file": "27. Treasure/27.8. Major Magical Items/Cowl of the North.md",
+   "issue": "words/insert: 3 rd once per month forcibly present the sword as a holy symbol to banish a supernatural c",
+   "reason": "Item entries print as two-page spreads with intro paragraphs and power tables in separate columns; the flagged words belong to neighbouring item notes (each present verbatim in its own note) or to this note's own power table title. Note verified verbatim against the page."
+  },
+  {
+   "file": "27. Treasure/27.8. Major Magical Items/Dusker's Vest.md",
+   "issue": "words/insert: cyldimere the huntress of men is a black yew bow with a static recurve gifted to the elves",
+   "reason": "Item entries print as two-page spreads with intro paragraphs and power tables in separate columns; the flagged words belong to neighbouring item notes (each present verbatim in its own note) or to this note's own power table title. Note verified verbatim against the page."
+  },
+  {
+   "file": "27. Treasure/27.8. Major Magical Items/Fangs of the Unflinching Mother.md",
+   "issue": "words/insert: mask of the golden one this gold forged mask was crafted by the ancient suun at the height",
+   "reason": "Item entries print as two-page spreads with intro paragraphs and power tables in separate columns; the flagged words belong to neighbouring item notes (each present verbatim in its own note) or to this note's own power table title. Note verified verbatim against the page."
+  },
+  {
+   "file": "27. Treasure/27.8. Major Magical Items/Gnar Sumek.md",
+   "issue": "words/insert: coil of the worm this compact coil of pasty coloured grey striped rope stretches up to 60 ",
+   "reason": "Item entries print as two-page spreads with intro paragraphs and power tables in separate columns; the flagged words belong to neighbouring item notes (each present verbatim in its own note) or to this note's own power table title. Note verified verbatim against the page."
+  },
+  {
+   "file": "27. Treasure/27.8. Major Magical Items/Mask of the Golden One.md",
+   "issue": "not-in-text-layer/delete: mask of the golden one this gold forged mask was crafted by the ancient suun at the height",
+   "reason": "Item entries print as two-page spreads with intro paragraphs and power tables in separate columns; the flagged words belong to neighbouring item notes (each present verbatim in its own note) or to this note's own power table title. Note verified verbatim against the page."
+  },
+  {
+   "file": "27. Treasure/27.8. Major Magical Items/Morg Tor.md",
+   "issue": "words/replace: compass direction hit or miss you roll",
+   "reason": "Item entries print as two-page spreads with intro paragraphs and power tables in separate columns; the flagged words belong to neighbouring item notes (each present verbatim in its own note) or to this note's own power table title. Note verified verbatim against the page."
+  },
+  {
+   "file": "27. Treasure/27.8. Major Magical Items/Orb of T'Seroskk.md",
+   "issue": "words/insert: ballard sblade this gold gilded sword has a red grip and is inset with red opals forged at",
+   "reason": "Item entries print as two-page spreads with intro paragraphs and power tables in separate columns; the flagged words belong to neighbouring item notes (each present verbatim in its own note) or to this note's own power table title. Note verified verbatim against the page."
+  },
+  {
+   "file": "27. Treasure/27.8. Major Magical Items/Plague Demon's Clasp.md",
+   "issue": "not-in-text-layer/delete: plague demon s clasp this fine cooper brooch is fashioned in the likeness of a cockroach d",
+   "reason": "Item entries print as two-page spreads with intro paragraphs and power tables in separate columns; the flagged words belong to neighbouring item notes (each present verbatim in its own note) or to this note's own power table title. Note verified verbatim against the page."
+  },
+  {
+   "file": "27. Treasure/27.8. Major Magical Items/Talisman of the Black Sun.md",
+   "issue": "words/insert: staff of mensicor this dread staff is topped with a flesh sack of bulging eyes toothy maws",
+   "reason": "Item entries print as two-page spreads with intro paragraphs and power tables in separate columns; the flagged words belong to neighbouring item notes (each present verbatim in its own note) or to this note's own power table title. Note verified verbatim against the page."
+  },
+  {
+   "file": "27. Treasure/27.8. Major Magical Items/Yûlnvorg the Bonebreaker.md",
+   "issue": "words/insert: talisman of the black sun this palm sized amulet is made of gold with a glass inset depict",
+   "reason": "Item entries print as two-page spreads with intro paragraphs and power tables in separate columns; the flagged words belong to neighbouring item notes (each present verbatim in its own note) or to this note's own power table title. Note verified verbatim against the page."
+  },
+  {
+   "file": "27. Treasure/27.8. Major Magical Items_.md",
+   "issue": "words/replace: 27 8 1",
+   "reason": "Attunement text belongs to 27.9. Attunement & Using Powers_.md (present there verbatim); embed basename."
+  },
+  {
+   "file": "28. Variant Rules/28.1. Variant Rules_.md",
+   "issue": "words/insert: variant rules 261 261",
+   "reason": "Section title + page number (261)."
+  }
+ ],
+ "source_typos": [
+  {
+   "file": "27. Treasure/27.8. Major Magical Items/Talisman of the Black Sun.md",
+   "quote": "At any later time, you user may spend an action",
+   "page": "p253"
+  },
+  {
+   "file": "27. Treasure/27.8. Major Magical Items/Cowl of the North.md",
+   "quote": "You may treat the casting as a Great Success, is desired.",
+   "page": "p252"
+  },
+  {
+   "file": "27. Treasure/27.8. Major Magical Items/Plague Demon's Clasp.md",
+   "quote": "This fine cooper brooch",
+   "page": "p256"
+  },
+  {
+   "file": "27. Treasure/27.8. Major Magical Items/Dusker's Vest.md",
+   "quote": "Whist in two dimensional shadow form",
+   "page": "p257"
+  },
+  {
+   "file": "27. Treasure/27.8. Major Magical Items/Torc of Sebutett.md",
+   "quote": "Careful examination suggests the your breathing is irregular.",
+   "page": "p255"
+  },
+  {
+   "file": "22. Naval Combat/22.5. Boarding_.md",
+   "quote": "To reflect his, one PC rolls",
+   "page": "p212"
+  }
+ ],
+ "notes": "All 82 R2 flags are known noise: page numbers/running heads, filename-carried titles, embed basenames, Phase A roll-table rows, icon words, and spread/column order on the Major Magical Items pages. No patches. Out-of-scope observations (not applied): (1) 21.4. Bestiary/Mutations.md row 3 has '**Spiked Carapac**e' -- mirrors the p204 font data exactly, but the page image likely prints the whole word bold; worth an image check in the table pass. (2) 26.4. Simple Traps_.md embeds 26.4.14-26.4.24 in alphabetical order, while p228 prints Magic, Poison, Monster, Pit, Needle (the Poison intro paragraph prints before the Magic table); a reorder needs multi-line moves, outside single-line patch rules. (3) Simple Traps list prints '**1. Danger** level' (numeral inside the bold); the note keeps a markdown numbered list '1. **Danger** level' per the numbered-steps convention."
+}

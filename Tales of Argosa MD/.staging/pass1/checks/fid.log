@@ -1,0 +1,12 @@
+# Fidelity check
+
+| type | count |
+|---|---|
+| reordered | 234 |
+| words | 113 |
+| not-in-text-layer | 99 |
+| moved | 12 |
+| no-source-match | 8 |
+| table-emphasis | 5 |
+
+Notes checked: 133; notes with real issues (words/emphasis/table-number): 64

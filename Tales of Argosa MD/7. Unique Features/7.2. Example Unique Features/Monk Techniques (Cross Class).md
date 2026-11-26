@@ -1,0 +1,1 @@
+Gain a limited version of the *[[5.8. Monk_#Monk Techniques|Monk Techniques]]* ability. Learn two techniques. You begin an adventure with two uses of this ability. These abilities do not function if you are wearing medium or heavy armour.

@@ -1,0 +1,15 @@
+id	pdf_pages	plan	scope
+C1	6-31	out/A1/_plan.md	Chapters 1-4 and 5. Classes up to and including the Cultist (5.1 Classes_, Artificer, Barbarian, Bard, Cultist, the Example Gods folder). Stop before the Fighter (PDF 32).
+C2	32-56	out/A1/_plan.md	5. Classes from the Fighter (PDF 32) to the end of the chapter, 6. Party Bonds, 7. Unique Features (all entry notes), 8. Skills & Rerolls.
+C3	57-74	out/A2/_plan.md	9. Equipment, 10. Doing Things, 11. Encounters, and 12. Combat notes that start on PDF 71-74.
+C4	75-92	out/A2/_plan.md	12. Combat notes that start on PDF 75 or later, 13. Injury & Death, 14. Healing & Recovery.
+C5	93-104	out/A3/_plan.md	15. Sorcery rules notes (everything in the plan before the Spells folder): spell casting, duration, sensing magic, illusions, Dark & Dangerous Magic, Divine Blessings & Rebukes, Rites of Atonement, Spell List section.
+C6	105-114	out/A3/_plan.md	15. Sorcery: every spell entry note in the Spells folder, the Spells section note, and Ritual Magic (PDF 113).
+C7	115-130	out/A4/_plan.md	16. Downtime: every phase-C row.
+C8	131-157	out/A5a/_plan.md and out/A5b/_plan.md	17. GM Tools: every phase-C row of both plans (17.1-17.4 rules notes and 17.5. Encounter Tables_).
+C9	158-167	out/A6/_plan.md	18. Hirelings, 19. Madness, 20. Mass Battle: every phase-C row.
+C10	168-188	out/A7/_plan.md	21. Monsters: the rules notes and every bestiary/group note whose heading starts on PDF 168-188.
+C11	189-209	out/A7/_plan.md	21. Monsters: every bestiary/group note whose heading starts on PDF 189-209.
+C12	210-230	out/A8/_plan.md	22. Naval Combat, 23. Oracle Tools, 24. Rival Adventurers, 25. Solo Rules, 26. Traps: every phase-C row.
+C13	231-245	out/A9/_plan.md	27. Treasure sections 27.1-27.6: every phase-C row (incl. the Old Magic Grimoires spell entries).
+C14	246-263	out/A10/_plan.md	27. Treasure sections 27.7 and higher (Minor Charms, Major Magical Items and every item entry, Attunement, generator) and 28. Variant Rules: every phase-C row.

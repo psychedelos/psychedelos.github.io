@@ -1,0 +1,3 @@
+*Fey Creepers* are 8 ft tall humanoid simulacrums of branch and thorn, bound together by hate and infused with the spirit of a sadistic fey. They are temporary constructs, fusing for a specific purpose before melting back into a mound of sap, twig, and soil.
+
+**FEY CREEPER** #2d4 **AC** 14 **HD** 5 **Bite** 1d10 + disease **Nat 19** Partial Engulf: 2d4 on *Creeper's* turn unless Str contest to break free (no action) **S**19 **D**11 **C**14 **I**7 **P**10 **W**15 **Ch**4 **L**8. Disease 1d3: (i) *Pinkscab Palsy*, (ii) *Black Retch*, (iii) *Oozy Eye*. **Reac** As creator's orders or Hostile.

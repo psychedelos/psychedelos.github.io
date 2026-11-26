@@ -1,0 +1,3 @@
+*Werebears* are the least human and most bestial of the werecreatures, preferring to lair in the wilderness, biding their time to strike at woodsmen, explorers, barbarian clans, and so on. They may issue orders to other kinds of bears.
+
+**WEREBEAR** #1 **AC** 13 **HD** 9 **Bite** 2d10 **Nat 19** A *[[Bear|Bear]]* comes to the lycan's aid (if possible) **S**19 **D**10 **C**18 **I**10 **P**15 **W**15 **Ch**7 **L**10, **Move** Fast. Shift form (action). **Regen** (all damage, silver, fire). After combat, anyone injured must make a *Luck* (Con) save or suffer *[[21.3. Special Traits_#Lycanthropes|Lycanthropy]]* **Reac** 2-6 Destructive 7-8 Aggressive 9-10 Sour 11-12 Cautious.

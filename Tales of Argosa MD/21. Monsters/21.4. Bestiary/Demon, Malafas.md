@@ -1,0 +1,3 @@
+*Malafas* are two headed, 12 ft tall infernal giants with tentacle arms. They may transform into any humanoid form, from a small child to a towering seven foot tall man.
+
+**MALAFAS** #1 **AC** 14 **HD** 13 **Tentacle (2)** 2d8 **Nat 19-20** Crush: 1d10 damage on target's turn unless Str contest (action) to break free **S**20 **D**9 **C**19 **I**12 **P**11 **W**17 **Ch**5 **L**13. **Climb** Norm. **Off Turn Attacks.** Magic Resistance 80%. Immune to non magical weapons (excluding *cold iron*, holy water). May switch between humanoid forms (action). **Reac** 2-5 Hostile 6-8 Soul Starved 9-10 Hateful 11-12 Covetous.

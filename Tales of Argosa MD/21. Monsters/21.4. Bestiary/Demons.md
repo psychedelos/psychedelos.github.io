@@ -1,0 +1,1 @@
+Demons share certain characteristics ([[21.3. Special Traits_#Demons & Undead|p.168]]) but come in many shapes and sizes. The grimoires of *Sulénocratha* suggest some may grant wishes, albeit at terrible cost.

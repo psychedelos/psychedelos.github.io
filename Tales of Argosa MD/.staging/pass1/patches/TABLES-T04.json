@@ -1,0 +1,63 @@
+{
+ "patches": [],
+ "confirmed": [
+  {
+   "file": "15. Sorcery/15.8.1. Spell List.md",
+   "note": "all 50 rows match p102-104 (die ranges, name/alt-name/type/effect words, bold on spell names incl. split 'Gabbling of the Jade **Moon**'); no printed column titles; d100 header inferred"
+  },
+  {
+   "file": "15. Sorcery/15.9. Spells/Conjuring.md",
+   "note": "all 4 rows match p106 (bold result labels; no die column, empty header is correct)"
+  },
+  {
+   "file": "15. Sorcery/15.9. Spells/Gabbling of the Jade Moon - Madness.md",
+   "note": "all 4 rows match p108; d4 header inferred from 4 entries"
+  },
+  {
+   "file": "15. Sorcery/15.9. Spells/Enchantment.md",
+   "note": "all 6 rows match p112 incl. bold names and italics (Luck, Near Blind, Dazed, Grabbed, Burning); d6 from 'roll 1d6' in Witchblade text"
+  },
+  {
+   "file": "15. Sorcery/15.10.1. Ritual Components.md",
+   "note": "all 36 rows match p113 incl. bold reagent names and bold/non-bold trailing periods (Manticore., Yegnu. have unbolded periods); d66 from 'rolls d66'"
+  },
+  {
+   "file": "16. Downtime/16.1.1. Downtime Period.md",
+   "note": "all 8 rows match p115; 2d6 from 'roll 2d6'"
+  },
+  {
+   "file": "16. Downtime/16.1.2. Downtime Event.md",
+   "note": "all 6 rows match p115; d6 from 'roll 1d6'"
+  },
+  {
+   "file": "16. Downtime/16.3.1. Complication.md",
+   "note": "all 7 rows match p118; '(i- / iii)' line break correctly rejoined as '(i-iii)'; 2d6 from 'roll 2d6'"
+  }
+ ],
+ "rows_checked": {
+  "15. Sorcery/15.8.1. Spell List.md": 50,
+  "15. Sorcery/15.9. Spells/Conjuring.md": 4,
+  "15. Sorcery/15.9. Spells/Gabbling of the Jade Moon - Madness.md": 4,
+  "15. Sorcery/15.9. Spells/Enchantment.md": 6,
+  "15. Sorcery/15.10.1. Ritual Components.md": 36,
+  "16. Downtime/16.1.1. Downtime Period.md": 8,
+  "16. Downtime/16.1.2. Downtime Event.md": 6,
+  "16. Downtime/16.3.1. Complication.md": 7
+ },
+ "source_typos": [
+  {
+   "file": "15. Sorcery/15.8.1. Spell List.md",
+   "quote": "23-34",
+   "page": 102,
+   "note": "print reads 23-34 for Crush of the Warp; should be 23-24 (kept verbatim)"
+  },
+  {
+   "file": "15. Sorcery/15.8.1. Spell List.md",
+   "quote": "Sever Arcarnum",
+   "page": 103,
+   "note": "likely 'Arcanum' (kept verbatim)"
+  }
+ ],
+ "questions": [],
+ "notes": "All automated flags (header-unlocated, cell-cut-short, cell-misplaced, not-in-text-layer) were layout noise from the multi-column/vertically-centred layout; every row was compared against the page images and a word-level diff against fm/toa text. Die-number bold in the print is not carried into the roll column, consistent with the sample note. No prose outside the frames leaked into the notes and no in-frame key/footnote lines are missing."
+}

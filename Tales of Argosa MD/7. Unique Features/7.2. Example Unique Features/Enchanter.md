@@ -1,0 +1,1 @@
+By fate, fortune, or design, you know the secret to enchanting a single Major Magical Item of your own creation (divine boon, forbidden knowledge, unlocking a family heirloom, awakened bloodline, etc). Work out the item's details with your GM, per the Magical Research rules. When you attempt the ritual to create the item, you count as having all relevant skills.

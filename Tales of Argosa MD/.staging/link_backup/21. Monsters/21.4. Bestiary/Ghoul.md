@@ -1,0 +1,3 @@
+*Ghouls* are intelligent *Undead* that sustain their unnatural existence on a diet of corpses. Their touch carries powerful necromantic energy that paralyses their victim. *Ghouls* tend to hunt in groups, and will sometimes make an opportunistic retreat with a paralysed adventurer in tow, scampering back to their lair before engaging in a feeding frenzy.
+
+**GHOUL** #2d12 **AC** 13 **HD** 3 **Claw** 1d8+1 **+** Paralysed (*Helpless*) for 2d6 mins (a *Luck* (Con) save resists the paralysis) **Nat 19** Frenzy: extra Claw attack **S**16 **D**13 **C**12 **I**10 **P**13 **W**14 **Ch**6 **L**6. **Climb** Normal. *Undead*. **Reac** 2-6 Violent 7-9 Ravenous 10-12 Jealous.

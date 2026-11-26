@@ -1,0 +1,3 @@
+*Rocs* are dragon sized, predatory avians with a hawk or vulture like appearance and shape. They are large enough to carry away elephants, wagons, small boats, and other very large prey. They nest in the highest, most remote mountain ranges, and prefer to feed their chicks live meals where possible. Nests will often have a partner and 1d4 eggs or hatchlings.
+
+**ROC** #1 **AC** 13 **HD** 14 **Claws (2)** 2d6 **and Bite** 2d10+2 **Nat 19-20** Target *Grabbed* & carried away **S**23 **D**13 **C**20 **I**2 **P**14 **W**16 **Ch**10 **L**14, **Fly** Very Far. If the target is surprised, attack with advantage and may carry away their victim (Str contest to resist, no action). **Reac** 2-4 Hostile 5-8 Voracious (especially for horses) 9-10 Inquiring 11-12 Unaware.

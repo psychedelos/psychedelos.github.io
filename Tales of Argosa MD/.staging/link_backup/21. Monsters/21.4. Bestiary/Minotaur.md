@@ -1,0 +1,5 @@
+The *Minotaur* is an eight foot tall humanoid monster, with the head of a bull, furred body, and hooved legs. Most are brutal and of primitive intelligence, keen to devour man flesh should the opportunity present itself. The *Infernal Minotaur* is a half demon variant, with jet black eyes, smoking hooves, and a bloody drool.
+
+**MINOTAUR** #1d8 **AC** 15 **HD** 5+4 **Axe** 2d8 **Nat 19-20** *Blade Trauma* (1d8+4) **S**19 **D**14 **C**19 **I**6 **P**14 **W**15 **Ch**7 **L**8. **Charge (1)** Move Far, as Axe + *Blade Trauma* (1d8+4) **Reac** 2-5 Enraged 6-8 Ravenous 9-10 Aggressive 11-12 Boisterous.
+
+**INFERNAL MINOTAUR** #1 **AC** 15 **HD** 5+4 **Axe** 2d8 **Nat 19-20** *Blade Trauma* (1d8+4) **S**19 **D**14 **C**19 **I**6 **P**14 **W**15 **Ch**7 **L**8. Immune to non magical weapons (excluding *cold iron*, holy water). Magic Resistance 33%. **Roar (1)** as *Glimpse the True Gods* (Great Success). **Reac** 2-8 Hostile 9-12 Malevolent.

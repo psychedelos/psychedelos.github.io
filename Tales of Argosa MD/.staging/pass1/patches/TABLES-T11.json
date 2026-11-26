@@ -1,0 +1,86 @@
+{
+ "patches": [],
+ "confirmed": [
+  {
+   "file": "27. Treasure/27.3.1. Trinkets & Curios.md",
+   "note": "all 96 rows match (1-95, 96-100) pp234-239: die labels, words, bold/italic token-by-token vs pNNN.md font data, layout/row ownership vs images; no frame footnote; no prose outside table"
+  },
+  {
+   "file": "27. Treasure/27.4.1. Lair Treasure.md",
+   "note": "all 7 rows + header match p240 (alternating bold columns SP/VAL A/T&C/MAJOR kept as printed; header row and HD column print bold but are left plain per die/header convention)"
+  },
+  {
+   "file": "27. Treasure/27.5.1. Minor Magical Items.md",
+   "note": "all 4 rows match p241"
+  },
+  {
+   "file": "27. Treasure/27.5.2. Potions.md",
+   "note": "all 27 rows match pp241-242 incl. printed range oddities (34-56, 81-83 / 83-85) kept verbatim"
+  },
+  {
+   "file": "27. Treasure/27.5.3. Old Magic Grimoires.md",
+   "note": "all 12 rows match p242 (two side-by-side halves 1-6 / 7-12 merged in roll order, all italic as printed)"
+  }
+ ],
+ "rows_checked": {
+  "27. Treasure/27.3.1. Trinkets & Curios.md": 96,
+  "27. Treasure/27.4.1. Lair Treasure.md": 7,
+  "27. Treasure/27.5.1. Minor Magical Items.md": 4,
+  "27. Treasure/27.5.2. Potions.md": 27,
+  "27. Treasure/27.5.3. Old Magic Grimoires.md": 12
+ },
+ "source_typos": [
+  {
+   "file": "27. Treasure/27.3.1. Trinkets & Curios.md",
+   "quote": "tiny black writing can see be seen along the shaft",
+   "page": 234
+  },
+  {
+   "file": "27. Treasure/27.3.1. Trinkets & Curios.md",
+   "quote": "(the *Harlot* is in more debt than its worth)",
+   "page": 234
+  },
+  {
+   "file": "27. Treasure/27.3.1. Trinkets & Curios.md",
+   "quote": "depicts a pair mesmerizing snake eyes",
+   "page": 235
+  },
+  {
+   "file": "27. Treasure/27.3.1. Trinkets & Curios.md",
+   "quote": "a wild dog with a one eye appearing",
+   "page": 235
+  },
+  {
+   "file": "27. Treasure/27.3.1. Trinkets & Curios.md",
+   "quote": "An Int (Wilderness Lore\\*) check -- stray asterisk, no matching footnote printed in the table frame",
+   "page": 236
+  },
+  {
+   "file": "27. Treasure/27.3.1. Trinkets & Curios.md",
+   "quote": "If the owner fails an *Death save*",
+   "page": 237
+  },
+  {
+   "file": "27. Treasure/27.3.1. Trinkets & Curios.md",
+   "quote": "made of basalt stone. (26 sp).",
+   "page": 239
+  },
+  {
+   "file": "27. Treasure/27.5.2. Potions.md",
+   "quote": "34-56 Mend Flesh (range overlaps 57-59 numbering; presumably 34-36)",
+   "page": 242
+  },
+  {
+   "file": "27. Treasure/27.5.2. Potions.md",
+   "quote": "81-83 Sharpened Senses / 83-85 Sight Beyond Sight (83 printed twice)",
+   "page": 242
+  },
+  {
+   "file": "27. Treasure/27.5.2. Potions.md",
+   "quote": "Sever Arcarnum (presumably Arcanum), both in the title and the italic spell name",
+   "page": 242
+  }
+ ],
+ "questions": [],
+ "notes": "No patches needed: every row of all five notes matches the print. Automated flags (cell-spans-rows/text-between-rows at Trinkets 24/87/88, Lair 3-4/13+ misplacement, Grimoires 4/5) were layout noise from the interleaved text layer; images confirm the notes. Potions 'Starmaiden/miracle B vs I' emphasis flag is noise from the italic Grimoires row 9 -- the Potions 89-91 title prints bold. Die headers: Trinkets & Curios d100 and Minor Magical Items d100 are inferred (no die printed for those tables; entries run 1-100); Potions d100 from 'Roll 1d100' in the prose; Old Magic Grimoires d12 from 'roll 1d12'. Lair Treasure uses its printed column titles (HD CP SP GP VAL A VAL B T&C MINOR MAJOR)."
+}

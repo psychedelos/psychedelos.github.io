@@ -1,0 +1,3 @@
+*Rock grinders* are eight foot bipeds with eye stalks, mandibles, four claws, and a sturdy carapace. They have animal like intelligence, eating rocks and minerals, drawn to the "resonance" of valuable metals such as silver (which they find irresistible). They eat as they burrow through the earth, their tunnels (usually) collapsing behind them.
+
+**ROCK GRINDER** #2d4 **AC** 15 **HD** 6 **Claws (4)** 1d4+3 **Nat 19** Mandibles: Roll 1d20 on the *[[13.1.1. Injuries & Setbacks|Injuries & Setbacks Table]]* **S**19 **D**10 **C**16 **I**3 **P**11 **W**12 **Ch**4 **L**8, **Burrow** Norm. Tremorsense, sense metals. **Reac** 2-5 Violent 6-8 Starving for metals 9-10 Probing 11-12 Passive.

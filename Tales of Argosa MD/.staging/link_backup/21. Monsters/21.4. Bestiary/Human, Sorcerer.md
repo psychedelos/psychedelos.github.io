@@ -1,0 +1,3 @@
+Sorcerers, wizards, druids, evil priests... whatever label is applied, all spell casters rely on the unpredictable forces of magic for power.
+
+**SORCERER** #1 **AC** 12 **HD** 5 **Sword** 1d8 **Nat 19** The *Sorcerer* triggers a DDM effect **S**9 **D**14 **C**10 **I**16 **P**14 **W**15 **Ch**10 **L**8. Adv resisting mind effects. **Spells (5)** *Crush of the Warp, Hellblast, Mask of Many Faces, Undead Servant, Conjure Entity, Light of Soliri, Arcane Aegis*. **Reac** 2-4 Malevolent 5-7 Reserved 8-9 Civil 10-12 Inquisitive.

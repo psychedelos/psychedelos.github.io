@@ -1,0 +1,3 @@
+*Bulettes* are 12 ft burrowing quadrupeds covered in slick chitin. Their armoured head is beak shaped to assist in tunneling, their jaws filled with a ridiculous number of teeth. They burst up from the earth, taking their prey by surprise before dragging them underground to devour.
+
+**BULETTE** #1 **AC** 18 **HD** 9+4 **Bite** 3d6 **Nat 19-20** *[[13.2.1. Blade Trauma|Blade Trauma]]* (1d6+6) + target dragged beneath ground and begins suffocating; Str check (action, Great Success) to dig free **S**22 **D**13 **C**19 **I**2 **P**13 **W**14 **Ch**3 **L**10. **Burrow** Norm. Tremor sense Far. If attacking with surprise +3 to attack and double damage. **Reac** 2-9 Hungry 10-12 Playful (blissfully unaware of its own strength).

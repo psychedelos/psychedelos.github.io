@@ -1,0 +1,3 @@
+*Projectile Leeches* are one foot rubbery blood suckers that launch themselves through the air to attack. Their rubbery hides are impervious to most blunt force. They react poorly to salt, fire, and acid.
+
+**PROJECTILE LEECH** #5d4 **AC** 10 **HD** 1 **Bite** 1d3 + Blood Drain **Nat 19** Latches onto the target's face causing an *[[13.1.1. Injuries & Setbacks|Eye Injury]]* (*Luck* (Con) save resists, adv if helm) **S**10 **D**10 **C**16 **I**2 **P**14 **W**8 **Ch**3 **L**3, **Leap** Close. Immune to bludgeoning damage. **Blood Drain** on target's turn Str contest (S16) to break free (no action) or 1d4+1 dmg + 1 Con loss. A handful of salt, fire, or acid automatically causes the leech to curl up and die. **Reac** 2-12 Hungry!

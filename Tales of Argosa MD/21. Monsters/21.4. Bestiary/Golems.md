@@ -1,0 +1,1 @@
+The process to create a *Golem* is long, dark, and gruelling, requiring an unwilling sacrifice to provide the construct's animating spark. *Golems* do not sleep, eat, or breathe, and are immune to all mind based effects, including sleep, charm, fear, illusion, stun, and madness. Most *Golems* auto sense physical creatures within Close range.

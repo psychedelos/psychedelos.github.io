@@ -1,0 +1,1 @@
+Most *Giants* are between twelve to twenty feet tall (although larger variants do exist), massive and frightening humanoids filled with arrogance, avarice, and ire. They are strict carnivores and prefer humans to cows or sheep.

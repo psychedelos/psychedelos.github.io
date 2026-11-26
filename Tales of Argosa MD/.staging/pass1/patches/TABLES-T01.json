@@ -1,0 +1,71 @@
+{
+ "patches": [],
+ "confirmed": [
+  {
+   "file": "2. Character Creation/2.1.1. Backgrounds.md",
+   "note": "all 36 rows match (p010-p011): die ranges, every word, bold/italic and header checked against image and font data"
+  },
+  {
+   "file": "6. Party Bonds/6.1.1. Party Bonds.md",
+   "note": "all 36 rows match (p046): die ranges, every word, bold/italic and header checked against image and font data"
+  },
+  {
+   "file": "5. Classes/5.2.1. Alchemy & Mechanica.md",
+   "note": "all 12 rows match (p019-p020): die ranges, every word, bold/italic and header checked against image and font data"
+  },
+  {
+   "file": "5. Classes/5.2.2. Mutagen.md",
+   "note": "all 8 rows match (p020): die ranges, every word, bold/italic and header checked against image and font data"
+  },
+  {
+   "file": "5. Classes/5.5.1. Blessings.md",
+   "note": "all 7 rows match (p027): die ranges, every word, bold/italic and header checked against image and font data"
+  },
+  {
+   "file": "5. Classes/5.5.2. Spell Like Blessings.md",
+   "note": "all 6 rows match (p027): die ranges, every word, bold/italic and header checked against image and font data"
+  },
+  {
+   "file": "5. Classes/5.6.1. Adaptable.md",
+   "note": "all 12 rows match (p033): die ranges, every word, bold/italic and header checked against image and font data"
+  },
+  {
+   "file": "5. Classes/5.8.1. Monk Techniques.md",
+   "note": "all 12 rows match (p038): die ranges, every word, bold/italic and header checked against image and font data"
+  },
+  {
+   "file": "5. Classes/5.9.1. Rangercraft.md",
+   "note": "all 12 rows match (p041-p042): die ranges, every word, bold/italic and header checked against image and font data"
+  },
+  {
+   "file": "5. Classes/5.10.1. Tricks & Techniques.md",
+   "note": "all 12 rows match (p044): die ranges, every word, bold/italic and header checked against image and font data"
+  }
+ ],
+ "rows_checked": {
+  "2. Character Creation/2.1.1. Backgrounds.md": 36,
+  "6. Party Bonds/6.1.1. Party Bonds.md": 36,
+  "5. Classes/5.2.1. Alchemy & Mechanica.md": 12,
+  "5. Classes/5.2.2. Mutagen.md": 8,
+  "5. Classes/5.5.1. Blessings.md": 7,
+  "5. Classes/5.5.2. Spell Like Blessings.md": 6,
+  "5. Classes/5.6.1. Adaptable.md": 12,
+  "5. Classes/5.8.1. Monk Techniques.md": 12,
+  "5. Classes/5.9.1. Rangercraft.md": 12,
+  "5. Classes/5.10.1. Tricks & Techniques.md": 12
+ },
+ "source_typos": [
+  {
+   "file": "2. Character Creation/2.1.1. Backgrounds.md",
+   "quote": "| 61 | **Busker** | +1 Cha | Persuasion. Pipe, Drum, Horn, or Lute |",
+   "page": "p011 (printed 9): full stop after 'Persuasion' where every other row uses a comma; kept verbatim"
+  }
+ ],
+ "questions": [
+  {
+   "file": "5. Classes/5.2.1. Alchemy & Mechanica.md",
+   "question": "p020 prints an optional entry '13. Poison' inside the OPTIONAL sidebar (replaces Black Powder Weapon / Chaintooth Weapon for an Alchemist variant). It is outside the 1d12 roll so the note correctly stops at 12; make sure the Phase C rules note carries the OPTIONAL box and entry 13."
+  }
+ ],
+ "notes": "No patches needed. All automated flags (header-unlocated, cell-not-in-row, cell-cut-short, cell-spans-rows, text-between-rows, words insert/delete) were layout noise: the checker read Backgrounds/Party Bonds columns interleaved, and the list-style class tables are numbered lists in prose whose following headings/prose it treated as row text. Each list entry was compared programmatically against the joined pNNN.md font text (exact match incl. emphasis, e.g. '*Dazed.*', '*Pierce the Veil,*', '***Hunger For Blood***', '**17.**') and visually against the page images. Die headers are inferred/derived from prose: d66 (Backgrounds 'Roll d66', Party Bonds 'roll d66'), d12 (each class list 'roll 1d12'), d8 (Mutagen: 'Roll 1d8 for the Mutagen effect' in Alchemy row 11; rows print as (i)-(viii)), Spell Like Blessings uses d12 values 7-12 as printed. Die numbers print bold in the source but are plain in the notes, consistent with the sample convention. 'Sever Arcarnum' is the book's consistent spelling (10 occurrences), not a typo. Blessings row '7-12' is printed as '7-12.'; note keeps 7-12."
+}

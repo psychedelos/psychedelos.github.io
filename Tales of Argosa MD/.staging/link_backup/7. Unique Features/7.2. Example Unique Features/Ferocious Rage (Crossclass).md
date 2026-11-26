@@ -1,0 +1,1 @@
+Gain a limited version of the Barbarian *Ferocious Rage* ability. Instead of all five rage options, you have access to only one (your choice, the decision is permanent). You begin an adventure with two uses of this ability.

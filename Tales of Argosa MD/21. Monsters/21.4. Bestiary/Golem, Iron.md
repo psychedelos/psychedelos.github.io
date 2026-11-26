@@ -1,0 +1,3 @@
+*Iron Golems* are the greatest of the automatons; 16 ft animated statues of hardened metal. They attack with fists, giant weapons, and a noxious fume blast.
+
+**IRON GOLEM** #1 **AC** 20 **HD** 15+7 **Fists (2)** 2d10 **Nat 18-20** *[[13.2.3. Blunt Trauma|Blunt Trauma]]* (1d6+6) **S**22 **D**12 **C**24 **I**- **P**15 **W**- **Ch**- **L**15. 90% Magic Resistance and 50% chance of negating non magical weapon hits. **Off Turn Attacks.** Immune to fire. **Noxious Breath** Close range, targets in a Close area suffer 10d6 damage (*Luck* (Con) save for half), **recharges** when *[[12.11. Conditions_#Wounded|Wounded]]*. **Reac** As creator's orders.

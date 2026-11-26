@@ -1,0 +1,3 @@
+*Eye Terrors* are floating, bulbous sacks of rubbery flesh with a slavering toothed maw, and eye stalks that shoot beams of magical energy. *Eye Terrors* are intelligent but their thoughts wholly alien and unfathomable to men.
+
+**EYE TERROR** #1 **AC** 17 **HD** 12 **Bite** 3d6 **and 1d6 Eye Stalks** special **Nat 19** Nasty Bite: *Luck* (Dex) save or *Severed Arm (Blade Trauma)* **S**14 **D**12 **C**14 **I**9 **P**19 **W**16 **Ch**1 **L**12. **Fly** Fast. **Eye Stalk Beams** cause random spells (**Int 19**), roll 1d6: (i) *Crush of the Warp,* (ii) *Brain Burst,* (iii) *Flesh to Stone,* (iv) *Dark Slumber,* (v) *Lightning Bolt,* (vi) *Infuse Animus.* **Regen** (1d12, silver, fire). **Reac** 2-4 Enraged 5-9 Hostile 10-12 Vexed.

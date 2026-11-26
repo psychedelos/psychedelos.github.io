@@ -1,0 +1,3 @@
+*Manticores* have the body of a great cat, dragon like wings, a tusked humanoid head, and a tail armed with projectile spines. They often lair on high cliffs, riding the mountain winds to hunt. *Manticores* are generally of low intellect, but some have the capacity to speak.
+
+**MANTICORE** #1 **AC** 13 **HD** 7 **Claws (2)** 1d6 **and Bite** 1d10 **and 1d6 Tail Spikes** 1d6+1 **Nat 19** Wing Batter: *Luck* (Con) save or *[[12.11. Conditions_#Stunned|Stunned]]* **S**19 **D**14 **C**18 **I**8 **P**10 **W**12 **Ch**8 **L**9. **Fly** Fast. **Reac** 2-4 Hostile 5-6 Combative 7-9 Withdrawn 10-12 Interested.

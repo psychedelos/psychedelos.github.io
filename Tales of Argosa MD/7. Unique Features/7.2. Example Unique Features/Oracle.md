@@ -1,0 +1,1 @@
+You interpret the portents of fate through rune bones, tea leaves, etc. Once per adventure, engage in a 1d4 hour ritual to make a *Luck* check. If successful, ask the GM one question about the future. If possible the GM will answer truthfully or provide a useful clue. The answer may be cryptic or in riddles. On a Terrible Failure, you suffer a random Madness.

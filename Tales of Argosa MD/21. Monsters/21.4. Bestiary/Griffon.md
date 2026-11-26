@@ -1,0 +1,3 @@
+*Griffons* are half great cat, half eagle, with wings, talons, and a powerful beak. They are most commonly encountered in mountains or along cliffs, and are fond of horse flesh.
+
+**GRIFFON** #2d6 **AC** 14 **HD** 4 **Claws (2)** 1d6 **and Bite** 2d4 **Nat 19-20** Target *[[12.11. Conditions_#Grabbed|Grabbed]]* & carried away **S**19 **D**15 **C**16 **I**2 **P**14 **W**13 **Ch**8 **L**7, **Fly** Very Fast. Advantage on sight based Perception checks. If the target is surprised, attack with advantage and may carry away their victim (Str contest to resist, no action). **Reac** 2-4 Hostile 5-6 Hungry (especially for dogs, mules, horses) 7-8 Unfriendly 9-10 Watchful 11-12 Intrigued.

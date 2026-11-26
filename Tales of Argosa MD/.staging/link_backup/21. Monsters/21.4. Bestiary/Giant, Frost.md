@@ -1,0 +1,3 @@
+*Frost Giants* are approximately 15 ft tall, living in keeps and caverns in cold or frozen climes. Most are of low intelligence, favour axes, and have never been taught to read or write. Their oral histories are sacred and extensive.
+
+**FROST GIANT** #1d10 **AC** 15 (armour) **HD** 12+4 **Axe** 3d8+2 **Nat 19-20** *Blade Trauma* (1d6+6) **S**21 **D**10 **C**16 **I**8 **P**11 **W**14 **Ch**11 **L**12. Hurl boulder, carts, etc up to Very Far range for 4d6 damage. Immune to cold. Foes of 3 HD or less must make a Will check or flee in terror for 2d6 rounds. *Elder Chiefs* gain **Frost Breath (2)** Up to three targets in a Close area suffer 6d8 damage and *Grabbed* (*Luck* (Dex) save for half, *Grab* Str 15). **Reac** 2-5 Hostile 6-8 Aggressive 9-10 Interested 11-12 Bemused.

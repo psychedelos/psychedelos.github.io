@@ -1,0 +1,3 @@
+*Owlbears* are ten feet of foul tempered, blood thirsty beast, quick to rage if challenged, inconvenienced, or looked at the wrong way. For **Giant Apes** use Owlbear base but Dex 14, throw boulders (Far range, 2d6). If **Winged Apes** also add Fly Norm.
+
+**OWLBEAR** #1 **AC** 13 **HD** 6+3 **Claws (2)** 1d6+2 **and Bite** 2d6 **Nat 19** Limb torn off (*Luck* (Dex) save resists **S**19 **D**12 **C**16 **I**3 **P**10 **W**15 **Ch**4 **L**8. If both claws hit, bear hug: *Luck* (Con) save or *Broken Ribs.* On a Critical hit the *Owlbear* explodes into extreme violence causing 20 hp damage. **Move** Fast. **Reac** 2-6 Enraged 7-9 Violent 10-11 Aggressive 12 Sated.

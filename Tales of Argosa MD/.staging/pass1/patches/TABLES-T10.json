@@ -1,0 +1,196 @@
+{
+ "patches": [],
+ "confirmed": [
+  {
+   "file": "25. Solo Rules/25.4.9. Room Theme.md",
+   "note": "all 14 rows match the print (die ranges, words, bold/italic, header)"
+  },
+  {
+   "file": "25. Solo Rules/25.4.11. Theme Items.md",
+   "note": "all 14 rows match the print (die ranges, words, bold/italic, header)"
+  },
+  {
+   "file": "25. Solo Rules/25.4.12. Complications.md",
+   "note": "all 16 rows match the print (die ranges, words, bold/italic, header)"
+  },
+  {
+   "file": "26. Traps/26.4.1. Danger Level.md",
+   "note": "all 3 rows match the print (die ranges, words, bold/italic, header)"
+  },
+  {
+   "file": "26. Traps/26.4.2. Triggers & Counters.md",
+   "note": "all 6 rows match the print (die ranges, words, bold/italic, header)"
+  },
+  {
+   "file": "26. Traps/26.4.3. Mode of Attack.md",
+   "note": "all 20 rows match the print (die ranges, words, bold/italic, header)"
+  },
+  {
+   "file": "26. Traps/26.4.4. Bypasses.md",
+   "note": "all 5 rows match the print (die ranges, words, bold/italic, header)"
+  },
+  {
+   "file": "26. Traps/26.4.5. Acid.md",
+   "note": "all 4 rows match the print (die ranges, words, bold/italic, header)"
+  },
+  {
+   "file": "26. Traps/26.4.6. Alarm.md",
+   "note": "all 4 rows match the print (die ranges, words, bold/italic, header)"
+  },
+  {
+   "file": "26. Traps/26.4.7. Arrows, Darts.md",
+   "note": "all 4 rows match the print (die ranges, words, bold/italic, header)"
+  },
+  {
+   "file": "26. Traps/26.4.10. Drowning.md",
+   "note": "all 4 rows match the print (die ranges, words, bold/italic, header)"
+  },
+  {
+   "file": "26. Traps/26.4.11. Fire, Explosion.md",
+   "note": "all 4 rows match the print (die ranges, words, bold/italic, header)"
+  },
+  {
+   "file": "26. Traps/26.4.12. Gas.md",
+   "note": "all 4 rows match the print (die ranges, words, bold/italic, header)"
+  },
+  {
+   "file": "26. Traps/26.4.13. Lockdown.md",
+   "note": "all 4 rows match the print (die ranges, words, bold/italic, header)"
+  },
+  {
+   "file": "26. Traps/26.4.8. Crushing Walls.md",
+   "note": "all 4 rows match the print (die ranges, words, bold/italic, header)"
+  },
+  {
+   "file": "26. Traps/26.4.9. Deadfall.md",
+   "note": "all 4 rows match the print (die ranges, words, bold/italic, header)"
+  },
+  {
+   "file": "26. Traps/26.4.14. Magic.md",
+   "note": "all 12 rows match the print (die ranges, words, bold/italic, header)"
+  },
+  {
+   "file": "26. Traps/26.4.15. Monster.md",
+   "note": "all 4 rows match the print (die ranges, words, bold/italic, header)"
+  },
+  {
+   "file": "26. Traps/26.4.16. Needle.md",
+   "note": "all 4 rows match the print (die ranges, words, bold/italic, header)"
+  },
+  {
+   "file": "26. Traps/26.4.17. Pit.md",
+   "note": "all 4 rows match the print (die ranges, words, bold/italic, header)"
+  },
+  {
+   "file": "26. Traps/26.4.18. Poison.md",
+   "note": "all 20 rows match the print (die ranges, words, bold/italic, header)"
+  },
+  {
+   "file": "26. Traps/26.4.19. Relocation.md",
+   "note": "all 4 rows match the print (die ranges, words, bold/italic, header)"
+  },
+  {
+   "file": "26. Traps/26.4.20. Rolling Boulder.md",
+   "note": "all 4 rows match the print (die ranges, words, bold/italic, header)"
+  },
+  {
+   "file": "26. Traps/26.4.21. Scything Blades.md",
+   "note": "all 4 rows match the print (die ranges, words, bold/italic, header)"
+  },
+  {
+   "file": "26. Traps/26.4.22. Self Destruct.md",
+   "note": "all 4 rows match the print (die ranges, words, bold/italic, header)"
+  },
+  {
+   "file": "26. Traps/26.4.23. Snare.md",
+   "note": "all 4 rows match the print (die ranges, words, bold/italic, header)"
+  },
+  {
+   "file": "26. Traps/26.4.24. Spear, Spikes.md",
+   "note": "all 4 rows match the print (die ranges, words, bold/italic, header)"
+  },
+  {
+   "file": "27. Treasure/27.1.1. Carry Loot A.md",
+   "note": "all 8 rows match the print (die ranges, words, bold/italic, header)"
+  },
+  {
+   "file": "27. Treasure/27.1.2. Carry Loot B.md",
+   "note": "all 8 rows match the print (die ranges, words, bold/italic, header)"
+  },
+  {
+   "file": "27. Treasure/27.2.1. Valuables A.md",
+   "note": "all 23 rows match the print (die ranges, words, bold/italic, header)"
+  },
+  {
+   "file": "27. Treasure/27.2.2. Valuables B.md",
+   "note": "all 23 rows match the print (die ranges, words, bold/italic, header)"
+  }
+ ],
+ "rows_checked": {
+  "25. Solo Rules/25.4.9. Room Theme.md": 14,
+  "25. Solo Rules/25.4.11. Theme Items.md": 14,
+  "25. Solo Rules/25.4.12. Complications.md": 16,
+  "26. Traps/26.4.1. Danger Level.md": 3,
+  "26. Traps/26.4.2. Triggers & Counters.md": 6,
+  "26. Traps/26.4.3. Mode of Attack.md": 20,
+  "26. Traps/26.4.4. Bypasses.md": 5,
+  "26. Traps/26.4.5. Acid.md": 4,
+  "26. Traps/26.4.6. Alarm.md": 4,
+  "26. Traps/26.4.7. Arrows, Darts.md": 4,
+  "26. Traps/26.4.10. Drowning.md": 4,
+  "26. Traps/26.4.11. Fire, Explosion.md": 4,
+  "26. Traps/26.4.12. Gas.md": 4,
+  "26. Traps/26.4.13. Lockdown.md": 4,
+  "26. Traps/26.4.8. Crushing Walls.md": 4,
+  "26. Traps/26.4.9. Deadfall.md": 4,
+  "26. Traps/26.4.14. Magic.md": 12,
+  "26. Traps/26.4.15. Monster.md": 4,
+  "26. Traps/26.4.16. Needle.md": 4,
+  "26. Traps/26.4.17. Pit.md": 4,
+  "26. Traps/26.4.18. Poison.md": 20,
+  "26. Traps/26.4.19. Relocation.md": 4,
+  "26. Traps/26.4.20. Rolling Boulder.md": 4,
+  "26. Traps/26.4.21. Scything Blades.md": 4,
+  "26. Traps/26.4.22. Self Destruct.md": 4,
+  "26. Traps/26.4.23. Snare.md": 4,
+  "26. Traps/26.4.24. Spear, Spikes.md": 4,
+  "27. Treasure/27.1.1. Carry Loot A.md": 8,
+  "27. Treasure/27.1.2. Carry Loot B.md": 8,
+  "27. Treasure/27.2.1. Valuables A.md": 23,
+  "27. Treasure/27.2.2. Valuables B.md": 23
+ },
+ "source_typos": [
+  {
+   "file": "26. Traps/26.4.2. Triggers & Counters.md",
+   "quote": "*Sever Arcarnum*",
+   "page": 225
+  },
+  {
+   "file": "27. Treasure/27.2.2. Valuables B.md",
+   "quote": "a bronze **circlet** decorated with opals (570 gp)",
+   "page": 233
+  },
+  {
+   "file": "27. Treasure/27.2.2. Valuables B.md",
+   "quote": "old **title deeds** to *Eventide Isle*, located in one of the larger inlets of *Lake Argos.* (no price printed)",
+   "page": 234
+  },
+  {
+   "file": "27. Treasure/27.2.1. Valuables A.md",
+   "quote": "a silver ivy motif **ring** (70 sp) (no final period)",
+   "page": 232
+  },
+  {
+   "file": "26. Traps/26.4.10. Drowning.md",
+   "quote": "before the room seals (Major, no final period)",
+   "page": 227
+  },
+  {
+   "file": "26. Traps/26.4.12. Gas.md",
+   "quote": "Major (60%) Poison p.222 (no final period)",
+   "page": 227
+  }
+ ],
+ "questions": [],
+ "notes": "Group T10: 31 notes, 244 rows compared against page images p222-p234 and pNNN.md font data; no discrepancies found, no patches. All automated flags were layout noise (vertically centred die numbers, interleaved columns, bold runs split/merged in the text layer, e.g. '**3 Trap**', '***cold iron*** **gauntlets**'). Inferred die headers (from the prose, not printed in the table): Room Theme d20, Theme Items d20 (rolls sit in the second column; first column holds the theme names, header '|  | d20 |'), Complications d20, Danger Level 2d6 (printed as a one-line strip without a title bar), Triggers & Counters 2d6 (TRIGGER/COUNTER are the printed bar titles), Mode of Attack d20, Bypasses 2d6, Magic d12, Poison d20; Carry Loot/Valuables d100 from the cells' 'd100 roll'. Lockdown Moderate prints 'Str (Athletics*)' with an asterisk but no footnote in the frame; kept as printed (escaped)."
+}

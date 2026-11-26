@@ -1,0 +1,3 @@
+*Wraiths* are most commonly encountered as thralls to their *Spectre* master. They may shift between *Incorporeal* and physical form, but physical manifestation causes them great pain and they do so only for short periods. *Wraiths* are often armed with ghostly weapons that sap the will of the living.
+
+**WRAITH** #1d6 **AC** 14 **HD** 6 **Ghostly Sword** 1d12 + 1d4 Will loss **Nat 19** Veil Conduit: targets rolls for a DDM effect **S**- **D**17 **C**- **I**10 **P**13 **W**12 **Ch**7 **L**8. *Undead*. May switch between *Incorporeal* and physical form (action). Creatures drained to zero Will die instantly with a pitiable shriek. **Reac** 2-8 Violent 9-10 Hateful 11-12 Envious.

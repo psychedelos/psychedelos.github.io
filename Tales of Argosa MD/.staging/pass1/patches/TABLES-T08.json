@@ -1,0 +1,96 @@
+{
+ "patches": [],
+ "confirmed": [
+  {
+   "file": "18. Hirelings/18.3.1. Personality.md",
+   "note": "all 42 rows match (die ranges, words, bold/italic) against page image and font data"
+  },
+  {
+   "file": "18. Hirelings/18.4.1. Traits.md",
+   "note": "all 50 rows match (die ranges, words, bold/italic) against page image and font data"
+  },
+  {
+   "file": "18. Hirelings/18.5.1. Hireling Gear.md",
+   "note": "all 12 rows match (die ranges, words, bold/italic) against page image and font data"
+  },
+  {
+   "file": "18. Hirelings/18.5.2. Catchphrase.md",
+   "note": "all 52 rows match (die ranges, words, bold/italic) against page image and font data"
+  },
+  {
+   "file": "18. Hirelings/18.6.1. Hireling Advancement.md",
+   "note": "all 10 rows match (die ranges, words, bold/italic) against page image and font data"
+  },
+  {
+   "file": "18. Hirelings/18.7.1. Payback.md",
+   "note": "all 11 rows match (die ranges, words, bold/italic) against page image and font data"
+  },
+  {
+   "file": "19. Madness/19.1.1. Madness.md",
+   "note": "all 20 rows match (die ranges, words, bold/italic) against page image and font data"
+  },
+  {
+   "file": "20. Mass Battle/20.1.1. Field Events.md",
+   "note": "all 20 rows match (die ranges, words, bold/italic) against page image and font data"
+  },
+  {
+   "file": "20. Mass Battle/20.2.1. Sudden Twist.md",
+   "note": "all 20 rows match (die ranges, words, bold/italic) against page image and font data"
+  },
+  {
+   "file": "21. Monsters/21.2.1. Monsters by HD.md",
+   "note": "all 14 rows match (die ranges, words, bold/italic) against page image and font data"
+  },
+  {
+   "file": "21. Monsters/21.3.1. Heavy Abilities.md",
+   "note": "all 20 rows match (die ranges, words, bold/italic) against page image and font data"
+  }
+ ],
+ "rows_checked": {
+  "18. Hirelings/18.3.1. Personality.md": 42,
+  "18. Hirelings/18.4.1. Traits.md": 50,
+  "18. Hirelings/18.5.1. Hireling Gear.md": 12,
+  "18. Hirelings/18.5.2. Catchphrase.md": 52,
+  "18. Hirelings/18.6.1. Hireling Advancement.md": 10,
+  "18. Hirelings/18.7.1. Payback.md": 11,
+  "19. Madness/19.1.1. Madness.md": 20,
+  "20. Mass Battle/20.1.1. Field Events.md": 20,
+  "20. Mass Battle/20.2.1. Sudden Twist.md": 20,
+  "21. Monsters/21.2.1. Monsters by HD.md": 14,
+  "21. Monsters/21.3.1. Heavy Abilities.md": 20
+ },
+ "source_typos": [
+  {
+   "file": "18. Hirelings/18.3.1. Personality.md",
+   "quote": "Loose Canon",
+   "page": 159
+  },
+  {
+   "file": "18. Hirelings/18.6.1. Hireling Advancement.md",
+   "quote": "Transforms into a beautiful henchmen.",
+   "page": 161
+  },
+  {
+   "file": "20. Mass Battle/20.1.1. Field Events.md",
+   "quote": "a free random henchmen for one year",
+   "page": 164
+  },
+  {
+   "file": "20. Mass Battle/20.2.1. Sudden Twist.md",
+   "quote": "A stray crossbow bolt or distant marksmen takes a pot shot",
+   "page": 166
+  },
+  {
+   "file": "20. Mass Battle/20.2.1. Sudden Twist.md",
+   "quote": "a nameless solider automatically intervenes",
+   "page": 167
+  },
+  {
+   "file": "18. Hirelings/18.5.2. Catchphrase.md",
+   "quote": "I survived the puss puddle plague.",
+   "page": 161
+  }
+ ],
+ "questions": [],
+ "notes": "No discrepancies found. Every row compared against the 200 DPI page images and, programmatically, against pNNN.md (die + cell text incl. emphasis markers as an exact substring of the font-tagged text; all 271 rows matched). Flags in tri/T08.json were all layout noise (multi-line cells beside vertically centred die numbers, interleaved side-by-side columns). Headers: Personality/Traits/Catchphrase d100 and Madness/Field Events/Sudden Twist/Heavy Abilities d20 are inferred or from prose (Catchphrase 'Roll d100', Heavy Abilities 'roll 1d20', Sudden Twist 'Roll 1d20', Field Events 'Roll 1d20'); Hireling Gear 'd4/d12' inferred from prose 'Roll 1d4'/'Roll 1d12'; Advancement/Payback 2d6 from prose. Monsters by HD uses the printed 'HD' column header of the adjacent CUSTOM MONSTERS stat table (HD/AC/DMG/LK) that shares its rows; AC/DMG/LK are not in this note (they belong to the Custom Monsters reference table). Hireling Gear rows 1-4 print Non-Combatant and Mercenary on separate lines -> <br>, a reasonable judgement call. No prose outside the table frames in any note; no typographic punctuation."
+}

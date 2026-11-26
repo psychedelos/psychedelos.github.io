@@ -1,0 +1,25 @@
+{"patches": [],
+ "confirmed": [
+  {"file": "15. Sorcery/15.1.1. Spell Casting.md", "note": "all 4 rows match p093 (Great Success / Success / Failure / Terrible Failure; bold labels, text verbatim). No die and no printed column titles, so empty header is correct."},
+  {"file": "15. Sorcery/15.5.1. Dark and Dangerous Magic.md", "note": "all 70 rows (1-2 .. 100) match p094-p097 word for word with bold/italic per font data; both footnotes (1 Roll 1d12 under the table on p094, 2 Roll 1d8 under the table on p095) present and verbatim. The DDM DIE ref table on p094 is correctly not in this note. d100 header from prose 'roll 1d100'."},
+  {"file": "15. Sorcery/15.6.1. Divine Rebuke.md", "note": "all 45 rows (1-2 .. 100, incl. 21-24, 35-38, 45-48, 61-64, 75-77, 78-80, 89-92 ranges) match p098-p100, emphasis exact. d100 header from prose 'Roll 1d100'."},
+  {"file": "15. Sorcery/15.7.1. Rites of Atonement.md", "note": "all 20 rows match p100-p101, emphasis exact (*Valuables B* italic; '1 x' is the print's multiplication sign in plain form). d20 header from prose 'roll 1d20'. Intro prose correctly left out."}
+ ],
+ "rows_checked": {
+  "15. Sorcery/15.1.1. Spell Casting.md": 4,
+  "15. Sorcery/15.5.1. Dark and Dangerous Magic.md": 70,
+  "15. Sorcery/15.6.1. Divine Rebuke.md": 45,
+  "15. Sorcery/15.7.1. Rites of Atonement.md": 20
+ },
+ "source_typos": [
+  {"file": "15. Sorcery/15.5.1. Dark and Dangerous Magic.md", "quote": "They recede in 1d6 weeks", "page": 94, "issue": "row 8 lacks a final full stop"},
+  {"file": "15. Sorcery/15.5.1. Dark and Dangerous Magic.md", "quote": "Rift:", "page": 96, "issue": "row 61-62 title has a colon; every other Rift row has none"},
+  {"file": "15. Sorcery/15.5.1. Dark and Dangerous Magic.md", "quote": "(ii) *Breathless* (iii) *Called From Below,*", "page": 97, "issue": "row 99: missing comma after Breathless; 'Called From Below' capitalised differently from row 27 'Called from Below'"},
+  {"file": "15. Sorcery/15.5.1. Dark and Dangerous Magic.md", "quote": "your breath condensates", "page": 94, "issue": "row 13-14: 'condensates' for 'condenses' (kept verbatim)"},
+  {"file": "15. Sorcery/15.6.1. Divine Rebuke.md", "quote": "You catch a glimpse your patron's true form", "page": 99, "issue": "row 9-10: missing 'of'"},
+  {"file": "15. Sorcery/15.6.1. Divine Rebuke.md", "quote": "(even chance. If magical the item is damaged instead, not usable until repaired)", "page": 100, "issue": "row 78-80: full stop inside the parenthesis where a comma/close paren seems intended"}
+ ],
+ "questions": [
+  {"file": "15. Sorcery/15.5.1. Dark and Dangerous Magic.md", "question": "The footnote reference markers (monster1, spell2) and the footnote numbers are printed bold superscript (font data: **1**/**2**); the note writes them as plain <sup>1</sup>/<sup>2</sup>. This is the only <sup> use in the vault. Left unpatched as a convention choice; if strict bold is wanted, wrap each as **<sup>1</sup>** (16 instances incl. the two footnote lines)."}
+ ],
+ "notes": "All four notes in T03 verified against page images p093-p101 and the pNNN.md font data; every row's text was machine-compared to the font-tagged text (exact match after line joins) and visually confirmed in the images. All automated flags (row-cells-apart, cell-spans-rows, cell-cut-short, text-between-rows, header-unlocated, words insert/delete) are layout noise: interleaved two-column reading order and page-number/heading text between rows. No typographic punctuation present. No patches needed."}

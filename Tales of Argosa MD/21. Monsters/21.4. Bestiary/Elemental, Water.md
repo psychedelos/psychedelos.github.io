@@ -1,0 +1,3 @@
+*Water Elementals* batter and beat their opponents with their wave like form, trapping foes within their bodies to drown them.
+
+**WATER ELEMENTAL** #1 **AC** 17 **HD** 5/10/15 **Batter** 2d6/2d8/3d6 **Nat 18-20** Special **S**18/19/20 **D**14 **C**20 **I**3 **P**13 **W**16 **Ch**3 **L**8/10/15. **Swim** Fast. Immune to non magical weapons excluding *cold iron.* On a Nat 18-20 **Engulf** Automatic Batter damage on Elemental's turn unless Str contest to break free (victim is drowning and cannot take other actions). The GM decides how many targets may be engulfed at once. **Reac** As creator's orders or 2-5 Aggressive 6-8 Reserved 9-12 Playful.

@@ -1,0 +1,3 @@
+*Skratt* are five foot humanoids with rodent heads, furred bodies, and bald tails. They move on two or four limbs, communicating in chirps, chitters and hisses, baring yellowed fangs when threatened. They are disease laden, skulking scavengers, careful to avoid physical danger where possible. *Skratt* take no prisoners, preferring instead to eat their enemies (they are omnivores, but favour carrion).
+
+**SKRATT** #4d4 **AC** 11 **HD** 1 **Bite** 1d6 **Nat 19** Tail whip 1d6 damage and knocked *[[12.11. Conditions_#Prone|Prone]]* **S**10 **D**13 **C**8 **I**9 **P**13 **W**7 **Ch**8 **L**5, **Climb** Norm. After combat, anyone injured must make a *Luck* (Con) save or suffer a disease. **Reac** 2-3 Starving! 4-5 Hostile 6-8 Threatening 9-10 Reserved 11-12 Fearful.

@@ -1,0 +1,3578 @@
+{
+ "11. Encounters/11.1.1. Reaction.md": {
+  "pages": "toa 68-68",
+  "ratio": 0.9355,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "reaction 2 d 6",
+    "source": ""
+   }
+  ]
+ },
+ "11. Encounters/11.2.1. Activity.md": {
+  "pages": "toa 68-68",
+  "ratio": 0.9561,
+  "issues": [
+   {
+    "type": "words",
+    "op": "delete",
+    "note": "activity d 6",
+    "source": ""
+   },
+   {
+    "type": "words",
+    "op": "delete",
+    "note": "dagger icon",
+    "source": ""
+   },
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "group of people icon",
+    "source": ""
+   },
+   {
+    "type": "words",
+    "op": "delete",
+    "note": "drumstick icon",
+    "source": ""
+   },
+   {
+    "type": "words",
+    "op": "delete",
+    "note": "shovel icon",
+    "source": ""
+   },
+   {
+    "type": "words",
+    "op": "delete",
+    "note": "footprint icon",
+    "source": ""
+   },
+   {
+    "type": "words",
+    "op": "delete",
+    "note": "campfire icon",
+    "source": ""
+   }
+  ]
+ },
+ "12. Combat/12.5.1. Chase Events.md": {
+  "pages": "toa 75-76",
+  "ratio": 0.9982,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "chase events d 20",
+    "source": ""
+   }
+  ]
+ },
+ "13. Injury & Death/13.1.1. Injuries & Setbacks.md": {
+  "pages": "toa 85-88",
+  "ratio": 0.9674,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "injuries setbacks d 20",
+    "source": ""
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "84 blade trauma blade related injuries and setbacks are caused by nat 19 rolls from piercing and cutting weapons such as swords knives and axes but also claws and teeth roll 1 d 12 unless instructed otherwise"
+   }
+  ]
+ },
+ "13. Injury & Death/13.2.1. Blade Trauma.md": {
+  "pages": "toa 86-88",
+  "ratio": 0.6306,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "blade trauma d 12",
+    "source": ""
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "85 blast trauma blast related injuries and setbacks are caused by explosive forces such as hellblast powder grenades ship artillery dragon breath and so on if multiple targets are caught in the area roll for each character gms might prefer to group npcs rolls tend to vary from 1 d 6 to 1 d 12 depending on the attack blunt trauma blunt injuries and related setbacks are caused by bludgeoning weapons such as hammers fists tail whips etc roll 1 d 12 unless instructed otherwise blast trauma 1 2 ragdoll the target is hurled away from the blast gm determines distance and falls prone may stand at the end of their next turn with a successful str will or con check 3 concussion the target falls prone and is stunned standing requires a successful str will or con check 4 structural damage the target falls prone and loses their next turn minor cover is destroyed and large chunks of structural material fall from the ceiling luck save or roll 1 d 10 on the blunt trauma table 5 destroyed gear the target falls prone and loses their next turn a random piece of battle gear is destroyed 6 deafened the target falls prone and is stunned make a luck con save on a success the target is deafened for 2 d 6 minutes if failed the injury is permanent 7 retreat surviving targets and nearby allies must retreat to a safer location and regroup pcs may make a luck will save to resist 8 secondary detonation an explosive device eg fire pot powder keg etc on or nearby the target is detonated by the attack the object explodes in the usual way if inapplicable reroll 9 structural collapse an affected room cavern or vehicle collapses if possible gm s call characters in the area must make a luck dex save or become trapped in rubble helpless until freed or as gm determines 10 arm or hand blown off roll 1 d 6 1 3 hand 4 5 below elbow 6 arm the limb is lost and the target reduced to zero hp 11 leg or foot blown off 1 d 6 1 3 foot 4 5 below knee 6 leg the limb is lost and the target reduced to zero hp 12 vaporised target makes a luck con save at disadvantage or they are vaporised in a red mist dead all gear is destroyed on a success target is reduced to zero hp blunt trauma 1 prone winded knocked to the ground prone and winded target may stand at the end of their next turn with a successful str will or con check 2 head knock a head impact renders the target stunned if wearing a helmet pcs may make a luck con save to negate 3 hurled backwards the target is thrown backwards gm decides how far and falls prone they drop whatever they were holding at the point of impact 4 concussion the target s skull gets hammered causing 1 d 6 int will cha or perc loss if wearing a helmet 1 d 2 the target is also stunned"
+   }
+  ]
+ },
+ "13. Injury & Death/13.2.2. Blast Trauma.md": {
+  "pages": "toa 87-88",
+  "ratio": 0.9939,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "blast trauma d 12",
+    "source": ""
+   }
+  ]
+ },
+ "13. Injury & Death/13.2.3. Blunt Trauma.md": {
+  "pages": "toa 86-88",
+  "ratio": 0.8126,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "blunt trauma d 12",
+    "source": ""
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "10 severed arm or hand roll 1 d 6 1 3 hand 4 5 below elbow 6 arm target s limb is severed unless they make a luck con save on a success the limb is badly lacerated and non functional but will heal with treatment and eight weeks rest 11 severed leg or foot roll 1 d 6 1 3 foot 4 5 below knee 6 leg target s move speed is halved they require a crutch or peg leg to walk and suffer disad on mobility related checks target s limb is severed unless they make a luck con save on a success the limb is badly lacerated and non functional but will heal with treatment and eight weeks rest 12 severed neck target makes a luck con save on a fail they are decapitated instant death on a success they are reduced to zero hit points 86 missile trauma missile injuries and related setbacks are caused by arrows bolts sling stones thrown daggers and so on very large missiles use other tables eg for boulders use the blunt trauma table for explosive catapult ammunition use blast trauma etc roll 1 d 12 unless noted otherwise"
+   }
+  ]
+ },
+ "13. Injury & Death/13.2.4. Missile Trauma.md": {
+  "pages": "toa 86-89",
+  "ratio": 0.9325,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "missile trauma d 12",
+    "source": ""
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "87 toxin trauma toxin traumas are primarily caused by drugs noxious fumes plant spores and mixing potions poisons are covered separately on p 226 unless noted otherwise toxin traumas last twice as long as the original drug or 1 d 6 hours whichever is longer roll 1 d 12 unless noted otherwise"
+   }
+  ]
+ },
+ "13. Injury & Death/13.2.5. Toxin Trauma.md": {
+  "pages": "toa 89-89",
+  "ratio": 0.7946,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "toxin trauma d 12 1 sweaty target sweats uncontrollably the effect is obvious and quickly saturates their clothing disad on all social checks and gains no benefits from resting 2 slurring target has trouble speaking and cannot cast spells pcs may make a luck save to speak clearly for a moment 3 distractible the target becomes highly distractible even amidst the most serious or dangerous situations the gm may require willpower checks to avoid pre occupation with random minutia eg a flickering torch glare from the sun sudden bird call etc if triggered the target may only take actions related to the distraction for 1 d 3 rounds 4 suggestible the target becomes highly suggestible if a version of events or course of action is suggested to them a willpower check is required to resist adopting it",
+    "source": ""
+   }
+  ]
+ },
+ "15. Sorcery/15.1.1. Spell Casting.md": {
+  "pages": "toa 93-93",
+  "ratio": 1.0,
+  "issues": []
+ },
+ "15. Sorcery/15.10.1. Ritual Components.md": {
+  "pages": "toa 113-113",
+  "ratio": 0.3767,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "ritual components d 66",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "31 acid sack of a fire beetle 51 hooks of a hookfurgle"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "32 gills of an argosan strangler 52 flower of a vine puppet"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "33 mane of a manticore 53 horn of an abominable snow beast"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "34 a quart of grey ooze 54 jar of bone cutter ant abdomens"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "35 the slough of a yegnu 55 ears of a batbeast"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "36 1 d 4 pounds of shrieker fungus 56 fog of a dream phantom"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "41 heart of a demon 61 larvae of a flesh burrower"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "42 tentacles of an aberrant terror 62 eye of a cyclops"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "43 carapace of a burn bug 63 essence of shade spectre or wraith"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "44 blood of a deep elf 64 bones of a hag"
+   },
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "26 rib of an animated skeleton 31 acid sack of a fire beetle 32 gills of an argosan strangler 33 mane of a manticore 34 a quart of grey ooze 35 the slough of a yegnu 36 1 d 4 pounds of shrieker fungus 41 heart of a demon 42 tentacles of an aberrant terror 43 carapace of a burn bug 44 blood of a deep elf",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "65 shards of an animated object 26 rib of an animated skeleton"
+   },
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "51 hooks of a hookfurgle 52 flower of a vine puppet 53 horn of an abominable snow beast 54 jar of bone cutter ant abdomens 55 ears of a batbeast 56 fog of a dream phantom 61 larvae of a flesh burrower 62 eye of a cyclops 63 essence of shade spectre or wraith 64 bones of a hag 65 shards of an animated object",
+    "source": ""
+   }
+  ]
+ },
+ "15. Sorcery/15.5.1. Dark and Dangerous Magic.md": {
+  "pages": "toa 94-97",
+  "ratio": 0.9634,
+  "issues": [
+   {
+    "type": "reordered",
+    "op": "delete",
+    "note": "d 100",
+    "source": ""
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "ddm die level 1 3 1 d 8 level 7 9 1 d 12 level 4 6 1 d 10 magic item 1 d 20 93 2 roll 1 d 8 i place of perfect night ii glimpse the true gods iii beseech the ancient ones iv gabbling of the jade moon v brain burst vi strange joining link between you and target vii hellblast viii flesh to stone"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "94"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "95"
+   },
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "1 roll 1 d 12 i gmorsha ii shade iii surgat iv doppelganger v infernal minotaur vi gibbering terror vii chuul viii grey ooze ix invisible stalker x tentacle spawn xi yegnu xii spectre 2 roll 1 d 8 i place of perfect night ii glimpse the true gods iii beseech the ancient ones iv gabbling of the jade moon v brain burst vi strange joining link between you and target vii hellblast viii flesh to stone",
+    "source": ""
+   }
+  ]
+ },
+ "15. Sorcery/15.6.1. Divine Rebuke.md": {
+  "pages": "toa 99-100",
+  "ratio": 0.9337,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "divine rebuke d 100 1 2 dark interference roll on the dark dangerous magic table 3 4 broken icon your holy symbol no longer functions and appears tarnished cracked or faded atonement ends the rebuke 5 6 mark of shame a holy brand burns itself onto your face hand or chest clearly indicating your divine disfavour atonement heals the brand overnight 7 8 divine warning you are wracked by a momentary heart attack 1 d 6 con loss",
+    "source": ""
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "98 rites of atonement in some instances removing a divine rebuke requires the cultist to complete a rite of atonement some example rites are provided below roll 1 d 20 or choose from the table reroll or substitute rites inconsistent with the patron s ethos"
+   }
+  ]
+ },
+ "15. Sorcery/15.7.1. Rites of Atonement.md": {
+  "pages": "toa 100-101",
+  "ratio": 0.7084,
+  "issues": [
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "in some instances removing a divine rebuke requires the cultist to complete a rite of atonement some example rites are provided below roll 1"
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "or choose from the table reroll or substitute rites inconsistent with the patron s ethos 73 74 on your belly you are compelled to prostrate yourself upon the ground dropping whatever you are holding on subsequent turns a luck will save is required to end the effect 75 77 stigmatic flagellation you instantly manifest 1 d 8 level damage 78 80 timely offering your weapon shield or armour breaks even chance if magical the item is damaged instead not usable until repaired 81 82 cast out you suffer disad on social checks as others instinctively shun you atonement ends the rebuke 83 84 toll of mortals you age 3 d 6 years no mortal magic can restore the lost years 85 86 redeeming agony you are wracked with cleansing pain 1 d 4 dex loss 87 88 struck deaf you are deaf for 1 d 4 months atonement ends the rebuke 89 92 i summon thee you vanish from existence for 1 d 6 rounds then reappear within close range of your original location with no memory of where you went but restore 1 luck 93 94 struck blind you are blind for 1 d 4 weeks atonement ends the rebuke 95 96 struck mute you cannot speak or invoke blessings for 1 d 4 weeks atonement ends the rebuke 97 98 repent or perish you lose 1 d 2 con every dawn not recoverable by any means until dead at zero con atonement ends the rebuke 99 final judgment you die immediately in spectacular fashion in a manner befitting your god or perhaps an interfering alien force a luck will save reduces you to zero hp instead 100 wrath of the gods as unchain the world eater p 231 centred on you rites of atonement"
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "99"
+   }
+  ]
+ },
+ "15. Sorcery/15.8.1. Spell List.md": {
+  "pages": "toa 102-104",
+  "ratio": 0.9961,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "spell list d 100",
+    "source": ""
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "101"
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "102"
+   }
+  ]
+ },
+ "15. Sorcery/15.9. Spells/Conjuring.md": {
+  "pages": "toa 106-106",
+  "ratio": 1.0,
+  "issues": []
+ },
+ "15. Sorcery/15.9. Spells/Enchantment.md": {
+  "pages": "toa 112-112",
+  "ratio": 0.9816,
+  "issues": [
+   {
+    "type": "words",
+    "op": "delete",
+    "note": "enchantment d 6",
+    "source": ""
+   }
+  ]
+ },
+ "15. Sorcery/15.9. Spells/Gabbling of the Jade Moon - Madness.md": {
+  "pages": "toa 108-108",
+  "ratio": 0.9245,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "gabbling of the jade moon madness d 4",
+    "source": ""
+   }
+  ]
+ },
+ "16. Downtime/16.1.1. Downtime Period.md": {
+  "pages": "toa 115-115",
+  "ratio": 0.6849,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "downtime period 2 d 6",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "8 two months"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "9 three months"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "10 six months"
+   },
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "8 two months 9 three months 10 six months",
+    "source": ""
+   }
+  ]
+ },
+ "16. Downtime/16.1.2. Downtime Event.md": {
+  "pages": "toa 115-115",
+  "ratio": 0.6522,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "downtime event d 6",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "4 forced scenario"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "5 local event"
+   },
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "4 forced scenario 5 local event",
+    "source": ""
+   }
+  ]
+ },
+ "16. Downtime/16.3.1. Complication.md": {
+  "pages": "toa 118-118",
+  "ratio": 0.9521,
+  "issues": [
+   {
+    "type": "reordered",
+    "op": "delete",
+    "note": "complication",
+    "source": ""
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "on the table below on a terrible failure roll with disadvantage if successful the deal is completed and avoids a complication but the pc begins their next adventure with their luck reduced by 1 point complication"
+   }
+  ]
+ },
+ "16. Downtime/16.4.1. Carousing.md": {
+  "pages": "toa 119-123",
+  "ratio": 0.7697,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "carousing d 100 1 2 chains you awaken in chains as part of a nydissian slave caravan word of your predicament somehow makes it to your allies consult the bones to determine if the caravan is delayed while checking supplies the following day due to depart in 1 d 4 hours 3 4 crime your drunken endeavours lead you to commit a crime roll 1 d 6 i street graffiti ii pilfered tavern shot glasses iii cosmetic arson iv lecherous leering v affray vi wounding you are wanted by the guard for questioning for the next 1 d 6 months 5 6 cells you wake up in the watch cells on drunk and disorderly charges with no memory of what occurred you are fined 5 d 10 20 sp with a side order of shame shame shame 7 8 spiked a rapscallion spikes your drink make a con check on a fail the rogue steals your coin pouch lose 6 d 10 sp while you sleep it off on a success the thief beats a hasty exit instead either way if you make an int check you remember their face 9 10 moah you awaken with the mother of all hangovers you cannot function for twenty four hours and suffer the effects of head injury and system shock from the injuries setbacks table",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "3 4 crime your drunken endeavours lead you to commit a crime roll 1 d 6 i street graffiti ii pilfered tavern shot glasses iii cosmetic arson iv lecherous leering v affray vi wounding you are wanted by the guard for questioning for the next 1 d 6 months 5 6 cells you wake up in the watch cells on drunk and disorderly charges with no memory of what occurred you are fined 5 d 10 20 sp with a side order of shame shame shame 7 8 spiked a rapscallion spikes your drink make a con check on a fail the rogue steals your coin pouch lose 6 d 10 sp while you sleep it off on a success the thief beats a hasty exit instead either way if you make an int check you remember their face 9 10 moah you awaken with the mother of all hangovers you cannot function for twenty four hours and suffer the effects of head injury and system shock from the injuries setbacks table carousing 1 2 chains you awaken in chains as part of a nydissian slave caravan word of your predicament somehow makes it to your allies consult the bones to determine if the caravan is delayed while checking supplies the following day due to depart in 1 d 4 hours"
+   },
+   {
+    "type": "words",
+    "op": "replace",
+    "note": "23 24 shrooms someone breaks out the shrooms puff pipe yellow lotus powder etc which your intoxicated self can t resist roll 1 d 6 i you wake up with a new tattoo ii you wake up with a temporary madness that lasts until the end of your next adventure iii you wake up on the couch of a new friend iv you wake up three days later with no memory of what occurred v you wake up bruised and missing 1 d 3 teeth vi you wake up in bed with a married highborn who is desperate to sneak you out asap make a dex stealth check if successful you escape if failed you are caught gm decides repercussions 25 26 axe at some point in the night an axe throwing competition becomes a thing roll 1 d 6 i winner maybe you are half dwarf after all gain 4 d 6 sp ii runner up iii woeful iv dead last v you injure the house cat or other animal banned for 2 d 6 months or until they get a new pet vi you injure a staff member roll 1 d 12 on the blade trauma table if a permanent injury you are banned for life else one year",
+    "source": "118"
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "23 24 shrooms someone breaks out the shrooms puff pipe yellow lotus powder etc which your intoxicated self can t resist roll 1 d 6 i you wake up with a new tattoo ii you wake up with a temporary madness that lasts until the end of your next adventure iii you wake up on the couch of a new friend iv you wake up three days later with no memory of what occurred v you wake up bruised and missing 1 d 3 teeth vi you wake up in bed with a married highborn who is desperate to sneak you out asap make a dex stealth check if successful you escape if failed you are caught gm decides repercussions 25 26 axe at some point in the night an axe throwing competition becomes a thing roll 1 d 6 i winner maybe you are half dwarf after all gain 4 d 6 sp ii runner up iii woeful iv dead last v you injure the house cat or other animal banned for 2 d 6 months or until they get a new pet vi you injure a staff member roll 1 d 12 on the blade trauma table if a permanent injury you are banned for life else one year 119"
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "120 87 88 hireling by some miracle aka alcohol you attract the services of 1 d 3 random hirelings who agree to work with you for free for one week if you want to retain them beyond this you ll have to pay as normal 89 90 fight you get into a physical altercation with a powerful npc roll 1 d 4 i guard captain ii prominent merchant iii senior priestess iv city administrator you are escorted from the settlement by the watch and barred entry for 1 d 6 6 months luck cha save for half 91 92 desecrater angry at the heavens for some past calamity your drunken self decides payback is in order and defiles a temple graveyard sacred object or similar consult the bones to find out if you suffer a divine rebuke otherwise lose 1 luck until the end of your next adventure 93 94 witch in your well sotted state you insult a secret witch who reciprocates with a curse roll on the ddm table"
+   },
+   {
+    "type": "words",
+    "op": "replace",
+    "note": "87 88 hireling by some miracle aka alcohol you attract",
+    "source": "121 adventurers gamble with their lives so why not their coin given"
+   },
+   {
+    "type": "words",
+    "op": "replace",
+    "note": "services",
+    "source": "objective"
+   },
+   {
+    "type": "words",
+    "op": "replace",
+    "note": "1 d 3 random hirelings who agree",
+    "source": "toa is for the party"
+   },
+   {
+    "type": "words",
+    "op": "replace",
+    "note": "work with you",
+    "source": "go on exciting adventures in search of wealth and power the scope"
+   },
+   {
+    "type": "words",
+    "op": "replace",
+    "note": "free for",
+    "source": "making coin via gambling is intentionally limited during downtime an adventurer may spend"
+   },
+   {
+    "type": "table-emphasis",
+    "word": "one",
+    "note": "plain",
+    "source": "B",
+    "context": "for free for one week if you"
+   },
+   {
+    "type": "table-emphasis",
+    "word": "week",
+    "note": "plain",
+    "source": "B",
+    "context": "free for one week if you want"
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "gambling wagering up to 100 sp during this time at the end of this period the gambler makes a luck save"
+   },
+   {
+    "type": "words",
+    "op": "replace",
+    "note": "you want",
+    "source": "the pc attempts"
+   },
+   {
+    "type": "words",
+    "op": "replace",
+    "note": "retain them beyond this you ll have",
+    "source": "cheat or leverage some advantage the gm makes a ruling and determines any modifiers if the luck save is failed the pc loses their coin on a terrible failure they lose double their wager if they cannot pay they are indebted"
+   },
+   {
+    "type": "reordered",
+    "op": "delete",
+    "note": "pay as normal 89 90 fight you get into",
+    "source": ""
+   },
+   {
+    "type": "words",
+    "op": "replace",
+    "note": "physical altercation with a powerful npc roll 1 d 4 i guard captain ii prominent merchant iii senior priestess iv city administrator you are escorted from the settlement by the watch and barred entry for",
+    "source": "local criminal or made an example of blunt trauma"
+   },
+   {
+    "type": "reordered",
+    "op": "replace",
+    "note": "months luck cha save for half 91 92 desecrater angry at",
+    "source": "but no permanent injuries if successful"
+   },
+   {
+    "type": "words",
+    "op": "replace",
+    "note": "heavens for some past calamity your drunken self decides payback is in order and defiles",
+    "source": "pc doubles their money or on"
+   },
+   {
+    "type": "words",
+    "op": "replace",
+    "note": "temple graveyard sacred object or similar consult",
+    "source": "great success triples it if they win"
+   },
+   {
+    "type": "table-emphasis",
+    "word": "the",
+    "note": "I",
+    "source": "plain",
+    "context": "or similar consult the bones to find"
+   },
+   {
+    "type": "words",
+    "op": "replace",
+    "note": "bones to find out if you suffer a divine rebuke otherwise lose 1 luck until the end of your",
+    "source": "pc begins their"
+   },
+   {
+    "type": "reordered",
+    "op": "delete",
+    "note": "93 94 witch in your well sotted state you insult a secret witch who reciprocates",
+    "source": ""
+   },
+   {
+    "type": "words",
+    "op": "replace",
+    "note": "a curse roll on the ddm table",
+    "source": "their luck reduced by 1 point"
+   }
+  ]
+ },
+ "16. Downtime/16.6.1. Pet Qualities.md": {
+  "pages": null,
+  "issues": [
+   {
+    "type": "no-source-match"
+   }
+  ]
+ },
+ "16. Downtime/16.6.2. Monstrous Instincts.md": {
+  "pages": "toa 124-124",
+  "ratio": 0.9894,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "monstrous instincts d 6",
+    "source": ""
+   }
+  ]
+ },
+ "16. Downtime/16.9.1. Standard Research.md": {
+  "pages": "toa 127-127",
+  "ratio": 0.9798,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "standard research int check",
+    "source": ""
+   }
+  ]
+ },
+ "17. GM Tools/17.2.1. Diseases.md": {
+  "pages": "toa 132-133",
+  "ratio": 0.8239,
+  "issues": [
+   {
+    "type": "words",
+    "op": "delete",
+    "note": "diseases d 12",
+    "source": ""
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "131 parasites 1 treasure ticks are one inch parasites drawn to the smell of valuable metals and gems they are chameleonic and change shape to mimic coins gemstones etc where they hibernate until a warm blooded victim becomes available if collected in a pouch with coins the bugs burrow out in 1 d 6 minutes entering the flesh of their victim to feed they secrete a leech like anaesthesia detecting a burrowing tick requires a perc check at disadvantage if undetected the tick causes blood poisoning 1 d 3 str and dex loss after 1 d 4 hours and a madness the effects do not subside until the bugs are removed which requires surgery int apothecary check causing 1 d 4 damage if unsuccessful the victim also suffers internal bleeding 2 flesh grubs are filthy two inch burrowing worms with wicked beaks they consume corpses from the inside kept warm by the foul gases they emit as they lay eggs and multiply infested corpses bloat as the fumes build rendering them liable to explode an int apothecary wilderness lore check might notice the tell tale flesh grubs odour if disturbed the corpse ruptures showering melee range with grubs which burrow for the heart a luck con save is required to avoid death in 1 d 4 rounds fire or acid kills the grubs but causes the victim 2 d 6 damage 3 throat leeches are fast swimming four inch marine parasites that lurk in water holes rivers and oceans a pc swimming in an infested area requires a luck save to avoid swallowing the horrible wrigglers on a failed save several leeches have entered the victim s throat and latched onto their gullet over the next 1 d 4 hours and each day afterwards the leeches feed causing 1 str or con loss even chance removing the leeches requires surgery or alchemical tinctures that are poisonous if not properly administered an int apothecary check kills the parasites in 1 d 3 days if failed the victim also suffers 2 d 4 damage a desperate victim might drink and regurgitate a flask of acid to kill the worms in minutes the drinker suffers 3 d 6 damage and cannot use their vocal chords for 1 d 4 months"
+   }
+  ]
+ },
+ "17. GM Tools/17.2.2. Parasites.md": {
+  "pages": "toa 133-133",
+  "ratio": 0.996,
+  "issues": [
+   {
+    "type": "reordered",
+    "op": "delete",
+    "note": "parasites d 3",
+    "source": ""
+   }
+  ]
+ },
+ "17. GM Tools/17.3.1. Fancy Meeting You Here.md": {
+  "pages": "toa 134-134",
+  "ratio": 0.9958,
+  "issues": [
+   {
+    "type": "reordered",
+    "op": "delete",
+    "note": "d 6",
+    "source": ""
+   }
+  ]
+ },
+ "17. GM Tools/17.3.2. Dungeon Event.md": {
+  "pages": "toa 135-135",
+  "ratio": 0.5714,
+  "issues": [
+   {
+    "type": "reordered",
+    "op": "delete",
+    "note": "dungeon event",
+    "source": ""
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "on the dungeon event table the gm might also roll when 1 the pcs draw attention to themselves 2 they are being overly indecisive or 3 there is a natural lull in the adventure as always gm discretion applies as referee you may simply decide that something happens eg a random encounter occurs etc after determining the dungeon event reset the dt to zero consult the bones for a simpler option consult the bones p 212 when 1 2 or 3 arises to determine whether a dungeon event occurs if so roll 2 d 6 on the table apply likely or unlikely as desired fortune and misfortune results might assist in interpreting entries for clues warning signs possible allies etc designer s thoughts note that dungeon events are not necessarily adverse to the party they just mean that something interesting happens helpful clues and even allies might be found especially when using monster reaction and activity rolls p 66 for quieter complexes or very small parties the gm might use a dt trigger of 8 or 10 for very dangerous locations or large parties with several hirelings 3 4 or 5 may be more appropriate custom entries in your random encounter tables are a terrific way to breathe life into your dungeons and also allow you to set ballpark danger levels dungeon event"
+   }
+  ]
+ },
+ "17. GM Tools/17.4.1. Fortune Die Examples.md": {
+  "pages": "toa 137-137",
+  "ratio": 0.7174,
+  "issues": [
+   {
+    "type": "words",
+    "op": "delete",
+    "note": "d 8",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "5 adv on foraging"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "6 adv on stealth"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "7 favourable terrain change"
+   },
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "5 adv on foraging 6 adv on stealth 7 favourable terrain change",
+    "source": ""
+   }
+  ]
+ },
+ "17. GM Tools/17.4.2. Weather Shift.md": {
+  "pages": null,
+  "issues": [
+   {
+    "type": "no-source-match"
+   }
+  ]
+ },
+ "17. GM Tools/17.4.3. Exploring.md": {
+  "pages": "toa 138-138",
+  "ratio": 0.589,
+  "issues": [
+   {
+    "type": "words",
+    "op": "delete",
+    "note": "exploring d 20",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "11 outpost inn tower etc"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "12 waterfall pool stream creek"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "13 vantage point"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "14 corpses bones graves cairn"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "random encounter 15"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "16 hamlet village"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "17 large lair"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "18 large ruins"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "19 dungeon"
+   },
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "11 outpost inn tower etc 12 waterfall pool stream creek 13 vantage point 14 corpses bones graves cairn 15 random encounter 16 hamlet village 17 large lair 18 large ruins 19 dungeon",
+    "source": ""
+   }
+  ]
+ },
+ "17. GM Tools/17.4.4. Travel Events.md": {
+  "pages": "toa 138-140",
+  "ratio": 0.632,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "travel events d 20",
+    "source": ""
+   },
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "off course the party has strayed from their intended course and risks becoming lost in their hex if possible otherwise reroll a montage mod 3 f p 65 is required to regain bearings if successful the adventurers get back on track if unsuccessful they become lost the gm rolls for a random encounter and the pcs must spend the next day trying to regain their bearings off course the party has strayed from their intended course and risks becoming lost in their hex if possible otherwise reroll a montage mod 3 f p 65 is required to regain bearings if successful the adventurers get back on track if unsuccessful they become lost the gm rolls for a random encounter and the pcs must spend the next day trying to regain their bearings",
+    "source": ""
+   },
+   {
+    "type": "words",
+    "op": "replace",
+    "note": "a random encounter occurs roll for reaction and activity p 66 if appropriate a random encounter occurs roll for reaction and activity p 66 if appropriate",
+    "source": "exploring 1 sacred site ley line etc 11 outpost inn tower etc 2 landmark or natural wonder 12 waterfall pool stream creek 3 small ruin 13 vantage point"
+   },
+   {
+    "type": "moved",
+    "op": "replace",
+    "note": "vagaries of adventure the party experiences an unexpected turn of weal or woe consult the bones if weal the stars align blessed from afar lucky charm shibboleth dumb luck",
+    "source": "rare herbs ore"
+   },
+   {
+    "type": "reordered",
+    "op": "delete",
+    "note": "4 pcs may reroll a single roll during the adventure at a time of their choosing excluding a die that has already been rerolled if woe wrong place wrong time supernatural curse ill fated prophesy blind misfortune lost mascot etc roll 1 d",
+    "source": ""
+   },
+   {
+    "type": "words",
+    "op": "replace",
+    "note": "i 1 d 4 pcs are exposed to a random disease ii 1 d 4 hirelings or pets are exposed to a random disease or parasite iii 1 d 4 pcs lose damage not usable until repaired or use up a random pack gear item iv the pcs have secretly been or will be betrayed by a hireling or other npc to be revealed at an opportune moment if irrelevant reroll v luck perc save or one pc misplaces loses or has a valuable secretly stolen from them coin pouch etc vi",
+    "source": "x 60 sp 14 corpses bones graves cairn 5"
+   },
+   {
+    "type": "reordered",
+    "op": "replace",
+    "note": "vagaries of adventure the party experiences an unexpected turn of weal or woe consult the bones if weal the stars align blessed from afar lucky charm shibboleth dumb luck etc 1 d 4 pcs may reroll a single roll during the adventure at a time of their choosing excluding a die that has already been rerolled if woe wrong place wrong time supernatural curse ill fated prophesy blind misfortune lost mascot etc roll 1 d 6 i 1 d 4 pcs are exposed to a random disease ii 1 d 4 hirelings or pets are exposed to a random disease or parasite iii 1 d 4 pcs lose damage not usable until repaired or use up a random pack gear item iv the pcs have secretly been or will be betrayed by a hireling or other npc to be revealed at an opportune moment if irrelevant reroll v luck perc save or one pc misplaces loses or has a valuable secretly stolen from them coin pouch etc vi",
+    "source": "15"
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "6 camp 16 hamlet village 7 game trail short cut path 17 large lair 8 cave complex 18 large ruins 9 small lair 19 dungeon 10 random encounter 20 random encounter weather shift 1 much hotter 7 more humid 2 hotter drier 8 breezier windier 3 warmer drier 9 cloudier foggier 4 clearer less humid 10 cooler slightly wetter 5 similar 11 colder wetter 6 cloudier 12 much wetter 137 overland underground voyage 4"
+   },
+   {
+    "type": "reordered",
+    "op": "delete",
+    "note": "forgotten ruins beckon tempting the adventurers with the possibility of treasure exploring the ancient site requires a montage mod 3 f p 65 if successful each pc finds some loot roll 1 d",
+    "source": ""
+   },
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "1 3 1 x carry loot b 4 5 1 x trinkets curios 6 1 x valuables a if unsuccessful the party awakens the ruin s guardian s instead roll 1 d 12 8 on a random encounter table for the relevant terrain if only a single creature appears it is a boss forgotten ruins beckon tempting the adventurers with the possibility of treasure exploring the ancient site requires a montage mod 3 f p 65 if successful each pc finds some loot roll 1 d 6 1 3 1 x carry loot b 4 5 1 x trinkets curios 6 1 x valuables a if unsuccessful the party awakens the ruin s guardian s instead roll 1 d 12 8 on a random encounter table for the relevant terrain if only a single creature appears it is a boss 6 overwhelming numbers of enemies or rivals block the party s present course xenophobic barbarians guard a valley a man eating skorn tribe is camped along the riverbank dwarf clan guards a chasm bridge ooze spawning cavern etc a montage hard 2 f p 65 is required to slip by unnoticed if failed run a chase to determine whether the adventurers escape",
+    "source": ""
+   },
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "a random encounter occurs roll for reaction and activity p 66 if appropriate a random encounter occurs roll for reaction and activity p 66 if appropriate",
+    "source": ""
+   },
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "new lore travel is uneventful providing ample time for study contemplation and the sharing of stories the gm provides a new rumour myth legend or other piece of lore to the party ideally something local through a hireling or other npc but alternatively as something a pc now recalls new lore travel is uneventful providing ample time for study contemplation and the sharing of stories the gm provides a new rumour myth legend or other piece of lore to the party ideally something local through a hireling or other npc but alternatively as something a pc now recalls",
+    "source": ""
+   },
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "natural wonder the party stumbles upon a natural wonder fey sacred site ley line or other place of special majesty or tranquility if the adventurers spend a day resting here one pc suffering madness may make a luck will save to remove it this effect functions only once per character random encounters are unlikely here but if so roll reaction with advantage natural wonder the party stumbles upon a natural wonder fey sacred site ley line or other place of special majesty or tranquility if the adventurers spend a day resting here one pc suffering madness may make a luck will save to remove it this effect functions only once per character random encounters are unlikely here but if so roll reaction with advantage",
+    "source": ""
+   },
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "a random encounter occurs roll for reaction and activity p 66 if appropriate a random encounter occurs roll for reaction and activity p 66 if appropriate",
+    "source": ""
+   },
+   {
+    "type": "words",
+    "op": "replace",
+    "note": "camaraderie the explorers travel is relatively uneventful providing ample time to strengthen party bonds one player may choose to spin a tale or reveal a secret or other special detail about their pc s history eg old deed interesting locale npc encounter memorable event party bond prior adventure etc gm veto applies if the table is entertained each pc may choose to recover 1 luck or take a short rest a pc may benefit from this event once per adventure only camaraderie the explorers travel is relatively uneventful providing ample time to strengthen party bonds one player may choose to spin a tale or reveal a secret or other special detail about their pc s history eg old deed interesting locale npc encounter memorable event party bond prior adventure etc gm veto applies if the table is entertained each pc may choose to recover 1 luck or take a short rest a pc may benefit from this event once per adventure only",
+    "source": "138 overland underground voyage"
+   },
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "lost supplies the party must make a group luck save or their rations water are halved failure or run out terrible failure perhaps tainted by parasites spoiled by disease stolen by animals overeaten after too many ales dropped in a chase etc pcs that do not eat or drink for twenty four hours become starving if available pcs may consume tainted food or water but each meal requires a luck con save to avoid contracting a random disease or suffering a minor poison effect p 226 lost supplies the party must make a group luck save or their rations water are halved failure or run out terrible failure perhaps tainted by parasites spoiled by disease stolen by animals overeaten after too many ales dropped in a chase etc pcs that do not eat or drink for twenty four hours become starving if available pcs may consume tainted food or water but each meal requires a luck con save to avoid contracting a random disease or suffering a minor poison effect p 226",
+    "source": ""
+   },
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "a random encounter occurs roll for reaction and activity p 66 if appropriate a random encounter occurs roll for reaction and activity p 66 if appropriate",
+    "source": ""
+   },
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "discovery as luck would have it the company discovers or otherwise happens upon any secret information about the current hex if they have not already found it if there is no such information they discover a monster lair instead roll for a random encounter but use lair numbers for appearing p 166 consult the bones to determine whether one of the lair s outer sentries have detected the pcs depending on the circumstances including mode of party travel discovery as luck would have it the company discovers or otherwise happens upon any secret information about the current hex if they have not already found it if there is no such information they discover a monster lair instead roll for a random encounter but use lair numbers for appearing p 166 consult the bones to determine whether one of the lair s outer sentries have detected the pcs depending on the circumstances including mode of party travel",
+    "source": ""
+   },
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "unfortunate injury a random npc hireling henchmen other npc or animal horse mule dog etc falls ill lame or suffers a sprained ankle entry 5 injuries setbacks table a ranger beast companion may choose to make a luck con save to resist if there are no npcs or animals in the party then a pc is affected they may choose to resist like a beast companion this will impact company travel speed unless the injured character or animal can be assisted p 134 characters may be helped with the support travel role the gm determines whether animals may be assisted unfortunate injury a random npc hireling henchmen other npc or animal horse mule dog etc falls ill lame or suffers a sprained ankle entry 5 injuries setbacks table a ranger beast companion may choose to make a luck con save to resist if there are no npcs or animals in the party then a pc is affected they may choose to resist like a beast companion this will impact company travel speed unless the injured character or animal can be assisted p 134 characters may be helped with the support travel role the gm determines whether animals may be assisted",
+    "source": ""
+   },
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "a random encounter occurs roll for reaction and activity p 66 if appropriate a random encounter occurs roll for reaction and activity p 66 if appropriate",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "delete",
+    "note": "perfect campsite the company has a chance to locate the perfect campsite providing comfort and safety in equal measure a perc wilderness lore check is required on a success all pcs restore 1 d 3 lost attribute points one reroll or one point of luck once per adventure only",
+    "source": ""
+   }
+  ]
+ },
+ "17. GM Tools/17.4.5. Back to Base.md": {
+  "pages": "toa 141-141",
+  "ratio": 0.7577,
+  "issues": [
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "for gms running argosa in a west marches style with a potentially different mix of players each session it is often a requirement for the party to return to base at the end of a play session to ensure that the characters of those wanting to play next week are available to adventure and not stuck in the wilderness or mid dungeon a potential problem with this approach is that large amounts of precious session time can be spent returning from an adventure site when the players would rather be exploring the dungeon further the back to base rule circumvents this instead of playing out the return trip in the usual way each pc makes a luck save if successful the adventurer makes it home without incident if unsuccessful they make it home but must roll"
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "for a setback deduct rations based on estimated travel days back to base"
+   }
+  ]
+ },
+ "17. GM Tools/17.5.1. Aerial.md": {
+  "pages": "toa 142-142",
+  "ratio": 0.998,
+  "issues": [
+   {
+    "type": "words",
+    "op": "delete",
+    "note": "aerial d 20",
+    "source": ""
+   }
+  ]
+ },
+ "17. GM Tools/17.5.10. Snow & Ice.md": {
+  "pages": "toa 154-155",
+  "ratio": 0.9167,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "snow ice d 20",
+    "source": ""
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "153"
+   },
+   {
+    "type": "moved",
+    "op": "insert",
+    "note": "",
+    "source": "10 crocs 2 d 4 giant crocodiles lie in ambush fully submerged in the filthy swamp water but for their nostrils 11 nest a nest of 1 d 6 giant serpents can be found nearby including 1 d 4 baby serpents and 1 d 4 unhatched eggs the size of a man s hand worth 1 d 4 x 100 sp each to the right buyer the serpents will defend their brood 12 trolls 1 d 12 moor trolls wander these fens searching for sentient flesh to feast upon when pickings are scarce they go into a state of dormancy and sink beneath the watery mud waiting for prey to rouse them"
+   }
+  ]
+ },
+ "17. GM Tools/17.5.11. Swamps.md": {
+  "pages": "toa 155-156",
+  "ratio": 0.826,
+  "issues": [
+   {
+    "type": "words",
+    "op": "delete",
+    "note": "swamps d 20",
+    "source": ""
+   },
+   {
+    "type": "words",
+    "op": "replace",
+    "note": "10 crocs 2 d 4 giant crocodiles lie in ambush fully submerged in the filthy swamp water but for their nostrils 11 nest a nest of 1 d 6 giant serpents can be found nearby including 1 d 4 baby serpents and 1 d 4 unhatched eggs the size of a man s hand worth 1 d 4 x 100 sp each to the right buyer the serpents will defend their brood 12 trolls 1 d 12 moor trolls wander these fens searching for sentient flesh to feast upon when pickings are scarce they go into a state of dormancy and sink beneath the watery mud waiting for prey to rouse them 13 snails 1 d 4 hammer snails come surging out of a wide thicket of bracken crowberry or scattered birch trees gliding towards the party with a sickening slurping noise 14 eels 2 d 6 amphibious giant eels as giant serpent but swim close and electric shock luck con save or stunned instead of poison emerge from dank clouded pools hoping to take a bite out of the adventurers before fleeing back into the muck 15 treants a grove of 1 d 4 bloodroot treants are masquerading as bald cypress trees they attempt to drown passersby in shallow pools their scarlet stained roots might tip off the wary",
+    "source": "154 154"
+   }
+  ]
+ },
+ "17. GM Tools/17.5.12. Underground.md": {
+  "pages": "toa 156-157",
+  "ratio": 0.8689,
+  "issues": [
+   {
+    "type": "words",
+    "op": "delete",
+    "note": "underground d 20",
+    "source": ""
+   },
+   {
+    "type": "moved",
+    "op": "replace",
+    "note": "6 webs are strung across much",
+    "source": "13 snails 1 d 4 hammer snails come surging out"
+   },
+   {
+    "type": "moved",
+    "op": "replace",
+    "note": "this area on",
+    "source": "a wide thicket of bracken crowberry or scattered birch trees gliding towards"
+   },
+   {
+    "type": "moved",
+    "op": "replace",
+    "note": "walls floor and ceiling",
+    "source": "party with a sickening slurping noise 14 eels"
+   },
+   {
+    "type": "words",
+    "op": "replace",
+    "note": "4",
+    "source": "6 amphibious"
+   },
+   {
+    "type": "moved",
+    "op": "replace",
+    "note": "spiders are either lurking in webs 50",
+    "source": "eels as giant serpent but swim close and electric shock luck con save"
+   },
+   {
+    "type": "moved",
+    "op": "replace",
+    "note": "hidden behind trapdoors concealed in the ground or walls 50",
+    "source": "stunned instead of poison emerge from dank clouded pools hoping to take"
+   },
+   {
+    "type": "moved",
+    "op": "replace",
+    "note": "perc detection check notices the outlines",
+    "source": "bite out"
+   },
+   {
+    "type": "moved",
+    "op": "replace",
+    "note": "burrow doors 7 mould 2",
+    "source": "adventurers before fleeing back into the muck 15 treants a grove of 1"
+   },
+   {
+    "type": "moved",
+    "op": "replace",
+    "note": "patches of yellow mould",
+    "source": "bloodroot treants"
+   },
+   {
+    "type": "moved",
+    "op": "replace",
+    "note": "growing",
+    "source": "masquerading as bald cypress trees they attempt to drown passersby"
+   },
+   {
+    "type": "moved",
+    "op": "replace",
+    "note": "dark corners or are in stasis like dormancy if no food sources are available 8 mouth a six foot carved red devil face with a wide open mouth is set into",
+    "source": "shallow pools their scarlet stained roots might tip off"
+   },
+   {
+    "type": "words",
+    "op": "replace",
+    "note": "wall the mouth is large enough to crawl into the interior of the mouth is unnaturally black as if somehow absorbing nearby torchlight",
+    "source": "wary 155 155"
+   }
+  ]
+ },
+ "17. GM Tools/17.5.2. City, Town, Village.md": {
+  "pages": "toa 143-145",
+  "ratio": 0.9258,
+  "issues": [
+   {
+    "type": "reordered",
+    "op": "delete",
+    "note": "d 100",
+    "source": ""
+   },
+   {
+    "type": "words",
+    "op": "replace",
+    "note": "31 32 funeral a funeral procession winds slowly down the street including pall bearers priests and sorrowful relatives 33 34 gangs 3 d 6 thugs of rival gangs clash over turf lines stabbing at each other with knives and hatchets lingering witnesses or anyone who attempts to intervene is also set upon whatever happens the surviving leader udan the slip does not forget 35 36 rats 3 d 6 starving rats skitter from a dark alley attempting to bite chunks out of a busking street kid by the name of totha the child has an extensive knowledge of the settlement s back roads and safe houses 37 38 troupe a 3 d 6 member performing troupe has gathered a small crowd the troupe has knowledge of the local region 30 chance of pickpockets working the audience",
+    "source": "142"
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "31 32 funeral a funeral procession winds slowly down the street including pall bearers priests and sorrowful relatives 33 34 gangs 3 d 6 thugs of rival gangs clash over turf lines stabbing at each other with knives and hatchets lingering witnesses or anyone who attempts to intervene is also set upon whatever happens the surviving leader udan the slip does not forget 35 36 rats 3 d 6 starving rats skitter from a dark alley attempting to bite chunks out of a busking street kid by the name of totha the child has an extensive knowledge of the settlement s back roads and safe houses 37 38 troupe a 3 d 6 member performing troupe has gathered a small crowd the troupe has knowledge of the local region 30 chance of pickpockets working the audience 143"
+   }
+  ]
+ },
+ "17. GM Tools/17.5.3. Deserts.md": {
+  "pages": "toa 145-146",
+  "ratio": 0.9971,
+  "issues": [
+   {
+    "type": "words",
+    "op": "delete",
+    "note": "deserts d 20",
+    "source": ""
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "144"
+   }
+  ]
+ },
+ "17. GM Tools/17.5.4. Jungles.md": {
+  "pages": "toa 147-147",
+  "ratio": 0.9977,
+  "issues": [
+   {
+    "type": "words",
+    "op": "delete",
+    "note": "jungles d 20",
+    "source": ""
+   }
+  ]
+ },
+ "17. GM Tools/17.5.5. Forests.md": {
+  "pages": "toa 148-148",
+  "ratio": 0.9982,
+  "issues": [
+   {
+    "type": "words",
+    "op": "delete",
+    "note": "forests d 20",
+    "source": ""
+   }
+  ]
+ },
+ "17. GM Tools/17.5.6. Mountains & Hills.md": {
+  "pages": "toa 149-150",
+  "ratio": 0.9964,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "mountains hills d 20",
+    "source": ""
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "148"
+   }
+  ]
+ },
+ "17. GM Tools/17.5.7. Oceans, Lakes, Rivers.md": {
+  "pages": "toa 150-151",
+  "ratio": 0.998,
+  "issues": [
+   {
+    "type": "reordered",
+    "op": "delete",
+    "note": "d 20",
+    "source": ""
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "149"
+   }
+  ]
+ },
+ "17. GM Tools/17.5.8. Plains & Grasslands.md": {
+  "pages": "toa 151-152",
+  "ratio": 0.9964,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "plains grasslands d 20",
+    "source": ""
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "150"
+   }
+  ]
+ },
+ "17. GM Tools/17.5.9. Roads & Trails.md": {
+  "pages": "toa 152-153",
+  "ratio": 0.9966,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "roads trails d 20",
+    "source": ""
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "151"
+   }
+  ]
+ },
+ "18. Hirelings/18.1.1. Names.md": {
+  "pages": "toa 158-158",
+  "ratio": 0.2768,
+  "issues": [
+   {
+    "type": "words",
+    "op": "delete",
+    "note": "names d 100",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "21 22 pax n f 41 42 jugath t 61 62 ettore k 81 82 wick"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "23 24 herotta v f 43 44 merek 63 64 sula t f 83 84 carver"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "25 26 donoso k 45 46 thea f 65 66 crowe 85 86 avenius n"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "27 28 grubar t 47 48 corvex n 67 68 terrin 87 88 arnolf v"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "29 30 vance 49 50 sigfurd v 69 70 brogen 89 90 garcilo k"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "31 32 carter 51 52 falker 71 72 iovis n f 91 92 orok t"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "33 34 daria f 53 54 boris 73 74 luta v f 93 94 yaness f"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "35 36 ferox n 55 56 gorven 75 76 mercado k 95 96 dain"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "37 38 yorri v 57 58 sertus n 77 78 hothra t f 97 98 tybalt"
+   },
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "21 22 pax n f 23 24 herotta v f 25 26 donoso k 27 28 grubar t 29 30 vance 31 32 carter 33 34 daria f 35 36 ferox n 37 38 yorri v",
+    "source": ""
+   },
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "41 42 jugath t 43 44 merek 45 46 thea f 47 48 corvex n 49 50 sigfurd v 51 52 falker 53 54 boris 55 56 gorven 57 58 sertus n",
+    "source": ""
+   },
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "61 62 ettore k 63 64 sula t f 65 66 crowe 67 68 terrin 69 70 brogen 71 72 iovis n f 73 74 luta v f 75 76 mercado k 77 78 hothra t f",
+    "source": ""
+   },
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "81 82 wick 83 84 carver 85 86 avenius n 87 88 arnolf v 89 90 garcilo k 91 92 orok t 93 94 yaness f 95 96 dain 97 98 tybalt",
+    "source": ""
+   }
+  ]
+ },
+ "18. Hirelings/18.3.1. Personality.md": {
+  "pages": null,
+  "issues": [
+   {
+    "type": "no-source-match"
+   }
+  ]
+ },
+ "18. Hirelings/18.4.1. Traits.md": {
+  "pages": "toa 159-159",
+  "ratio": 0.5169,
+  "issues": [
+   {
+    "type": "words",
+    "op": "delete",
+    "note": "traits d 100",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "51 52 face neck tattoo"
+   },
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "5 6 pockmarked 7 8 ugly mug 9 10 missing ear 11 12 very scruffy 13 14 missing teeth 15 16 limp or pegleg 17 18 missing finger 19 20 pox warts etc 21 22 lucky pet 23 24 7 ft giant str 17 25 26 handlebar moustache 27 28 obvious scars 29 30 foul odour 31 32 refuses to wear pants 33 34 hard of hearing 35 36 lice ridden 37 38 eye patch 39 40 body tattoos 41 42 lucky like a halfling 43 44 hunchback 45 46 lazy eye 47 48 twins 2 for 1 49 50 androgynous 51 52 face neck tattoo",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "5 6 pockmarked"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "7 8 ugly mug"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "9 10 missing ear"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "11 12 very scruffy"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "13 14 missing teeth"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "15 16 limp or pegleg"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "17 18 missing finger"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "19 20 pox warts etc"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "21 22 lucky pet"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "23 24 7 ft giant str 17"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "25 26 handlebar moustache"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "27 28 obvious scars"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "29 30 foul odour"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "31 32 refuses to wear pants"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "33 34 hard of hearing"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "35 36 lice ridden"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "37 38 eye patch"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "39 40 body tattoos"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "41 42 lucky like a halfling"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "43 44 hunchback"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "45 46 lazy eye"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "47 48 twins 2 for 1"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "49 50 androgynous"
+   }
+  ]
+ },
+ "18. Hirelings/18.5.1. Hireling Gear.md": {
+  "pages": "toa 160-160",
+  "ratio": 0.9727,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "hireling gear d 4 d 12",
+    "source": ""
+   }
+  ]
+ },
+ "18. Hirelings/18.5.2. Catchphrase.md": {
+  "pages": "toa 160-161",
+  "ratio": 0.7114,
+  "issues": [
+   {
+    "type": "words",
+    "op": "delete",
+    "note": "catchphrase d 100",
+    "source": ""
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "159 hireling advancement hirelings and perhaps pets that survive an adventure roll 2 d 6 for an advancement if they evolve into henchmen they become 1 st level in an appropriate class and are loyal to their pc if accepted if a pc declines a henchmen or if the henchmen has any outstanding payback they depart for adventures of their own henchmen gain experience like a pc whether they receive a share of party treasure is a matter left to pcs to negotiate typically a half share payback hirelings treated poorly tend to react adversely over time particularly mercenaries at the gm s option poor treatment might call for a 2 d 6 roll on the payback table hireling advancement 2 permanently gain one 1 st level ability from an appropriate class 3 gain an appropriate skill a reroll of 1 4 gains advantage on morale checks 5 treat as a pc for dying and injuries 6 gains a piece of useful gear 7 increase a random attribute by 2 max 15 subject to gm approval if a pet advance 8 gains a piece of useful gear 9 learns to use a new weapon or new armour including shields 10 increase max hit points by 3 and treat as a pc for dying and injuries 11 12 transforms into a beautiful henchmen payback 2 revenge a powerful friend of the hireling gets wind of their poor treatment if not impossible and organises some manner of revenge blacklist robbery arson arrest possibly even assassins etc 3 blackmail the hireling leaves the party s employ then attempts to blackmail the pc over some misdeed they witnessed or are aware of 4 tarnished word of the party s poor treatment of their hireling s makes its way to powerful people if not impossible marring the pcs reputation in highborn circles"
+   }
+  ]
+ },
+ "18. Hirelings/18.6.1. Hireling Advancement.md": {
+  "pages": "toa 161-161",
+  "ratio": 0.6625,
+  "issues": [
+   {
+    "type": "reordered",
+    "op": "delete",
+    "note": "hireling advancement",
+    "source": ""
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "for an advancement if they evolve into henchmen they become 1 st level in an appropriate class and are loyal to their pc if accepted if a pc declines a henchmen or if the henchmen has any outstanding payback they depart for adventures of their own henchmen gain experience like a pc whether they receive a share of party treasure is a matter left to pcs to negotiate typically a half share payback hirelings treated poorly tend to react adversely over time particularly mercenaries at the gm s option poor treatment might call for a 2 d 6 roll on the payback table hireling advancement"
+   }
+  ]
+ },
+ "18. Hirelings/18.7.1. Payback.md": {
+  "pages": "toa 161-162",
+  "ratio": 0.8281,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "payback 2 d 6 2 revenge a powerful friend of the hireling gets wind of their poor treatment if not impossible and organises some manner of revenge blacklist robbery arson arrest possibly even assassins etc 3 blackmail the hireling leaves the party s employ then attempts to blackmail the pc over some misdeed they witnessed or are aware of 4 tarnished word of the party s poor treatment of their hireling s makes its way to powerful people if not impossible marring the pcs reputation in highborn circles",
+    "source": ""
+   }
+  ]
+ },
+ "19. Madness/19.1.1. Madness.md": {
+  "pages": "toa 163-163",
+  "ratio": 0.9965,
+  "issues": [
+   {
+    "type": "reordered",
+    "op": "delete",
+    "note": "madness d 20",
+    "source": ""
+   }
+  ]
+ },
+ "2. Character Creation/2.1.1. Backgrounds.md": {
+  "pages": "toa 10-11",
+  "ratio": 0.7874,
+  "issues": [
+   {
+    "type": "words",
+    "op": "delete",
+    "note": "backgrounds d 66",
+    "source": ""
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "9"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "56 hunter 1 perc wilderness lore spear 61 busker 1 cha persuasion pipe drum horn or lute 62 swineherd 1 perc animal lore burly pig as dog 63 apothecary s assistant 1 int apothecary healer s kit 64 street crier 1 will general lore hand bell 65 gong farmer 1 con gather information antitoxin 66 hangman 1 will leadership rope 30 ft"
+   },
+   {
+    "type": "reordered",
+    "op": "delete",
+    "note": "56 hunter 1 perc wilderness lore spear 61 busker 1 cha persuasion pipe drum horn or lute 62 swineherd 1 perc animal lore burly pig as dog 63 apothecary s assistant 1 int apothecary healer s kit 64 street crier 1 will general lore hand bell 65 gong farmer 1 con gather information antitoxin 66 hangman 1 will leadership rope 30 ft",
+    "source": ""
+   }
+  ]
+ },
+ "20. Mass Battle/20.1.1. Field Events.md": {
+  "pages": "toa 164-166",
+  "ratio": 0.8306,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "field events d 20",
+    "source": ""
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "163"
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "164 sudden twists in mass battle the pcs are in the thick of extreme danger swept up in a gruesome throng of panicked shouts slashing blades and deadly arrows amidst the chaos injury and death threaten from all corners during a field event if combat is occurring nearby every time a pc rolls a natural 1 or 20 on an attack roll or other 1 d 20 check a sudden twist is triggered roll 1 d 20 and see below sudden twist 1 duck a stray crossbow bolt or distant marksmen takes a pot shot at the pc attack roll at 4 2 d 8 1 damage 2 incoming somebody hurls a brace of fire pots in the pc s vicinity a luck dex save is required to avoid 3 d 6 damage and the burning condition 3 allied reinforcements appear from nearby trees over a small rise from another street etc if the pc is mid battle enemies are automatically defeated 50 chance they are slaughtered 50 they flee 4 dead weight a hireling henchmen pet or important npc accompanying the pc if any has been wounded and knocked unconscious until dusk dawn can the pc keep them safe 5 lost weapon the adventurer s weapon is somehow lost or destroyed if magical it is damaged instead but not usable until it is repaired likely sometime after the battle 6 backstab a sneaky git stabs the pc in the back whilst they are preoccupied fighting others 1 d 8 pc level damage 7 lootin the pc seizes the opportunity to quickly loot nearby bodies consult the bones to determine whether they gain carry loot b or valuables a 8 band of brothers rallying cheers from the pc s surrounding allies reinvigorates the adventurer restore up to half of lost hit points a class ability use or a reroll 9 world of hurt a spear javelin etc strikes the pc in a vital location causing missile trauma 1 d 10 2 10 corpse hazard the pc threatens to become entangled in the growing pile of dead dying underfoot dex acrobatics check or fall prone plus a further str check to avoid dropping held items 11 tide of battle sheer numbers threaten to force the pc and their opponent into dangerous terrain eg toppled off a wall thrown into a raging river knocked down a steep slope pinned against a rock pushed down a sewer chute etc a str athletics or dex acrobatics check resists"
+   }
+  ]
+ },
+ "20. Mass Battle/20.2.1. Sudden Twist.md": {
+  "pages": "toa 166-167",
+  "ratio": 0.7936,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "sudden twist d 20",
+    "source": ""
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "16 sniper hunt a hidden sharpshooter siege tower tree line valley ridge high building etc is targeting the pcs area protecting enemy champions and picking off key allied warriors sergeants standard bearers medics etc can the pcs find the sniper and neutralise them 17 medic through the smoky haze urgent cries for a medic ring out as a dying npc is dragged to relative safety roll 1 d 3 i messenger with critical orders ii scout with intel iii highly respected sergeant good for morale the ally is on the verge of death can the pcs save him her 18 shields up a barrage of arrows spears bolts fire pots and other personal ranged weapons target the pcs location soldiers without shields or that can t find cover drop like flies pcs require a luck dex save or 3 d 6 damage and missile trauma 1 d 10 2 19 dark ritual word somehow reaches the pcs in the midst of combat that an enemy warlock sorceress priest etc 5 hd consult the bones to determine if a heavy or boss is performing a dark ritual elsewhere on the battlefield gathering a bowl of hearts to offer to the dark gods etc can the pcs stop the ritual 20 suicide mission a genuine suicide mission presents itself eg hold the tide of enemies on the bridge so allies can escape light the warning beacon atop the tower surrounded by foes collapse the tunnel taking out a tide of foes as well as oneself will the pc s sacrifice themselves for the greater good if so the pc must make a death save if successful roll on the injuries setbacks table and they awaken later with 1 hp somehow left for dead if none of the pcs take the mission add a complication to the final confrontation 165 final confrontation the final confrontation is the mass battle s ultimate climactic encounter when the party goes head to head with the enemy leaders or boss the gm determines the details of this set piece encounter whoever wins the final confrontation also wins the mass battle or as gm decides"
+   }
+  ]
+ },
+ "21. Monsters/21.2.1. Monsters by HD.md": {
+  "pages": "toa 169-169",
+  "ratio": 0.9782,
+  "issues": [
+   {
+    "type": "reordered",
+    "op": "delete",
+    "note": "hd 1",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "delete",
+    "note": "1",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "delete",
+    "note": "2",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "delete",
+    "note": "3",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "delete",
+    "note": "4",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "delete",
+    "note": "5",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "delete",
+    "note": "6",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "delete",
+    "note": "7",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "delete",
+    "note": "8",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "delete",
+    "note": "9 10",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "delete",
+    "note": "11 12",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "delete",
+    "note": "13 14",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "delete",
+    "note": "15 16",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "delete",
+    "note": "17",
+    "source": ""
+   }
+  ]
+ },
+ "21. Monsters/21.3.1. Heavy Abilities.md": {
+  "pages": "toa 171-171",
+  "ratio": 0.722,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "heavy abilities d 20 1 scrapper suffers half damage while wounded 2 bloodletter rolls double the usual number of melee damage dice 3 warlord advantage on cha and will related checks including luck saves allies in close range gain advantage on morale checks 4 eldritch blood advantage on all tests to resist magic and or the heavy s spells impose disadvantage on targets saves 5 true prodigy contrary to popular belief this npc may attempt one major exploit per combat a targeted pc may make an appropriate luck save to resist 6 void conduit may cast one spell per combat int 16 7 triple threat may use any weapon or armour also annoyingly good looking",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "heavy abilities 1 scrapper suffers half damage while wounded 2 bloodletter rolls double the usual number of melee damage dice 3 warlord advantage on cha and will related checks including luck saves allies in close range gain advantage on morale checks 4 eldritch blood advantage on all tests to resist magic and or the heavy s spells impose disadvantage on targets saves 5 true prodigy contrary to popular belief this npc may attempt one major exploit per combat a targeted pc may make an appropriate luck save to resist 6 void conduit may cast one spell per combat int 16 7 triple threat may use any weapon or armour also annoyingly good looking"
+   }
+  ]
+ },
+ "21. Monsters/21.4. Bestiary/Mutations.md": {
+  "pages": "toa 204-205",
+  "ratio": 0.6896,
+  "issues": [
+   {
+    "type": "words",
+    "op": "delete",
+    "note": "mutations d 20",
+    "source": ""
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "203 vampire vampires are wicked undead blood feeders that masquerade as humans living within the very towns they prey upon they are intelligent and present as cold clammy handed humans often physically beautiful with enticing voices some may control vermin bats and wolves and all drain a victim s lifeforce with their bite a fully drained victim dies or becomes a thrall under the vampire s command after a time the master may choose to release a thrall allowing it to mature into a full vampire vampires are conscious of creating too many rivals however and are territorial with respect to feeding grounds they are just as likely to destroy a thrall as release it a thrall s ability to move about in daylight however is often of great utility to its master vampires find the smell of garlic repugnant do not cast reflections in mirrors cannot enter a building without being invited and hiss loudly when forcefully presented with the icon of a good deity vampires are difficult to slay permanently but direct sunlight or a wooden stake to the heart generally work referee s call vampire 1 ac 13 hd 9 bite 1 d 12 drain 1 level until the end of the next downtime period nat 19 a thrall comes to the vampire s aid s 19 d 19 c 16 i 13 p 17 w 16 ch 16 l 10 climb norm undead off turn attacks immune to non magical weapons exc cold iron holy water charming voice 3 as gaze of beguilement int 18 regen 1 d 12 fire holy if reduced to zero hp a vampire turns to mist and flies to its coffin where it regenerates in 1 d 4 hours reac 2 3 enraged 4 5 hungry 6 8 malevolent 9 10 curious 11 12 lustful"
+   }
+  ]
+ },
+ "21. Monsters/21.4. Bestiary/Ooze Traits.md": {
+  "pages": "toa 196-196",
+  "ratio": 0.8281,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "ooze traits d 10 1 potent acid the ooze ignores armour 2 splitting the ooze splits in two when wounded halve remaining hp 3 blood frenzy ooze gains off turn attacks when target wounded 4 enraged by fire fire damage grants the ooze adv on attacks until combat ends",
+    "source": ""
+   }
+  ]
+ },
+ "21. Monsters/21.4. Bestiary/Shrieker Traits.md": {
+  "pages": "toa 200-200",
+  "ratio": 0.9806,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "shrieker traits d 6",
+    "source": ""
+   }
+  ]
+ },
+ "21. Monsters/21.4. Bestiary/Terror Traits.md": {
+  "pages": "toa 175-175",
+  "ratio": 0.9892,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "terror traits d 12",
+    "source": ""
+   }
+  ]
+ },
+ "22. Naval Combat/22.3.1. Artillery.md": {
+  "pages": "toa 211-211",
+  "ratio": 0.997,
+  "issues": [
+   {
+    "type": "reordered",
+    "op": "delete",
+    "note": "artillery d 20",
+    "source": ""
+   }
+  ]
+ },
+ "22. Naval Combat/22.5.1. Boarding.md": {
+  "pages": "toa 212-213",
+  "ratio": 0.7984,
+  "issues": [
+   {
+    "type": "reordered",
+    "op": "delete",
+    "note": "boarding d 20",
+    "source": ""
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "211 211 blackpowder weapons weapon cost dmg rng nat 19 notes 1 pistol 200 sp 3 d 4 close 1 d 10 2 missile trauma exploding dmg dice reload requires two hands and action if suffer damage during a reload round action is lost fumble inert until repaired one item slot gun one slot ammo 2 musket 300 sp 4 d 4 very far 1 d 10 2 missile trauma two handed exploding dmg dice three actions to reload but if suffer damage during a reload round action is lost fumble inert until repaired one item slot gun one slot ammo 3 blunderbuss 150 sp 5 d 4 close 1 d 8 4 missile trauma two handed exploding dmg dice may strike two targets in melee range of each other two actions to reload if suffer dmg during reload round action is lost fumble inert until repaired one item slot gun one slot ammo 4 powder grenade 75 sp 4 d 4 far na exploding dmg dice one action to prime and one to throw affects a close area luck dex save negates no hit roll if tf also blast trauma 1 d 12 fumble detonates on user if save dud crew vs crew at the end of each pc round resolve crew fighting with a 2 d 6 roll applying a 1 or 2 point modifier for clearly superior forces usual morale rules apply crew vs crew 2 3 60 allied crew dead incapacitated or broken and 25 enemy crew 4 5 30 allied crew dead incapacitated or broken and 15 enemy crew 6 8 20 of one side dead 10 the other consult the bones as to which 9 10 30 enemy crew dead incapacitated or broken and 15 allied crew 11 12 60 enemy crew dead incapacitated or broken and 25 allied crew"
+   }
+  ]
+ },
+ "22. Naval Combat/22.5.2. Crew vs Crew.md": {
+  "pages": "toa 213-213",
+  "ratio": 0.8268,
+  "issues": [
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "at the end of each pc round resolve crew fighting with a"
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "roll applying a 1 or 2 point modifier for clearly superior forces usual morale rules apply crew vs crew"
+   }
+  ]
+ },
+ "25. Solo Rules/25.4.1. Dungeon Site.md": {
+  "pages": null,
+  "issues": [
+   {
+    "type": "no-source-match"
+   }
+  ]
+ },
+ "25. Solo Rules/25.4.10. Room Contents.md": {
+  "pages": "toa 222-222",
+  "ratio": 0.9873,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "room contents d 20",
+    "source": ""
+   }
+  ]
+ },
+ "25. Solo Rules/25.4.11. Theme Items.md": {
+  "pages": "toa 223-223",
+  "ratio": 0.9942,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "theme items d 20",
+    "source": ""
+   }
+  ]
+ },
+ "25. Solo Rules/25.4.12. Complications.md": {
+  "pages": "toa 223-223",
+  "ratio": 0.9946,
+  "issues": [
+   {
+    "type": "words",
+    "op": "delete",
+    "note": "complications d 20",
+    "source": ""
+   }
+  ]
+ },
+ "25. Solo Rules/25.4.2. Size.md": {
+  "pages": "toa 220-220",
+  "ratio": 0.7111,
+  "issues": [
+   {
+    "type": "words",
+    "op": "delete",
+    "note": "size d 20",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "14 18 large 50 rooms"
+   },
+   {
+    "type": "reordered",
+    "op": "delete",
+    "note": "rooms 14 18 large 50",
+    "source": ""
+   }
+  ]
+ },
+ "25. Solo Rules/25.4.3. Objective.md": {
+  "pages": "toa 220-220",
+  "ratio": 0.9109,
+  "issues": [
+   {
+    "type": "words",
+    "op": "delete",
+    "note": "objective d 6",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "1"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "2"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "3"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "4"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "5"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "6"
+   }
+  ]
+ },
+ "25. Solo Rules/25.4.4. Reward.md": {
+  "pages": "toa 220-220",
+  "ratio": 0.5986,
+  "issues": [
+   {
+    "type": "words",
+    "op": "delete",
+    "note": "reward d 20",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "11 12 special metal weapon"
+   },
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "3 4 major favour 5 6 400 1 d 6 x 100 sp 7 8 gemstones valuables b 61 9 10 valuables b 11 12 special metal weapon",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "3 4 major favour"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "5 6 400 1 d 6 x 100 sp"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "7 8 gemstones valuables b 61"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "9 10 valuables b"
+   }
+  ]
+ },
+ "25. Solo Rules/25.4.5. Main Opposition.md": {
+  "pages": null,
+  "issues": [
+   {
+    "type": "no-source-match"
+   }
+  ]
+ },
+ "25. Solo Rules/25.4.6. Special Leader.md": {
+  "pages": "toa 221-221",
+  "ratio": 0.5833,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "special leader d 20",
+    "source": ""
+   },
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "3 lycanthrope 4 basartu 5 doppelganger 6 yegnu 7 8 giant 9 n tarc",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "3 lycanthrope"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "4 basartu"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "5 doppelganger"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "6 yegnu"
+   },
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "19 malafas 20 lich",
+    "source": ""
+   }
+  ]
+ },
+ "25. Solo Rules/25.4.7. Doors.md": {
+  "pages": "toa 222-222",
+  "ratio": 0.6598,
+  "issues": [
+   {
+    "type": "words",
+    "op": "delete",
+    "note": "doors d 20",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "14 blocked door"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "15 concealed door"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "door 16 secret"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "17 18 locked door"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "19 stairway"
+   },
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "14 blocked door 15 concealed door 16 secret door 17 18 locked door 19 stairway",
+    "source": ""
+   }
+  ]
+ },
+ "25. Solo Rules/25.4.8. Rooms & Corridors.md": {
+  "pages": "toa 222-222",
+  "ratio": 0.6047,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "rooms corridors d 20",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "14 15 turning corridor"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "16 sloping corridor"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "17 18 tintersection"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "19 hatch or trapdoor"
+   },
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "14 15 turning corridor 16 sloping corridor 17 18 tintersection 19 hatch or trapdoor 20 stairway",
+    "source": ""
+   }
+  ]
+ },
+ "25. Solo Rules/25.4.9. Room Theme.md": {
+  "pages": "toa 222-222",
+  "ratio": 0.5957,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "room theme d 20",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "11 secure"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "12 13 sleep rest comfort"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "14 15 supplies"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "16 training study"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "17 valuable"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "18 weaponry"
+   },
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "11 secure 12 13 sleep rest comfort 14 15 supplies 16 training study 17 valuable 18 weaponry",
+    "source": ""
+   }
+  ]
+ },
+ "26. Traps/26.4.1. Danger Level.md": {
+  "pages": "toa 225-225",
+  "ratio": 0.7826,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "danger level 2 d 6",
+    "source": ""
+   }
+  ]
+ },
+ "26. Traps/26.4.10. Drowning.md": {
+  "pages": "toa 227-227",
+  "ratio": 1.0,
+  "issues": []
+ },
+ "26. Traps/26.4.11. Fire, Explosion.md": {
+  "pages": "toa 226-227",
+  "ratio": 1.0,
+  "issues": []
+ },
+ "26. Traps/26.4.12. Gas.md": {
+  "pages": "toa 227-227",
+  "ratio": 1.0,
+  "issues": []
+ },
+ "26. Traps/26.4.13. Lockdown.md": {
+  "pages": "toa 227-227",
+  "ratio": 1.0,
+  "issues": []
+ },
+ "26. Traps/26.4.14. Magic.md": {
+  "pages": "toa 228-228",
+  "ratio": 0.5946,
+  "issues": [
+   {
+    "type": "words",
+    "op": "delete",
+    "note": "magic d 12",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "7 gabbling of the jade moon"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "8 thrice bound curse"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "9 lightning bolt"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "10 flesh to stone"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "11 ray of unmaking"
+   },
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "7 gabbling of the jade moon 8 thrice bound curse 9 lightning bolt 10 flesh to stone 11 ray of unmaking",
+    "source": ""
+   }
+  ]
+ },
+ "26. Traps/26.4.15. Monster.md": {
+  "pages": "toa 228-228",
+  "ratio": 1.0,
+  "issues": []
+ },
+ "26. Traps/26.4.16. Needle.md": {
+  "pages": "toa 228-228",
+  "ratio": 1.0,
+  "issues": []
+ },
+ "26. Traps/26.4.17. Pit.md": {
+  "pages": "toa 228-228",
+  "ratio": 1.0,
+  "issues": []
+ },
+ "26. Traps/26.4.18. Poison.md": {
+  "pages": "toa 228-228",
+  "ratio": 0.5675,
+  "issues": [
+   {
+    "type": "words",
+    "op": "delete",
+    "note": "poison d 20",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "11 1 d 6 str dex or con loss"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "12 1 d 6 int will or cha loss"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "13 blind for 1 d 6 hours"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "14 unconscious for 1 d 4 hours"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "15 6 d 8 damage"
+   },
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "7 3 d 8 damage 8 madness for 2 d 6 hours 9 choking for 3 d 6 rounds 10 4 d 8 damage 11 1 d 6 str dex or con loss 12 1 d 6 int will or cha loss 13 blind for 1 d 6 hours 14 unconscious for 1 d 4 hours 15 6 d 8 damage",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "7 3 d 8 damage"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "d 6 hours 8 madness for 2"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "9 choking for 3 d 6 rounds"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "10 4 d 8 damage"
+   }
+  ]
+ },
+ "26. Traps/26.4.19. Relocation.md": {
+  "pages": "toa 229-229",
+  "ratio": 1.0,
+  "issues": []
+ },
+ "26. Traps/26.4.2. Triggers & Counters.md": {
+  "pages": "toa 225-225",
+  "ratio": 0.5188,
+  "issues": [
+   {
+    "type": "reordered",
+    "op": "delete",
+    "note": "triggers counters",
+    "source": ""
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "to determine the trap s danger level or choose as appropriate for the situation triggers counters triggers and countermeasures are partly dependent on the nature of the trapped item or space portable container traps activate if opened moved or otherwise interacted with as the referee determines roll 2 d 6 for spaces doors rooms hallways etc or large objects statues bookshelves beds etc if a particular trigger doesn t make sense for the situation roll again or choose mode of attack to determine a trap s attack mode roll 1 d 8 for portable containers chests boxes jars etc or 1 d 20 for spaces and large objects doors hallways rooms etc if an attack mode does not fit the situation at hand reroll or choose"
+   }
+  ]
+ },
+ "26. Traps/26.4.20. Rolling Boulder.md": {
+  "pages": "toa 229-229",
+  "ratio": 1.0,
+  "issues": []
+ },
+ "26. Traps/26.4.21. Scything Blades.md": {
+  "pages": "toa 229-229",
+  "ratio": 0.9784,
+  "issues": []
+ },
+ "26. Traps/26.4.22. Self Destruct.md": {
+  "pages": "toa 229-229",
+  "ratio": 1.0,
+  "issues": []
+ },
+ "26. Traps/26.4.23. Snare.md": {
+  "pages": "toa 229-229",
+  "ratio": 1.0,
+  "issues": []
+ },
+ "26. Traps/26.4.24. Spear, Spikes.md": {
+  "pages": "toa 229-229",
+  "ratio": 1.0,
+  "issues": []
+ },
+ "26. Traps/26.4.3. Mode of Attack.md": {
+  "pages": "toa 225-225",
+  "ratio": 0.5385,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "mode of attack d 20 1 magic 2 needle 3 gas",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "14 relocation"
+   },
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "6 fire or explosion 7 acid 8 self destruct 9 snare 10 lockdown 11 deadfall 12 drowning 13 rolling boulder 14 relocation",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "6 fire or explosion"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "7 acid"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "8 self destruct"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "9 snare"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "10 lockdown"
+   }
+  ]
+ },
+ "26. Traps/26.4.4. Bypasses.md": {
+  "pages": "toa 226-226",
+  "ratio": 0.9615,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "bypasses 2 d 6",
+    "source": ""
+   }
+  ]
+ },
+ "26. Traps/26.4.5. Acid.md": {
+  "pages": "toa 226-227",
+  "ratio": 1.0,
+  "issues": []
+ },
+ "26. Traps/26.4.6. Alarm.md": {
+  "pages": "toa 226-226",
+  "ratio": 1.0,
+  "issues": []
+ },
+ "26. Traps/26.4.7. Arrows, Darts.md": {
+  "pages": "toa 226-226",
+  "ratio": 1.0,
+  "issues": []
+ },
+ "26. Traps/26.4.8. Crushing Walls.md": {
+  "pages": "toa 227-227",
+  "ratio": 1.0,
+  "issues": []
+ },
+ "26. Traps/26.4.9. Deadfall.md": {
+  "pages": "toa 227-227",
+  "ratio": 1.0,
+  "issues": []
+ },
+ "27. Treasure/27.1.1. Carry Loot A.md": {
+  "pages": "toa 231-233",
+  "ratio": 0.714,
+  "issues": [
+   {
+    "type": "words",
+    "op": "replace",
+    "note": "d 100",
+    "source": "often nothing of significance or a small number of copper or silver coins low chance of a precious stone carry loot b mostly silver coins or a useful item possibly some gold coins low chance of a gemstone valuables a lesser art objects lesser gems potions scrolls low chance of a minor charm valuables b greater art objects greater gems potions scrolls low chance of a minor charm or major magical item trinkets curios broad variety of weird and wonderful curiosities lair treasure major hauls minor magical items potions scrolls spellbooks and minor charms major magical items higher power permanent magic items gms are encouraged to customise the treasure tables to suit their campaign and or the scenario at hand carry loot a"
+   }
+  ]
+ },
+ "27. Treasure/27.1.2. Carry Loot B.md": {
+  "pages": "toa 232-232",
+  "ratio": 0.9964,
+  "issues": [
+   {
+    "type": "reordered",
+    "op": "delete",
+    "note": "d 100",
+    "source": ""
+   }
+  ]
+ },
+ "27. Treasure/27.10.1. Item Type.md": {
+  "pages": "toa 258-258",
+  "ratio": 0.642,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "item type d 20",
+    "source": ""
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "14 light med armour p 61"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "15 heavy armour p 61"
+   },
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "13 shield 14 lightmed armour p 61 15 heavy armour p 61",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "13 shield"
+   }
+  ]
+ },
+ "27. Treasure/27.10.2. Jewellery.md": {
+  "pages": null,
+  "issues": [
+   {
+    "type": "no-source-match"
+   }
+  ]
+ },
+ "27. Treasure/27.10.3. Clothing.md": {
+  "pages": null,
+  "issues": [
+   {
+    "type": "no-source-match"
+   }
+  ]
+ },
+ "27. Treasure/27.10.4. Miscellaneous.md": {
+  "pages": "toa 258-258",
+  "ratio": 0.5906,
+  "issues": [
+   {
+    "type": "words",
+    "op": "delete",
+    "note": "miscellaneous d 20",
+    "source": ""
+   },
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "2 gauntlet claw 3 holy icon 4 mirror comb 5 box bag pouch 6 pipe censer 7 instrument 8 orb cube prism 9 candle lamp 10 book tome scroll",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "2 gauntlet claw"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "3 holy icon"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "4 mirror comb"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "5 box bag pouch"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "6 pipe censer"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "7 instrument"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "8 orb cube prism"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "9 candle lamp"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "10 book tome scroll"
+   }
+  ]
+ },
+ "27. Treasure/27.10.5. Number of Powers.md": {
+  "pages": "toa 258-258",
+  "ratio": 0.6329,
+  "issues": [
+   {
+    "type": "words",
+    "op": "delete",
+    "note": "d 6 2",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "8 one discreet"
+   },
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "one discreet 4 5 one obvious one discreet 6 7 one obvious 8",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "4 5 one obvious one discreet"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "6 7 one obvious"
+   }
+  ]
+ },
+ "27. Treasure/27.10.6. Obvious Powers.md": {
+  "pages": "toa 258-260",
+  "ratio": 0.9967,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "obvious powers d 100",
+    "source": ""
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "257 257"
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "258 258"
+   }
+  ]
+ },
+ "27. Treasure/27.10.7. Discreet Powers.md": {
+  "pages": "toa 260-261",
+  "ratio": 0.9747,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "discreet powers d 100",
+    "source": ""
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "259 259 side effects if desired read the signs to spark a themed side effect for the item or try rolling on the madness p 160 or toxin trauma p 87 tables apply the side effect once per adventure as an acute episode or as the gm determines"
+   }
+  ]
+ },
+ "27. Treasure/27.2.1. Valuables A.md": {
+  "pages": "toa 232-233",
+  "ratio": 0.6343,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "valuables a d 100",
+    "source": ""
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "carry loot b 1 30 silvers equal to 50 the sum of the digits on the d 100 roll 31 40 silvers equal to the reverse of the digits on the d 100 roll plus an item roll 1 d 10 i hacksaw ii bell iii fishing line iv ink bottle v lamp vi smelling salts vii flute viii smoking pipe ix acid vial x bag of caltrops 41 50 silvers equal to the reverse of the digits on the d 100 roll plus an item roll 1 d 10 i spice jar ii antitoxin herbs iii wine flask iv holy symbol v bag of marbles vi iron spike vii minor jewelry 35 sp viii candles 5 ix whistle x trollblood ointment 51 60 silvers equal to the reverse of the digits on the d 100 roll plus an item roll 1 d 10 i firepot ii manacles iii holy water iv poppy milk v mirror vi oil flask vii torch viii rope 30 ft ix healer s kit x poison 1 d 10 on the poison table p 226 61 75 gold pieces equal to the sum of the digits on the d 100 roll 76 85 gold pieces equal to 10 the sum of the digits on the d 100 roll 86 95 silvers equal to the sum of the digits on the d 100 roll plus a gemstone worth 300 sp 100 sp x second d 10 roll the second die also decides gem type iii opal iiiiv moonstone v emerald vi peridot vii sapphire viii bloodstone ix ruby x diamond 96 100 roll 3 d 20 on the valuables a table 231"
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "valuables b 1 5 a trio of ebony dice with pips inlaid with pearl 400 sp or teak masquerade mask with ornamental jade and a deep purple feather 420 sp 6 9 a one foot bronze sceptre with a claw on the end encrusted with bloodstones 450 sp or an intricate silver double finger ring depicting a pair of birds 460 sp 10 13 a pair of ivory earrings studded with tiny diamonds 470 sp or a fine oak telescope inlaid with a jasper wave motif 490 sp 14 17 a one foot jade statue of a coiled serpent 520 sp or an ornate silver bowl with a sun motif rimmed in gold 550 sp 18 21 a six inch articulating hound fashioned of burnished steel with a gold key and tiny emerald eyes 560 sp or a bronze circlet decorated with opals 570 gp 22 25 a gold signet ring with a human eye motif 580 sp or a trio of silver bangles with a corded rope motif 590 sp 26 29 a magnifying glass with a silver crescent moon motif 600 sp or antique wooden shield plaque depicting dual headed wodon decorated with moonstones and amethysts 620 sp 30 33 a lifelike five foot teak carving of an attractive female 630 sp or an ebony ring studded with peridot gemstones 640 sp valuables bvaluables b covers major art objects 400 1000 sp greater gems 600 1500 sp potions scrolls and minor charms there is also a small chance of a major magical item"
+   }
+  ]
+ },
+ "27. Treasure/27.2.2. Valuables B.md": {
+  "pages": "toa 233-234",
+  "ratio": 0.8273,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "valuables b d 100",
+    "source": ""
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "valuables bvaluables b covers major art objects 400 1000 sp greater gems 600 1500 sp potions scrolls and minor charms there is also a small chance of a major magical item 55 57 a six foot tapestry depicting a ferocious battle between armour clad giants in the clouds 330 sp or a silver necklace with an amethyst pendant 340 sp 58 60 a four foot chest containing colourful bolts of fine silk 350 sp or a copper bell decorated with small topaz gemstones 360 sp 61 70 precious stones worth 50 sp x second d 10 roll the second die roll also determines gem type i quartz ii agate iii amber iv turquoise v crystal vi amethyst vii jasper viii topaz ix jade x pearl 71 77 masterforged item 1 d 10 ivii weapon viiiix armour or x shield p 62 78 84 a random potion p 239 85 90 a random scroll p 240 91 95 a random minor charm p 244 96 100 roll 3 d 20 on the valuables b table 232 trinkets curios the trinkets curios table is for those oddball items adventurers sometimes stumble across about 90 of the items are nonmagical many have a touch of mystery about them or the seed of a side trek about 10 of the items have a minor enchantment"
+   }
+  ]
+ },
+ "27. Treasure/27.3.1. Trinkets & Curios.md": {
+  "pages": "toa 234-239",
+  "ratio": 0.9524,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "trinkets curios d 100",
+    "source": ""
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "233 233 19 folded parchment containing the notes to a whimsical tune if hummed sung or played on a wind instrument consult the bones to find out if a handful of butterflies surrounds the musician the butterflies depart when the tune ends 20 a painted toy boat in great condition 8 cp a single child figurine steers the ship there is space for a second figurine but it appears to be missing 21 tucked away in a water proof satchel is a sea blue masquerade mask with a slim wooden handle 12 sp 22 a small nickel edged book with a hummingbird motif lock if successfully unlocked the book contains hand written essays on avian husbandry and training by the reputable and deceased falconer kothmai of considerable worth to the right collector 230 sp 23 fossilized tree sap encasing a six inch dragonfly with elongated tentacles instead of mandibles"
+   },
+   {
+    "type": "words",
+    "op": "replace",
+    "note": "19 folded parchment containing the notes to a whimsical tune if hummed sung or played on a wind instrument consult the bones to find out if a handful of butterflies surrounds the musician the butterflies depart when the tune ends 20 a painted toy boat in great condition 8 cp a single child figurine steers the ship there is space for a second figurine but it appears to be missing 21 tucked away in a water proof satchel is a sea blue masquerade mask with a slim wooden handle 12 sp 22 a small nickel edged book with a hummingbird motif lock if successfully unlocked the book contains hand written essays on avian husbandry and training by the reputable and deceased falconer kothmai of considerable worth to the right collector 230 sp 23 fossilized tree sap encasing a six inch dragonfly with elongated tentacles instead of mandibles",
+    "source": "234"
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "235"
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "236"
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "237"
+   }
+  ]
+ },
+ "27. Treasure/27.4.1. Lair Treasure.md": {
+  "pages": "toa 240-240",
+  "ratio": 1.0,
+  "issues": []
+ },
+ "27. Treasure/27.5.1. Minor Magical Items.md": {
+  "pages": "toa 241-241",
+  "ratio": 0.9738,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "minor magical items d 100",
+    "source": ""
+   }
+  ]
+ },
+ "27. Treasure/27.5.2. Potions.md": {
+  "pages": "toa 241-242",
+  "ratio": 0.6281,
+  "issues": [
+   {
+    "type": "reordered",
+    "op": "delete",
+    "note": "potions d 100",
+    "source": ""
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "minor magical items 1 35 potion roll 1 d 100 on the potions table 36 50 scroll roll 1 d 100 on the spell list p 100 to determine which spell the scroll holds 51 90 minor charm roll 1 d 100 on the minor charms table 91 100 spellbook roll 1 d 10 to determine which spells are contained iv 2 x random spells from the spell list viviii 3 x random spells from the spell list ixx the pcs have discovered an old magic grimoire containing an ancient and very powerful spell p 240 240 scrolls magical scrolls contain spells that anyone may attempt to cast including the illiterate part of their enchantment includes the ability to read and comprehend the arcane runes contained within roll 1 d 100 and consult the spell list to determine which spell the scroll holds magic users and perhaps cultists in some cases gm s call may use a scroll to cast the inscribed spell without making any checks a non magic user attempting to cast a spell scroll requires the usual spell casting check if failed however the spell is miscast triggering a ddm effect p 92 spell effects are usually treated as a great success at 7 th level gm s call using a scroll to cast its spell destroys the scroll spellbooks a magic user requires spellbook s to protect and refresh their mind s capacity to work magic and to research spells during their adventures pc magic users that acquire new spellbooks scrolls and so on may study them to learn new spells more easily learning a new spell from a spellbook or scroll is a downtime activity magical research p 125 if the pc has acquired an old magic grimoire roll 1 d 12 and consult the chart below to determine which spell it contains old magic grimoires may be cast like scrolls but at 10 th level 89 91 starmaiden s miracle as the old magic grimoire spell p 230 92 94 transmogrification as the spell 95 97 towering growth you grow up to 20 ft tall and your str increases to a minimum of 16 your weapon die increases by two categories dice categories are d 2 d 3 d 4 d 6 d 8 d 10 d 12 2 d 8 2 d 10 etc 98 100 one with the deep as the spell"
+   },
+   {
+    "type": "words",
+    "op": "replace",
+    "note": "89 91",
+    "source": "old magic grimoires 1 conclave of wind sky 7 rite of revelation 2 forbidden wish 8 sign of subjugation 3 ineffable force 9"
+   },
+   {
+    "type": "table-emphasis",
+    "word": "starmaiden",
+    "note": "B",
+    "source": "I",
+    "context": "spider 89 91 starmaiden s miracle as"
+   },
+   {
+    "type": "table-emphasis",
+    "word": "miracle",
+    "note": "B",
+    "source": "I",
+    "context": "91 starmaiden s miracle as the old"
+   },
+   {
+    "type": "reordered",
+    "op": "delete",
+    "note": "as the old magic grimoire spell p 230 92 94 transmogrification as the spell 95 97 towering growth you grow up to 20 ft tall and your str increases to a minimum of 16 your weapon die increases by two categories dice categories are d 2 d 3 d 4 d 6 d 8 d 10 d 12 2 d 8 2 d 10 etc 98 100 one with the deep as the spell",
+    "source": ""
+   }
+  ]
+ },
+ "27. Treasure/27.5.3. Old Magic Grimoires.md": {
+  "pages": "toa 242-242",
+  "ratio": 0.5421,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "old magic grimoires d 12",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "7 rite of revelation"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "8 sign of subjugation"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "9 starmaiden s miracle"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "10 unchain the world eater"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "11 veil of the balor"
+   },
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "7 rite of revelation 8 sign of subjugation 9 starmaiden s miracle 10 unchain the world eater 11 veil of the balor",
+    "source": ""
+   }
+  ]
+ },
+ "27. Treasure/27.7.1. Minor Charms.md": {
+  "pages": "toa 246-249",
+  "ratio": 0.9981,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "minor charms d 100",
+    "source": ""
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "245"
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "246"
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "247"
+   }
+  ]
+ },
+ "27. Treasure/27.8.1. Major Magical Items.md": {
+  "pages": "toa 251-251",
+  "ratio": 0.5455,
+  "issues": [
+   {
+    "type": "words",
+    "op": "delete",
+    "note": "d 20",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "11 lash of the elf queen p 252"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "12 torc of sebutett p 252"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "13 fangs of the unflinching mother p 253"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "14 mask of the golden one p 253"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "15 gnar sumek p 254"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "16 coil of the worm p 254"
+   },
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "8 staff of mensicor p 251 9 horn of karagoss p 252 10 morg tor p 252 11 lash of the elf queen p 252 12 torc of sebutett p 252 13 fangs of the unflinching mother p 253 14 mask of the golden one p 253 15 gnar sumek p 254 16 coil of the worm p 254",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "8 staff of mensicor p 251"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "9 horn of karagoss p 252"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "10 morg tor p 252"
+   }
+  ]
+ },
+ "5. Classes/5.10.1. Tricks & Techniques.md": {
+  "pages": "toa 44-44",
+  "ratio": 0.9934,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "tricks techniques d 12",
+    "source": ""
+   }
+  ]
+ },
+ "5. Classes/5.2.1. Alchemy & Mechanica.md": {
+  "pages": "toa 19-20",
+  "ratio": 0.9968,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "alchemy mechanica d 12",
+    "source": ""
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "18"
+   }
+  ]
+ },
+ "5. Classes/5.2.2. Mutagen.md": {
+  "pages": "toa 20-20",
+  "ratio": 0.9873,
+  "issues": [
+   {
+    "type": "words",
+    "op": "delete",
+    "note": "mutagen d 8",
+    "source": ""
+   }
+  ]
+ },
+ "5. Classes/5.5.1. Blessings.md": {
+  "pages": "toa 27-27",
+  "ratio": 0.7453,
+  "issues": [
+   {
+    "type": "words",
+    "op": "delete",
+    "note": "blessings d 12",
+    "source": ""
+   },
+   {
+    "type": "words",
+    "op": "insert",
+    "note": "",
+    "source": "sacred lore at 1 st level you have a detailed knowledge of religions you may roll against will rather than int on checks relating to divine lore holy or unholy including deities undead and demons child of the gods at 2 nd level you are blessed by your patron increasing your maximum luck by 1 point unique feature at 3 rd 6 th and 9 th levels you gain a unique feature see p 15 and 45 new skill at 2 nd 5 th and 8 th level you gain one new skill the skill need not be on your class list second attack at 5 th level when you use an action to attack you make two attacks instead of one if two weapon fighting you don t get a second extra attack p 80 church militant by"
+   },
+   {
+    "type": "words",
+    "op": "replace",
+    "note": "12",
+    "source": "th level divine providence guides your hand to strike true expanding your crit range to 19 20 beyond 9 th level if you survive this long you retire as high priestess at a temple dedicated to your god attracting new worshippers and fervent protectors to the fold"
+   }
+  ]
+ },
+ "5. Classes/5.5.2. Spell Like Blessings.md": {
+  "pages": null,
+  "issues": [
+   {
+    "type": "no-source-match"
+   }
+  ]
+ },
+ "5. Classes/5.6.1. Adaptable.md": {
+  "pages": "toa 33-33",
+  "ratio": 0.996,
+  "issues": [
+   {
+    "type": "words",
+    "op": "delete",
+    "note": "adaptable d 12",
+    "source": ""
+   }
+  ]
+ },
+ "5. Classes/5.8.1. Monk Techniques.md": {
+  "pages": "toa 38-38",
+  "ratio": 0.995,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "monk techniques d 12",
+    "source": ""
+   }
+  ]
+ },
+ "5. Classes/5.9.1. Rangercraft.md": {
+  "pages": "toa 42-42",
+  "ratio": 0.9524,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "rangercraft d 12 1 animal ken you and your beast briefly exchange detailed information including matters which might not normally be imparted by an animal gm discretion the gm might require a perc check for especially complex information",
+    "source": ""
+   }
+  ]
+ },
+ "6. Party Bonds/6.1.1. Party Bonds.md": {
+  "pages": "toa 46-46",
+  "ratio": 0.4372,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "party bonds d 66",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "31 sailing or riverboat voyage 51 fought in a war"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "32 in a riot together 52 captives for a brief time"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "33 prison cell mates 53 grifters scam"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "34 betrayed by an employer 54 bouncers in a tavern"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "35 deceased teacher or mentor 55 joint research task"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "36 defenders in a siege 56 saved people from a fire"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "41 plague lockdown survivors 61 drinking buddies"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "42 joint debt to someone thing 62 muscle for a crime boss"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "43 bodyguard duties 63 bounty hunter job"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "44 last members of a fallen mercenary company 64 shared curse from the same supernatural source"
+   },
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "26 smuggling job 31 sailing or riverboat voyage 32 in a riot together 33 prison cell mates 34 betrayed by an employer 35 deceased teacher or mentor 36 defenders in a siege 41 plague lockdown survivors 42 joint debt to someone thing 43 bodyguard duties 44 last members of a fallen mercenary company",
+    "source": ""
+   },
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "46 expedition to find a lost ruin 51 fought in a war 52 captives for a brief time 53 grifters scam 54 bouncers in a tavern 55 joint research task 56 saved people from a fire 61 drinking buddies 62 muscle for a crime boss 63 bounty hunter job 64 shared curse from the same supernatural source",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "26 smuggling job 46 expedition to find a lost ruin"
+   }
+  ]
+ },
+ "7. Unique Features/7.2. Example Unique Features/Pilfer Pouch - d100 Table.md": {
+  "pages": "toa 50-50",
+  "ratio": 0.5629,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "pilfer pouch d 100 table d 100",
+    "source": ""
+   },
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "3 4 fishing hook 5 6 trip wires 7 8 oil flask 9 10 gemstone 30 sp 11 12 random poison 13 14 iron spike 15 16 ink bottle 17 18 skorn tooth 19 20 candle 21 22 pipe pipeweed 23 24 manacles",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "3 4 fishing hook"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "5 6 trip wires"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "7 8 oil flask"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "9 10 gemstone 30 sp"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "11 12 random poison"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "13 14 iron spike"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "15 16 ink bottle"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "17 18 skorn tooth"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "19 20 candle"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "21 22 pipe pipeweed"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "23 24 manacles"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "75 76 trollblood ointment"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "77 78 smelling salts"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "79 80 live beetle"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "81 82 liquor flask"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "83 84 glass shard"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "85 86 foreign coin"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "87 88 cheese wedge"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "89 90 skipping stone"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "91 92 chicken egg"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "93 94 garrote"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "95 96 ferret or similar animal"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "97 98 rat trap"
+   },
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "75 76 trollblood ointment 77 78 smelling salts 79 80 live beetle 81 82 liquor flask 83 84 glass shard 85 86 foreign coin 87 88 cheese wedge 89 90 skipping stone 91 92 chicken egg 93 94 garrote 95 96 ferret or similar animal 97 98 rat trap",
+    "source": ""
+   }
+  ]
+ },
+ "9. Equipment/9.15.1. Masterforged Weapon.md": {
+  "pages": "toa 64-64",
+  "ratio": 0.9811,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "masterforged weapon d 8",
+    "source": ""
+   }
+  ]
+ },
+ "9. Equipment/9.15.2. Masterforged Armour.md": {
+  "pages": "toa 64-64",
+  "ratio": 0.9756,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "masterforged armour d 6",
+    "source": ""
+   }
+  ]
+ },
+ "9. Equipment/9.3.1. Common Gear.md": {
+  "pages": "toa 58-58",
+  "ratio": 0.5357,
+  "issues": [
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "common gear d 66",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "41 mirror small"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "42 oil flask"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "43 parchment 5"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "44 pickaxe"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "44 pole 10 ft"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "46 pot bowl"
+   },
+   {
+    "type": "not-in-text-layer",
+    "op": "delete",
+    "note": "22 chalk 5 sticks 23 chest small 24 clothes 25 crowbar 26 grappling hook 31 hammer 32 ink 1 oz 33 ladder 10 ft 34 lamp 35 lantern hooded 36 lantern bullseye 41 mirror small 42 oil flask 43 parchment 5 44 pickaxe 44 pole 10 ft 46 pot bowl",
+    "source": ""
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "22 chalk 5 sticks"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "23 chest small"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "24 clothes"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "25 crowbar"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "26 grappling hook"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "31 hammer"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "32 ink 1 oz"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "33 ladder 10 ft"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "34 lamp"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "35 lantern hooded"
+   },
+   {
+    "type": "reordered",
+    "op": "insert",
+    "note": "",
+    "source": "36 lantern bullseye"
+   }
+  ]
+ }
+}

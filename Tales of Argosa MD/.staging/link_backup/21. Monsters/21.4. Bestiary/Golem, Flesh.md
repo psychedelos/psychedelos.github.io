@@ -1,0 +1,3 @@
+*Flesh Golems* are 7 ft humanoid automatons bound together using the parts of different corpses, primarily humanoids. They enter an uncontrolled frenzy when seriously injured.
+
+**FLESH GOLEM** #1 **AC** 14 **HD** 7+3 **Fists (2)** 2d6 **Nat 19** Knocked *Prone* and bonus Fist attack **S**18 **D**10 **C**18 **I**- **P**10 **W**- **Ch**- **L**9. 50% Magic Resistance and 50% chance of negating non magical weapon hits. *Lightning* grants *Hunger for Blood* instead of damaging the *Golem*. When *Wounded* gains **Off Turn Attacks** but loses 1d6 hp each round until torn apart. **Reac** As creator's orders.

@@ -1,0 +1,123 @@
+{
+ "patches": [],
+ "confirmed": [
+  {
+   "file": "27. Treasure/27.7.1. Minor Charms.md",
+   "note": "all 50 rows match (p246-p249): die ranges, every word, bold/italic and header checked against image + font data"
+  },
+  {
+   "file": "27. Treasure/27.8.1. Major Magical Items.md",
+   "note": "all 20 rows match (p251): die ranges, every word, bold/italic and header checked against image + font data"
+  },
+  {
+   "file": "27. Treasure/27.10.1. Item Type.md",
+   "note": "all 8 rows match (p258): die ranges, every word, bold/italic and header checked against image + font data"
+  },
+  {
+   "file": "27. Treasure/27.10.2. Jewellery.md",
+   "note": "all 8 rows match (p258): die ranges, every word, bold/italic and header checked against image + font data"
+  },
+  {
+   "file": "27. Treasure/27.10.3. Clothing.md",
+   "note": "all 8 rows match (p258): die ranges, every word, bold/italic and header checked against image + font data"
+  },
+  {
+   "file": "27. Treasure/27.10.4. Miscellaneous.md",
+   "note": "all 20 rows match (p258): die ranges, every word, bold/italic and header checked against image + font data"
+  },
+  {
+   "file": "27. Treasure/27.10.5. Number of Powers.md",
+   "note": "all 11 rows match (p258): die ranges, every word, bold/italic and header checked against image + font data"
+  },
+  {
+   "file": "27. Treasure/27.10.6. Obvious Powers.md",
+   "note": "all 36 rows match (p258-p260): die ranges, every word, bold/italic and header checked against image + font data"
+  },
+  {
+   "file": "27. Treasure/27.10.7. Discreet Powers.md",
+   "note": "all 34 rows match (p260-p261): die ranges, every word, bold/italic and header checked against image + font data"
+  },
+  {
+   "file": "16. Downtime/16.6.1. Pet Qualities.md",
+   "note": "all 36 rows match (p124): die ranges, every word, bold/italic and header checked against image + font data"
+  },
+  {
+   "file": "17. GM Tools/17.4.2. Weather Shift.md",
+   "note": "all 12 rows match (p138): die ranges, every word, bold/italic and header checked against image + font data"
+  },
+  {
+   "file": "18. Hirelings/18.3.1. Personality.md",
+   "note": "all 42 rows match (p159): die ranges, every word, bold/italic and header checked against image + font data"
+  },
+  {
+   "file": "25. Solo Rules/25.4.1. Dungeon Site.md",
+   "note": "all 10 rows match (p220): die ranges, every word, bold/italic and header checked against image + font data"
+  },
+  {
+   "file": "25. Solo Rules/25.4.5. Main Opposition.md",
+   "note": "all 10 rows match (p221): die ranges, every word, bold/italic and header checked against image + font data"
+  },
+  {
+   "file": "5. Classes/5.5.2. Spell Like Blessings.md",
+   "note": "all 6 rows match (p027): die ranges, every word, bold/italic and header checked against image + font data"
+  }
+ ],
+ "rows_checked": {
+  "27. Treasure/27.7.1. Minor Charms.md": 50,
+  "27. Treasure/27.8.1. Major Magical Items.md": 20,
+  "27. Treasure/27.10.1. Item Type.md": 8,
+  "27. Treasure/27.10.2. Jewellery.md": 8,
+  "27. Treasure/27.10.3. Clothing.md": 8,
+  "27. Treasure/27.10.4. Miscellaneous.md": 20,
+  "27. Treasure/27.10.5. Number of Powers.md": 11,
+  "27. Treasure/27.10.6. Obvious Powers.md": 36,
+  "27. Treasure/27.10.7. Discreet Powers.md": 34,
+  "16. Downtime/16.6.1. Pet Qualities.md": 36,
+  "17. GM Tools/17.4.2. Weather Shift.md": 12,
+  "18. Hirelings/18.3.1. Personality.md": 42,
+  "25. Solo Rules/25.4.1. Dungeon Site.md": 10,
+  "25. Solo Rules/25.4.5. Main Opposition.md": 10,
+  "5. Classes/5.5.2. Spell Like Blessings.md": 6
+ },
+ "source_typos": [
+  {
+   "file": "16. Downtime/16.6.1. Pet Qualities.md",
+   "quote": "| 44 | Grumpy |",
+   "page": 124,
+   "note": "print repeats 44 (no 45); kept as printed"
+  },
+  {
+   "file": "18. Hirelings/18.3.1. Personality.md",
+   "quote": "Loose Canon",
+   "page": 159
+  },
+  {
+   "file": "27. Treasure/27.10.6. Obvious Powers.md",
+   "quote": "Check for a DMM effect when a soul is trapped",
+   "page": 260
+  },
+  {
+   "file": "27. Treasure/27.7.1. Minor Charms.md",
+   "quote": "and adopts pirate phrases",
+   "page": 248
+  },
+  {
+   "file": "27. Treasure/27.7.1. Minor Charms.md",
+   "quote": "\"Aye, cap'ain\"",
+   "page": 248
+  },
+  {
+   "file": "27. Treasure/27.7.1. Minor Charms.md",
+   "quote": "and drinks from the cup",
+   "page": 248
+  },
+  {
+   "file": "27. Treasure/27.10.7. Discreet Powers.md",
+   "quote": "**Telepathic** you may send",
+   "page": 260,
+   "note": "lowercase after power name, as printed (also 34-36 Jack of All Trades, p261)"
+  }
+ ],
+ "questions": [],
+ "notes": "No discrepancies found. Located the 6 'no-source-match' notes myself: Pet Qualities p124, Weather Shift p138, Personality p159, Dungeon Site p220, Main Opposition p221, Spell Like Blessings p027 (rows 7-12 of the Cultist d12 Blessings roll, as printed). Every automated flag in T12.json was layout noise (two-column interleave / vertically centred die numbers). Text compared programmatically against pNNN.md row-joins (hyphenation rejoined) plus visual check of every row on the images. Inferred/derived die headers: Major Magical Items d20 (20 entries), Personality d100, Minor Charms d100 (prose '1d100'), Item Type d20 (prose 'roll 1d20'), Jewellery/Clothing d8 and Misc d20 (from Item Type cells), Number of Powers 2d6, Obvious/Discreet d100, Pet Qualities d66, Weather Shift d12, Dungeon Site/Main Opposition d20. 'Side Effects' box on p261 is a separate sidebar outside the Discreet Powers frame and correctly not in the note. 'Sever Arcarnum' is the book's consistent spelling (10 pages), not flagged. Cosmetic only: Weather Shift, Dungeon Site and Main Opposition header rows are '| d12 |  |' (two spaces) vs '| d20 | |' elsewhere -- no patch."
+}

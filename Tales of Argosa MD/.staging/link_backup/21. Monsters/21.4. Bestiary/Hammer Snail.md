@@ -1,0 +1,3 @@
+*Hammer Snails* are 5 ft, carnivorous gastropods with hard shells and resilient, rubbery hides. They attack foes by battering them with their five flail like stalks, or crushing them against the floor or walls with their bulk. Truly monstrous variants up to 16 ft in length are not unknown (HD 14, Stalk 1d8+2).
+
+**HAMMER SNAIL** #1d4 **AC** 16 **HD** 5 **Stalks (5)** 1d4+2 **Nat 19** *Blunt Trauma* (1d8+4) **S**12 **D**7 **C**15 **I**3 **P**8 **W**17 **Ch**1 **L**8. **Climb** Norm. *Hammer Snails* attack the same target with all five hammer stalks until unconscious before selecting another target (or tenderising the corpse into a pulpy mass which it consumes). **Reac** 2-4 Belligerent 5-6 Hungry 7-8 Careful 9-10 Curious 11-12 Receptive.

@@ -1,0 +1,3 @@
+The following *Zombie Swarm* represents scores of *Walkers* lurching along in a mindless fashion, groping at the closest living thing they sense.
+
+**ZOMBIE SWARM** #1 **AC** 8 **HD** 6 **Fist** 1d12 **Nat 19-20** Overwhelmed! Str contest or torn apart on the *Swarm's* next action unless somehow rescued **S**19 **D**5 **C**18 **I**- **P**10 **W**- **Ch**- **L**6. **Move** Slow. *Undead.* **Swarm** (p.170). *Zombie Swarms* are easily baited and move towards wherever they think the closest prey is. They kill unconscious victims with their next action if the body is not recovered. **Reac** As creator's orders or 2-12 Hostile.

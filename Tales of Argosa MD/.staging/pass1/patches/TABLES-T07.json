@@ -1,0 +1,76 @@
+{
+ "patches": [],
+ "confirmed": [
+  {
+   "file": "17. GM Tools/17.5.5. Forests.md",
+   "note": "all 20 rows match (p148): die numbers 1-20 present once each, every word and bold/italic instance matches print and font data; nothing else printed in the frame; header d20 inferred (title bar prints no die)"
+  },
+  {
+   "file": "17. GM Tools/17.5.6. Mountains & Hills.md",
+   "note": "all 20 rows match (p149-150): die numbers 1-20 present once each, every word and bold/italic instance matches print and font data; nothing else printed in the frame; header d20 inferred (title bar prints no die)"
+  },
+  {
+   "file": "17. GM Tools/17.5.7. Oceans, Lakes, Rivers.md",
+   "note": "all 20 rows match (p150-151): die numbers 1-20 present once each, every word and bold/italic instance matches print and font data; nothing else printed in the frame; header d20 inferred (title bar prints no die)"
+  },
+  {
+   "file": "17. GM Tools/17.5.8. Plains & Grasslands.md",
+   "note": "all 20 rows match (p151-152): die numbers 1-20 present once each, every word and bold/italic instance matches print and font data; nothing else printed in the frame; header d20 inferred (title bar prints no die)"
+  },
+  {
+   "file": "17. GM Tools/17.5.9. Roads & Trails.md",
+   "note": "all 20 rows match (p152-153): die numbers 1-20 present once each, every word and bold/italic instance matches print and font data; nothing else printed in the frame; header d20 inferred (title bar prints no die)"
+  },
+  {
+   "file": "17. GM Tools/17.5.10. Snow & Ice.md",
+   "note": "all 20 rows match (p154-155): die numbers 1-20 present once each, every word and bold/italic instance matches print and font data; nothing else printed in the frame; header d20 inferred (title bar prints no die)"
+  },
+  {
+   "file": "17. GM Tools/17.5.11. Swamps.md",
+   "note": "all 20 rows match (p155-156): die numbers 1-20 present once each, every word and bold/italic instance matches print and font data; nothing else printed in the frame; header d20 inferred (title bar prints no die)"
+  },
+  {
+   "file": "17. GM Tools/17.5.12. Underground.md",
+   "note": "all 20 rows match (p156-157): die numbers 1-20 present once each, every word and bold/italic instance matches print and font data; nothing else printed in the frame; header d20 inferred (title bar prints no die)"
+  },
+  {
+   "file": "18. Hirelings/18.1.1. Names.md",
+   "note": "all 50 rows match (p158): ranges 1-2 ... 99-00 as printed, names and (n)/(v)/(k)/(t)/(f) tags exact, names in roman as printed; header d100 inferred (title bar prints only NAMES)"
+  }
+ ],
+ "rows_checked": {
+  "17. GM Tools/17.5.5. Forests.md": 20,
+  "17. GM Tools/17.5.6. Mountains & Hills.md": 20,
+  "17. GM Tools/17.5.7. Oceans, Lakes, Rivers.md": 20,
+  "17. GM Tools/17.5.8. Plains & Grasslands.md": 20,
+  "17. GM Tools/17.5.9. Roads & Trails.md": 20,
+  "17. GM Tools/17.5.10. Snow & Ice.md": 20,
+  "17. GM Tools/17.5.11. Swamps.md": 20,
+  "17. GM Tools/17.5.12. Underground.md": 20,
+  "18. Hirelings/18.1.1. Names.md": 50
+ },
+ "source_typos": [
+  {
+   "file": "17. GM Tools/17.5.9. Roads & Trails.md",
+   "quote": "(vii) wheat, (iv) iron",
+   "page": "p152 (row 5; eighth item numbered (iv), should be (viii))"
+  },
+  {
+   "file": "17. GM Tools/17.5.9. Roads & Trails.md",
+   "quote": "secreting transporting, 1d8:",
+   "page": "p153 (row 15)"
+  },
+  {
+   "file": "17. GM Tools/17.5.7. Oceans, Lakes, Rivers.md",
+   "quote": "A *Blue Hag* (as *Hag*, but amphibious and Spells (3)",
+   "page": "p151 (row 11; the '(as' parenthesis is never closed)"
+  },
+  {
+   "file": "17. GM Tools/17.5.11. Swamps.md",
+   "quote": "(as *Giant Serpent* but Swim Close, and electric shock (*Luck* (Con) save or *Stunned* instead of poison)",
+   "page": "p156 (row 14; the '(as' parenthesis is never closed)"
+  }
+ ],
+ "questions": [],
+ "notes": "Every row cross-checked three ways: a script compared each note cell to the line-joined pNNN.md font text (exact match for all 210 rows, emphasis included; only diffs were trailing whitespace in the fm text and two line-end hyphen joins), then each page image was read (full pages plus full-res crops of dense rows p151 Hag, p152 Caravan). Hyphen judgement calls kept as written: Roads 13 'to-ings' (printed 'to-'/'ings' across a line break, matches 'fro-ings'), Underground 3 'non-magical' (printed 'non-'/'magical' at line end; book also uses 'non-cyclops' with hyphen, so kept). The automated cell-spans-rows / text-between-rows / cell-not-in-row / cell-cut-short flags are all layout noise from the vertically centred die numbers, the interleaved column order (p155-157 interleave Snow/Swamps/Underground rows) and the 5-column Names grid. Fidelity 'X d 20'/'names d 100' flags are just the inferred die headers; '148'/'149' inserts are page numbers. No patches needed."
+}

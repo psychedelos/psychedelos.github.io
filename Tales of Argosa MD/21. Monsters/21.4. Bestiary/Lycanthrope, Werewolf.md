@@ -1,0 +1,3 @@
+*Werewolves* are the classic wolf based *[[Lycanthropes|Lycanthrope]]*. They have an excellent sense of smell in all forms (gaining advantage on related tests), and may compel wolves and their variants to obey them.
+
+**WEREWOLF** #1 **AC** 13 **HD** 6+4 **Bite** 2d6 **Nat 19** A *[[Dire Animal|Dire]] [[Wolf (or Dog)|Wolf]]* comes to the lycan's aid (if possible) **S**18 **D**14 **C**14 **I**10 **P**15 **W**13 **Ch**8 **L**8, **Move** Fast. Shift form (action). **Regen** (all damage, silver, fire). After combat, anyone injured must make a *Luck* (Con) save or suffer *[[21.3. Special Traits_#Lycanthropes|Lycanthropy]]* **Reac** 2-5 Violent 6-8 Hungry 9-10 Desirous 11-12 Intrigued.

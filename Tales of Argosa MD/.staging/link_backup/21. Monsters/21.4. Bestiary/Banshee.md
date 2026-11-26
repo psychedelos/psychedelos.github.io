@@ -1,0 +1,3 @@
+*Banshees* present as beautiful fey to lure in victims before transforming into their gaunt and hideous true forms. They are corrupted by dark forces, consumed by loss, sorrow, and hate, seeking only to inflict pain on the living. A banshee's wail is a terrifying, heart stopping screech. Some banshees can turn *Incorporeal*.
+
+**BANSHEE** #1 **AC** 15 **HD** 7 **Touch** 2d8 **Nat 19** Age 3d8 years, *Luck* (Will) save resists **S**16 **D**14 **C**14 **I**14 **P**13 **W**16 **Ch**6 **L**9. **Death Wail:** Close sized area radiating from *Banshee*, *Luck* (Will) save or reduced to zero hp, **recharges** when *Wounded*. After combat, survivors of a Death Wail make a *Luck* (Will) save or suffer a Madness. **Reac** 2-6 Hostile 7-8 Hateful 9-10 Malevolent 11-12 Covetous.

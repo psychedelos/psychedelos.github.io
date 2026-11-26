@@ -1,0 +1,3 @@
+*Skinless Terrors* are foul, 4 ft tall humanoids with piercing claws and exposed muscle. They are blind and use a chittering echolocation to locate their victims, moving with unnatural urgency and agitation. In a constant state of extreme pain, skinless "die" within 2d6 minutes of manifesting.
+
+**SKINLESS TERROR** #1 **AC** 10 **HD** 3 **Bite (2)** 1d8 **Nat 19** Frenzied Death: automatic 10 damage and the *Terror* dies **S**13 **D**13 **C**13 **I**3 **P**13 **W**13 **Ch**1 **L**7. **Leap** Close. Dies within 2d6 mins of manifesting. **Regen** (1d12, silver, fire). **Reac** 2-12 Agonized blood frenzy.

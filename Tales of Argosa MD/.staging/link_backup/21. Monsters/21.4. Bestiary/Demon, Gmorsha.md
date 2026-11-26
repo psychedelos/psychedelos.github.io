@@ -1,0 +1,3 @@
+*Gmorsha* are 10 ft tall daemons of mud like consistency, with humanoid, skeletal upper bodies. They may transform to masquerade as an object, from as small as a dagger to as large as a door (the object does not actually work, other than basic moving parts).
+
+**GMORSHA** #1 **AC** 16 **HD** 8 **Bite** 3d8 **Nat 19** *Luck* (Con) save or transformed into a *Helpless* fleshjelly for 2d6 days **S**19 **D**10 **C**15 **I**10 **P**10 **W**16 **Ch**7 **L**9. **Climb** Norm. Magic Resistance 60%. Immune to non magical weapons (excluding *cold iron*, holy water). May switch between object form and demon form (action). **Reac** 2-12 Murderous.

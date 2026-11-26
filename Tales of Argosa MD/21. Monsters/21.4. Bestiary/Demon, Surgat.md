@@ -1,0 +1,3 @@
+Surgat are 5 ft, bipedal flesh sacks with a tri pronged maw and spike whip tail. They may spend an action to transform into an ordinary animal, from as small as a mouse to as large as a horse.
+
+**SURGAT** #1 **AC** 13 **HD** 7 **Bite** 2d8+1 **Nat 19-20** Tail Spike: *Luck* (Con) save or *[[Transmogrification|Transmogrification]]* into 1d4: (i) roach, (ii) toad, (iii) eel, (iv) rat **S**19 **D**11 **C**16 **I**6 **P**14 **W**10 **Ch**4 **L**9. **Leap** Close. Magic Resistance 50%. Immune to non magical weapons (excluding *cold iron*, holy water). May switch between animal and demon forms (action). **Reac** 2-6 Violent 7-9 Ravenous 10-12 Watchful.

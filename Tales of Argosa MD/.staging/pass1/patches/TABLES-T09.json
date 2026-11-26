@@ -1,0 +1,111 @@
+{
+ "patches": [],
+ "confirmed": [
+  {
+   "file": "21. Monsters/21.4. Bestiary/Terror Traits.md",
+   "note": "all 12 rows match image and font data (die ranges, words, bold/italic, header); p175 (header d12 from prose 'the 1d12 table')"
+  },
+  {
+   "file": "21. Monsters/21.4. Bestiary/Ooze Traits.md",
+   "note": "all 10 rows match image and font data (die ranges, words, bold/italic, header); p196 (header d10 from prose 'Roll 1d10')"
+  },
+  {
+   "file": "21. Monsters/21.4. Bestiary/Shrieker Traits.md",
+   "note": "all 6 rows match image and font data (die ranges, words, bold/italic, header); p200 (header d6 from prose 'roll 1d6')"
+  },
+  {
+   "file": "21. Monsters/21.4. Bestiary/Mutations.md",
+   "note": "all 20 rows match image and font data (die ranges, words, bold/italic, header); p204-205, rows 18-20 continue at top of p205 (header d20 inferred from entries)"
+  },
+  {
+   "file": "22. Naval Combat/22.3.1. Artillery.md",
+   "note": "all 20 rows match image and font data (die ranges, words, bold/italic, header); p211 (header d20 from p210 prose 'Roll 1d20 for each Artillery strike')"
+  },
+  {
+   "file": "22. Naval Combat/22.5.1. Boarding.md",
+   "note": "all 20 rows match image and font data (die ranges, words, bold/italic, header); p212-213, rows 13-20 on p213 (header d20 from p212 prose '1d20 if above deck')"
+  },
+  {
+   "file": "22. Naval Combat/22.5.2. Crew vs Crew.md",
+   "note": "all 5 rows match image and font data (die ranges, words, bold/italic, header); p213 (header 2d6 from prose '2d6 roll')"
+  },
+  {
+   "file": "25. Solo Rules/25.4.1. Dungeon Site.md",
+   "note": "all 10 rows match image and font data (die ranges, words, bold/italic, header); p220, two side-by-side halves merged in roll order (header d20 from prose)"
+  },
+  {
+   "file": "25. Solo Rules/25.4.2. Size.md",
+   "note": "all 4 rows match image and font data (die ranges, words, bold/italic, header); p220, two halves merged; cell lines joined"
+  },
+  {
+   "file": "25. Solo Rules/25.4.3. Objective.md",
+   "note": "all 6 rows match image and font data (die ranges, words, bold/italic, header); p220; print has a separate 1-6 die column for TASK and for THING (identical numbering), merged into one d6 column; headers TASK/THING as printed"
+  },
+  {
+   "file": "25. Solo Rules/25.4.4. Reward.md",
+   "note": "all 12 rows match image and font data (die ranges, words, bold/italic, header); p220, two halves merged"
+  },
+  {
+   "file": "25. Solo Rules/25.4.5. Main Opposition.md",
+   "note": "all 10 rows match image and font data (die ranges, words, bold/italic, header); p221, two halves merged"
+  },
+  {
+   "file": "25. Solo Rules/25.4.6. Special Leader.md",
+   "note": "all 14 rows match image and font data (die ranges, words, bold/italic, header); p221, two halves merged"
+  },
+  {
+   "file": "25. Solo Rules/25.4.7. Doors.md",
+   "note": "all 12 rows match image and font data (die ranges, words, bold/italic, header); p222, two halves merged"
+  },
+  {
+   "file": "25. Solo Rules/25.4.8. Rooms & Corridors.md",
+   "note": "all 10 rows match image and font data (die ranges, words, bold/italic, header); p222, two halves merged"
+  },
+  {
+   "file": "25. Solo Rules/25.4.10. Room Contents.md",
+   "note": "all 9 rows match image and font data (die ranges, words, bold/italic, header); p222"
+  }
+ ],
+ "rows_checked": {
+  "21. Monsters/21.4. Bestiary/Terror Traits.md": 12,
+  "21. Monsters/21.4. Bestiary/Ooze Traits.md": 10,
+  "21. Monsters/21.4. Bestiary/Shrieker Traits.md": 6,
+  "21. Monsters/21.4. Bestiary/Mutations.md": 20,
+  "22. Naval Combat/22.3.1. Artillery.md": 20,
+  "22. Naval Combat/22.5.1. Boarding.md": 20,
+  "22. Naval Combat/22.5.2. Crew vs Crew.md": 5,
+  "25. Solo Rules/25.4.1. Dungeon Site.md": 10,
+  "25. Solo Rules/25.4.2. Size.md": 4,
+  "25. Solo Rules/25.4.3. Objective.md": 6,
+  "25. Solo Rules/25.4.4. Reward.md": 12,
+  "25. Solo Rules/25.4.5. Main Opposition.md": 10,
+  "25. Solo Rules/25.4.6. Special Leader.md": 14,
+  "25. Solo Rules/25.4.7. Doors.md": 12,
+  "25. Solo Rules/25.4.8. Rooms & Corridors.md": 10,
+  "25. Solo Rules/25.4.10. Room Contents.md": 9
+ },
+ "source_typos": [
+  {
+   "file": "21. Monsters/21.4. Bestiary/Mutations.md",
+   "quote": "**Spiked Carapac**e",
+   "page": "p204 row 3: bold run ends before the final 'e' (visible in the image and the font data); kept as printed"
+  },
+  {
+   "file": "22. Naval Combat/22.5.1. Boarding.md",
+   "quote": "drops a weighed net",
+   "page": "p213 row 17 ('weighed' for 'weighted'); kept"
+  },
+  {
+   "file": "22. Naval Combat/22.5.1. Boarding.md",
+   "quote": "(*Consult the Bones*, or GM's call)",
+   "page": "p213 row 20 has no closing full stop in print; kept"
+  },
+  {
+   "file": "25. Solo Rules/25.4.10. Room Contents.md",
+   "quote": "any modifiers are GM's call)",
+   "page": "p222 row 11 has no closing full stop in print; kept"
+  }
+ ],
+ "questions": [],
+ "notes": "Group T09: 16 notes, 180 rows compared cell by cell against full-resolution crops of p175, p196, p200, p204-205, p211-213, p220-222 and the pNNN.md font data. No discrepancies found; no patches. All automated flags (header-unlocated, cell-spans-rows, cell-cut-short, text-between-rows, sign-not-printed on '#9-10', not-in-text-layer, Vampire/Blackpowder prose 'insert' hits) are layout noise: the Vampire entry and Blackpowder Weapons table are separate content not belonging to these notes, and the Crew vs Crew lead-in prose is correctly left out. Die headers are taken from the surrounding 'Roll 1dX' prose except Mutations (d20 inferred from 20 entries). No prose outside the frames is copied into any note, and no footnote/key lines are missing."
+}

@@ -3,7 +3,7 @@
 
     python3 argosa-src/build.py
 
-1. tables/ (the roll-table notes from the Tales of Argosa MD vault) + table_pages.json -> build/tables.json
+1. the roll-table notes in ../Tales of Argosa MD (listed in table_pages.json) -> build/tables.json
 2. templates/page.html + templates/tables_part.html + cards/*.webp + tables.json -> build/Argosa_Oracles.html
    (the self-contained page, as published to the Claude artifact)
 3. the same page plus the home-screen web-app tags -> ../argosa/index.html (the GitHub Pages copy)
@@ -15,7 +15,8 @@ BUILD = os.path.join(HERE, 'build')
 os.makedirs(BUILD, exist_ok=True)
 
 # 1. table data
-subprocess.run([sys.executable, os.path.join(HERE, 'tools', 'build_tables.py'), os.path.join(HERE, 'tables'),
+VAULT = os.path.join(HERE, '..', 'Tales of Argosa MD')   # the vault is the source of the table data
+subprocess.run([sys.executable, os.path.join(HERE, 'tools', 'build_tables.py'), VAULT,
                 os.path.join(HERE, 'table_pages.json'), os.path.join(BUILD, 'tables.json')], check=True)
 
 # 2. the page

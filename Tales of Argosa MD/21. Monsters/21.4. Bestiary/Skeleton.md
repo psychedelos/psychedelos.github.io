@@ -1,0 +1,3 @@
+*Skeletons* are magically animated *[[21.3. Special Traits_#Demons & Undead|Undead]]* that unerringly follow the orders of their creator, even if their master has long since passed. They have no personalities as such and are more automaton than creature. *Skeletons* are impervious to piercing damage from arrows, javelins, and similar weapons. They make excellent guardians, with no need for food, sleep or shelter. The magic that sustains a skeleton can last centuries, if not millennia.
+
+**SKELETON** #3d10 **AC** 11 **HD** 1 **Spear** 1d6+1 **Nat 19** Another *Skeleton* animates to aid this one **S**13 **D**10 **C**10 **I**- **P**13 **W**- **Ch**- **L**4. *[[21.3. Special Traits_#Demons & Undead|Undead]]*. Immune to piercing dmg. **Reac** Creator's orders or Hostile.

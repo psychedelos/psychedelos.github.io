@@ -1,0 +1,3 @@
+*Mummies* are the classic bandage wrapped *Undead* of popular fiction. They are susceptible to fire, have no real intelligence, and simply follow the orders of their long dead creator. Their touch carries the dreaded curse *Mummy Rot*.
+
+**MUMMY** #1 **AC** 13 **HD** 7 **Fist** 1d12 + Mummy Rot **Nat 19** Scarab Beetles surge out of the Mummy (as *Rat Swarm*) **S**19 **D**8 **C**16 **I**4 **P**10 **W**14 **Ch**3 **L**9. *Undead.* Double damage from fire. **Mummy Rot** causes 1 Con loss and prevents all healing until the adventure ends (*Luck* (Con) save resists the healing prevention only). *Cleansing Charm* also removes the curse. **Reac** As creator's orders.

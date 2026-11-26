@@ -1,0 +1,563 @@
+3723400423b48e4ca761d8cabc7516be3abfa61fea19f363f323af4de69fa6c5  ./_Transcription Progress.md
+b0287f0e4b23d386cd87973f0ec5b1af454f3413a4dec2034594e55acf5d9a65  ./28. Variant Rules/28.2. Conversion Tips_.md
+ca44ad70b748a593f6cc6387b7f1e73d2e7cd209a17d7fa6c5ace67386755421  ./28. Variant Rules/28.1. Variant Rules_.md
+17f5ecb3147f48c7a18f528cc1c0485ee2c502a3c46f67b42a2e0777c9a5c56a  ./8. Skills & Rerolls/8.1. Skills_.md
+2647ce96a58ae1280aa1068139c275646e08a3fb3743e95613d3b31f68e0985f  ./8. Skills & Rerolls/8.2. Rerolls_.md
+c9b4363d6d09eb0432e8e1b7cb12f6fc2a6a0ddbbcca230837cdeb5c7ee57fad  ./11. Encounters/11.1. Reaction Roll_.md
+5e14bea49470b1349e463bb866d221a640139eec43452f1b6c88d7c05926db96  ./11. Encounters/11.1.1. Reaction.md
+e6b69d97e94d242d6008c6158f34dbf34eafd8b3636b032793fa7e41b53a707d  ./11. Encounters/11.2. Activity Die_.md
+a6f5178f7376b510c0a48cf3bc22e63af0b5aa040425a649c68e8f87147eedd7  ./11. Encounters/11.2.1. Activity.md
+9c76ebb8e82fa7efd1da27f8b96c204e2d744ab0e3568f27dd020b3067bc3061  ./11. Encounters/11.3. Influencing NPCs_.md
+38c3f031f1357344b5fef1060e340438180850e63fabb028767e41c5b0fed0ad  ./5. Classes/5.2. Artificer_.md
+b931f209e3e852473c254f5186fe608bfcdd7711b00ef2024dbcd19a8c72a499  ./5. Classes/5.9.1. Rangercraft.md
+ca5765f6bd1335f08013cd8ea8b7d12350f166906ef207b29d8bddd2813e21fc  ./5. Classes/5.3. Barbarian_.md
+575f452885ab71078b1c9398e2cc18057d5b2d4cfb7ffd2d4bbc6907f43e74eb  ./5. Classes/5.2.2. Mutagen.md
+9a164540e80fa0bc7e275996f3739eca336dcf53d3243a03fc82a94adbfe115b  ./5. Classes/5.6. Fighter_.md
+544ffc3b5fdfe185bdf198af7bf415386c8186b7fd05b7ba09c9728ca96c6818  ./5. Classes/5.9. Ranger_.md
+25fd7a2fade1f7f53ee01a45578b9c082e7b6b8352435b11a9da4d8cf1c57103  ./5. Classes/5.8. Monk_.md
+6035a58ab9eb87ed395b7af00644b088d6743f5ae38ceab024a3c402902f6c11  ./5. Classes/5.5.2. Spell Like Blessings.md
+1957156ba2e6d9604f01b55afec5a67da45fcef2c1a6520fbf679a565fca61c5  ./5. Classes/5.8.1. Monk Techniques.md
+496e462752d4d457574bf13b5e5fcb5c0321e3dd308d9e1d1cdc697909ba5344  ./5. Classes/5.4. Bard_.md
+134a2aa3e2776ad2a37e53f7dea87fa3ec0824f17653be16e5e66841fb2f783d  ./5. Classes/5.10. Rogue_.md
+5217bd7a4bc009bfed7f5e9b7bdcc8bfaf13b95ab2c09410f77f9953c6250724  ./5. Classes/5.6.1. Adaptable.md
+8d523cc9abd35535e549d7c962ec473ff02244c6db3556eca80f6fbce2f31ff2  ./5. Classes/5.5. Cultist_.md
+6c91397300d6d7438934214b4731cf97a8cff9b0bd14b998b0002266be416711  ./5. Classes/5.2.1. Alchemy & Mechanica.md
+5ef9f53f9f195a96b8e35ec9df692563de46f043a6315f4f549b4141ca54c20a  ./5. Classes/5.7. Magic User_.md
+751d526d1838f234f93ff13a0705fbcd1ec9943157f34392bf4281a2ef18673c  ./5. Classes/5.5. Example Gods/Graxus (The Iron God).md
+3702d38b42ea7beaab58edc355794ba2dc3b72707ec3e8d0f3df5a8f51388a91  ./5. Classes/5.5. Example Gods/Soliri (The World Tree).md
+cbdef1eef93eb9bbd59ad57a7d745345a03047a3ece6170b5df830ddd603c6c5  ./5. Classes/5.5. Example Gods/Argona (The Starmaiden).md
+388a0a6984c3056e5ff6ec68458658e36c92077ef5a48df5cfbb74c20d54872d  ./5. Classes/5.5. Example Gods/Baal (Lord of Crows).md
+3771020565e6c5e0abeda8f67e2315095a19edbdef1b9c887240ca8d56e72f98  ./5. Classes/5.5. Example Gods/Shennog.md
+827c57c0655771b84337322d00e8b00706ece5a746459b5b5afcaa8c6d24e9a4  ./5. Classes/5.5. Example Gods/Wodon.md
+e70c54bb7dcbc5333d917e040485123790376dfc0acade9583bce8afc50e9359  ./5. Classes/5.10.1. Tricks & Techniques.md
+c9bbc24fcba75e68920897b09ed67774eb16a9ca745c553aa3169f91195741dd  ./5. Classes/5.1. Classes_.md
+0d7a0597a08b41a5d7fde442ca8ebd70ba3032ac4fca076770a01d796b323110  ./5. Classes/5.5.1. Blessings.md
+82288cbe044cd41315b6e5c59909052e718560646d95feb6e67281a27c3fb9c0  ./21. Monsters/21.3. Special Traits_.md
+16a7b15ab7a494e5dc53de39b30d5ad637560cf2c3f4fccf8b945693e0085ebe  ./21. Monsters/21.1. Monsters_.md
+13f2184a5ee170061d32062c6bbc18dd86bac86f01874989e1253c1815843161  ./21. Monsters/21.2.1. Monsters by HD.md
+4684c971ba62d4573ac17f2e0aa420c4f73c61594cb33eeac3636e950c290539  ./21. Monsters/21.4. Bestiary_.md
+d3077b85da13d09a8399c15a8c107c3b7539ed1dc8590e9686bfbcb078ce3735  ./21. Monsters/21.4. Bestiary/Swarm, Bone Cutter Ant.md
+0afa2fd1ff010194b36c367c6c207d74edb4168daf8d0318ade5168ede9e9231  ./21. Monsters/21.4. Bestiary/Giant, Storm.md
+93a6ab4c2714c607485543d93a937e87235a91d8ad1d853341fdb52c52b47a66  ./21. Monsters/21.4. Bestiary/Ghoul.md
+9df67f24061fe413c7caf90bdd767831c1d471ee7978496428515a6905582d93  ./21. Monsters/21.4. Bestiary/Demons.md
+779dfe26a08b06adfbb744cc14288487bfdff61cc940aec118600f7edea7aaa8  ./21. Monsters/21.4. Bestiary/Skorn.md
+45dfcc95392d6a7de82e7754c769554f0ae32b21d06312322b6dfd9ad8e3c30e  ./21. Monsters/21.4. Bestiary/Ooze Traits.md
+ed58cec9e5431c331039792a0fb590789fbb16382bf14150509e299dba8e2536  ./21. Monsters/21.4. Bestiary/Vampire.md
+9f801068ecd137d43c5bdfc0a97b72a14f734e78d58c2bd27ce578c450d4001a  ./21. Monsters/21.4. Bestiary/Ant, Giant.md
+baf61d48593a1c00ff48127a4f21a908f261f6db5f7962131e343c45ffee6a5d  ./21. Monsters/21.4. Bestiary/Demon, Gmorsha.md
+90ae2e01f4dd4671c8ce25f6d9a2885a5b592af1cfbefe163a3625fc0b2ba016  ./21. Monsters/21.4. Bestiary/Demon, Hellhound.md
+bbc44c58042162ebab361e52039760d4228e57cba73bdc61244e27ade0ccc007  ./21. Monsters/21.4. Bestiary/Tentacle Spawn.md
+93ef7379e48f9a852c358aa29f7c881baecbaee61693bc5d9207933e063f4a40  ./21. Monsters/21.4. Bestiary/Ogre.md
+4cd5f9651c54aa88de3e02ff9c262fc4eb3bf122757c37dc224dcb34a9376234  ./21. Monsters/21.4. Bestiary/Lizard, Giant.md
+401129575cec8c4e0f9ad80cedbe06cb1c397b4b2f1977ec1df761b5e073d2ae  ./21. Monsters/21.4. Bestiary/Cat.md
+3b09071d046ffae899656eb728130956f996e2eb09bebc6b416bb487f5c9d30e  ./21. Monsters/21.4. Bestiary/Rhino.md
+1da2efd15db9c5a073d5798a0a06a5dd57db2c73f129d2a8d8a8628e50e7188d  ./21. Monsters/21.4. Bestiary/Golem, Stone.md
+266f9d75a27024fc2c08719a1bc6bc730988b241ce0c23334d0a8f6b54971268  ./21. Monsters/21.4. Bestiary/Dwarf.md
+000f86d6b92f73a4cc7f6de28f66edaaa17c4d0f55c0ee57be336e96d428e7d3  ./21. Monsters/21.4. Bestiary/Yegnu.md
+3c74df271414f8c27d3055d760436344cb6bfe97f9614841a3cbf6b2b6c4d22a  ./21. Monsters/21.4. Bestiary/Golems.md
+8448d8358d1913a42d02c58390d0399683499bea79a3cb8029142a8f0ba35481  ./21. Monsters/21.4. Bestiary/Human, Bandit.md
+4ce76878a83c0a1e01f1f2df20b4226b0ba05e529a4b5ec1ceb2b80f2f380b05  ./21. Monsters/21.4. Bestiary/Ape.md
+93b9ca6774977c63b9e2c0230d083eeeae175ae557506459582e7191e6356aaf  ./21. Monsters/21.4. Bestiary/Elemental, Earth.md
+3083529779213ab55c93ffb093f324bfa30feb49be2793dae4e5f4968346adb0  ./21. Monsters/21.4. Bestiary/Chuul.md
+6a30d4506167072ea2884395d816aff90a20aa53b808398d7362a55a2031c314  ./21. Monsters/21.4. Bestiary/Shrieker Traits.md
+6abfcc5763e51fbcabcaa0102e5b2d0186d1753c93c228113691417c708ea267  ./21. Monsters/21.4. Bestiary/Vine Puppet.md
+b25ff37758cbae98c8b24760628b59b45af129c005bc7fb7bb9e525f586305d4  ./21. Monsters/21.4. Bestiary/Stirge.md
+f12c2224f682830dd16d7db04fa3918ce4553b5dc45818f4af46532fbb2a5c7b  ./21. Monsters/21.4. Bestiary/Green Slime.md
+123dff99696a9dafd0db774448e81ce40ae5903775aff9963154b8b62b3371f1  ./21. Monsters/21.4. Bestiary/Elemental, Fire.md
+dc63ba585c6c0fed8dc71f7662c66c51c20cf2224afe821c96c6cf5866986c0c  ./21. Monsters/21.4. Bestiary/Spectre.md
+bb6c7b1fffd7fc816f500e17c985f00b89f2ab5274f431161b53b1e2c246f7e7  ./21. Monsters/21.4. Bestiary/Elemental, Water.md
+959d333149c1eb3e89d1fc6d5ca636009d8171697b6f180d6fb7268d1699c62e  ./21. Monsters/21.4. Bestiary/Ankylosaurus.md
+5b116093fadf1a838c3702b78187c3d2be99e6b17c08c8b6f3016c03722bf65b  ./21. Monsters/21.4. Bestiary/Cockatrice.md
+fb41f11c47814dc52c01691eccf7c75cb7b8209d3ddcb06be8b1534914042157  ./21. Monsters/21.4. Bestiary/Centaur.md
+0c6fcf46c9da03663939307c025a8a7b9b49c8115d1df8c182591e259d568e87  ./21. Monsters/21.4. Bestiary/Tiger.md
+79164619ac4c4bef429338d2140c56842ef7dd0cb4452d9dab42f416933a28fb  ./21. Monsters/21.4. Bestiary/Eye Terror.md
+05b8987eaef8c86c2454e6c2d291c4cbe584526d5104403f43de79aad612b245  ./21. Monsters/21.4. Bestiary/Basilisk.md
+2b7788ed7d44982caef3a27f2c304c367bb7581719b5db3b6987a7e0bbbf095e  ./21. Monsters/21.4. Bestiary/Zombie, Giant.md
+ffd96243af3561b4d94f377078a655f8a81b3f0a61280da1a265c8e250a627a6  ./21. Monsters/21.4. Bestiary/Scroach.md
+a77cb2cb607552aa84082b2d8ecae9d89f587a042cd08dde8dae34379f7cc637  ./21. Monsters/21.4. Bestiary/Triceratops.md
+e608c3368ffa78f8e88aa21b316a6d60750528c89595396e58f7a386b193ec23  ./21. Monsters/21.4. Bestiary/Minotaur.md
+7073a8edaf7491b7b136c07c422e4bfa6ab0a4b821f39b471364b2f4b05eb18a  ./21. Monsters/21.4. Bestiary/Lycanthrope, Werewolf.md
+ff0744e6e6ce7fc038dc879f25b62d30094e0859322db9d8dcd204c1311e2330  ./21. Monsters/21.4. Bestiary/Lycanthrope, Wererat.md
+bbb67e75e402b702c5d3e49871d55b433fe74f878e62a79a3d092678c7e047c3  ./21. Monsters/21.4. Bestiary/Lake Wyrm.md
+c2a95330389ce602281c000228d66529982056022abd1d5b40e426a8999f5326  ./21. Monsters/21.4. Bestiary/Will o' Wisp.md
+56f88ebde7384b37966006e203e6d7512fbec48166371baecf72997acf360f1e  ./21. Monsters/21.4. Bestiary/Treant, Bloodroot.md
+59a46a8442b35d478e62dc5e7db4ecad37d9aad52362d54db599cac7399a572c  ./21. Monsters/21.4. Bestiary/Crocodile, Giant.md
+e86c528a28030c6340a5b84947aede0f686a62520c87fb63b57ef30e0604a849  ./21. Monsters/21.4. Bestiary/Slop Gorger.md
+e809b54ca0d15cdc4d387137f2af5043f6a2b83eb97132f2599ce02812295ef8  ./21. Monsters/21.4. Bestiary/Zombies.md
+63e44ea38490ab2f16cea37040b5bfcec1bb036fc4337ccd6bfc25ce20eebb60  ./21. Monsters/21.4. Bestiary/Skeleton.md
+b3e79a62a017d971d9a7e9f84337976146489e674bd9f624fb5a714593acd9db  ./21. Monsters/21.4. Bestiary/Rock Grinder.md
+b6318d2cd1223b3a1402e6b842119c5af531c143c6ee0663bbebd32990d92490  ./21. Monsters/21.4. Bestiary/Ssurloc.md
+d7c60fab5eec055a37ad55e9e660844146407a48bc3f4784ea760710785b6124  ./21. Monsters/21.4. Bestiary/Octopus, Giant.md
+77f682e3a6de02989eb4ea1c342998ed565b699ba910266bc2c3b8d472784863  ./21. Monsters/21.4. Bestiary/Invisible Stalker.md
+219c5531a6d76e50fa1d29ce447964fad972c50c96a336d8bc47a862ae48ae0d  ./21. Monsters/21.4. Bestiary/Manticore.md
+d66a3ef89e9850eed6a602fcf4efc314cab3698337b9bc5a1891898ab21d04ba  ./21. Monsters/21.4. Bestiary/Scorpion, Giant.md
+8869163f2e7e28e3014097f5d6cfbb802bc40a99f13b028ff3d35242755d376e  ./21. Monsters/21.4. Bestiary/Human, Berserker.md
+e09025de47fd8f998e9dd6189b815113016e3b68e0da553b81b82f638a5b4b42  ./21. Monsters/21.4. Bestiary/Elemental, Air.md
+6b095704cc9a690df213b4be537d6084d83aaec44daac0df994a2dc2371634af  ./21. Monsters/21.4. Bestiary/Flesh Eating Vines.md
+7abf617374b18bb1a6c34a4607a42b1192a05cf5dee8df55d99280b5d256e6d3  ./21. Monsters/21.4. Bestiary/Shark.md
+42961a3525c22f8bd46f5888674dea397355b20dfe95dede433f32f7503c1d4a  ./21. Monsters/21.4. Bestiary/Shrieker.md
+16d3775e77bdad0d1603d17e9ccb316944f34c87882217bbc5ed0543f94f4c38  ./21. Monsters/21.4. Bestiary/Bird or Bat.md
+22a770124d82681a4a38c02caab7e9b26df6346ff4e290ae6b92d6ff5f831c84  ./21. Monsters/21.4. Bestiary/Eagle, Giant.md
+c68926c48fd755223678e453c89e3666a8e3331eb8e8d275ef969b8ebb2654f4  ./21. Monsters/21.4. Bestiary/Ochre Jelly.md
+2c13e45ffe8ac653c130d652b8af15caf21f94a756879917a729ce9a36f7fa10  ./21. Monsters/21.4. Bestiary/Human, Sorcerer.md
+c0fa82ca39f1030d2bf1f5eb7bf15410975cd712b36e1f4f20ec9188be1758eb  ./21. Monsters/21.4. Bestiary/Rat, Giant.md
+c51f90d5db12c5e2c9dd2f2ab6d56ebe8007158b3662da52d58ee6087b1214de  ./21. Monsters/21.4. Bestiary/Gargoyle.md
+66ebed169d479db71c526116681ff0bff90f029f7034bff7a24db2a0d49ec499  ./21. Monsters/21.4. Bestiary/Leech, Projectile.md
+3797c2041f7c19d274d61b47e723a964353dc6600969be2e8dd4d3ce8e06a651  ./21. Monsters/21.4. Bestiary/Zombie, Swarm.md
+5b0b6fc72981d2485665a55ae3283703916c79716d0854e5ab2e7b19765efceb  ./21. Monsters/21.4. Bestiary/Dragon.md
+893e4edf12224e6200ff25280716ca992d7e9be0a78a1b337336996d2a3388a4  ./21. Monsters/21.4. Bestiary/Wight.md
+7c1027e37bf0133e25980b155954fc874931e7aa6dddb0aebe546395095a628d  ./21. Monsters/21.4. Bestiary/Griffon.md
+a1c5b1b4b8e6a3b57eabba29ae1b35bc685da6039cee08536d1fe5245c28ee15  ./21. Monsters/21.4. Bestiary/Spider, Giant.md
+13a257e96f9039be2b237d50f83e4ea64afcb01ac8b51ffb678fbe2d8579bce6  ./21. Monsters/21.4. Bestiary/Animated Object.md
+188c3d4c9c44be84be6573a3cabd4d503449dbdacdca7f1fb635cf453c3c376c  ./21. Monsters/21.4. Bestiary/T-Rex.md
+c59afbae67222ede25fd5aca875f65ce7dc3c815d858e19d906536b4a6a209f3  ./21. Monsters/21.4. Bestiary/Troll.md
+7f62ddbc96154dc0c060b021af1e266543e47dfbf6de603ea333af0182a22a87  ./21. Monsters/21.4. Bestiary/Lycanthrope, Werebear.md
+bceee6a5e12ffd5ad0d2326eeb2590fb2839334fb21589bf1183657953fb201e  ./21. Monsters/21.4. Bestiary/Worm, Plague.md
+9771cb12b54ee627bae0409ca63779c84d46328e2dfb07e28500a60abc7247aa  ./21. Monsters/21.4. Bestiary/Owlbear.md
+0f09fb37890d0ab8e2708ee01bd024e177371c05ccfd0ff32a4663e0f05bf2b1  ./21. Monsters/21.4. Bestiary/Wraith.md
+ff3192c79300700c9619ddbb2c920634b0b77aba9051ee9a4ee08b9c50fd9910  ./21. Monsters/21.4. Bestiary/Rust Monster.md
+9b08e134b813cc1f64dbb00c6dd863e22242384c8de2b8a08a6d141774d88cc9  ./21. Monsters/21.4. Bestiary/Aberrant Terrors.md
+61e0d4d975b2254fdd79864853f510b3cbc531d7e6c01e37518464d0a4a6cea0  ./21. Monsters/21.4. Bestiary/Medusa.md
+94b3c9a6a02a5c6986fdc408c7aa9c7561271f900f9ed6e08048cc707027782c  ./21. Monsters/21.4. Bestiary/Bulette.md
+46fd3facb3362c17c6d4ce49bc6b5b88974888d6fd6da0da41835c7fbe18e60e  ./21. Monsters/21.4. Bestiary/Cyclops.md
+30c17074f64087c63053e4273061e0e6abe599e78c97d7651ff8d406e1811c8d  ./21. Monsters/21.4. Bestiary/Monkey, Man Eating.md
+001768ff0700d45ef2925fdbeaa4693376da723031b6be4b75aa2b3e8e40dd4d  ./21. Monsters/21.4. Bestiary/Purple Worm.md
+ebbe0c04a4ad57b2611f86fd349248d0c9ca47d19a93b215bf270a8a4c453fa5  ./21. Monsters/21.4. Bestiary/Bugbear.md
+4920fe691814f1aac5d16c09fa3bebfb6984f4814741cfcae774c085ddb3c474  ./21. Monsters/21.4. Bestiary/Wasp, Giant.md
+b5a3e202d93b5e0f30f5b00c642f1d65aa5dcd02ed4fd34f0b3fc2aa0f1c94c0  ./21. Monsters/21.4. Bestiary/Elf.md
+794541a5bf53b4b2b6d95666c028769a5d88ac1ee39ee01bac6f7e3b12174474  ./21. Monsters/21.4. Bestiary/Human, Commoner.md
+fd00a153b724b741e54b03488b108657787b3abbe663176285781467e3068121  ./21. Monsters/21.4. Bestiary/Elementals.md
+cd901b6aba8418386c2da917d3a2bc281d872376d0a2e64327a7b0a98087c6ac  ./21. Monsters/21.4. Bestiary/Winged Snake.md
+9b0098f3b6d96c7a07dfc2fcc943af3232691cb5551b5678a94b26dc6b8dc542  ./21. Monsters/21.4. Bestiary/Wolf (or Dog).md
+008f4cf4b319d8d51dc9bed6a48009e640661af01e170e37885fca74d275e995  ./21. Monsters/21.4. Bestiary/Roper.md
+4033eb434f4ecc8fa92d0697cc8a6a65d83398e9c5f5b6465be72682d764517b  ./21. Monsters/21.4. Bestiary/Feathered Maw.md
+f1b77166c9517e2b67784eff7a31adfa5122e02c1af8c289a8ee0ec04b5d1de5  ./21. Monsters/21.4. Bestiary/Human, Cultist.md
+6d35bb6e9f63ce4f3aedc701aee79099528a07d2cbd495f8913d7e921003bb53  ./21. Monsters/21.4. Bestiary/Roc.md
+ba9076c82dd72840f1ad03379eee6220f9609e23f7681956f8c5e125d4a320b1  ./21. Monsters/21.4. Bestiary/Wyvern.md
+a2c217988a2366efbe49ed4fb60e1c74d3251c34358de6bf04c1589df4184a0c  ./21. Monsters/21.4. Bestiary/Doppelganger.md
+aacb55886a73ff98a91470a85a79277ccd5a11f2f5f560e3daac8845bfd2e27a  ./21. Monsters/21.4. Bestiary/Demon, Malafas.md
+fbe27979c5548b67c01d73945783ff8c581203ff5895a9337d0ce59ca06493f1  ./21. Monsters/21.4. Bestiary/Giant, Frost.md
+beafc513667d6ad52657c5b86a1d5fdda983b43a5edeb7602120614bd1cd6934  ./21. Monsters/21.4. Bestiary/Mummy.md
+bbd43e7673b8db82d7314ca92d50898bcd8e776a4b870f0bb2dca865f62a9f9b  ./21. Monsters/21.4. Bestiary/Rat Swarm.md
+1094df63728e5c510ac0d7378e23b2ff155f5f6dfbf3c0baded5bc6ef86aa221  ./21. Monsters/21.4. Bestiary/Xornling.md
+091e1cde3cfb16fc3dee1ccbbe7408a048c3643d83a08b099f90a669767cf400  ./21. Monsters/21.4. Bestiary/Raptor.md
+90dadaea64137ba9b080fe9cd4ac227ad77f58908d144ae05e2b038ce8282cc8  ./21. Monsters/21.4. Bestiary/Golem, Flesh.md
+4576725c8d3fc920a1b53043e2baf51ff53a6880805c8cc7df5517fa48f92932  ./21. Monsters/21.4. Bestiary/Skinless Terror.md
+9b461b78b86780c6f59e32b883b22d789dbaba4c19fd2e580a3084909f8ba2ee  ./21. Monsters/21.4. Bestiary/Hammer Snail.md
+7a6db2fba8fe633c4502fcaab03be22b8811c3cb9b766e771992df1c9f3861b6  ./21. Monsters/21.4. Bestiary/Skratt.md
+cbdb6855d9127ecd679c9ce4fc6679cdb423d002a475ede93f5afd1113c961fe  ./21. Monsters/21.4. Bestiary/Bear.md
+5334dbee4e8dcef53b78c3999c4c431d0aa44e1cc266c13e1ee4d1eaebd1b700  ./21. Monsters/21.4. Bestiary/Animals.md
+ec93d5057826de9329328a63f1e11d5ee97df069b3a58b544f90f630ff60c13a  ./21. Monsters/21.4. Bestiary/Harpy.md
+05d4cc450c8e80a66b9bcca535f43fa15368c550b02c549941f1a23b496b40f0  ./21. Monsters/21.4. Bestiary/Gnoll.md
+4b28af17da715f8fd9e8e6ca5fe22d5f1bee9a56738217aef99da2f140ef0e71  ./21. Monsters/21.4. Bestiary/Gelatinous Cube.md
+24fc49bc2358a5e1f99fe863b670ddd6284795d3d88cc8f4a87c0eeeb270a90e  ./21. Monsters/21.4. Bestiary/Human, Guard.md
+80aea773390b019fcc3072522d1bab63f11fc0e3a6d30594521e132be4fee11d  ./21. Monsters/21.4. Bestiary/Ooze, Grey.md
+0c7dbeabb06e754c0435cc1ba2289f5f45d4890597961b9a2ad8298dd12c294a  ./21. Monsters/21.4. Bestiary/Terror Traits.md
+0dc83946861f64f6aa29a8d21633703993acbe850d48669db7cc420f6f56e6c6  ./21. Monsters/21.4. Bestiary/Razkarrt.md
+8b027313f975d1aeeb331483d05b6e84d48b86a4fc735b2aec39a7f4f54b6bd5  ./21. Monsters/21.4. Bestiary/Sprite.md
+d71b58763ae55d07d25698eea506c366d527cd76822cf8b1d157bdce7939b34a  ./21. Monsters/21.4. Bestiary/Demon, Balor.md
+c6bc4611abd6dee3a639daf1574a3ec9de51ce644a8a1d88fe46bdd85761509e  ./21. Monsters/21.4. Bestiary/Banshee.md
+019f96c798427258fa29764e2fef2be2a04d406657a700833b6b1403f85790ec  ./21. Monsters/21.4. Bestiary/Ghost.md
+8204a51e410f833d5e792d795a67c10329700bd87bc58e313657fec9cfa623a8  ./21. Monsters/21.4. Bestiary/Ooze, Sentient.md
+1ef4095b30b707902845609d0182dc892df610c7b7c2af6842b26e399bc5f947  ./21. Monsters/21.4. Bestiary/Demon, Imp.md
+0d4d624610895cb906d6805273e7a8307cd474a5e2fe03dbb0af02c5a520da08  ./21. Monsters/21.4. Bestiary/Xarrox.md
+9841cf0d96ca639c7e83c223efbad907bc61c8c93294a9c77fadc7bf0f85303e  ./21. Monsters/21.4. Bestiary/Golem, Iron.md
+1af0671156b7f3148e0af65085a125b210d52d93f75636143daabe901da4fe88  ./21. Monsters/21.4. Bestiary/Lycanthropes.md
+06b74bec7eaca39851be4c1bee2c0a21ecdef5ee0fc43bc6fc5a9d3697292bd5  ./21. Monsters/21.4. Bestiary/Giants.md
+6634d05d75bef0c3e273d9889fc4cb8445b065225f5916b1c7286c8bf62bfa0f  ./21. Monsters/21.4. Bestiary/Humans.md
+8a9e55e453a1265fedcfcf1d2adec938442b2615ea68d9835c6562ef67b6887e  ./21. Monsters/21.4. Bestiary/Shade.md
+3f62fe2c736e008d5d14f9221a617f9bc933e62331f231c5233a77a0d948dc0a  ./21. Monsters/21.4. Bestiary/Fey Creeper.md
+421532b13c0131dab1d663bd9becf0b21e61a41c57969e7396cf76f3cb5ab62b  ./21. Monsters/21.4. Bestiary/Ettin.md
+bc364e1bc88fcb36d7d670ba91b664b22c8de4ad18a7eeecc85ba95c16973640  ./21. Monsters/21.4. Bestiary/Toad, Giant.md
+6db49b8535113b1e0589c5a539120b8df954dd0a6718fb6ef2a70de1103c30bf  ./21. Monsters/21.4. Bestiary/Hraask.md
+6470b96ed0d0c15bad3c3a7e4ed836194ec4a886ae598065828cb3a88518825d  ./21. Monsters/21.4. Bestiary/Snake.md
+1c04668a77d19b2de2db289c5e7b194ef3a3bbbe043af3c0050b8964fb4127d0  ./21. Monsters/21.4. Bestiary/Yellow Mould.md
+542047d4a69fc6a6f7b8fb1113a4a64ecba8bc037b1a19083e407d1dd7050ec5  ./21. Monsters/21.4. Bestiary/Dinosaurs.md
+2c1f08fc3778e05c46ac1d0301f73670f29a79611b0af1c6291f5d97a1855a83  ./21. Monsters/21.4. Bestiary/Zombie, Walker.md
+e6da899da8c0b501735b45e99d82c0f9b9e6203ca3828743da172227e6867ce9  ./21. Monsters/21.4. Bestiary/Human, Knight.md
+dc7dd6a72bd6ce86f1b935f5d3bf27969dde244016e557d3c45cec845cd6cfd9  ./21. Monsters/21.4. Bestiary/Mimic.md
+c5054250e6d9215de8a553c80597a60ad04ba4c5bfb7718a985d9cfbcfe45729  ./21. Monsters/21.4. Bestiary/Lich.md
+0975fb810bc4a469657b6ddefa628fcc311888437da83ca5731e142f21464161  ./21. Monsters/21.4. Bestiary/Serpentmen.md
+4bb6ed41428fa505f6bdf971e2bd4f0882900002a312ce137131af786ad422c9  ./21. Monsters/21.4. Bestiary/Human, Archer.md
+ae9db242245e11c4f3252f0045e11a1028f3730fb805d101a15974c1376931b1  ./21. Monsters/21.4. Bestiary/Hydra.md
+302d2f4faf2ab84ea26e5151e0df8443254b7f25073dbd4f725a25d2572072c6  ./21. Monsters/21.4. Bestiary/Serpent, Giant.md
+9e264452f6bba4883778bcf72ec68c400291519ebe7aebc5ec99b985a7ab2dcd  ./21. Monsters/21.4. Bestiary/Goblin.md
+26e9c5bd37005b2f0068aaa8c82c8e4229aa65256d63f3e4a8880f4ffe850f3b  ./21. Monsters/21.4. Bestiary/Human, Mob.md
+a3699ed8d2374cc1c255ed155e79e2612af385c346225f108235608346d39a54  ./21. Monsters/21.4. Bestiary/Horse.md
+697682eaaca3c99c9cc2a85121b444112d3927f0410adf97da0ef3c0ec60f13f  ./21. Monsters/21.4. Bestiary/Merscine.md
+9a20952cf45d24fdde0ba86ee65db6bbfa340260e6dbe6d36b7efa66aed223c9  ./21. Monsters/21.4. Bestiary/Mammoth.md
+36bf2e885ac245b88054452f7dcc99ed1e1fea95e3e07e7aa0d8d9f58964a2fc  ./21. Monsters/21.4. Bestiary/Zombie, Brain Eater.md
+d196c03fc4ff18900ae307bcad3ab9d36e66b2257331099916291ef5d300549b  ./21. Monsters/21.4. Bestiary/Human, Assassin.md
+63dc43b322ea6b272dfabf2f95b5ae50813280fecc234b0504a1230f4b463d84  ./21. Monsters/21.4. Bestiary/Gibbering Terror.md
+9b873746b2daf91b886b6bbee87a1ca567fbd3a18220599881d29e8466b0fce3  ./21. Monsters/21.4. Bestiary/N'Tarc.md
+5499d214fd9d604a8f499661d0b125e1d19b5355e185645fa762033a079e9238  ./21. Monsters/21.4. Bestiary/Boar.md
+20fadd4b42fc955957047a04e9265e8b06200b4d91199e23c2df32d536fa0fb8  ./21. Monsters/21.4. Bestiary/Beetle, Fire.md
+cc7c59b67fb8dee1631d6d2d8ea33a12696cfe3ea8e270a1e8008b6a90e974b0  ./21. Monsters/21.4. Bestiary/Ogre Mage.md
+ff578b527de0ccd9997a011dffb2b45abdc94fc628db1585b29e16010142fd6c  ./21. Monsters/21.4. Bestiary/Worm, Frost.md
+6217ebd74c3d21a3b40c1934d8c92b3cc5717adb03c7948b86703335f04ffa39  ./21. Monsters/21.4. Bestiary/Demon, Surgat.md
+d4a31edfff2ac8c17b72ab54a4076ac17132a34edc6457e478e59090c2fd849d  ./21. Monsters/21.4. Bestiary/Urgot.md
+069344fb743b025ffad431f826aa5b23a430c3093c1e811794afcf0f2ac7873d  ./21. Monsters/21.4. Bestiary/Hag.md
+12de265847a8028e18a93ec0498e930f5add13db4526537ad307021842829b73  ./21. Monsters/21.4. Bestiary/Giant, Hill.md
+b500aec010173a67b846fd9b1c772a53ef9b946f1eb2b618fbe59fc092f3de5c  ./21. Monsters/21.4. Bestiary/Demon, Basartu.md
+766810d646513147f3b882ccba4eb80fd09492db4e08b0904f4a6b3217871bff  ./21. Monsters/21.4. Bestiary/Human, Champion.md
+99e8dd7240e94f2a3112ca34a1c9ac21c8bbd0d45c4f7193a7cd9efdf1486021  ./21. Monsters/21.4. Bestiary/Giant, Fire.md
+ef281d699570bbf60f71182544085dd712e8c2b93e2c402df371e00f63d2f839  ./21. Monsters/21.4. Bestiary/Mutations.md
+d88e37941e04241e570dd086584dc290b902344864d23f9d600563d8a9ed8d3b  ./21. Monsters/21.4. Bestiary/Dire Animal.md
+c6be7f30e0454d9e3ca41f63bf5127a707cf90b9ca0839738ce98b51cca76030  ./21. Monsters/21.4. Bestiary/Centipede, Giant.md
+5f65d6c3f87aa5f05e3d49a9285cd79b7a16997c4a99d1ee7776c0d30e97f606  ./21. Monsters/21.2. Custom Monsters_.md
+14df68c7db0c4716df2ef17aa58453322f53d77da9ed9dc9e6bb997c6470b065  ./21. Monsters/21.3.1. Heavy Abilities.md
+b3bac3f8579466bb87182fe828bf7a27816ff796601940d4b52828b6fb54287b  ./7. Unique Features/7.2. Example Unique Features/Vengeful.md
+2b71c05186e3cec1aec2f9375f48e322816928ea7cacfc181d06c91669604c19  ./7. Unique Features/7.2. Example Unique Features/Enchanter.md
+86c2ab7f49e5aa8608b60d82788815733c2ec15518f1cfde4901d1582bade2ff  ./7. Unique Features/7.2. Example Unique Features/Dance of Dragons.md
+3a53ebb72b1d8db6ca325efc64e168e7ec80ba065c71bdc077bc8106b1ccbfe5  ./7. Unique Features/7.2. Example Unique Features/Awakened Host.md
+7748ff4717031c459be2802775a07d114a2c7d90f465df30c4968ca4db6fc7fd  ./7. Unique Features/7.2. Example Unique Features/Runesmith.md
+654e637a2aede508306dd33dbf4fb7486732b7c2249500827a66a3f2db269ac1  ./7. Unique Features/7.2. Example Unique Features/Unusual Mount.md
+9e6a73fc887f2f3bb2c872e04d6e3c8133ac9968c1bea97ee9977c33932ee6dc  ./7. Unique Features/7.2. Example Unique Features/Iron Grit.md
+685fdade54f710df0ca252630d0d64563afb6c3207fd3cd6c42ffbd6a9bd7a7f  ./7. Unique Features/7.2. Example Unique Features/Monster Lore.md
+8417ced5e598c3484a7241973d2e9628c95d40539de7ee4211c4371c85f7588e  ./7. Unique Features/7.2. Example Unique Features/Knife Fighter.md
+7e315a8e75b73690d72534666137f7ea92acd256ff98af8bc256a4f747f5e8a5  ./7. Unique Features/7.2. Example Unique Features/Alchemy & Mechanica (Crossclass).md
+5d16330ef907fb5b039e0b900aa4b7c67973d83700f0164b0c8b016295d8600a  ./7. Unique Features/7.2. Example Unique Features/Rogue Tricks (Crossclass).md
+f4459cc0feaf1ad2f7879860f61a3ed53fa849af05cf3beafd490a150e3b13c2  ./7. Unique Features/7.2. Example Unique Features/Divine Bargain.md
+bc2ba63a6b02f613498d5ae579bc52113e1a0f3f76934786c1deb507a625111e  ./7. Unique Features/7.2. Example Unique Features/Pack Tactics.md
+8be32249733d75803bd0174f015f817dbc2bf0963ad17e339dd07116dd81ef55  ./7. Unique Features/7.2. Example Unique Features/Secret History.md
+64e1d34dbcf7ca739b26b9b76d001eac200f6a7bd43ce9fc0e8a2fe45ba7f33a  ./7. Unique Features/7.2. Example Unique Features/Adaptable (Crossclass).md
+f24978239d03b37874030f8102b6aa68cd54173fe8a51d83cb1bc46f534bcd00  ./7. Unique Features/7.2. Example Unique Features/Monk Techniques (Cross Class).md
+5eb18a5d67ba2a3c1f70b08fd5bdebc40db0af959f7d56a95780d4330872d9ae  ./7. Unique Features/7.2. Example Unique Features/Spellcraft (Crossclass).md
+1e1fb5377519036f134c8377a6e7c914662ab0f4f3522097346232186fddbc64  ./7. Unique Features/7.2. Example Unique Features/Faustian Pact.md
+f82279019d40757d8a494d85a33187daf7336c6a4392426c539807435d3dab1e  ./7. Unique Features/7.2. Example Unique Features/Dauntless.md
+a3544dca8fbdea9fa0e59477b838b1743169709923f67127bf3feb1d095993b6  ./7. Unique Features/7.2. Example Unique Features/Rangercraft (Crossclass).md
+45ce6ae416726d4b2c2fd7db282b6b215255ccaffc1f4eab54fae50e9b273557  ./7. Unique Features/7.2. Example Unique Features/Armour Master.md
+34d3c0db705397ebe17560c7929e943a6c90f14ac58a5cb4baa60e32d82b5c47  ./7. Unique Features/7.2. Example Unique Features/Thieves' Grace.md
+29e2c75a4df3fdd4a6b43d43df3baa1114f8a295ea25f98bcc66135ed307ec03  ./7. Unique Features/7.2. Example Unique Features/Breach the Veil.md
+6832989d53a17f04ebdc67d990a840474ac2682e58e874e8e420753cd74949dc  ./7. Unique Features/7.2. Example Unique Features/Pilfer Pouch - d100 Table.md
+371618a9f38998ffb0ef4ac127c470e757b11c95864e287bcb7cb4af9c9c24a3  ./7. Unique Features/7.2. Example Unique Features/Void Caller.md
+a7afc7776a8c06605311e5cdd8be4d4026675ecdb56f52547ca4185a1d059c86  ./7. Unique Features/7.2. Example Unique Features/Armour Training.md
+464f22b9dcf2ce2d85099de6cb87d031e146ad6781da3d2b005068ddc8c6c64d  ./7. Unique Features/7.2. Example Unique Features/Shieldmaiden.md
+b21f81b03bcbf8068722954456db1e43e1e5572d9775918b789167cfc2115e80  ./7. Unique Features/7.2. Example Unique Features/Poisoner.md
+93fe57ffa2b45f19c3e11df54400bb18409d764e9a1b4eeedfcde5951ced300b  ./7. Unique Features/7.2. Example Unique Features/Ferocious Rage (Crossclass).md
+3b2ec431cf9e67fdabf20406667c5a7cf3f8bc0414805f4a2443e8ac112e94b5  ./7. Unique Features/7.2. Example Unique Features/Signature Weapon.md
+11f2728cf486e43ba30d84e453af469eacb2987bb23ed09caacc708464cc3c92  ./7. Unique Features/7.2. Example Unique Features/Weapons Training.md
+30b967d2d78739985c0347ff5d3c7114202185139cdeb808b574ab38937c42be  ./7. Unique Features/7.2. Example Unique Features/Slippery Bastard.md
+e9668d526a0c8ab14054d882adb75e96890653ac6a0fa3bbb7676ba80866e7bf  ./7. Unique Features/7.2. Example Unique Features/Inspire Greatness (Crossclass).md
+478e86ff5d394674f090709d5bb2213f0710fb5cb8b1e9b38029b6718a354670  ./7. Unique Features/7.2. Example Unique Features/Charmed Life.md
+1c395281ba625ca288d3032d4131d6584849394e96725a053e95d712e9b6fa55  ./7. Unique Features/7.2. Example Unique Features/Born to Loot.md
+3e962c7f9a50a38852a9340eeca8a57422ec7ea6102570a794e04953e291ae43  ./7. Unique Features/7.2. Example Unique Features/Combat Medic.md
+1e1f7504793cd30fa7791ff90a5ccbe5183b49ee30dbd8df2de0acd2356ddcbb  ./7. Unique Features/7.2. Example Unique Features/Marksman.md
+406f5a93ab08799812445a803516c3e74022d7c8057fc79745b88df96fefd323  ./7. Unique Features/7.2. Example Unique Features/Master of Faces.md
+f72e0ad6b6260d61f450af1407dc4f1160159fbb355742a0fde2833ed69a3172  ./7. Unique Features/7.2. Example Unique Features/Injury Adaption.md
+ae223380c048b59fc204b061141e0645ade788934ed3143911e1954809c1e3ab  ./7. Unique Features/7.2. Example Unique Features/Oracle.md
+a232114075c958d2d422e33c51a8a3efe67a37999ee38407a8fcb6196deff883  ./7. Unique Features/7.2. Example Unique Features/Divine Blessings (Crossclass).md
+698590f60c87b7009532615237bc8658aed55cd7723b211c421ef9a64d7d4f33  ./7. Unique Features/7.2. Example Unique Features/Pilfer Pouch.md
+648cf211ea89da07583c93e3aa7d34ffc84db71750805111b56d2c98e0f1c666  ./7. Unique Features/7.1. Unique Features_.md
+9386bfc8a89027c57681c5cea2c94459319918c7c4d6746d51f5a8c003695204  ./2. Character Creation/2.1. Character Creation_.md
+752ed83a25819bcf4540c564471d5da12b53abd1496521b9416bd5bbab0306b3  ./2. Character Creation/2.1.1. Backgrounds.md
+6d0a619454971b3a5b6d1cc3888665e12345d1632e1aa7015af0b7d52328edbc  ./25. Solo Rules/25.4.2. Size.md
+95d074ebc90d06517904de137c4eae00bbec7579a85367984b3c1aa37cc3a634  ./25. Solo Rules/25.4. Dungeon Generator_.md
+1dd94bc6a2018a01142c90d00ce89d7172b3d10fbecb0e247414857ee814adfe  ./25. Solo Rules/25.4.12. Complications.md
+cbbccf268894ae2d9e9d242e780d84695b8310cb56df09f8bc6273e5283ad33a  ./25. Solo Rules/25.3. Published Adventures_.md
+f0f02e1f424856ff516f5739217ecf0254ebb0fd0073e7f488f35b2332142b03  ./25. Solo Rules/25.4.7. Doors.md
+bf7ebb3f38a4416f96843d553e9fe492d0a6ad12fd058f84bfd7f51815e07722  ./25. Solo Rules/25.4.9. Room Theme.md
+26d74981ece822e6f8fec7c64d08a8655eb886ac36e0fcab29c0fb3fe9b32265  ./25. Solo Rules/25.4.8. Rooms & Corridors.md
+821b27e14e91e7d6939ed33cd1125e222b1e3e4d5b1116d16f908dfb30f2383e  ./25. Solo Rules/25.4.1. Dungeon Site.md
+1192b22294f22ddb0fa14fde0227a4924ff5421c6ee5b7d1164770f466ebd077  ./25. Solo Rules/25.4.10. Room Contents.md
+df927606a35d27ebaa596540e755095b096ad278cfa76cd3ac82d8a41163abff  ./25. Solo Rules/25.4.6. Special Leader.md
+185db8e2aef20c43e93ee38001fe50ec6c3103015fc54183ee38ae663ccce1e7  ./25. Solo Rules/25.4.5. Main Opposition.md
+feaa7f6835575807168c58ceed2e47006a2b652f614dc3f3bd95c35ccc6f801e  ./25. Solo Rules/25.4.3. Objective.md
+8ea60ee0dbaeb88b1ee8abf39896e7f06fe8e2ecd09db7bc7091b76a4c309063  ./25. Solo Rules/25.1. Solo Rules_.md
+ed7f3d68e7152b0157152b93a49e62addb940e5feaec3e782ff2d2181928a82a  ./25. Solo Rules/25.4.11. Theme Items.md
+1de075aa3083210d9883bfb80ef39c634f8aa23da927681f8d0d0b96048fa005  ./25. Solo Rules/25.4.4. Reward.md
+0d020ee8168d2b37826afe305909cd0e8e17d7ba27be47e30e3f9d38c789cb64  ./25. Solo Rules/25.2. Lone Wolf_.md
+a00fcebe32795cdb77ebb2d5031c56869ba4f6081b64e76f4da0d717e7f858b7  ./13. Injury & Death/13.2. Trauma Tables_.md
+1f4aba1053e2b354f7c76817ffd6ae923393291f76efa953b227bff122e8f832  ./13. Injury & Death/13.2.1. Blade Trauma.md
+57b04e1ff16963fdd8e60aa48a91b3f7b3a9006ca057b37b04f705028ac5afc3  ./13. Injury & Death/13.1.1. Injuries & Setbacks.md
+19fd45d03c9ffdade18f250f9b1bc84fe5154ce28ff291b1117ebad35ced3393  ./13. Injury & Death/13.2.5. Toxin Trauma.md
+838d39c69c1285320ed09475c75598ccd07d2cfc81202d864fa70726d6a9171f  ./13. Injury & Death/13.2.4. Missile Trauma.md
+6382f0e7c1bcb33096bbadc217a06fd43dbff1eef11d371b8341da17442078cc  ./13. Injury & Death/13.1. Injury & Death_.md
+15ff4a5c8ebc38193683231a401b653ce3ecdb453c607a5f2f3e8dd44e9863d3  ./13. Injury & Death/13.2.2. Blast Trauma.md
+e556fcaed8c9e028b2c3c14250f93747f87b972b44680ee8d1d9a55e207b0d4b  ./13. Injury & Death/13.2.3. Blunt Trauma.md
+d1c33d5e6e9dc93a022420f306abed9436325ec06f3716f33469825ee470be1e  ./24. Rival Adventurers/24.1. Rival Adventurers_.md
+761731e5916242e87e723e5eeb3135b9bde5ef2c88c5703937bc79a7f0002c73  ./6. Party Bonds/6.1.1. Party Bonds.md
+e2cba84cf6975e3a5abaffde4ad2d3474897d98a45dd5c7a726ee063b759cb9f  ./6. Party Bonds/6.1. Party Bonds_.md
+2e24cd7b7bd333fb9fd4456dc365de8460364d4d926c334e7bc7bb16b92f90b9  ./16. Downtime/16.9. Research_.md
+eb9ca1f6d06829b918e1e6c3b9489602be90b5c2fa743a9bd7254ea664c337c7  ./16. Downtime/16.1. Downtime_.md
+5699b57024cb45a8a14e2246f7fb82b9a3bb2f47838dc3665ca119cc1905895f  ./16. Downtime/16.9.1. Standard Research.md
+221af0ff2819c4c614cc3b3f4976e5efe5a3bb3713e3ae964f7761401f14a43f  ./16. Downtime/16.11. Scroll Inscribing_.md
+e0bda76bbb2bd100ee5da822058f56f4581a87acd15a4bcb4558e7b15267c985  ./16. Downtime/16.3. Black Market Trade_.md
+0ad87f30c5ade54c59f0f8e23b003c9f2fdb88965e604938afeee0dcdc1c5ea9  ./16. Downtime/16.1.1. Downtime Period.md
+83087455c54dbff9c28c95d8a9dfc16ce149208605abdb83bbd3487a5752db8a  ./16. Downtime/16.5. Gambling_.md
+29046723dd8a7d105aae4310ad7ce8dcc0b6d8d2c6fbce0625384d30f490b219  ./16. Downtime/16.6.1. Pet Qualities.md
+7ac5e76e08d2262aa4120307bc66264001dafc70c5cf487c12e8dea634a919a2  ./16. Downtime/16.4. Carousing_.md
+3dd3b6c8089f2e6c7dd3d2998e9accd0efb006230e0bbbeaca86986916858011  ./16. Downtime/16.1.2. Downtime Event.md
+8f1b27d2ca978bbc5c49785558c353e996b939c4e2c711592071e5902325c125  ./16. Downtime/16.4.1. Carousing.md
+172f08c4f13f4b9b3eeed532f2f82528671b818b07a508c8b04013f70e7c7935  ./16. Downtime/16.2. Advancement_.md
+ae2b9f7c0d069e42287f4b7993a6bfc84e77d9d5c4f295eb0d051cb4a3ab02e6  ./16. Downtime/16.10. Rumours_.md
+565e3c95017f60f116c15891e73e5f4478a41d4f215befd5233296620e804d67  ./16. Downtime/16.7. Potion Brewing_.md
+624daa0fcaf53076f1e5062c03f53b72d7f826707125a0c791f1b786b0e87e41  ./16. Downtime/16.3.1. Complication.md
+8fc321a921caface332f67754216aeef8b22b93e0191b9de76adeb53c2030a41  ./16. Downtime/16.6.2. Monstrous Instincts.md
+622c5135de3d38f42117b428baf200f5df95bf211960780b4d8694500e21354c  ./16. Downtime/16.6. Pets_.md
+fbeb4b5e016485780d6f69a36e5fba6dd7aafa42a58613c3311f2e7b4ceb0018  ./16. Downtime/16.8. Recovery_.md
+13c4ed27c1d8e592a552949200aa4db32d945bbfd6976e627ebc364f7c0cbc80  ./18. Hirelings/18.1.1. Names.md
+567c7014d9bfcca3f4ea1694238c7a0a9d651f71bc513dc2d56d4875a573104e  ./18. Hirelings/18.5.2. Catchphrase.md
+ad3e6e72eea63dd3fb6f72795044985321f41126a39be58383574e48485be99d  ./18. Hirelings/18.7.1. Payback.md
+a848d80ee50217e991b4ac2e7db3146778430c47fd03e0fec5fd016448ca0146  ./18. Hirelings/18.7. Payback_.md
+660fc621f9ac938c441f9ef413a0f38ba7ebfdfa06cfa5121d89896ba5023798  ./18. Hirelings/18.3. Personalities_.md
+e602da50cbabd22f968225526962c3c757a2173ba3d616c213e5a5dd3981c33c  ./18. Hirelings/18.6. Hireling Advancement_.md
+3474f60f0560ca948a88e60ac657b32a4ae6fabd6abf3b0b8e4bbe99f5964190  ./18. Hirelings/18.1. Hirelings_.md
+530b624d59ad3c43dda85ec1d133004c15b3e61ecc5b7c47b32c849d0db2eefe  ./18. Hirelings/18.5. Gear_.md
+fdd3253a99d2687fb63a1b191787f130dab5641413cda3c9f7520cab92ee9c30  ./18. Hirelings/18.5.1. Hireling Gear.md
+bd8f7ae00ec23978532cfa4e0d1480a8cf75d6a1d827da743c42162dafeb8017  ./18. Hirelings/18.4.1. Traits.md
+bff499933caa0675c388249426440602fbf92d37b5c0bf858ad9d3a16d75a8d4  ./18. Hirelings/18.6.1. Hireling Advancement.md
+a22adc366de7e735a8f16323337591b18bcec62fda781a572a0448a9992294b1  ./18. Hirelings/18.4. Traits_.md
+275f5e9c9c34932a29cbd545eee3386e5256462d747e0d0084178d2b5c559725  ./18. Hirelings/18.2. Backgrounds_.md
+8227314c2878062a2c9e584599317a182e5ed280aedc8b4c20ac8dc4add31ed7  ./18. Hirelings/18.3.1. Personality.md
+d4b4504ea400b20eb40e807f432e3102ee530961e52059780467bb9caea11001  ./27. Treasure/27.7.1. Minor Charms.md
+66da29a2eac87e52bb0257a10891a99aeec2c276d11c3021dc868beda518d35c  ./27. Treasure/27.10.2. Jewellery.md
+2e397bce70ebbb5c99ede74435b1b7217d895864edf88d0b8f6e7351b1d34007  ./27. Treasure/27.10. Major Item Generator_.md
+ec1aead7a6bf898722cd3c9ffba4fd640c9e81f9d176cead947dc943134f69c6  ./27. Treasure/27.2.2. Valuables B.md
+44263a236210ce84cd556601d13a4668c25baf5dd99aeb5f58f749bf2a533613  ./27. Treasure/27.6. Old Magic Grimoires/Unchain the World Eater.md
+22db4c9bf626929c1f483e652496fc37f2f867e712efc4d541eb2e6c573c6d94  ./27. Treasure/27.6. Old Magic Grimoires/Sign of Subjugation.md
+53f5ff3020b3448f0743ab44d2c7177be36bb67cbe3c8cd8e5f5c9ba77a49b72  ./27. Treasure/27.6. Old Magic Grimoires/Reaper of Hidden Shadow.md
+a97c394e637a242f15f31663f92249221ba276e19cb7a5b1c1cf4a460f9364f5  ./27. Treasure/27.6. Old Magic Grimoires/Conclave of Wind & Sky.md
+4d4e49c2ae3583d099df3e6987229d94744be2e839239ea0e08caa64d0d14293  ./27. Treasure/27.6. Old Magic Grimoires/Starmaiden's Miracle.md
+c68cb165be6656e603846e294c1f76e0a668a102784d640e0f9de93ab2b3c3b5  ./27. Treasure/27.6. Old Magic Grimoires/Rite of Revelation.md
+245cc118a804df1ac0549a5fa2a54b73e6bab7d3a03098784b8c30c16db64815  ./27. Treasure/27.6. Old Magic Grimoires/Word of Ending.md
+8861d2681d96f0db45159e6c05b81787550ae90bcdc1ebce148377779048b5bb  ./27. Treasure/27.6. Old Magic Grimoires/Phylactery of the Undying.md
+fcab5c9b2eddbc4a23852e20ed70f98f5712e721e0f258fce6b3ab201a09ae3d  ./27. Treasure/27.6. Old Magic Grimoires/Forbidden Wish.md
+d6dee22882ddbb50ca52d050f5ecad89c2c16e1a4311735776698fce51c06758  ./27. Treasure/27.6. Old Magic Grimoires/Ineffable Force.md
+d7bba049355a544166a58e3da8655abf9ed11b65dcf41474aabc7389dedd8415  ./27. Treasure/27.6. Old Magic Grimoires/Veil of the Balor.md
+c96f9124be863bdb626e456425e7fcda3985bdee8f610ad07c7b92444682469c  ./27. Treasure/27.6. Old Magic Grimoires/Ray of Unmaking.md
+4f65c2cfafca66f1b74af86d1deafbf3e81588dc17cbb88be7f5473348d0fe83  ./27. Treasure/27.5.1. Minor Magical Items.md
+e9b45e0741bada5b938a227d979a1f1e707fe4e78930ef324f1225eca3e70aef  ./27. Treasure/27.8.1. Major Magical Items.md
+e64263afdb237fadc4833dfd12e5284af49a53314420b7f93293429e554520c5  ./27. Treasure/27.5. Minor Magical Items_.md
+0ab6ca2d640f556bf0f8a91f1ef9094518cc9d6315ef49c004c04cabccc58d76  ./27. Treasure/27.10.5. Number of Powers.md
+8a58c64ef05750ae133a66d6d6e5c6a8cb4d59fc60461e6570a22a3847cf1edf  ./27. Treasure/27.2.1. Valuables A.md
+a30e68405ff02f0fbcad377c2e747881b608fdbc4a0ef185fa55aad942a4350a  ./27. Treasure/27.10.4. Miscellaneous.md
+1df36ca81efa486138a01fec694634c53c4372b33127fc0b5c7f8a22d6c5dccf  ./27. Treasure/27.6. Old Magic Grimoires_.md
+71fba10b7b6c03faf498356574219804c206e9c49b97efde363c31303c3bdece  ./27. Treasure/27.10.1. Item Type.md
+dbb0a2dcc5b4fa11cdc9dcb425ef0aafc9f233985a2b86dc73d18d584a696a3c  ./27. Treasure/27.10.3. Clothing.md
+ca771ff6f72460a55c51bc4ba29f6e6f0da1ecb0c36af25f8a8cb4cf77abee3f  ./27. Treasure/27.10.7. Discreet Powers.md
+0d4a6e9b48dadd950eedb42a0b0757ec9dccbfeabd59da0508e3b362564bf878  ./27. Treasure/27.8. Major Magical Items_.md
+d47062969dd68fba51349eaaecfff6fb089715242023e1cdb51e9dbdda6be690  ./27. Treasure/27.2. Valuables_.md
+1d1ca1e04e897a84cc8765ba942a900c0b3d1590c16c9e21e8a4066bb6adb392  ./27. Treasure/27.5.2. Potions.md
+eaef0e75b98fb11c781a4e06479dfc164cbe4842a20c72cfd7475fdcfbd8f6e1  ./27. Treasure/27.7. Minor Charms_.md
+70dc60810c58829f4ee1bc6052221432b954b0d7f2759aad0e091054fa0090e0  ./27. Treasure/27.3.1. Trinkets & Curios.md
+0bd2423268014ae7c6119a86efcd7ca2befeb4aa0d4fd1483aa6bb116b95d7e6  ./27. Treasure/27.4. Lair Treasure_.md
+cafbda05c8cc7f28ad874bed39391e1a98c5a6762a3e4f0819b64f67b442bb47  ./27. Treasure/27.10.6. Obvious Powers.md
+00aaaf8694bb190db1c3b5cb0c7f025c3ba5f133dd946c445493f291279c9599  ./27. Treasure/27.5.3. Old Magic Grimoires.md
+ca9ca408afcb70510c0bd1ca36ed5e476e37b89716b03cb59bd827773c39a81c  ./27. Treasure/27.1.1. Carry Loot A.md
+a39f89415c9aeca2adb8051f49c2ae0e2cba5a93a48285c0825e68a664bfce8f  ./27. Treasure/27.8. Major Magical Items/Torc of Sebutett.md
+6e275c41ab8c20296f04090089ec5873669fe48903547734d4b423f00881dd51  ./27. Treasure/27.8. Major Magical Items/Ballard's Blade.md
+8a396cfab873c77d0230bb0d4329e47213535dd295609fabecf914f18f844a54  ./27. Treasure/27.8. Major Magical Items/Lash of the Elf Queen.md
+62af952413c74611f71eb941138a40438eac227fead6a36dd36e9eed8d680aa3  ./27. Treasure/27.8. Major Magical Items/Yûlnvorg the Bonebreaker.md
+e17aa0dc0bcb5f35d1340c6b55609f9d0500e3cca1d4c5ada3ea57323e34845b  ./27. Treasure/27.8. Major Magical Items/Storm Spear.md
+41aaea5fc66271b4231c5e3a15f7e136d311b31d39b2a32a3aa43cb811685447  ./27. Treasure/27.8. Major Magical Items/Gnar Sumek.md
+6a5950d7ac7f5c0186f7bfc6ea60e048b3983777eb8898f06f6ead0ab8f33a2c  ./27. Treasure/27.8. Major Magical Items/Armour of the Phoenix.md
+8c55120e0d1831ceec1560fd67fc3cceb1c232a6342e2d715c66b3a8b9a10ad7  ./27. Treasure/27.8. Major Magical Items/Cowl of the North.md
+7ac2c3aef1a2a91af7d48625c706488da4d105e89ccf0dfb4b04d9432f94b420  ./27. Treasure/27.8. Major Magical Items/Shield of Argaunt.md
+b01ed6b68c02ba518425e4cc7c5fe2edf80622325d38555137ab689dc07c5ed8  ./27. Treasure/27.8. Major Magical Items/Talisman of the Black Sun.md
+21f96d7867e037ac328de579b00d6f549c6c08852ed4d42ffee602cc153f6531  ./27. Treasure/27.8. Major Magical Items/Plague Demon's Clasp.md
+ab909a06bed8e44a44f786d7c9e64b67ad342842f2832a9a067384da5d5ac890  ./27. Treasure/27.8. Major Magical Items/Mask of the Golden One.md
+b323e79b4bb9b271a633b5c2efb82da701d15e58578e36b964397f3e3be42e44  ./27. Treasure/27.8. Major Magical Items/Morg Tor.md
+c292934e169c69b098ab864358738c9b9d49aa84ee1865258b49019cbbf78669  ./27. Treasure/27.8. Major Magical Items/Dusker's Vest.md
+47380d64d06970e5fe1307f819f6ba86116084f55ca54137467b00ea98f7efe9  ./27. Treasure/27.8. Major Magical Items/Staff of Mensicor.md
+45c8935af9a4386d7e1f09f88fc53096a3cd20720b190787429d79115d914d92  ./27. Treasure/27.8. Major Magical Items/Orb of T'Seroskk.md
+a6d9ca5853864ca5be65640edbec9583a6182641dadce3a204253c5304cb4ac7  ./27. Treasure/27.8. Major Magical Items/Cyldimere.md
+5ce2dbe6feec89c1c64278c250295dc11e6efbc54e71da50d1701efe46af3f59  ./27. Treasure/27.8. Major Magical Items/Fangs of the Unflinching Mother.md
+cf5ac1a45f3635fabff9964c8c8bef8be0200fe021e511d06821d1879276225a  ./27. Treasure/27.8. Major Magical Items/Horn of Karagoss.md
+0b358ad7b421fae95522bfb972895bbbfcd9bb4add08f1dc1ef298995993e338  ./27. Treasure/27.8. Major Magical Items/Coil of the Worm.md
+3934718c04b3057b3a6630fc796b8df406743faa1747a6beb8674b9d87c5367a  ./27. Treasure/27.1. Treasure_.md
+4b7a7c99a68908a142862059c559fdcd8b855e536786bd7d6204f103d3f44299  ./27. Treasure/27.3. Trinkets & Curios_.md
+3730707a1512b7927df3be944460b9b165d2f854c03197371be0904c6e58bb1e  ./27. Treasure/27.1.2. Carry Loot B.md
+8cd6cee1cce7286a9af497c1fafd742d940721e793f85b2d7596adb19c26b403  ./27. Treasure/27.4.1. Lair Treasure.md
+d29ef3381a51033ee13322b7ea7b28f2d298604e3988ffb7c7f6b96cb6104de4  ./27. Treasure/27.9. Attunement & Using Powers_.md
+47b1b2a38296ae6a8c2c8ec7e2a2007021c2074ef96d033e005a3a8f4911375a  ./22. Naval Combat/22.5. Boarding_.md
+e8a2be655ab1b77a579b584b9772bb3b6052d5d30968e4814335f60e95528564  ./22. Naval Combat/22.3.1. Artillery.md
+58f05262280117c99ee1adc0078334b3eb9e03bafa66c085e0c7ec4f7175f9fb  ./22. Naval Combat/22.2. Ships_.md
+de818837b0da3d8518e2eb29ac16e4303b76f02d6330d5721332ab4bf5196f0a  ./22. Naval Combat/22.4. Ramming_.md
+8cab15de72471ac3e14342dc864827d83221d12b4c1315897e35a47b9c73bfab  ./22. Naval Combat/22.3. Artillery_.md
+ad00847f39fb5252ba575d4045f7ec9781002dfcd294a9dab449469f2032ed4f  ./22. Naval Combat/22.5.1. Boarding.md
+e8b242e1398655f18632b93763ec61e174642f76cb75010abd167c0ff22c0e0d  ./22. Naval Combat/22.6. Withdrawing_.md
+c3484647694eb621ff2110f5bae100a84427587cd1d759a2f13a7eeada78b212  ./22. Naval Combat/22.5.2. Crew vs Crew.md
+c822ec69060743db024c26fe3fc3c8150d8d6dd7a8a9e3f696373934e394e5e5  ./22. Naval Combat/22.1. Naval Combat_.md
+c2cf67f8dbcfe586140b910ef8d078e9684d6a68a404a303ddc6bbd0417e2ba9  ./22. Naval Combat/22.7. Blackpowder Weapons_.md
+141b4c515e522bf10f5b9e9c2e4e72ff600ee98788c9c1702078adb6d066187a  ./1. What Is Tales of Argosa/1.2. Core Features_.md
+f5d06dbe7d55e73f8961707a30a3d0a5abbf88d38016fc50d026800121b1cdc9  ./1. What Is Tales of Argosa/1.1. What Is Tales of Argosa_.md
+fda13771fe6ed6e0b1cd8386d74260a8f1d04ed7301e5e88fc0de7526df69a53  ./1. What Is Tales of Argosa/1.3. How to Play_.md
+8dc2fd9d2b8ee05a12b8ef314f4f6a6dcfa6b9777f35819665e74789eb5b77a8  ./20. Mass Battle/20.2.1. Sudden Twist.md
+b37cbaa25d1952a99d0f3d453871db302250cc0093febba15095ceef471714f4  ./20. Mass Battle/20.3. Final Confrontation_.md
+452e694829ec861dbe49522a99531e831041463fba70542126332531f53fcdc8  ./20. Mass Battle/20.1.1. Field Events.md
+54bbe42aebd51e5d4174a6f564f8a739b139b71b82a1627192850f5969f3df8a  ./20. Mass Battle/20.1. Mass Battle_.md
+bb257d94b822e9a102a5986c6afc7736106616766028c355dd7d4b7979c4aed9  ./20. Mass Battle/20.2. Sudden Twists_.md
+ae3dd32a38b2553457f16763759667a97b5acb288fbad43167aeb47cebd38b39  ./12. Combat/12.1. Initiative & Turn Order_.md
+8aa107baadc6c2b748cb984bfec8144e90047242baf3f5956d1643e8b7a47509  ./12. Combat/12.4. Party Retreat_.md
+accf7c2a974530228e244398283ca8767efedb58c7a53a41c246ff8a154f13f5  ./12. Combat/12.5. Chases_.md
+900383cc9a0c7fc13dc785a8fa741e1b39b2291e14a510722baf67ea70bb4f8f  ./12. Combat/12.9. Fighting Styles_.md
+e38ebea02f8842fb8e0feeea74581150980c82250c3c1591f5fc64232972dc66  ./12. Combat/12.10. Miscellaneous Factors_.md
+a01cb338e49917865139da6352b7edbe2de1374851fd5ba799776a7efd9548f3  ./12. Combat/12.8. Exploits_.md
+87704834fab99159615408ed6236543005b2110664d3edade948a46d77eef8f4  ./12. Combat/12.3. Move_.md
+92b63afb81d1d449a082309d52a9148cb20d20755091c0411c283c27ad197340  ./12. Combat/12.7. Melee & Ranged Attacks_.md
+574720214475e4fe68c4433fc82b33e4f263f28e927c0fa6775de2da17b80326  ./12. Combat/12.6. Action_.md
+1d4e1023562a34b6989ac16d462b7240b2dafa5715876a7199ef10aa2719083b  ./12. Combat/12.11. Conditions_.md
+c3d7a87d6a6858ff95fb36475aebc76769f995b83a75b2404938c5b620e67f76  ./12. Combat/12.2. Morale_.md
+a611e7d7e465ef586e6550dcfd1c8c11a8fdee3e66a24d29bf23b734a8a9ee3f  ./12. Combat/12.5.1. Chase Events.md
+d93cdf7a6edde67c4669b5c30b8fa72ea65821070af8caed6a815cd6dafe62c4  ./15. Sorcery/15.1.1. Spell Casting.md
+e8068a30fb302f0cfe6522face4a01f8bbaca5a6a90a1ff65bedff545f0cd0d9  ./15. Sorcery/15.8. Spell List_.md
+746d77996600df54a95fcd86d55afdf9f91d127ffe622435f6712b08a40bb20f  ./15. Sorcery/15.5.1. Dark and Dangerous Magic.md
+ea6f0f1f8c6e8e3c9122d4fc89b6decf285929605ae676a55a182096b470977a  ./15. Sorcery/15.2. Spell Duration_.md
+0f3151dee0033e23562c63cacde906c7319e1a1d77da17af4fb1acd92aedf630  ./15. Sorcery/15.7. Rites of Atonement_.md
+d6671b076e4fc0c67bcc8c7e8ff5e76d076d0d9a499299562bf6d2d07d25f631  ./15. Sorcery/15.9. Spells_.md
+0ea79c1e821c9ddb5129658ef78100b030960eac4fa4c3f7fd86530861b210d3  ./15. Sorcery/15.1. Spell Casting_.md
+92eeb925f3a6ac3c0d57155aab2c7d4b4161ec7bbe9ea39266ea478c018e5a02  ./15. Sorcery/15.7.1. Rites of Atonement.md
+724c73144ff806613db5570533919e1c35513a89660c0d87552f5af397f908e1  ./15. Sorcery/15.4. Illusions_.md
+7d0fd290fc85484322b2c76f71b4621ce175152f669c069f188a5bf6c135155b  ./15. Sorcery/15.3. Sensing Magic_.md
+42ed18a86f54b4737d0f1561207dc89e0ce6c3ed085ea056b39f38f28e3ed2e4  ./15. Sorcery/15.6. Divine Blessings & Rebukes_.md
+5848f3782a9d1245b0b56c1c44027aa259f81097421e0747876e35101f3e9ef3  ./15. Sorcery/15.8.1. Spell List.md
+a5412e48f271786b31120a2b2839e8a3262c304c26a8faa20254bca806014a25  ./15. Sorcery/15.10. Ritual Magic_.md
+5e0008a320c6033e38f0e148e8aa86af54e3e1f6d0dba709eb6e53becea8db68  ./15. Sorcery/15.9. Spells/Bestial Communion.md
+06556deb5ff33ebb98506ba1490921764b7aafe9a6b1cb5b72704b75e04d337b  ./15. Sorcery/15.9. Spells/Thunderous Invocation.md
+ec9c0f8e0c39fdef3cf83ec82ebecef936d9c38e981622de68b73807175385c7  ./15. Sorcery/15.9. Spells/Mask of Many Faces.md
+907e85e061ec05ed07264c50f961e7ebd7f68567f96ea7362d5287abcbbe43d1  ./15. Sorcery/15.9. Spells/Cleansing Charm.md
+7bd7ed94db407b96a1491a06082c9d5011438990262d8bf309a2198bfbb65045  ./15. Sorcery/15.9. Spells/Shadows & Dust.md
+23f83d03271f2f0e710bfe1aeaf451d9f1eee4c80b46e54fe9b703e545c2a7ea  ./15. Sorcery/15.9. Spells/Hellblast.md
+d9a44ef7724d6081b64fc9dbc1f8975c97014a3dcb1cfd15a5fb39bf19900bad  ./15. Sorcery/15.9. Spells/Strange Joining.md
+618b6eaf002ec9e6116547d21a608e29f09aa52a128f554758c192441e69e6c3  ./15. Sorcery/15.9. Spells/Beseech the Ancient Ones.md
+76bc5de8b84c84c89ec14ef16cd6eff319818c6699e1467190c60270da1ea02d  ./15. Sorcery/15.9. Spells/Thrice Bound Curse.md
+63d4b2f95f957bf56db4a68bedc59fa7a81808d56ebea32b066a33707c47b04a  ./15. Sorcery/15.9. Spells/Brain Burst.md
+97d5cc3501396c8397565a4f5bc0894164b348b49480da89254c72ff5a55da54  ./15. Sorcery/15.9. Spells/None Shall Pass.md
+91b67ccae0c62f5ead3125bea638187370582764b83092fa0d0d0e75ac924c9f  ./15. Sorcery/15.9. Spells/Conjuring.md
+c66c43ca834d58a6278055fc7ad19be7eff2c4a0c2152ffe534d7c16814d1718  ./15. Sorcery/15.9. Spells/Cradle of Formlessness.md
+4b1a2ecfaabf9168233ba9c199831ad161c0ed83899debbe0275629d3b8e0c6e  ./15. Sorcery/15.9. Spells/Sight Beyond Sight.md
+8b419eda7d5ed4519d2e5b1445820af8b31df8589adee848576f35bca8a88240  ./15. Sorcery/15.9. Spells/Speaker of Tongues.md
+aafd5496f8096fe668099f148454f3b23b74acbf4c0a6690a31b9bd860af19aa  ./15. Sorcery/15.9. Spells/One with the Deep.md
+d4294e78e79d0a181e427b09f7143e07b17f6ea496b89a49268dae2e53af0992  ./15. Sorcery/15.9. Spells/Pierce the Veil.md
+43c51056999d1d2b89b94aa738d9fb059cd7ed79787b744e2c8f7e3fd55abfb2  ./15. Sorcery/15.9. Spells/Bending the Stone.md
+ca7c1fae679fcab4eaf536585f00518bfabbfd4b2e795b6baf84b0af521b16d2  ./15. Sorcery/15.9. Spells/Sundering Sign.md
+37188677495b2d46b79ed33300403a5977296ad7cc9b3f58e9ca0dbe249652a2  ./15. Sorcery/15.9. Spells/Rain of Stone.md
+8a44c05ed7d9471734eea616ef5b4b33e50c854c5b050a51ccac96990b392703  ./15. Sorcery/15.9. Spells/Light of Soliri.md
+538ea8f66e82d9f9cc2dc25b8d3c59f97446c7fa2b4289efc8225b7992b7255d  ./15. Sorcery/15.9. Spells/Hex of Volcanic Steel.md
+ba37e091365a4fe5c9a0c106c334e530ca5eaa2ef693c877d9279569905466c4  ./15. Sorcery/15.9. Spells/Echo of Days.md
+0d7c60aaaa390f87cd868ff39ef0c2c4932c6f4591fa2af94228a754cdee188d  ./15. Sorcery/15.9. Spells/Infuse Animus.md
+97252286518302d75d6c30e1a376bd716e1205f38c72c729137c527dd887d774  ./15. Sorcery/15.9. Spells/Silent Shroud.md
+01ec388f929bfa412a3f0595f6909fd3911bda5fe49534dd912c8d2545b11bd7  ./15. Sorcery/15.9. Spells/Fetid Fog of the Pit People.md
+6ae2d35844c5418107b863009310b4ba30eb2bb5e7f8c001228bf3ad04681b0c  ./15. Sorcery/15.9. Spells/Hand of the Void.md
+b4d58fbf06267f923a5aaed0c28292acbaba7322e1cc5c999fb93a85237fbd1c  ./15. Sorcery/15.9. Spells/Undead Servant.md
+8afbb0aabffd83a2eda7ca260eb6d014b6efc28d56e91c35272219084ea3028e  ./15. Sorcery/15.9. Spells/Enchantment.md
+3872021aa49c4a838bd7a94ac0d84beb19b60becd9c17cd353df619149d70142  ./15. Sorcery/15.9. Spells/Conjure Entity.md
+c0e5fe23e40cb6f442b80a16a24c79f0703c1444bc6a318ae53fafcc4298b105  ./15. Sorcery/15.9. Spells/Whispers of the Watchers.md
+559c29c10e0ca438fcb956d10d207cfc2003e0f938bf1327a8e7dbaaab80e84b  ./15. Sorcery/15.9. Spells/Crush of the Warp.md
+4d1e30d8a11a0b0bce2ebf3c49f8268592b5b5520773a4324b9fb5a38dc222b3  ./15. Sorcery/15.9. Spells/Wings of the Raven King.md
+e0d423fa02b3d25dd7e79238197e51b5c6bb8750b35012b5b3578b2a5b7e00b8  ./15. Sorcery/15.9. Spells/Mend Flesh.md
+dc114e5541bd8aafca519fb4e29cc86c8fa20777f60305153d2453f478168cc6  ./15. Sorcery/15.9. Spells/Dark Slumber.md
+480206f9bb981d6f4ed273f43464ef0d96c4951ef413e90b871477e617532953  ./15. Sorcery/15.9. Spells/Hunger for Blood.md
+de0ccb1a93af73183c69eff53762fc4ec61271c1a941c91ad3e3ff690b88ac9b  ./15. Sorcery/15.9. Spells/Transmogrification.md
+9fb4d64a44acba7f3f3ff801436427ddd0ff3e796b6e8f818c6573621d984782  ./15. Sorcery/15.9. Spells/Riddle of Bones.md
+27773e09302b41cd3ca4659a486cdc7def045c76033795927c5a9d9e763c2070  ./15. Sorcery/15.9. Spells/Flesh to Stone.md
+1b57b9800927f1ad30ffff2372a4bbc6f5bbcccb51a0b6f7790098353ee58b93  ./15. Sorcery/15.9. Spells/Glimpse the True Gods.md
+db8366a35cc44f03a577d1dab8dbede8835bd7d7c1564ac15e78c71f47f4271e  ./15. Sorcery/15.9. Spells/Lightning Bolt.md
+4f92773a16f2234971a2e1b9cf51803da4b9f2d888c3013cba6bd5133f14c711  ./15. Sorcery/15.9. Spells/Blast of Frozen Ruin.md
+af65c3e5dd73f583505a1d46d0d091e753e6b3806799f18cbdb49ab2b8cdc675  ./15. Sorcery/15.9. Spells/A Wisp Unseen.md
+36b631030b2ffdf90c84b47819dfd8b84ee3e7712fa5d1b5bcc6691e3261de41  ./15. Sorcery/15.9. Spells/Phase Door.md
+acdec90bdfd68abea53362aa623445b7073f7b1990388e68c0dd9f3ddf8ebeca  ./15. Sorcery/15.9. Spells/Gabbling of the Jade Moon.md
+9337f1fff3a09e4556214db9f86e95337b8c7ff75740999c705ef41c07e1f59c  ./15. Sorcery/15.9. Spells/Sever Arcarnum.md
+ee79a5195f1367955e9b057133d87011ecd15738cc261b8fc0531ab0c1486613  ./15. Sorcery/15.9. Spells/Elemental Ward.md
+a59f486e9768acc1441f0fb45a104fbb6e2d96da4781cf38db204d7357935952  ./15. Sorcery/15.9. Spells/Witchblade.md
+2ec9f199546c58f4b3383d9c7197727337375262c24aa7f8aad2f3227e8f3871  ./15. Sorcery/15.9. Spells/Place of Perfect Night.md
+8d351df6313891a7f83b87581a5ae4b4722cfb36fcfedbb88148e9bee9e761d0  ./15. Sorcery/15.9. Spells/Gabbling of the Jade Moon - Madness.md
+778d67f5d73d9360511ca5efeb342882f2c20f487307a11f3795cbb022d77d99  ./15. Sorcery/15.9. Spells/Abjure the Unnatural.md
+3ab9c3f5b41a9b113a2b3efbb3dc3ef7671acfc6a465655c00148b02d92d8d36  ./15. Sorcery/15.9. Spells/Gaze of Beguilement.md
+20c94fe01e4fd7cf981cbb5a99c03ee7940ee15519d61b3320149a5822b9adaa  ./15. Sorcery/15.9. Spells/Arcane Aegis.md
+b9624d680a622bb2282e8cafbc835c86d2ae4385d375bc0363ae80f1e83c2836  ./15. Sorcery/15.10.1. Ritual Components.md
+2dea9489adcb841862b63fbf99067fd0e1adf671dd587deeca7353c7a4d0ba9e  ./15. Sorcery/15.5. Dark & Dangerous Magic_.md
+83c748a7442d303d0b5b2468d3d6ed3d83edf067d5d8993279db3771e44934f0  ./15. Sorcery/15.6.1. Divine Rebuke.md
+68a99392120c632d83eadf4332eb348675808dcfff5f9987f6e07048f57d5e60  ./4. Races/4.1. Races_.md
+e2363e4c94fbcda0329e25b4674cb94c2f1847eaba2980001f3f79d7caa53478  ./9. Equipment/9.6. Food & Board_.md
+b7c0c7fbde43f6946e9c9a0aba1083538b88e7174e66dd695c3f8756e11c8fd0  ./9. Equipment/9.13. Animals_.md
+c2472687f0b400650ff08e59b717c71cfffa35c10dcb374761a0d6941038571d  ./9. Equipment/9.4. Uncommon Gear_.md
+47bd54eeca0909034199ef1206b48722ec97c8b66d7345f2bf34a5f7f7930d48  ./9. Equipment/9.3.1. Common Gear.md
+5bbfc6dc0e1a4a2efa9b46a841efc92d2f7b342bcf11fa149726c0808eaae003  ./9. Equipment/9.11. Shields_.md
+264b29c60d785e570787ba91a64ca81c127fc13130b371211ab2d05d2752f780  ./9. Equipment/9.7. Services_.md
+220fabea658d39f7742391ebe7859eca484c992fc077f3abb3244719efde0c44  ./9. Equipment/9.1. Equipment_.md
+dc945a542f80c9ce2f69416a58f33333caa3e0f517abfd05dd413358466ff2c7  ./9. Equipment/9.15.2. Masterforged Armour.md
+6605844f2674d63b05f9210bf27b65ee77d1106f573301c2f7f4a71fd4cafdf3  ./9. Equipment/9.14. Vehicles & Ships_.md
+bb9b1df0c4976afcf25916d71970542a10e0c84b2bfe90efee4cf4d3765c784e  ./9. Equipment/9.15. Masterforged Gear_.md
+fbdd9d1ac8bebd15011ceef8e66c260fd782689a775410750cbac9d0aca3db62  ./9. Equipment/9.15.1. Masterforged Weapon.md
+78ab0116e52bbf5252dc93782f76407ac159b55c5b27ebdaeb9fa559da9aa2a1  ./9. Equipment/9.12. Repairs & Crafting_.md
+96b9b78c3455171473ec34f61001b264d6916ad8c7770d671f71b09cc86671a0  ./9. Equipment/9.5. Rare Gear_.md
+57f6516cc009601f871540f2ddb06f1f689b65722e8c45af79b74da35c468bc9  ./9. Equipment/9.9. Weapons_.md
+3cd7c982504df24721587d41f78e2c56d17a2c0c8d496c27bcf498591f36fc4b  ./9. Equipment/9.8. Lifestyle_.md
+0aadbba2ae44825cc9bff3fdb3758be7ca737eef30c4f33ea22066d2f817b4a5  ./9. Equipment/9.10. Armour_.md
+7e9fc2bd265449707d24c1f91eafdbe2bc27420ca02c195fe439317be36f69d6  ./9. Equipment/9.2. Encumbrance_.md
+83254d29d989a93822b198cc100092dbf9bbf2cd873abebc011f6154ff4efea7  ./9. Equipment/9.3. Common Gear_.md
+416e424c074c6aeaee3e07a3391bd5cf3015fef46f8baec09129038999fcfe65  ./17. GM Tools/17.5.10. Snow & Ice.md
+0713340d2e62b66d4e7a3ac5062b49f4736fdd7bb687300972e9d345d60a0644  ./17. GM Tools/17.2.1. Diseases.md
+7586f8053f83c20d3a2b1851ec326b19c6bc3e95022f91af791102d3daea55a5  ./17. GM Tools/17.5.1. Aerial.md
+f9b7908b41a82e2f951fa9d59faf9ea826dd1b5dcf874ea233c6926a88823999  ./17. GM Tools/17.5.4. Jungles.md
+ce07d984ff67680ba9a7eb7e90b6a7de54c98be05468d087cc40324be5e9aebf  ./17. GM Tools/17.4.4. Travel Events.md
+e142b0dbe3c82aeb41adbaa356355809e0ab3af52bdd6bdec2c285f608d4357c  ./17. GM Tools/17.2.2. Parasites.md
+cf1e2df895eed607fb358fa400867732b6a1019333e4df69ee7b7d3c3ebc9d64  ./17. GM Tools/17.5.11. Swamps.md
+5b8d85e9c3746ff0b2703f7106ab38363bd1962e76655dde370c33b04468e55d  ./17. GM Tools/17.5.6. Mountains & Hills.md
+c5ccc0c76b525416f4a0d2c2a90d404d4023a0d579eb7f60bd29de1f4288ccbd  ./17. GM Tools/17.3.1. Fancy Meeting You Here.md
+b986d1213273fc6e5974c5ed2c4c8c8df7a56558a94b05b68ee673dee3e6aedf  ./17. GM Tools/17.5.5. Forests.md
+6da5728160e80cc8307efeae25184bd813dbfb1983c6931dda8f523fae1030d4  ./17. GM Tools/17.5.2. City, Town, Village.md
+4fdda67f553eb648a1f6f445438fcfc0e4e68b0dd7d36f1b0ce1b323bcced0a2  ./17. GM Tools/17.2. Diseases & Parasites_.md
+14794de88dd4bf5d16c0c2aaf38772c9bef29f7953269d8b59449d867e988711  ./17. GM Tools/17.4.2. Weather Shift.md
+65da3b6f9c938bfbccfccc831e5666686d945c3e9c3542684c79cbdbbab19338  ./17. GM Tools/17.5.7. Oceans, Lakes, Rivers.md
+dd366d4542035063629ca86186fa1b5e94af5cb1aafffd04ad432d91734a61fd  ./17. GM Tools/17.5.12. Underground.md
+9d6cb379566f01a4f62b692eaea851d9399c0bbdca7de9cab5e6dcaa4f1c4e0b  ./17. GM Tools/17.1. GM Tools_.md
+500e9b0cc69e3bb97c77f278046e2227672d0f33f9e350c4ad84e6d12065412b  ./17. GM Tools/17.5. Encounter Tables_.md
+6c07f332d9c873b68767971366b2265d4e652e22533d476cdd1c3398a7c0d5aa  ./17. GM Tools/17.3.2. Dungeon Event.md
+c38ca08c86d4f165b96c19321abf680d236c5e28ca0f664e7e277639c20ad4b3  ./17. GM Tools/17.5.8. Plains & Grasslands.md
+457cdf41b5b62d08053b1ace2522809edba4e2764c1911a008d9060c8e93cb05  ./17. GM Tools/17.4. Hexploration_.md
+a2310b4b82f2e5f8dc89a3973e89ebdbed0c2197e3683244e8fce70765101697  ./17. GM Tools/17.4.1. Fortune Die Examples.md
+66533fd8cc5e90812ab692fc4740fbf65a8a743b20092ae9134167d53e37be1d  ./17. GM Tools/17.3. Dungeon Crawling_.md
+7a83b0da65c668b590735dbc3fcc3413d08bec3dedf81eaef014b12f611c426a  ./17. GM Tools/17.5.3. Deserts.md
+68866a3bb437202664a6982f916049fd09efdc5dd067f1446fcefff59f9c9bd5  ./17. GM Tools/17.5.9. Roads & Trails.md
+8fdfd390d1223cab0177cfc4c9749eff53b353c7ec8c247f87773461060c2c71  ./17. GM Tools/17.4.3. Exploring.md
+62fddcc692d5c655c9cb443e602b562c3d1a0b9824d5efff16da23963e8f190f  ./17. GM Tools/17.4.5. Back to Base.md
+9911be8cf46252a4a6a56429084484878dc2b770313139c2006370c980461b53  ./23. Oracle Tools/23.2. Consult the Bones_.md
+fd74da7d3ec99438b9dee51e26d5aa5912734318449acf295104623ff530091b  ./23. Oracle Tools/23.3. Read the Signs_.md
+7b713f4a23abd7c9ba405d6711a7f55c8b08bae14899dc49552817a1eb40f63c  ./23. Oracle Tools/23.1. Oracle Tools_.md
+75d359b09466e2ae12100df9629b9ccf192cdde77ae27f5715fec7d29a887075  ./10. Doing Things/10.1. Doing Things_.md
+ee50c9944b65dae1cb03d498360725d5ea7b291401ef6455ae28c17bebb9700d  ./10. Doing Things/10.5. Group Checks_.md
+205522442125a3167a18124f7150a32057eec8f2c1c766f050cac24712be4a5d  ./10. Doing Things/10.8. Montages_.md
+1c67abfa2b1924c63c66fbcfcfc8b813b3b79e065fe4381ffe2871620d3084ed  ./10. Doing Things/10.9. Random Checks_.md
+38bfba75f99f8dff01ba07fdb9e82b09946c30e17eb4af6ed8b0618cd1a27b6f  ./10. Doing Things/10.3. Great Success & Terrible Failure_.md
+4a5a8aab095925cb791d779a822fac26d5c5299e8e21bde0e0131aadd5837fb0  ./10. Doing Things/10.2. Attribute Checks_.md
+74eac4694b753bd1a6df0c85e0b4c3cbb58fe95161cd19d5680dccb8adc2e46c  ./10. Doing Things/10.6. Representative Checks_.md
+d20046569787bb38bb891f1a1e511b88a5e9268333e800f07f02ccf254623e56  ./10. Doing Things/10.7. Retries_.md
+687c52c6b40e3370b4d643c604651e3d1a629d34e29693c91e4ec0987a65171b  ./10. Doing Things/10.4. Opposed Checks_.md
+d3b70147963622ece422d4bff8dac8f2497c090608e28ca229da7ddd3f0844c7  ./14. Healing & Recovery/14.2. Sleep_.md
+3019cc31e0a19e1223560ff17121b08e4cae28959dfb05497aeec569daa21a08  ./14. Healing & Recovery/14.3. Long Rest_.md
+bfdaca5d202d65c761ce988269731d9b0e14bb5f693eae1d4cf20da66f048421  ./14. Healing & Recovery/14.1. Short Rest_.md
+0eec3e92c2f2254b15ebaf4d254fe2bb9a2c1e5012dcf51aa181c9ffdf114982  ./3. Attributes/3.2. Luck_.md
+ebc9bbc11faa7056c49d0cd13158ffad73bcc6ecbc48fe93acb890a729b73d7d  ./3. Attributes/3.1. Attributes_.md
+f4fd3e409c89ac60eac4eedfeafacd6a6b738aabf651a4cc3888e15211121682  ./19. Madness/19.1. Madness_.md
+7b5ce2a52f4638bbc130e6bb4fae71fba2cf1b3c2f18893b522ad448b3a22f37  ./19. Madness/19.1.1. Madness.md
+d9d58574633661658e979cd8e3e87fac6e10e20bd784360e89ea276623bb6506  ./26. Traps/26.4.12. Gas.md
+8c10d14ddeecb6a90f00f9ba67209eba4d495e4d19143773e548dc77a61fbbee  ./26. Traps/26.2. Where & How_.md
+ae6380502eb2d8abd2aef9db92794b731c956776e99cb72f20c82416004d3f13  ./26. Traps/26.4.24. Spear, Spikes.md
+9cc69b0e204aa1c8b92b3285abe8267f2a2791f82d8a0ad9c192f9c07aedb4cc  ./26. Traps/26.4.14. Magic.md
+e6c4e3025827e2e3030b2066f7d532b57b88d4ddcf729ddf429a39d18b8c8caa  ./26. Traps/26.4.6. Alarm.md
+d8ea39554c5ff0f13b65817fd10e12b4a1e34e4051671afaabbac74c957fec2e  ./26. Traps/26.1. Traps_.md
+f823210e76a365778466c5b93567973c93e3a03f7c8ac9483b347e9ddc569030  ./26. Traps/26.4.2. Triggers & Counters.md
+d3c65050b3563ffca481152738499b649d6f4c0e9eb0565a789aadcb55688337  ./26. Traps/26.4.8. Crushing Walls.md
+4aa60e016efed0d9c406cab07696b97003b5a8b43d4d016377f9c23a1681a964  ./26. Traps/26.4.17. Pit.md
+689b76d5989815663798d5cf849a225ae2260783aa9e8fe4bf94f9a071fe2961  ./26. Traps/26.4.9. Deadfall.md
+33ede3d2a2e7ecd9c5c0b80fd3a5cc15da0ae2dbdc33351ceabb32be7032db0c  ./26. Traps/26.4.5. Acid.md
+d03b5c3b2a9eb676763cac7fbeab0cab36f9a5439e85ea740f8c81748d16a01a  ./26. Traps/26.4.13. Lockdown.md
+0c8b882b7d189d5fa37824bf10c1c285424195c4f31a33c6b83dd5461a8626ae  ./26. Traps/26.4.18. Poison.md
+c1783eafedeee9350933e5c813ad104cc2e1ddced9ed456d6f558162ba0e9537  ./26. Traps/26.4. Simple Traps_.md
+1ede06e2dfc6526170cf60b766b1c24a17126eb712b2ede13c7ee00ca27ccc7a  ./26. Traps/26.4.20. Rolling Boulder.md
+1ff3467033d25862bf2dadf569aab7e3e6fcf3fdeb259f714e014a7d48b4d160  ./26. Traps/26.4.19. Relocation.md
+ba287747388e1dedc1e4c211dc748d9bf6f1bd4b579d48c62dffd63d0a85e793  ./26. Traps/26.4.10. Drowning.md
+3e96fd6f6085f742ac1e5ae856183c5525013c4568fc89c9e737068a77a43939  ./26. Traps/26.4.23. Snare.md
+567cbfb37837592aff3b923141187fad619e9f98bc577f5a6e89c2c181646207  ./26. Traps/26.4.3. Mode of Attack.md
+882cd571a13ef29076602b3fcc6f5dde48377111fc7aa108715d6a6f10be7a63  ./26. Traps/26.4.21. Scything Blades.md
+e878de28353a14f90dd5a67b7e538b14d625a4f5e8b9ae1fd7e14d5a3a5bad05  ./26. Traps/26.4.16. Needle.md
+68c6efa37efc5c9cddec5723e79999cb072c7024d55c9a4f4ff3e2791517cbc5  ./26. Traps/26.4.1. Danger Level.md
+21d417b126e61718edccfd50bbd259ada3698560be9a8ae7df924acc5539f84d  ./26. Traps/26.3. Three Second Trigger_.md
+d51cc9e03bc80f867df8e4074d8c29b0f48f764051c196474cdc376c81103801  ./26. Traps/26.4.7. Arrows, Darts.md
+e5cca5ee29373d4fded369259f3f8f08490a89c9a8f23f3e3e23ffdcdf954719  ./26. Traps/26.4.15. Monster.md
+52212cf12c924788710c1011d33fe03dfe47fc10a75c22b65cef3a00ef4dec31  ./26. Traps/26.4.22. Self Destruct.md
+be018c8ae5340c2abe30ced815898df13b06f0b6b99a5da39966c059c181e701  ./26. Traps/26.4.11. Fire, Explosion.md
+2a311e7c68913b0cb3a4d292c63d12b635cfe0e0e23ef5bcea6c0ee7a0e913cd  ./26. Traps/26.4.4. Bypasses.md

@@ -1,0 +1,3 @@
+*Air Elementals* batter their opponents with powerful winds, loose objects, and hurl them into nearby terrain. Even the smallest can lift a humanoid and carry them at Fly Norm speed.
+
+**AIR ELEMENTAL** #1 **AC** 16 **HD** 5/10/15 **Batter** 2d4/2d8/3d8 **Nat 19** Prone & *Stunned* **S**17/18/19 **D**23 **C**10 **I**3 **P**14 **W**16 **Ch**3 **L**8/10/15. **Fly** Fast. Immune to non magical weapons excluding *cold iron.* **Suffocate (1)** Close targets suffocate until the elemental is defeated or driven off (*Luck* (Con) save resists). **Reac** As creator's orders or 2-5 Hostile 6-8 Mischievous 9-12 Curious.

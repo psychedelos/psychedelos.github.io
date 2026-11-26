@@ -1,0 +1,564 @@
+NO-H1	 1. What Is Tales of Argosa/1.1. What Is Tales of Argosa_.md
+NO-H1	 1. What Is Tales of Argosa/1.2. Core Features_.md
+NO-H1	 1. What Is Tales of Argosa/1.3. How to Play_.md
+NO-H1	 10. Doing Things/10.1. Doing Things_.md
+NO-H1	 10. Doing Things/10.2. Attribute Checks_.md
+NO-H1	 10. Doing Things/10.3. Great Success & Terrible Failure_.md
+NO-H1	 10. Doing Things/10.4. Opposed Checks_.md
+NO-H1	 10. Doing Things/10.5. Group Checks_.md
+NO-H1	 10. Doing Things/10.6. Representative Checks_.md
+NO-H1	 10. Doing Things/10.7. Retries_.md
+NO-H1	 10. Doing Things/10.8. Montages_.md
+NO-H1	 10. Doing Things/10.9. Random Checks_.md
+NO-H1	 11. Encounters/11.1. Reaction Roll_.md
+NO-H1	 11. Encounters/11.1.1. Reaction.md
+NO-H1	 11. Encounters/11.2. Activity Die_.md
+NO-H1	 11. Encounters/11.2.1. Activity.md
+NO-H1	 11. Encounters/11.3. Influencing NPCs_.md
+NO-H1	 12. Combat/12.1. Initiative & Turn Order_.md
+NO-H1	 12. Combat/12.10. Miscellaneous Factors_.md
+NO-H1	 12. Combat/12.11. Conditions_.md
+NO-H1	 12. Combat/12.2. Morale_.md
+NO-H1	 12. Combat/12.3. Move_.md
+NO-H1	 12. Combat/12.4. Party Retreat_.md
+NO-H1	 12. Combat/12.5. Chases_.md
+NO-H1	 12. Combat/12.5.1. Chase Events.md
+NO-H1	 12. Combat/12.6. Action_.md
+NO-H1	 12. Combat/12.7. Melee & Ranged Attacks_.md
+NO-H1	 12. Combat/12.8. Exploits_.md
+NO-H1	 12. Combat/12.9. Fighting Styles_.md
+NO-H1	 13. Injury & Death/13.1. Injury & Death_.md
+NO-H1	 13. Injury & Death/13.1.1. Injuries & Setbacks.md
+NO-H1	 13. Injury & Death/13.2. Trauma Tables_.md
+NO-H1	 13. Injury & Death/13.2.1. Blade Trauma.md
+NO-H1	 13. Injury & Death/13.2.2. Blast Trauma.md
+NO-H1	 13. Injury & Death/13.2.3. Blunt Trauma.md
+NO-H1	 13. Injury & Death/13.2.4. Missile Trauma.md
+NO-H1	 13. Injury & Death/13.2.5. Toxin Trauma.md
+NO-H1	 14. Healing & Recovery/14.1. Short Rest_.md
+NO-H1	 14. Healing & Recovery/14.2. Sleep_.md
+NO-H1	 14. Healing & Recovery/14.3. Long Rest_.md
+NO-H1	 15. Sorcery/15.1. Spell Casting_.md
+NO-H1	 15. Sorcery/15.1.1. Spell Casting.md
+NO-H1	 15. Sorcery/15.10. Ritual Magic_.md
+NO-H1	 15. Sorcery/15.10.1. Ritual Components.md
+NO-H1	 15. Sorcery/15.2. Spell Duration_.md
+NO-H1	 15. Sorcery/15.3. Sensing Magic_.md
+NO-H1	 15. Sorcery/15.4. Illusions_.md
+NO-H1	 15. Sorcery/15.5. Dark & Dangerous Magic_.md
+NO-H1	 15. Sorcery/15.5.1. Dark and Dangerous Magic.md
+NO-H1	 15. Sorcery/15.6. Divine Blessings & Rebukes_.md
+NO-H1	 15. Sorcery/15.6.1. Divine Rebuke.md
+NO-H1	 15. Sorcery/15.7. Rites of Atonement_.md
+NO-H1	 15. Sorcery/15.7.1. Rites of Atonement.md
+NO-H1	 15. Sorcery/15.8. Spell List_.md
+SHORT	 15. Sorcery/15.8. Spell List_.md
+NO-H1	 15. Sorcery/15.8.1. Spell List.md
+NO-H1	 15. Sorcery/15.9. Spells/A Wisp Unseen.md
+NO-H1	 15. Sorcery/15.9. Spells/Abjure the Unnatural.md
+NO-H1	 15. Sorcery/15.9. Spells/Arcane Aegis.md
+NO-H1	 15. Sorcery/15.9. Spells/Bending the Stone.md
+NO-H1	 15. Sorcery/15.9. Spells/Beseech the Ancient Ones.md
+NO-H1	 15. Sorcery/15.9. Spells/Bestial Communion.md
+NO-H1	 15. Sorcery/15.9. Spells/Blast of Frozen Ruin.md
+NO-H1	 15. Sorcery/15.9. Spells/Brain Burst.md
+NO-H1	 15. Sorcery/15.9. Spells/Cleansing Charm.md
+NO-H1	 15. Sorcery/15.9. Spells/Conjure Entity.md
+NO-H1	 15. Sorcery/15.9. Spells/Conjuring.md
+NO-H1	 15. Sorcery/15.9. Spells/Cradle of Formlessness.md
+NO-H1	 15. Sorcery/15.9. Spells/Crush of the Warp.md
+NO-H1	 15. Sorcery/15.9. Spells/Dark Slumber.md
+NO-H1	 15. Sorcery/15.9. Spells/Echo of Days.md
+NO-H1	 15. Sorcery/15.9. Spells/Elemental Ward.md
+NO-H1	 15. Sorcery/15.9. Spells/Enchantment.md
+NO-H1	 15. Sorcery/15.9. Spells/Fetid Fog of the Pit People.md
+NO-H1	 15. Sorcery/15.9. Spells/Flesh to Stone.md
+NO-H1	 15. Sorcery/15.9. Spells/Gabbling of the Jade Moon - Madness.md
+NO-H1	 15. Sorcery/15.9. Spells/Gabbling of the Jade Moon.md
+NO-H1	 15. Sorcery/15.9. Spells/Gaze of Beguilement.md
+NO-H1	 15. Sorcery/15.9. Spells/Glimpse the True Gods.md
+NO-H1	 15. Sorcery/15.9. Spells/Hand of the Void.md
+NO-H1	 15. Sorcery/15.9. Spells/Hellblast.md
+NO-H1	 15. Sorcery/15.9. Spells/Hex of Volcanic Steel.md
+NO-H1	 15. Sorcery/15.9. Spells/Hunger for Blood.md
+NO-H1	 15. Sorcery/15.9. Spells/Infuse Animus.md
+NO-H1	 15. Sorcery/15.9. Spells/Light of Soliri.md
+NO-H1	 15. Sorcery/15.9. Spells/Lightning Bolt.md
+NO-H1	 15. Sorcery/15.9. Spells/Mask of Many Faces.md
+NO-H1	 15. Sorcery/15.9. Spells/Mend Flesh.md
+NO-H1	 15. Sorcery/15.9. Spells/None Shall Pass.md
+NO-H1	 15. Sorcery/15.9. Spells/One with the Deep.md
+NO-H1	 15. Sorcery/15.9. Spells/Phase Door.md
+NO-H1	 15. Sorcery/15.9. Spells/Pierce the Veil.md
+NO-H1	 15. Sorcery/15.9. Spells/Place of Perfect Night.md
+NO-H1	 15. Sorcery/15.9. Spells/Rain of Stone.md
+NO-H1	 15. Sorcery/15.9. Spells/Riddle of Bones.md
+NO-H1	 15. Sorcery/15.9. Spells/Sever Arcarnum.md
+NO-H1	 15. Sorcery/15.9. Spells/Shadows & Dust.md
+NO-H1	 15. Sorcery/15.9. Spells/Sight Beyond Sight.md
+NO-H1	 15. Sorcery/15.9. Spells/Silent Shroud.md
+NO-H1	 15. Sorcery/15.9. Spells/Speaker of Tongues.md
+NO-H1	 15. Sorcery/15.9. Spells/Strange Joining.md
+NO-H1	 15. Sorcery/15.9. Spells/Sundering Sign.md
+NO-H1	 15. Sorcery/15.9. Spells/Thrice Bound Curse.md
+NO-H1	 15. Sorcery/15.9. Spells/Thunderous Invocation.md
+NO-H1	 15. Sorcery/15.9. Spells/Transmogrification.md
+NO-H1	 15. Sorcery/15.9. Spells/Undead Servant.md
+NO-H1	 15. Sorcery/15.9. Spells/Whispers of the Watchers.md
+NO-H1	 15. Sorcery/15.9. Spells/Wings of the Raven King.md
+NO-H1	 15. Sorcery/15.9. Spells/Witchblade.md
+NO-H1	 15. Sorcery/15.9. Spells_.md
+NO-H1	 16. Downtime/16.1. Downtime_.md
+NO-H1	 16. Downtime/16.1.1. Downtime Period.md
+NO-H1	 16. Downtime/16.1.2. Downtime Event.md
+NO-H1	 16. Downtime/16.10. Rumours_.md
+NO-H1	 16. Downtime/16.11. Scroll Inscribing_.md
+NO-H1	 16. Downtime/16.2. Advancement_.md
+NO-H1	 16. Downtime/16.3. Black Market Trade_.md
+NO-H1	 16. Downtime/16.3.1. Complication.md
+NO-H1	 16. Downtime/16.4. Carousing_.md
+NO-H1	 16. Downtime/16.4.1. Carousing.md
+NO-H1	 16. Downtime/16.5. Gambling_.md
+NO-H1	 16. Downtime/16.6. Pets_.md
+NO-H1	 16. Downtime/16.6.1. Pet Qualities.md
+NO-H1	 16. Downtime/16.6.2. Monstrous Instincts.md
+NO-H1	 16. Downtime/16.7. Potion Brewing_.md
+NO-H1	 16. Downtime/16.8. Recovery_.md
+NO-H1	 16. Downtime/16.9. Research_.md
+NO-H1	 16. Downtime/16.9.1. Standard Research.md
+NO-H1	 17. GM Tools/17.1. GM Tools_.md
+NO-H1	 17. GM Tools/17.2. Diseases & Parasites_.md
+NO-H1	 17. GM Tools/17.2.1. Diseases.md
+NO-H1	 17. GM Tools/17.2.2. Parasites.md
+NO-H1	 17. GM Tools/17.3. Dungeon Crawling_.md
+NO-H1	 17. GM Tools/17.3.1. Fancy Meeting You Here.md
+NO-H1	 17. GM Tools/17.3.2. Dungeon Event.md
+NO-H1	 17. GM Tools/17.4. Hexploration_.md
+NO-H1	 17. GM Tools/17.4.1. Fortune Die Examples.md
+NO-H1	 17. GM Tools/17.4.2. Weather Shift.md
+NO-H1	 17. GM Tools/17.4.3. Exploring.md
+NO-H1	 17. GM Tools/17.4.4. Travel Events.md
+NO-H1	 17. GM Tools/17.4.5. Back to Base.md
+NO-H1	 17. GM Tools/17.5. Encounter Tables_.md
+NO-H1	 17. GM Tools/17.5.1. Aerial.md
+NO-H1	 17. GM Tools/17.5.10. Snow & Ice.md
+NO-H1	 17. GM Tools/17.5.11. Swamps.md
+NO-H1	 17. GM Tools/17.5.12. Underground.md
+NO-H1	 17. GM Tools/17.5.2. City, Town, Village.md
+NO-H1	 17. GM Tools/17.5.3. Deserts.md
+NO-H1	 17. GM Tools/17.5.4. Jungles.md
+NO-H1	 17. GM Tools/17.5.5. Forests.md
+NO-H1	 17. GM Tools/17.5.6. Mountains & Hills.md
+NO-H1	 17. GM Tools/17.5.7. Oceans, Lakes, Rivers.md
+NO-H1	 17. GM Tools/17.5.8. Plains & Grasslands.md
+NO-H1	 17. GM Tools/17.5.9. Roads & Trails.md
+NO-H1	 18. Hirelings/18.1. Hirelings_.md
+NO-H1	 18. Hirelings/18.1.1. Names.md
+NO-H1	 18. Hirelings/18.2. Backgrounds_.md
+NO-H1	 18. Hirelings/18.3. Personalities_.md
+NO-H1	 18. Hirelings/18.3.1. Personality.md
+NO-H1	 18. Hirelings/18.4. Traits_.md
+NO-H1	 18. Hirelings/18.4.1. Traits.md
+NO-H1	 18. Hirelings/18.5. Gear_.md
+NO-H1	 18. Hirelings/18.5.1. Hireling Gear.md
+NO-H1	 18. Hirelings/18.5.2. Catchphrase.md
+NO-H1	 18. Hirelings/18.6. Hireling Advancement_.md
+NO-H1	 18. Hirelings/18.6.1. Hireling Advancement.md
+NO-H1	 18. Hirelings/18.7. Payback_.md
+NO-H1	 18. Hirelings/18.7.1. Payback.md
+NO-H1	 19. Madness/19.1. Madness_.md
+NO-H1	 19. Madness/19.1.1. Madness.md
+NO-H1	 2. Character Creation/2.1. Character Creation_.md
+NO-H1	 2. Character Creation/2.1.1. Backgrounds.md
+NO-H1	 20. Mass Battle/20.1. Mass Battle_.md
+NO-H1	 20. Mass Battle/20.1.1. Field Events.md
+NO-H1	 20. Mass Battle/20.2. Sudden Twists_.md
+NO-H1	 20. Mass Battle/20.2.1. Sudden Twist.md
+NO-H1	 20. Mass Battle/20.3. Final Confrontation_.md
+NO-H1	 21. Monsters/21.1. Monsters_.md
+NO-H1	 21. Monsters/21.2. Custom Monsters_.md
+NO-H1	 21. Monsters/21.2.1. Monsters by HD.md
+NO-H1	 21. Monsters/21.3. Special Traits_.md
+NO-H1	 21. Monsters/21.3.1. Heavy Abilities.md
+NO-H1	 21. Monsters/21.4. Bestiary/Aberrant Terrors.md
+NO-H1	 21. Monsters/21.4. Bestiary/Animals.md
+NO-H1	 21. Monsters/21.4. Bestiary/Animated Object.md
+NO-H1	 21. Monsters/21.4. Bestiary/Ankylosaurus.md
+NO-H1	 21. Monsters/21.4. Bestiary/Ant, Giant.md
+NO-H1	 21. Monsters/21.4. Bestiary/Ape.md
+NO-H1	 21. Monsters/21.4. Bestiary/Banshee.md
+NO-H1	 21. Monsters/21.4. Bestiary/Basilisk.md
+NO-H1	 21. Monsters/21.4. Bestiary/Bear.md
+NO-H1	 21. Monsters/21.4. Bestiary/Beetle, Fire.md
+NO-H1	 21. Monsters/21.4. Bestiary/Bird or Bat.md
+NO-H1	 21. Monsters/21.4. Bestiary/Boar.md
+NO-H1	 21. Monsters/21.4. Bestiary/Bugbear.md
+NO-H1	 21. Monsters/21.4. Bestiary/Bulette.md
+NO-H1	 21. Monsters/21.4. Bestiary/Cat.md
+NO-H1	 21. Monsters/21.4. Bestiary/Centaur.md
+NO-H1	 21. Monsters/21.4. Bestiary/Centipede, Giant.md
+NO-H1	 21. Monsters/21.4. Bestiary/Chuul.md
+NO-H1	 21. Monsters/21.4. Bestiary/Cockatrice.md
+NO-H1	 21. Monsters/21.4. Bestiary/Crocodile, Giant.md
+NO-H1	 21. Monsters/21.4. Bestiary/Cyclops.md
+NO-H1	 21. Monsters/21.4. Bestiary/Demon, Balor.md
+NO-H1	 21. Monsters/21.4. Bestiary/Demon, Basartu.md
+NO-H1	 21. Monsters/21.4. Bestiary/Demon, Gmorsha.md
+NO-H1	 21. Monsters/21.4. Bestiary/Demon, Hellhound.md
+NO-H1	 21. Monsters/21.4. Bestiary/Demon, Imp.md
+NO-H1	 21. Monsters/21.4. Bestiary/Demon, Malafas.md
+NO-H1	 21. Monsters/21.4. Bestiary/Demon, Surgat.md
+NO-H1	 21. Monsters/21.4. Bestiary/Demons.md
+NO-H1	 21. Monsters/21.4. Bestiary/Dinosaurs.md
+NO-H1	 21. Monsters/21.4. Bestiary/Dire Animal.md
+NO-H1	 21. Monsters/21.4. Bestiary/Doppelganger.md
+NO-H1	 21. Monsters/21.4. Bestiary/Dragon.md
+NO-H1	 21. Monsters/21.4. Bestiary/Dwarf.md
+NO-H1	 21. Monsters/21.4. Bestiary/Eagle, Giant.md
+NO-H1	 21. Monsters/21.4. Bestiary/Elemental, Air.md
+NO-H1	 21. Monsters/21.4. Bestiary/Elemental, Earth.md
+NO-H1	 21. Monsters/21.4. Bestiary/Elemental, Fire.md
+NO-H1	 21. Monsters/21.4. Bestiary/Elemental, Water.md
+NO-H1	 21. Monsters/21.4. Bestiary/Elementals.md
+NO-H1	 21. Monsters/21.4. Bestiary/Elf.md
+NO-H1	 21. Monsters/21.4. Bestiary/Ettin.md
+NO-H1	 21. Monsters/21.4. Bestiary/Eye Terror.md
+NO-H1	 21. Monsters/21.4. Bestiary/Feathered Maw.md
+NO-H1	 21. Monsters/21.4. Bestiary/Fey Creeper.md
+NO-H1	 21. Monsters/21.4. Bestiary/Flesh Eating Vines.md
+NO-H1	 21. Monsters/21.4. Bestiary/Gargoyle.md
+NO-H1	 21. Monsters/21.4. Bestiary/Gelatinous Cube.md
+NO-H1	 21. Monsters/21.4. Bestiary/Ghost.md
+NO-H1	 21. Monsters/21.4. Bestiary/Ghoul.md
+NO-H1	 21. Monsters/21.4. Bestiary/Giant, Fire.md
+NO-H1	 21. Monsters/21.4. Bestiary/Giant, Frost.md
+NO-H1	 21. Monsters/21.4. Bestiary/Giant, Hill.md
+NO-H1	 21. Monsters/21.4. Bestiary/Giant, Storm.md
+NO-H1	 21. Monsters/21.4. Bestiary/Giants.md
+NO-H1	 21. Monsters/21.4. Bestiary/Gibbering Terror.md
+NO-H1	 21. Monsters/21.4. Bestiary/Gnoll.md
+NO-H1	 21. Monsters/21.4. Bestiary/Goblin.md
+NO-H1	 21. Monsters/21.4. Bestiary/Golem, Flesh.md
+NO-H1	 21. Monsters/21.4. Bestiary/Golem, Iron.md
+NO-H1	 21. Monsters/21.4. Bestiary/Golem, Stone.md
+NO-H1	 21. Monsters/21.4. Bestiary/Golems.md
+NO-H1	 21. Monsters/21.4. Bestiary/Green Slime.md
+NO-H1	 21. Monsters/21.4. Bestiary/Griffon.md
+NO-H1	 21. Monsters/21.4. Bestiary/Hag.md
+NO-H1	 21. Monsters/21.4. Bestiary/Hammer Snail.md
+NO-H1	 21. Monsters/21.4. Bestiary/Harpy.md
+NO-H1	 21. Monsters/21.4. Bestiary/Horse.md
+NO-H1	 21. Monsters/21.4. Bestiary/Hraask.md
+NO-H1	 21. Monsters/21.4. Bestiary/Human, Archer.md
+NO-H1	 21. Monsters/21.4. Bestiary/Human, Assassin.md
+NO-H1	 21. Monsters/21.4. Bestiary/Human, Bandit.md
+NO-H1	 21. Monsters/21.4. Bestiary/Human, Berserker.md
+NO-H1	 21. Monsters/21.4. Bestiary/Human, Champion.md
+NO-H1	 21. Monsters/21.4. Bestiary/Human, Commoner.md
+NO-H1	 21. Monsters/21.4. Bestiary/Human, Cultist.md
+NO-H1	 21. Monsters/21.4. Bestiary/Human, Guard.md
+NO-H1	 21. Monsters/21.4. Bestiary/Human, Knight.md
+NO-H1	 21. Monsters/21.4. Bestiary/Human, Mob.md
+NO-H1	 21. Monsters/21.4. Bestiary/Human, Sorcerer.md
+NO-H1	 21. Monsters/21.4. Bestiary/Humans.md
+NO-H1	 21. Monsters/21.4. Bestiary/Hydra.md
+NO-H1	 21. Monsters/21.4. Bestiary/Invisible Stalker.md
+NO-H1	 21. Monsters/21.4. Bestiary/Lake Wyrm.md
+NO-H1	 21. Monsters/21.4. Bestiary/Leech, Projectile.md
+NO-H1	 21. Monsters/21.4. Bestiary/Lich.md
+NO-H1	 21. Monsters/21.4. Bestiary/Lizard, Giant.md
+NO-H1	 21. Monsters/21.4. Bestiary/Lycanthrope, Werebear.md
+NO-H1	 21. Monsters/21.4. Bestiary/Lycanthrope, Wererat.md
+NO-H1	 21. Monsters/21.4. Bestiary/Lycanthrope, Werewolf.md
+NO-H1	 21. Monsters/21.4. Bestiary/Lycanthropes.md
+NO-H1	 21. Monsters/21.4. Bestiary/Mammoth.md
+NO-H1	 21. Monsters/21.4. Bestiary/Manticore.md
+NO-H1	 21. Monsters/21.4. Bestiary/Medusa.md
+NO-H1	 21. Monsters/21.4. Bestiary/Merscine.md
+NO-H1	 21. Monsters/21.4. Bestiary/Mimic.md
+NO-H1	 21. Monsters/21.4. Bestiary/Minotaur.md
+NO-H1	 21. Monsters/21.4. Bestiary/Monkey, Man Eating.md
+NO-H1	 21. Monsters/21.4. Bestiary/Mummy.md
+NO-H1	 21. Monsters/21.4. Bestiary/Mutations.md
+NO-H1	 21. Monsters/21.4. Bestiary/N'Tarc.md
+NO-H1	 21. Monsters/21.4. Bestiary/Ochre Jelly.md
+NO-H1	 21. Monsters/21.4. Bestiary/Octopus, Giant.md
+NO-H1	 21. Monsters/21.4. Bestiary/Ogre Mage.md
+NO-H1	 21. Monsters/21.4. Bestiary/Ogre.md
+NO-H1	 21. Monsters/21.4. Bestiary/Ooze Traits.md
+NO-H1	 21. Monsters/21.4. Bestiary/Ooze, Grey.md
+NO-H1	 21. Monsters/21.4. Bestiary/Ooze, Sentient.md
+NO-H1	 21. Monsters/21.4. Bestiary/Owlbear.md
+NO-H1	 21. Monsters/21.4. Bestiary/Purple Worm.md
+NO-H1	 21. Monsters/21.4. Bestiary/Raptor.md
+NO-H1	 21. Monsters/21.4. Bestiary/Rat Swarm.md
+NO-H1	 21. Monsters/21.4. Bestiary/Rat, Giant.md
+NO-H1	 21. Monsters/21.4. Bestiary/Razkarrt.md
+NO-H1	 21. Monsters/21.4. Bestiary/Rhino.md
+NO-H1	 21. Monsters/21.4. Bestiary/Roc.md
+NO-H1	 21. Monsters/21.4. Bestiary/Rock Grinder.md
+NO-H1	 21. Monsters/21.4. Bestiary/Roper.md
+NO-H1	 21. Monsters/21.4. Bestiary/Rust Monster.md
+NO-H1	 21. Monsters/21.4. Bestiary/Scorpion, Giant.md
+NO-H1	 21. Monsters/21.4. Bestiary/Scroach.md
+NO-H1	 21. Monsters/21.4. Bestiary/Serpent, Giant.md
+NO-H1	 21. Monsters/21.4. Bestiary/Serpentmen.md
+NO-H1	 21. Monsters/21.4. Bestiary/Shade.md
+NO-H1	 21. Monsters/21.4. Bestiary/Shark.md
+NO-H1	 21. Monsters/21.4. Bestiary/Shrieker Traits.md
+NO-H1	 21. Monsters/21.4. Bestiary/Shrieker.md
+NO-H1	 21. Monsters/21.4. Bestiary/Skeleton.md
+NO-H1	 21. Monsters/21.4. Bestiary/Skinless Terror.md
+NO-H1	 21. Monsters/21.4. Bestiary/Skorn.md
+NO-H1	 21. Monsters/21.4. Bestiary/Skratt.md
+NO-H1	 21. Monsters/21.4. Bestiary/Slop Gorger.md
+NO-H1	 21. Monsters/21.4. Bestiary/Snake.md
+NO-H1	 21. Monsters/21.4. Bestiary/Spectre.md
+NO-H1	 21. Monsters/21.4. Bestiary/Spider, Giant.md
+NO-H1	 21. Monsters/21.4. Bestiary/Sprite.md
+NO-H1	 21. Monsters/21.4. Bestiary/Ssurloc.md
+NO-H1	 21. Monsters/21.4. Bestiary/Stirge.md
+NO-H1	 21. Monsters/21.4. Bestiary/Swarm, Bone Cutter Ant.md
+NO-H1	 21. Monsters/21.4. Bestiary/T-Rex.md
+NO-H1	 21. Monsters/21.4. Bestiary/Tentacle Spawn.md
+NO-H1	 21. Monsters/21.4. Bestiary/Terror Traits.md
+NO-H1	 21. Monsters/21.4. Bestiary/Tiger.md
+NO-H1	 21. Monsters/21.4. Bestiary/Toad, Giant.md
+NO-H1	 21. Monsters/21.4. Bestiary/Treant, Bloodroot.md
+NO-H1	 21. Monsters/21.4. Bestiary/Triceratops.md
+NO-H1	 21. Monsters/21.4. Bestiary/Troll.md
+NO-H1	 21. Monsters/21.4. Bestiary/Urgot.md
+NO-H1	 21. Monsters/21.4. Bestiary/Vampire.md
+NO-H1	 21. Monsters/21.4. Bestiary/Vine Puppet.md
+NO-H1	 21. Monsters/21.4. Bestiary/Wasp, Giant.md
+NO-H1	 21. Monsters/21.4. Bestiary/Wight.md
+NO-H1	 21. Monsters/21.4. Bestiary/Will o' Wisp.md
+NO-H1	 21. Monsters/21.4. Bestiary/Winged Snake.md
+NO-H1	 21. Monsters/21.4. Bestiary/Wolf (or Dog).md
+NO-H1	 21. Monsters/21.4. Bestiary/Worm, Frost.md
+NO-H1	 21. Monsters/21.4. Bestiary/Worm, Plague.md
+NO-H1	 21. Monsters/21.4. Bestiary/Wraith.md
+NO-H1	 21. Monsters/21.4. Bestiary/Wyvern.md
+NO-H1	 21. Monsters/21.4. Bestiary/Xarrox.md
+NO-H1	 21. Monsters/21.4. Bestiary/Xornling.md
+NO-H1	 21. Monsters/21.4. Bestiary/Yegnu.md
+NO-H1	 21. Monsters/21.4. Bestiary/Yellow Mould.md
+NO-H1	 21. Monsters/21.4. Bestiary/Zombie, Brain Eater.md
+NO-H1	 21. Monsters/21.4. Bestiary/Zombie, Giant.md
+NO-H1	 21. Monsters/21.4. Bestiary/Zombie, Swarm.md
+NO-H1	 21. Monsters/21.4. Bestiary/Zombie, Walker.md
+NO-H1	 21. Monsters/21.4. Bestiary/Zombies.md
+NO-H1	 21. Monsters/21.4. Bestiary_.md
+NO-H1	 22. Naval Combat/22.1. Naval Combat_.md
+NO-H1	 22. Naval Combat/22.2. Ships_.md
+NO-H1	 22. Naval Combat/22.3. Artillery_.md
+NO-H1	 22. Naval Combat/22.3.1. Artillery.md
+NO-H1	 22. Naval Combat/22.4. Ramming_.md
+NO-H1	 22. Naval Combat/22.5. Boarding_.md
+NO-H1	 22. Naval Combat/22.5.1. Boarding.md
+NO-H1	 22. Naval Combat/22.5.2. Crew vs Crew.md
+NO-H1	 22. Naval Combat/22.6. Withdrawing_.md
+NO-H1	 22. Naval Combat/22.7. Blackpowder Weapons_.md
+NO-H1	 23. Oracle Tools/23.1. Oracle Tools_.md
+NO-H1	 23. Oracle Tools/23.2. Consult the Bones_.md
+NO-H1	 23. Oracle Tools/23.3. Read the Signs_.md
+NO-H1	 24. Rival Adventurers/24.1. Rival Adventurers_.md
+NO-H1	 25. Solo Rules/25.1. Solo Rules_.md
+NO-H1	 25. Solo Rules/25.2. Lone Wolf_.md
+NO-H1	 25. Solo Rules/25.3. Published Adventures_.md
+NO-H1	 25. Solo Rules/25.4. Dungeon Generator_.md
+NO-H1	 25. Solo Rules/25.4.1. Dungeon Site.md
+NO-H1	 25. Solo Rules/25.4.10. Room Contents.md
+NO-H1	 25. Solo Rules/25.4.11. Theme Items.md
+NO-H1	 25. Solo Rules/25.4.12. Complications.md
+NO-H1	 25. Solo Rules/25.4.2. Size.md
+NO-H1	 25. Solo Rules/25.4.3. Objective.md
+NO-H1	 25. Solo Rules/25.4.4. Reward.md
+NO-H1	 25. Solo Rules/25.4.5. Main Opposition.md
+NO-H1	 25. Solo Rules/25.4.6. Special Leader.md
+NO-H1	 25. Solo Rules/25.4.7. Doors.md
+NO-H1	 25. Solo Rules/25.4.8. Rooms & Corridors.md
+NO-H1	 25. Solo Rules/25.4.9. Room Theme.md
+NO-H1	 26. Traps/26.1. Traps_.md
+NO-H1	 26. Traps/26.2. Where & How_.md
+NO-H1	 26. Traps/26.3. Three Second Trigger_.md
+NO-H1	 26. Traps/26.4. Simple Traps_.md
+NO-H1	 26. Traps/26.4.1. Danger Level.md
+NO-H1	 26. Traps/26.4.10. Drowning.md
+NO-H1	 26. Traps/26.4.11. Fire, Explosion.md
+NO-H1	 26. Traps/26.4.12. Gas.md
+NO-H1	 26. Traps/26.4.13. Lockdown.md
+NO-H1	 26. Traps/26.4.14. Magic.md
+NO-H1	 26. Traps/26.4.15. Monster.md
+NO-H1	 26. Traps/26.4.16. Needle.md
+NO-H1	 26. Traps/26.4.17. Pit.md
+NO-H1	 26. Traps/26.4.18. Poison.md
+NO-H1	 26. Traps/26.4.19. Relocation.md
+NO-H1	 26. Traps/26.4.2. Triggers & Counters.md
+NO-H1	 26. Traps/26.4.20. Rolling Boulder.md
+NO-H1	 26. Traps/26.4.21. Scything Blades.md
+NO-H1	 26. Traps/26.4.22. Self Destruct.md
+NO-H1	 26. Traps/26.4.23. Snare.md
+NO-H1	 26. Traps/26.4.24. Spear, Spikes.md
+NO-H1	 26. Traps/26.4.3. Mode of Attack.md
+NO-H1	 26. Traps/26.4.4. Bypasses.md
+NO-H1	 26. Traps/26.4.5. Acid.md
+NO-H1	 26. Traps/26.4.6. Alarm.md
+NO-H1	 26. Traps/26.4.7. Arrows, Darts.md
+NO-H1	 26. Traps/26.4.8. Crushing Walls.md
+NO-H1	 26. Traps/26.4.9. Deadfall.md
+NO-H1	 27. Treasure/27.1. Treasure_.md
+NO-H1	 27. Treasure/27.1.1. Carry Loot A.md
+NO-H1	 27. Treasure/27.1.2. Carry Loot B.md
+NO-H1	 27. Treasure/27.10. Major Item Generator_.md
+NO-H1	 27. Treasure/27.10.1. Item Type.md
+NO-H1	 27. Treasure/27.10.2. Jewellery.md
+NO-H1	 27. Treasure/27.10.3. Clothing.md
+NO-H1	 27. Treasure/27.10.4. Miscellaneous.md
+NO-H1	 27. Treasure/27.10.5. Number of Powers.md
+NO-H1	 27. Treasure/27.10.6. Obvious Powers.md
+NO-H1	 27. Treasure/27.10.7. Discreet Powers.md
+NO-H1	 27. Treasure/27.2. Valuables_.md
+NO-H1	 27. Treasure/27.2.1. Valuables A.md
+NO-H1	 27. Treasure/27.2.2. Valuables B.md
+NO-H1	 27. Treasure/27.3. Trinkets & Curios_.md
+NO-H1	 27. Treasure/27.3.1. Trinkets & Curios.md
+NO-H1	 27. Treasure/27.4. Lair Treasure_.md
+NO-H1	 27. Treasure/27.4.1. Lair Treasure.md
+NO-H1	 27. Treasure/27.5. Minor Magical Items_.md
+NO-H1	 27. Treasure/27.5.1. Minor Magical Items.md
+NO-H1	 27. Treasure/27.5.2. Potions.md
+NO-H1	 27. Treasure/27.5.3. Old Magic Grimoires.md
+NO-H1	 27. Treasure/27.6. Old Magic Grimoires/Conclave of Wind & Sky.md
+NO-H1	 27. Treasure/27.6. Old Magic Grimoires/Forbidden Wish.md
+NO-H1	 27. Treasure/27.6. Old Magic Grimoires/Ineffable Force.md
+NO-H1	 27. Treasure/27.6. Old Magic Grimoires/Phylactery of the Undying.md
+NO-H1	 27. Treasure/27.6. Old Magic Grimoires/Ray of Unmaking.md
+NO-H1	 27. Treasure/27.6. Old Magic Grimoires/Reaper of Hidden Shadow.md
+NO-H1	 27. Treasure/27.6. Old Magic Grimoires/Rite of Revelation.md
+NO-H1	 27. Treasure/27.6. Old Magic Grimoires/Sign of Subjugation.md
+NO-H1	 27. Treasure/27.6. Old Magic Grimoires/Starmaiden's Miracle.md
+NO-H1	 27. Treasure/27.6. Old Magic Grimoires/Unchain the World Eater.md
+NO-H1	 27. Treasure/27.6. Old Magic Grimoires/Veil of the Balor.md
+NO-H1	 27. Treasure/27.6. Old Magic Grimoires/Word of Ending.md
+NO-H1	 27. Treasure/27.6. Old Magic Grimoires_.md
+NO-H1	 27. Treasure/27.7. Minor Charms_.md
+NO-H1	 27. Treasure/27.7.1. Minor Charms.md
+NO-H1	 27. Treasure/27.8. Major Magical Items/Armour of the Phoenix.md
+NO-H1	 27. Treasure/27.8. Major Magical Items/Ballard's Blade.md
+NO-H1	 27. Treasure/27.8. Major Magical Items/Coil of the Worm.md
+NO-H1	 27. Treasure/27.8. Major Magical Items/Cowl of the North.md
+NO-H1	 27. Treasure/27.8. Major Magical Items/Cyldimere.md
+NO-H1	 27. Treasure/27.8. Major Magical Items/Dusker's Vest.md
+NO-H1	 27. Treasure/27.8. Major Magical Items/Fangs of the Unflinching Mother.md
+NO-H1	 27. Treasure/27.8. Major Magical Items/Gnar Sumek.md
+NO-H1	 27. Treasure/27.8. Major Magical Items/Horn of Karagoss.md
+NO-H1	 27. Treasure/27.8. Major Magical Items/Lash of the Elf Queen.md
+NO-H1	 27. Treasure/27.8. Major Magical Items/Mask of the Golden One.md
+NO-H1	 27. Treasure/27.8. Major Magical Items/Morg Tor.md
+NO-H1	 27. Treasure/27.8. Major Magical Items/Orb of T'Seroskk.md
+NO-H1	 27. Treasure/27.8. Major Magical Items/Plague Demon's Clasp.md
+NO-H1	 27. Treasure/27.8. Major Magical Items/Shield of Argaunt.md
+NO-H1	 27. Treasure/27.8. Major Magical Items/Staff of Mensicor.md
+NO-H1	 27. Treasure/27.8. Major Magical Items/Storm Spear.md
+NO-H1	 27. Treasure/27.8. Major Magical Items/Talisman of the Black Sun.md
+NO-H1	 27. Treasure/27.8. Major Magical Items/Torc of Sebutett.md
+NO-H1	 27. Treasure/27.8. Major Magical Items/Yûlnvorg the Bonebreaker.md
+NO-H1	 27. Treasure/27.8. Major Magical Items_.md
+NO-H1	 27. Treasure/27.8.1. Major Magical Items.md
+NO-H1	 27. Treasure/27.9. Attunement & Using Powers_.md
+NO-H1	 28. Variant Rules/28.1. Variant Rules_.md
+NO-H1	 28. Variant Rules/28.2. Conversion Tips_.md
+NO-H1	 3. Attributes/3.1. Attributes_.md
+NO-H1	 3. Attributes/3.2. Luck_.md
+NO-H1	 4. Races/4.1. Races_.md
+NO-H1	 5. Classes/5.1. Classes_.md
+NO-H1	 5. Classes/5.10. Rogue_.md
+NO-H1	 5. Classes/5.10.1. Tricks & Techniques.md
+NO-H1	 5. Classes/5.2. Artificer_.md
+NO-H1	 5. Classes/5.2.1. Alchemy & Mechanica.md
+NO-H1	 5. Classes/5.2.2. Mutagen.md
+NO-H1	 5. Classes/5.3. Barbarian_.md
+NO-H1	 5. Classes/5.4. Bard_.md
+NO-H1	 5. Classes/5.5. Cultist_.md
+NO-H1	 5. Classes/5.5. Example Gods/Argona (The Starmaiden).md
+NO-H1	 5. Classes/5.5. Example Gods/Baal (Lord of Crows).md
+NO-H1	 5. Classes/5.5. Example Gods/Graxus (The Iron God).md
+NO-H1	 5. Classes/5.5. Example Gods/Shennog.md
+NO-H1	 5. Classes/5.5. Example Gods/Soliri (The World Tree).md
+NO-H1	 5. Classes/5.5. Example Gods/Wodon.md
+NO-H1	 5. Classes/5.5.1. Blessings.md
+NO-H1	 5. Classes/5.5.2. Spell Like Blessings.md
+NO-H1	 5. Classes/5.6. Fighter_.md
+NO-H1	 5. Classes/5.6.1. Adaptable.md
+NO-H1	 5. Classes/5.7. Magic User_.md
+NO-H1	 5. Classes/5.8. Monk_.md
+NO-H1	 5. Classes/5.8.1. Monk Techniques.md
+NO-H1	 5. Classes/5.9. Ranger_.md
+NO-H1	 5. Classes/5.9.1. Rangercraft.md
+NO-H1	 6. Party Bonds/6.1. Party Bonds_.md
+NO-H1	 6. Party Bonds/6.1.1. Party Bonds.md
+NO-H1	 7. Unique Features/7.1. Unique Features_.md
+NO-H1	 7. Unique Features/7.2. Example Unique Features/Adaptable (Crossclass).md
+NO-H1	 7. Unique Features/7.2. Example Unique Features/Alchemy & Mechanica (Crossclass).md
+NO-H1	 7. Unique Features/7.2. Example Unique Features/Armour Master.md
+NO-H1	 7. Unique Features/7.2. Example Unique Features/Armour Training.md
+NO-H1	 7. Unique Features/7.2. Example Unique Features/Awakened Host.md
+NO-H1	 7. Unique Features/7.2. Example Unique Features/Born to Loot.md
+NO-H1	 7. Unique Features/7.2. Example Unique Features/Breach the Veil.md
+NO-H1	 7. Unique Features/7.2. Example Unique Features/Charmed Life.md
+NO-H1	 7. Unique Features/7.2. Example Unique Features/Combat Medic.md
+NO-H1	 7. Unique Features/7.2. Example Unique Features/Dance of Dragons.md
+NO-H1	 7. Unique Features/7.2. Example Unique Features/Dauntless.md
+NO-H1	 7. Unique Features/7.2. Example Unique Features/Divine Bargain.md
+NO-H1	 7. Unique Features/7.2. Example Unique Features/Divine Blessings (Crossclass).md
+NO-H1	 7. Unique Features/7.2. Example Unique Features/Enchanter.md
+NO-H1	 7. Unique Features/7.2. Example Unique Features/Faustian Pact.md
+NO-H1	 7. Unique Features/7.2. Example Unique Features/Ferocious Rage (Crossclass).md
+NO-H1	 7. Unique Features/7.2. Example Unique Features/Injury Adaption.md
+NO-H1	 7. Unique Features/7.2. Example Unique Features/Inspire Greatness (Crossclass).md
+NO-H1	 7. Unique Features/7.2. Example Unique Features/Iron Grit.md
+NO-H1	 7. Unique Features/7.2. Example Unique Features/Knife Fighter.md
+NO-H1	 7. Unique Features/7.2. Example Unique Features/Marksman.md
+NO-H1	 7. Unique Features/7.2. Example Unique Features/Master of Faces.md
+NO-H1	 7. Unique Features/7.2. Example Unique Features/Monk Techniques (Cross Class).md
+NO-H1	 7. Unique Features/7.2. Example Unique Features/Monster Lore.md
+NO-H1	 7. Unique Features/7.2. Example Unique Features/Oracle.md
+NO-H1	 7. Unique Features/7.2. Example Unique Features/Pack Tactics.md
+NO-H1	 7. Unique Features/7.2. Example Unique Features/Pilfer Pouch - d100 Table.md
+NO-H1	 7. Unique Features/7.2. Example Unique Features/Pilfer Pouch.md
+NO-H1	 7. Unique Features/7.2. Example Unique Features/Poisoner.md
+NO-H1	 7. Unique Features/7.2. Example Unique Features/Rangercraft (Crossclass).md
+NO-H1	 7. Unique Features/7.2. Example Unique Features/Rogue Tricks (Crossclass).md
+NO-H1	 7. Unique Features/7.2. Example Unique Features/Runesmith.md
+NO-H1	 7. Unique Features/7.2. Example Unique Features/Secret History.md
+NO-H1	 7. Unique Features/7.2. Example Unique Features/Shieldmaiden.md
+NO-H1	 7. Unique Features/7.2. Example Unique Features/Signature Weapon.md
+NO-H1	 7. Unique Features/7.2. Example Unique Features/Slippery Bastard.md
+NO-H1	 7. Unique Features/7.2. Example Unique Features/Spellcraft (Crossclass).md
+NO-H1	 7. Unique Features/7.2. Example Unique Features/Thieves' Grace.md
+NO-H1	 7. Unique Features/7.2. Example Unique Features/Unusual Mount.md
+NO-H1	 7. Unique Features/7.2. Example Unique Features/Vengeful.md
+NO-H1	 7. Unique Features/7.2. Example Unique Features/Void Caller.md
+NO-H1	 7. Unique Features/7.2. Example Unique Features/Weapons Training.md
+NO-H1	 8. Skills & Rerolls/8.1. Skills_.md
+NO-H1	 8. Skills & Rerolls/8.2. Rerolls_.md
+NO-H1	 9. Equipment/9.1. Equipment_.md
+NO-H1	 9. Equipment/9.10. Armour_.md
+NO-H1	 9. Equipment/9.11. Shields_.md
+NO-H1	 9. Equipment/9.12. Repairs & Crafting_.md
+NO-H1	 9. Equipment/9.13. Animals_.md
+NO-H1	 9. Equipment/9.14. Vehicles & Ships_.md
+NO-H1	 9. Equipment/9.15. Masterforged Gear_.md
+NO-H1	 9. Equipment/9.15.1. Masterforged Weapon.md
+NO-H1	 9. Equipment/9.15.2. Masterforged Armour.md
+NO-H1	 9. Equipment/9.2. Encumbrance_.md
+NO-H1	 9. Equipment/9.3. Common Gear_.md
+NO-H1	 9. Equipment/9.3.1. Common Gear.md
+NO-H1	 9. Equipment/9.4. Uncommon Gear_.md
+NO-H1	 9. Equipment/9.5. Rare Gear_.md
+NO-H1	 9. Equipment/9.6. Food & Board_.md
+NO-H1	 9. Equipment/9.7. Services_.md
+NO-H1	 9. Equipment/9.8. Lifestyle_.md
+NO-H1	 9. Equipment/9.9. Weapons_.md
+checked 562 notes

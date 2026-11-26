@@ -1,0 +1,3 @@
+*Giant Toads* are about 5 ft tall but are much bulkier than a man, with lumpy skin and an enormous mouth. Their colouration runs the gamut and in large numbers their croaking calls can be deafening. As tadpoles they are herbivores, but grow to become carnivores as they mature, feeding on fish, animals, and barbarians alike.
+
+**GIANT TOAD** #1d8 **AC** 14 **HD** 4 **Bite** 1d12 **and Tongue** Close range, dragged into Melee + *[[12.11. Conditions_#Grabbed|Grabbed]]* (Str contest resists, no action) **Nat 19** Swallowed: 2d6 on *Toad's* turn, victim may only use action to make small weapon attacks (vs AC 10) **S**18 **D**12 **C**17 **I**3 **P**10 **W**14 **Ch**5 **L**7, **Leap** Close. **Reac** 2-5 Combative 6-8 Hungry 9-12 Languid.

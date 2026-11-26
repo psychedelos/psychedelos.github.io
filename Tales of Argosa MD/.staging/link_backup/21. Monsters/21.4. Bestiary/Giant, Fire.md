@@ -1,0 +1,3 @@
+*Fire Giants* grow to 17 ft in height, an aggressive and domineering warrior people that revel in combat and metal smithing. They are immune to heat and fire, and prefer to lair in volcanoes, close by magma streams, or within blistering deserts.
+
+**FIRE GIANT** #1d8 **AC** 17 (armour) **HD** 14+3 **Hammer** 4d8 **Nat 19-20** *Blunt Trauma* (1d6+6) **S**21 **D**11 **C**17 **I**10 **P**13 **W**14 **Ch**12 **L**14. Hurl boulder, carts, etc up to Very Far range for 4d6 damage. Immune to fire. Foes of 4 HD or less must make a Will check or flee in terror for 2d6 rounds. *Fire Priests* gain **Spells (3, Int 16)** *Hellblast, Hex of Volcanic Steel, Light of Soliri.* **Reac** 2-4 Enraged 5-6 Angry 7-9 Unfriendly 10-12 Haughty.

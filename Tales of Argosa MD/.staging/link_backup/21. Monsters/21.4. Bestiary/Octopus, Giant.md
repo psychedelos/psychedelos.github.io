@@ -1,0 +1,3 @@
+A *Giant Octopus* is 80 ft long, dwarfing small sailing vessels which are inevitably splintered by the beast's devastating tentacles. They are reluctant to crawl on land but can do so for short periods if sufficiently enraged or hungry.
+
+**GIANT OCTOPUS** #1 **AC** 15 **HD** 17+3 **Bite** 2d8 **and Tentacles (8)** 1d10 **Nat 19-20** *Blunt Trauma* (1d6+6) or Swallowed **S**23 **D**14 **C**22 **I**3 **P**10 **W**15 **Ch**1 **L**16, **Swim** Fast. **Swallowed** 3d10 on *Octopus'* turn, victim may only use action to make small weapon attacks (vs AC 10). If severely injured will flee, releasing a Far area cloud of black ink (*Near Blind*) and regurgitate any swallowed foes. **Reac** 2-4 Destructive 5-8 Insatiable hunger 9-12 Oblivious

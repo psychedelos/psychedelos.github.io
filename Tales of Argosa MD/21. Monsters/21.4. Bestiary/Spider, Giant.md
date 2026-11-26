@@ -1,0 +1,5 @@
+*Giant Spiders* are 6 ft long, aggressive hunters and web builders that will gladly dine on passing adventurers if given the chance. Some build hidden burrows with concealed trapdoors from which to strike, but most drop from the trees.
+
+**GIANT SPIDER** #2d4 **AC** 13 **HD** 2+2 **Bite** 1d6+1 + Poison **Nat 19-20** *Luck* (Str) save or wrapped in webs (*[[12.11. Conditions_#Helpless|Helpless]]*) **S**14 **D**16 **C**12 **I**2 **P**12 **W**10 **Ch**4 **L**5, **Climb** Norm. GM decides the Poison or roll 1d20 on the [[26.4.18. Poison|Poison]] table. Cutting a victim free from webs requires a Str check. **Reac** 2-5 Hostile 6-8 Hungry 9-12 Cautious.
+
+**NEST MOTHER** #1 **AC** 12 **HD** 12 **Bite** 2d6 + Poison (*Luck* (Con) save or death in 1d3 rounds) **Nat 19-20** *Luck* (Str) save or wrapped in webs (*[[12.11. Conditions_#Helpless|Helpless]]*) **S**18 **D**16 **C**16 **I**5 **P**12 **W**15 **Ch**5 **L**10, **Climb** Close. **Off Turn Attacks.** Cutting a victim free from webs requires a Str check. **Reac** 2-8 Hostile 9-10 Treacherous 11-12 Calculating.

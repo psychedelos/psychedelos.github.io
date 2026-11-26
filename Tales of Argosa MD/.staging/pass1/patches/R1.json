@@ -1,0 +1,355 @@
+{
+ "patches": [
+  {
+   "file": "5. Classes/5.2. Artificer_.md",
+   "old": "> 13. **Poison** Apply",
+   "new": "> **13. Poison** Apply",
+   "why": "p020: print bolds the whole entry label '13. Poison' (font data **13. Poison**); note left '13.' plain"
+  }
+ ],
+ "no_change": [
+  {
+   "file": "1. What Is Tales of Argosa/1.2. Core Features_.md",
+   "issue": "{\"type\": \"words\", \"op\": \"delete\", \"note\": \"core features\", \"source\": \"\"}",
+   "reason": "section title carried by filename"
+  },
+  {
+   "file": "1. What Is Tales of Argosa/1.3. How to Play_.md",
+   "issue": "{\"type\": \"words\", \"op\": \"insert\", \"note\": \"\", \"source\": \"7\"}",
+   "reason": "lone page number"
+  },
+  {
+   "file": "4. Races/4.1. Races_.md",
+   "issue": "{\"type\": \"not-in-text-layer\", \"op\": \"delete\", \"note\": \"races humans are the default race for pcs five races are provided below however for greater variety human",
+   "reason": "text is in the text layer on p015 (checker range was p016 only); intro + Humans match p015 verbatim incl. italics"
+  },
+  {
+   "file": "5. Classes/5.10. Rogue_.md",
+   "issue": "{\"type\": \"words\", \"op\": \"insert\", \"note\": \"\", \"source\": \"42\"}",
+   "reason": "lone page number"
+  },
+  {
+   "file": "5. Classes/5.10. Rogue_.md",
+   "issue": "{\"type\": \"emphasis\", \"word\": \"10\", \"note\": \"plain\", \"source\": \"B\", \"context\": \"long rests 5 10 1 tricks techniques\"}",
+   "reason": "bold '10' is row 10 (Smoke Bomb) of the 5.10.1 table note, aligned against the embed line"
+  },
+  {
+   "file": "5. Classes/5.10. Rogue_.md",
+   "issue": "{\"type\": \"words\", \"op\": \"insert\", \"note\": \"\", \"source\": \"43\"}",
+   "reason": "lone page number"
+  },
+  {
+   "file": "5. Classes/5.2. Artificer_.md",
+   "issue": "{\"type\": \"words\", \"op\": \"insert\", \"note\": \"\", \"source\": \"17\"}",
+   "reason": "lone page number"
+  },
+  {
+   "file": "5. Classes/5.2. Artificer_.md",
+   "issue": "{\"type\": \"emphasis\", \"word\": \"alchemy\", \"note\": \"plain\", \"source\": \"I\", \"context\": \"5 2 1 alchemy mechanica optional optional\"}",
+   "reason": "italic Alchemy & Mechanica is in row 2 (Chaintooth) of the 5.2.1 table note; checker aligned it with the embed line"
+  },
+  {
+   "file": "5. Classes/5.2. Artificer_.md",
+   "issue": "{\"type\": \"emphasis\", \"word\": \"mechanica\", \"note\": \"plain\", \"source\": \"I\", \"context\": \"2 1 alchemy mechanica optional optional for\"}",
+   "reason": "same as previous"
+  },
+  {
+   "file": "5. Classes/5.2. Artificer_.md",
+   "issue": "{\"type\": \"words\", \"op\": \"replace\", \"note\": \"optional\", \"source\": \"if the weapon is lost or destroyed you may create a replacement during downtime 2 chaintooth w",
+   "reason": "rows 2-12 of Alchemy & Mechanica live in the 5.2.1 table note; 'Optional' is the callout title"
+  },
+  {
+   "file": "5. Classes/5.2. Artificer_.md",
+   "issue": "{\"type\": \"words\", \"op\": \"insert\", \"note\": \"\", \"source\": \"mutagen i increase str to 17 ii increase dex to 17 iii increase str dex to 17 iv spend an action to spi",
+   "reason": "Mutagen rows live in the 5.2.2 table note (embedded)"
+  },
+  {
+   "file": "5. Classes/5.2. Artificer_.md",
+   "issue": "{\"type\": \"words\", \"op\": \"replace\", \"note\": \"2 2 mutagen\", \"source\": \"points minimum 1 19\"}",
+   "reason": "Mutagen row (viii) end + page number vs embed line; table note"
+  },
+  {
+   "file": "5. Classes/5.3. Barbarian_.md",
+   "issue": "{\"type\": \"words\", \"op\": \"insert\", \"note\": \"\", \"source\": \"21 21\"}",
+   "reason": "running page numbers"
+  },
+  {
+   "file": "5. Classes/5.4. Bard_.md",
+   "issue": "{\"type\": \"words\", \"op\": \"insert\", \"note\": \"\", \"source\": \"23 23\"}",
+   "reason": "running page numbers"
+  },
+  {
+   "file": "5. Classes/5.5. Cultist_.md",
+   "issue": "{\"type\": \"words\", \"op\": \"insert\", \"note\": \"\", \"source\": \"25\"}",
+   "reason": "lone page number"
+  },
+  {
+   "file": "5. Classes/5.5. Cultist_.md",
+   "issue": "{\"type\": \"words\", \"op\": \"replace\", \"note\": \"blessings 5 5 2 spell like blessings\", \"source\": \"ac as long as you are above zero hp and do not require atonement o",
+   "reason": "blessing rows 5-6 live in the 5.5.1 table note; checker aligned against embed lines"
+  },
+  {
+   "file": "5. Classes/5.5. Cultist_.md",
+   "issue": "{\"type\": \"words\", \"op\": \"insert\", \"note\": \"\", \"source\": \"spell like blessing each time you choose this ability gain a blessing that mimics one of the following ",
+   "reason": "Spell like Blessing row (7-12) is in 5.5.1 and the 7-12 list is the 5.5.2 table note; plus page number"
+  },
+  {
+   "file": "5. Classes/5.5. Example Gods/Baal (Lord of Crows).md",
+   "issue": "{\"type\": \"words\", \"op\": \"insert\", \"note\": \"\", \"source\": \"27\"}",
+   "reason": "lone page number"
+  },
+  {
+   "file": "5. Classes/5.5. Example Gods/Shennog.md",
+   "issue": "{\"type\": \"words\", \"op\": \"insert\", \"note\": \"\", \"source\": \"28\"}",
+   "reason": "lone page number"
+  },
+  {
+   "file": "5. Classes/5.6. Fighter_.md",
+   "issue": "{\"type\": \"words\", \"op\": \"insert\", \"note\": \"\", \"source\": \"31\"}",
+   "reason": "lone page number"
+  },
+  {
+   "file": "5. Classes/5.6. Fighter_.md",
+   "issue": "{\"type\": \"words\", \"op\": \"replace\", \"note\": \"adaptable\", \"source\": \"d 6 damage instead of 1 d 2 on a nat 19 you may grab or disarm your foe 10 brutal when you in",
+   "reason": "style rows 9-12 live in the 5.6.1 Adaptable table note; 'adaptable' is the embed line"
+  },
+  {
+   "file": "5. Classes/5.7. Magic User_.md",
+   "issue": "{\"type\": \"words\", \"op\": \"insert\", \"note\": \"\", \"source\": \"34\"}",
+   "reason": "lone page number"
+  },
+  {
+   "file": "5. Classes/5.8. Monk_.md",
+   "issue": "{\"type\": \"words\", \"op\": \"insert\", \"note\": \"\", \"source\": \"36\"}",
+   "reason": "lone page number"
+  },
+  {
+   "file": "5. Classes/5.8. Monk_.md",
+   "issue": "{\"type\": \"words\", \"op\": \"replace\", \"note\": \"1 monk techniques\", \"source\": \"moment of clarity until the end of your next turn you ignore penalties due to poor vi",
+   "reason": "technique rows 8-12 live in the 5.8.1 table note; checker aligned against embed line"
+  },
+  {
+   "file": "5. Classes/5.8. Monk_.md",
+   "issue": "{\"type\": \"words\", \"op\": \"insert\", \"note\": \"\", \"source\": \"37\"}",
+   "reason": "lone page number"
+  },
+  {
+   "file": "5. Classes/5.9. Ranger_.md",
+   "issue": "{\"type\": \"words\", \"op\": \"insert\", \"note\": \"\", \"source\": \"39\"}",
+   "reason": "lone page number"
+  },
+  {
+   "file": "5. Classes/5.9. Ranger_.md",
+   "issue": "{\"type\": \"words\", \"op\": \"insert\", \"note\": \"\", \"source\": \"1 animal ken you and your beast briefly exchange detailed information including matters which might not",
+   "reason": "Rangercraft rows 1-4 live in the 5.9.1 table note (embedded); text checked against p041-042"
+  },
+  {
+   "file": "8. Skills & Rerolls/8.1. Skills_.md",
+   "issue": "{\"type\": \"words\", \"op\": \"insert\", \"note\": \"\", \"source\": \"rerolls each pc starts an adventure with a number of rerolls determined by their level this is the maxi",
+   "reason": "Rerolls text belongs to sibling note 8.2 Rerolls_ (present there verbatim); page-range overlap"
+  },
+  {
+   "file": "9. Equipment/9.1. Equipment_.md",
+   "issue": "{\"type\": \"words\", \"op\": \"insert\", \"note\": \"\", \"source\": \"light sources torches burn for one hour and shed light in a close area a flask of oil in a lantern burn",
+   "reason": "Light Sources text present verbatim (flag from the Supply table printed at page end vs placed under Supply); Encumbrance text is in sibling note 9.2"
+  },
+  {
+   "file": "9. Equipment/9.10. Armour_.md",
+   "issue": "{\"type\": \"not-in-text-layer\", \"op\": \"delete\", \"note\": \"armour a character s armour class ac 10 armour ac bonus dex mod if any heavier armours impose penalties o",
+   "reason": "text is in the p063 text layer and matches verbatim incl. bold"
+  },
+  {
+   "file": "9. Equipment/9.15. Masterforged Gear_.md",
+   "issue": "{\"type\": \"not-in-text-layer\", \"op\": \"delete\", \"note\": \"9 15 1 masterforged weapon 9 15 2 masterforged armour\", \"source\": \"\"}",
+   "reason": "embed lines"
+  },
+  {
+   "file": "9. Equipment/9.5. Rare Gear_.md",
+   "issue": "{\"type\": \"words\", \"op\": \"insert\", \"note\": \"\", \"source\": \"common gear 11 arrows 20 41 mirror small 12 bedroll 42 oil flask 13 bell steel 5 43 parchment 5 14 bloc",
+   "reason": "Common Gear table belongs to the 9.3.1 table note; page-range overlap"
+  },
+  {
+   "file": "9. Equipment/9.9. Weapons_.md",
+   "issue": "{\"type\": \"words\", \"op\": \"insert\", \"note\": \"\", \"source\": \"59\"}",
+   "reason": "lone page number"
+  },
+  {
+   "file": "9. Equipment/9.9. Weapons_.md",
+   "issue": "{\"type\": \"words\", \"op\": \"insert\", \"note\": \"\", \"source\": \"60\"}",
+   "reason": "lone page number"
+  },
+  {
+   "file": "10. Doing Things/10.1. Doing Things_.md",
+   "issue": "{\"type\": \"words\", \"op\": \"delete\", \"note\": \"doing things\", \"source\": \"\"}",
+   "reason": "section title carried by filename"
+  },
+  {
+   "file": "10. Doing Things/10.2. Attribute Checks_.md",
+   "issue": "{\"type\": \"words\", \"op\": \"insert\", \"note\": \"\", \"source\": \"64\"}",
+   "reason": "lone page number"
+  },
+  {
+   "file": "10. Doing Things/10.3. Great Success & Terrible Failure_.md",
+   "issue": "{\"type\": \"not-in-text-layer\", \"op\": \"delete\", \"note\": \"att gs tf 5 2 8 6 3 10 7 3 11 8 4 13 9 4 14 10 5 16 11 5 17 12 6 19 13 6 20 14 7 20 15 7 20 16 8 20 17 8 ",
+   "reason": "GS/TF reference table: values match p066 (printed as two halves with repeated header, joined into one table)"
+  },
+  {
+   "file": "12. Combat/12.8. Exploits_.md",
+   "issue": "{\"type\": \"words\", \"op\": \"insert\", \"note\": \"\", \"source\": \"79\"}",
+   "reason": "lone page number"
+  },
+  {
+   "file": "13. Injury & Death/13.1. Injury & Death_.md",
+   "issue": "{\"type\": \"words\", \"op\": \"delete\", \"note\": \"injury death\", \"source\": \"\"}",
+   "reason": "section title carried by filename"
+  },
+  {
+   "file": "13. Injury & Death/13.2. Trauma Tables_.md",
+   "issue": "{\"type\": \"not-in-text-layer\", \"op\": \"delete\", \"note\": \"trauma tables blade trauma blade related injuries and setbacks are caused by nat 19 rolls from piercing a",
+   "reason": "intro text is in text layer p086-087 and matches verbatim; remainder are embed lines"
+  },
+  {
+   "file": "13. Injury & Death/13.2. Trauma Tables_.md",
+   "issue": "{\"type\": \"not-in-text-layer\", \"op\": \"delete\", \"note\": \"13 2 3 blunt trauma missile trauma missile injuries and related setbacks are caused by arrows bolts sling",
+   "reason": "Missile/Toxin intros match p088-089 verbatim (incl. italic Toxin Traumas); remainder embed lines"
+  },
+  {
+   "file": "15. Sorcery/15.5. Dark & Dangerous Magic_.md",
+   "issue": "{\"type\": \"words\", \"op\": \"delete\", \"note\": \"15 5\", \"source\": \"\"}",
+   "reason": "embed line"
+  },
+  {
+   "file": "15. Sorcery/15.8. Spell List_.md",
+   "issue": "{\"type\": \"no-source-match\"}",
+   "reason": "note is only an embed line"
+  },
+  {
+   "file": "15. Sorcery/15.9. Spells/A Wisp Unseen.md",
+   "issue": "{\"type\": \"words\", \"op\": \"delete\", \"note\": \"a wisp\", \"source\": \"\"}",
+   "reason": "spell name carried by filename; body matches p105"
+  },
+  {
+   "file": "15. Sorcery/15.9. Spells/Conjure Entity.md",
+   "issue": "{\"type\": \"words\", \"op\": \"delete\", \"note\": \"conjuring\", \"source\": \"\"}",
+   "reason": "embed line ![[Conjuring]]"
+  },
+  {
+   "file": "16. Downtime/16.1. Downtime_.md",
+   "issue": "{\"type\": \"words\", \"op\": \"insert\", \"note\": \"\", \"source\": \"downtime period 2 3 one week 8 two months 4 5 1 d 3 1 weeks 9 three months 6 2 d 4 weeks 10 six months ",
+   "reason": "Downtime Period / Event rows live in 16.1.1 / 16.1.2 table notes (embedded)"
+  },
+  {
+   "file": "16. Downtime/16.2. Advancement_.md",
+   "issue": "{\"type\": \"words\", \"op\": \"replace\", \"note\": \"exploration 1 xp explore several hexes of untamed dangerous wilds gm determines how many hexes are required discover",
+   "reason": "'advancement 115' is the running head; XP award tables match p116-117 (column order difference only)"
+  },
+  {
+   "file": "16. Downtime/16.3. Black Market Trade_.md",
+   "issue": "{\"type\": \"words\", \"op\": \"delete\", \"note\": \"black market trade\", \"source\": \"\"}",
+   "reason": "section title carried by filename"
+  },
+  {
+   "file": "16. Downtime/16.9. Research_.md",
+   "issue": "{\"type\": \"not-in-text-layer\", \"op\": \"delete\", \"note\": \"16 9 1 standard research magical research magical research includes such things as learning a new spell d",
+   "reason": "Magical Research heading/text match p127 (column order)"
+  },
+  {
+   "file": "16. Downtime/16.9. Research_.md",
+   "issue": "{\"type\": \"words\", \"op\": \"insert\", \"note\": \"\", \"source\": \"standard research terrible failure roll 1 d 6 iii no new intel iiiiv false info vvi no new intel but an",
+   "reason": "Standard Research rows live in the 16.9.1 table note; Magical Research text present verbatim"
+  },
+  {
+   "file": "17. GM Tools/17.2. Diseases & Parasites_.md",
+   "issue": "{\"type\": \"words\", \"op\": \"delete\", \"note\": \"diseases parasites\", \"source\": \"\"}",
+   "reason": "section title carried by filename"
+  },
+  {
+   "file": "17. GM Tools/17.2. Diseases & Parasites_.md",
+   "issue": "{\"type\": \"not-in-text-layer\", \"op\": \"delete\", \"note\": \"17 2 1 diseases 17 2 2 parasites\", \"source\": \"\"}",
+   "reason": "embed lines"
+  },
+  {
+   "file": "17. GM Tools/17.3. Dungeon Crawling_.md",
+   "issue": "{\"type\": \"words\", \"op\": \"replace\", \"note\": \"17 3 1\", \"source\": \"dungeon crawling\"}",
+   "reason": "section title carried by filename vs embed line"
+  },
+  {
+   "file": "17. GM Tools/17.3. Dungeon Crawling_.md",
+   "issue": "{\"type\": \"words\", \"op\": \"insert\", \"note\": \"\", \"source\": \"1 lone survivor of an adventuring party lost in the tunnels half hp rations no torches might know about",
+   "reason": "Fancy Meeting You Here rows live in the 17.3.1 table note; page numbers"
+  },
+  {
+   "file": "17. GM Tools/17.4. Hexploration_.md",
+   "issue": "{\"type\": \"words\", \"op\": \"delete\", \"note\": \"hexploration\", \"source\": \"\"}",
+   "reason": "section title carried by filename"
+  },
+  {
+   "file": "17. GM Tools/17.4. Hexploration_.md",
+   "issue": "{\"type\": \"words\", \"op\": \"insert\", \"note\": \"\", \"source\": \"exploring and travel 1 watch explore a hex or move into a hex with roads plains grasslands fields or ot",
+   "reason": "Exploring and Travel / Watches reference tables present in note (placement vs printed position only)"
+  },
+  {
+   "file": "17. GM Tools/17.4. Hexploration_.md",
+   "issue": "{\"type\": \"words\", \"op\": \"insert\", \"note\": \"\", \"source\": \"use the opposite for misfortunes 1 make good time 5 adv on foraging 2 weather improves 6 adv on stealth",
+   "reason": "Fortune Die Examples rows live in 17.4.1 (incl. 'Use the opposite for Misfortunes')"
+  },
+  {
+   "file": "17. GM Tools/17.4. Hexploration_.md",
+   "issue": "{\"type\": \"not-in-text-layer\", \"op\": \"delete\", \"note\": \"17 4 3 exploring 17 4 4\", \"source\": \"\"}",
+   "reason": "embed lines"
+  },
+  {
+   "file": "17. GM Tools/17.4. Hexploration_.md",
+   "issue": "{\"type\": \"words\", \"op\": \"insert\", \"note\": \"\", \"source\": \"overland underground voyage 1 freak weather change roll for weather reroll 6 s and 7 s and exaggerate t",
+   "reason": "Travel Events / Exploring / Weather Shift rows live in 17.4.4 / 17.4.3 / 17.4.2 table notes"
+  },
+  {
+   "file": "17. GM Tools/17.4. Hexploration_.md",
+   "issue": "{\"type\": \"words\", \"op\": \"insert\", \"note\": \"\", \"source\": \"are unlikely here but if so roll reaction with advantage 10 other travellers the party encounters other",
+   "reason": "Travel Events rows (17.4.4 table note)"
+  },
+  {
+   "file": "17. GM Tools/17.5. Encounter Tables_.md",
+   "issue": "{\"type\": \"not-in-text-layer\", \"op\": \"delete\", \"note\": \"17 5 1 aerial 17 5 2 city town village 17 5 3 deserts 17 5 4 jungles 17 5 5 forests 17 5 6 mountains hill",
+   "reason": "embed lines"
+  },
+  {
+   "file": "21. Monsters/21.2. Custom Monsters_.md",
+   "issue": "{\"type\": \"words\", \"op\": \"delete\", \"note\": \"21 2 1\", \"source\": \"\"}",
+   "reason": "embed line"
+  },
+  {
+   "file": "21. Monsters/21.3. Special Traits_.md",
+   "issue": "{\"type\": \"words\", \"op\": \"insert\", \"note\": \"\", \"source\": \"special traits 169 8 sentinel contrary to the usual rules this npc may attempt one rescue per adventure",
+   "reason": "Heavy Abilities rows live in the 21.3.1 table note; running head/page number"
+  },
+  {
+   "file": "21. Monsters/21.3. Special Traits_.md",
+   "issue": "{\"type\": \"words\", \"op\": \"insert\", \"note\": \"\", \"source\": \"170\"}",
+   "reason": "lone page number"
+  },
+  {
+   "file": "21. Monsters/21.4. Bestiary/Aberrant Terrors.md",
+   "issue": "{\"type\": \"words\", \"op\": \"delete\", \"note\": \"terror traits\", \"source\": \"\"}",
+   "reason": "embed line ![[Terror Traits]]"
+  },
+  {
+   "file": "21. Monsters/21.4. Bestiary/Beetle, Fire.md",
+   "issue": "{\"type\": \"words\", \"op\": \"insert\", \"note\": \"\", \"source\": \"175\"}",
+   "reason": "lone page number"
+  },
+  {
+   "file": "21. Monsters/21.4. Bestiary/Demon, Balor.md",
+   "issue": "{\"type\": \"words\", \"op\": \"insert\", \"note\": \"\", \"source\": \"177\"}",
+   "reason": "lone page number"
+  }
+ ],
+ "source_typos": [
+  {
+   "file": "16. Downtime/16.1. Downtime_.md",
+   "quote": "Medium,Wood",
+   "page": "p115"
+  }
+ ],
+ "notes": "Almost all flags are noise: embedded Phase A table rows, filename-carried titles, page numbers, column order. Observations outside the flags (not patched): 16.9.1 Standard Research table note has an invented header 'Int check' (print has only the title bar STANDARD RESEARCH, no column headers); 16.1 Buildings table prints 'Medium,Wood' without a space (note normalised to 'Medium, Wood'). 4.1 Races and 9.10 Armour 'not-in-text-layer' flags are checker page-range errors (text found on p015 / p063)."
+}

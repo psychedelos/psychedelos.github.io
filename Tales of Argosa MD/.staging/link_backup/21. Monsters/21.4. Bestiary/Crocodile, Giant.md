@@ -1,0 +1,3 @@
+These 20 ft crocodiles have muscular frames and powerful bites. *Giant Crocs* often lurk beside the edges of waterways, fully submerged but for their nostrils to ambush their prey. A *Kronosaurus* is essentially a colossal 40 ft dinosaur crocodile with fins instead of legs. They have HD 16, Bite 3d12, Nat 19 *Blade Trauma* (1d6+6), *Off Turn Attacks.*
+
+**GIANT CROC** #2d4 **AC** 14 **HD** 6 **Bite** 2d6+2 **Nat 19-20** Death Roll: target loses their turn each round until they succeed on a *Luck* (Str/Dex) save to break free **S**20 **D**10 **C**19 **I**3 **P**10 **W**12 **Ch**5 **L**8. **Swim** Norm. **Reac** 2-5 Violent 6-8 Starving 9-10 Grumpy 11-12 Oblivious.

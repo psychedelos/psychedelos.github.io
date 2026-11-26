@@ -1,0 +1,3 @@
+*Gargoyles* are supernatural, winged beings, with stony skin and vacant eyes. They have limited shape shifting powers that allow them to masquerade as a statue for years, patiently waiting for a passing victim, sustained by forbidden magic.
+
+**GARGOYLE** #1d2 **AC** 15 **HD** 3+3 **Bite** 1d12 **Nat 19** *Blade Trauma* (1d12) **S**14 **D**14 **C**12 **I**3 **P**14 **W**12 **Ch**4 **L**6, **Fly** Fast. A natural 1-2 attack roll against a *Gargoyle's* enchanted hide shatters the weapon (*Luck* save resists). **Reac** As creator's orders or 2-5 Aggressive 6-8 Hesitant 9-10 Covetous 11-12 Nosy.

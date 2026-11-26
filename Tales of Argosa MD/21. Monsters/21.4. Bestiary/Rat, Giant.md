@@ -1,0 +1,3 @@
+*Giant Rats* are about the size of a large cat. They are often found in sewers and lurking in forests nearby civilization. *[[23.2. Consult the Bones_|Consult the Bones]] (likely)* to determine whether they carry a random disease.
+
+**GIANT RAT** #5d4 **AC** 11 **HD** 1d4 hp **Bites** 1d3 + disease **Nat 19** Another *Giant Rat* comes to this *Rat's* aid (if possible) **S**3 **D**14 **C**8 **I**2 **P**13 **W**6 **Ch**4 **L**3, **Climb** Norm. Threatening a *Giant Rat* with fire may keep it at bay for a short time (Will check resists). After combat, anyone injured must make a *Luck* (Con) save or suffer a random disease. **Reac** 2-3 Ravenous! 4-6 Hostile 7-8 Steady 9-10 Scared 11-12 Attracted.

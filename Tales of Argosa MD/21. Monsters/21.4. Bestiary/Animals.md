@@ -1,0 +1,1 @@
+A selection of common animals for the GM to extrapolate from. A **"Dire" template** has also been included to turn any animal into its nastier variant; perhaps tainted by the veil, a natural mutation, ley line corruption, fey grove guardians, etc.

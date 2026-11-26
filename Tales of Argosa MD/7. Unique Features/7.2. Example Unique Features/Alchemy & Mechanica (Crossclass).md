@@ -1,0 +1,1 @@
+Gain a limited version of the Artificer *[[5.2. Artificer_#Alchemy & Mechanica|Alchemy & Mechanica]]* ability. Gain one invention. You begin an adventure with two uses of this ability (if applicable).

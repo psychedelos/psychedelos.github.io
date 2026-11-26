@@ -1,0 +1,3 @@
+*Slop Gorgers* are 8 ft slug like amphibians, with grinding maws and spiked tentacles. They are strong swimmers and disturbingly quick overland. *Gorgers* feed on refuse and carrion (most carry disease) but are partial to living creatures, especially when spawning (they are asexual, laying clutches of egg sacks). *Elder Gorgers* grow up to 16 HD.
+
+**SLOP GORGER** #1 **AC** 13 **HD** 9+2 **Bite** 3d4 **and Tentacles (3)** 1d8+1 **Nat 19** *Grabbed* and *Blunt Trauma* (1d8+4), *Luck* (Dex) save negates **S**19 **D**8 **C**17 **I**3 **P**10 **W**9 **Ch**3 **L**10, **Swim** Fast. After combat, anyone injured must make a *Luck* (Con) save or suffer a disease. **Reac** 2-5 Violent 6-8 Ravenous 9-10 Probing 11-12 Unconcerned.

@@ -1,0 +1,3 @@
+*Balors* resemble 20 ft minotaurs with dragon wings, wreathed in smoke and flame, bearing a wicked blade and white hot lash. They are among the most powerful and cunning of all demon kind.
+
+**BALOR (BOSS)** #1 **AC** 21 **HD** 20+4 **Sword** 3d12+1 **and Whip** Close Range, drag into Melee, suffer 3d6 fire damage on target's turn unless Str contest (action) to break free **Nat 18-20** *Blade Trauma* (1d6+6) **S**22 **D**14 **C**20 **I**16 **P**20 **W**18 **Ch**16 **L**16. **Fly** Norm. **Boss Traits. Crit 18-20.** Magic Resistance 75%. Immune to non magical weapons (excluding *cold iron*, holy water). Once per week, may use ritual magic to summon 2d10 lesser demons. **Reac** 2-3 Hostile 4-5 Violent 6-8 Malevolent 9-10 Aloof 11-12 Intrigued.

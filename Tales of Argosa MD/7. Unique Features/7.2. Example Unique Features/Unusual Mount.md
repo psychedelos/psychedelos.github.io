@@ -1,0 +1,1 @@
+You gain an unusual mount such as a *Dire Wolf, [[Griffon|Griffon]], [[Lizard, Giant|Giant Lizard]]*, or similar with HD 4 or less. The GM decides what it costs, including for example one or more of: silver, a special service, permanent loss of a point of *Luck*, etc. Apply the [[16.6. Pets_#Monstrous Pets|Monstrous Pet]] rules. If your mount dies you do not gain another.

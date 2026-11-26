@@ -1,0 +1,7 @@
+*N'tarc*, or flesh harvesters are approx 8 ft tall aberrants with bulbous, pufferfish like heads and beaked, toothy jaws. They float with unnatural locomotion, folding space to jerkily slip from one place to another, long mucus covered tentacles caressing the ground where they linger.
+
+*N'tarc* bend space and time in ways humans cannot understand, and in their home dimension age slower than the fey. In the material world however, they decay rapidly and die within a few short decades. Their objective is therefore highly time sensitive; few harvesters wish to remain in the world longer than necessary.
+
+On the verge of extinction, the last *N'Tarc* are unable to reproduce, stretching their lifespans by replacing failing organs with those of compatible organisms (one being humans). Driven by this fundamental imperative, small bands roam the universe seeking humans to discreetly harvest.
+
+**N'TARC** #2d4 **AC** 13 **HD** 5 **Bite** 2d6 + age 1d10 years (no save) **Nat 19** Target loses next turn, stuck in a déjà vu loop **S**13 **D**13 **C**9 **I**16 **P**15 **W**14 **Ch**5 **L**8, **Fly** Norm. **Temporal Warp (recharge 30%)** Close range, target ages 3d10 years (*Luck* (Con) save for half). **Spells (3)** *Strange Joining, Crush of the Warp, Gaze of Beguilement* (may use in battle, lasts 2d6 days, and victims also become friendly to other victims of the power). **Reac** 2-6 Murderous 7-9 Covetous 10-12 Fascinated.

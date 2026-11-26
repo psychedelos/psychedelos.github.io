@@ -1,0 +1,3 @@
+*Hraarsk* are the lowest breed of serpentmen, humanoid in form and dedicated cultists of dark and insidious powers beyond the stars. *Hraarsk* venom puts victims into a suggestible state, which they sometimes use to taint drinks before stealing away townsfolk for use in sacrificial rituals.
+
+**HRAASK** #4d4 **AC** 14 **HD** 2+2 **Bite** 1d6 + Poison: 1d3 Will loss, *Luck* (Con) save resists the Will loss **Nat 19** Hypnotic Gaze: target *Stunned* (*Luck* (Will) save resists) **S**12 **D**13 **C**10 **I**10 **P**12 **W**10 **Ch**9 **L**5. Poisoned victims reduced to zero Will go into a trance like, suggestible state for 1d6 hours, even to the point of committing suicide. **Reac** 2-5 Hostile 6-8 Malevolent 9-10 Covetous 11-12 Cautious.

@@ -1,0 +1,3 @@
+*Fire Elementals* rake their opponents with searing claws or roast them with flames. They shed light according to their size and cause flammable materials to ignite (houses, trees, PCs, etc).
+
+**FIRE ELEMENTAL** #1 **AC** 16 **HD** 5/10/15 **Burn** 2d6/2d8/3d8 **Nat 18-20** Target *Burning* **S**17/18/19 **D**20 **C**13 **I**3 **P**10 **W**16 **Ch**3 **L**8/10/15. **Fly** Norm. Immune to non magical weapons excluding *cold iron.* **Fire Blast (recharge 30%)** Up to three targets within Close range suffer 5d6/10d6/15d6 (*Luck* (Dex) save for half). **Reac** As creator's orders or 2-5 Destructive 6-8 Mischievous 9-12 Probing.

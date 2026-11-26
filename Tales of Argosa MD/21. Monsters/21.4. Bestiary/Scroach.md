@@ -1,0 +1,3 @@
+*Scroaches* are 7 ft scorpion roach hybrids with sturdy carapaces and paralysing stingers. They lair away from sunlight, most commonly in deep forest, dark ravines, and underground tunnels.
+
+**SCROACH** #1d10 **AC** 14 **HD** 4 **Stinger** 1d10 + Poison: *Luck* (Con) save or random limb paralysed for 1d4 days **Nat 19** *[[13.2.1. Blade Trauma|Blade Trauma]]* (1d10+2) **S**13 **D**14 **C**10 **I**3 **P**10 **W**10 **Ch**4 **L**6. A humanoid with all limbs paralysed is eaten alive, or has eggs laid in them (hatch in 4d6 hours and consume the host). **Reac** 2-5 Hostile 6-8 Eager to feast 9-10 Suspicious 11-12 Confused.

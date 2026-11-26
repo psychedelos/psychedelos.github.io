@@ -1,0 +1,12 @@
+# Fidelity check
+
+| type | count |
+|---|---|
+| reordered | 302 |
+| words | 216 |
+| not-in-text-layer | 172 |
+| moved | 75 |
+| emphasis | 10 |
+| no-source-match | 9 |
+| table-emphasis | 5 |
+

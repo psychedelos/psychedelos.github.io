@@ -1,0 +1,3 @@
+*Elementals* are 6 to 20 ft animate manifestations of earth, fire, air, or water. Earth and fire variants tend to adopt a humanoid form, air elementals appear as miniature cyclones, and water as churning waves. They are sometimes encountered as a result of being summoned by others, but also independently coalesce (particularly along ley lines).
+
+Most elementals have animalistic sentience, and follow the orders of their summoner to the best of their understanding. Reports do exist however of some freely formed beings of greater intelligence. Elementals are immune to non magical weapons, excepting those of *cold iron.*

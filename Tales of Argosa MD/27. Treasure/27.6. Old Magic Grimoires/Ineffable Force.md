@@ -1,0 +1,4 @@
+**Range:** Very Far  
+**Duration:** 2d6 mins
+
+You may spend an action to levitate one creature (up to man size, or giant size on a Great Success) or object (up to door size, or wagon size on a Great Success) in any direction with a movement speed of Normal. If you do not spend any further actions, the target remains hovering at that location. An unwilling target gains a *Luck* (Con) save to resist. You may choose a new target by spending an action, but this ends the spell for the previous target. You may attack with a levitating weapon, object, or creature by making attack rolls as normal (damage is determined by the GM). The spell is not precise enough to pick locks or engage in similar tasks, but it can pull levers, turn door knobs, untie ropes, etc. Casting *Ineffable Force* is particularly taxing and drains 1d6 Con. Lost Con cannot be restored until your next Downtime period.

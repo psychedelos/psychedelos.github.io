@@ -1,0 +1,3 @@
+Unfeeling, obedient servants of unflagging strength, there are few brutes as effective as an *Undead Giant,* particularly if armed with a weapon. Like standard zombies, giant versions attack a target until it is destroyed, dismembering humans, splintering doors, and so on. Raising such a behemoth requires a particularly taxing ritual, triggering a DDM effect and permanently draining the necromancer of 2 points of Con.
+
+**GIANT ZOMBIE** #1d2 **AC** 14 (armour) **HD** 10 **Axe** 3d6+2 **Nat 19** 1d3 nearby corpses animate to aid the *Giant Zombie* **S**21 **D**6 **C**22 **I**- **P**10 **W**- **Ch**- **L**12. *Undead. Giant Zombies* kill unconscious victims with their next action if the body is not recovered. **Reac** As creator's orders or 2-12 Hostile.

@@ -1,0 +1,3 @@
+Giant eagles have 20 ft wingspans and hunt in mountains, forests, and plains, generally preferring animal prey. In times of scarcity, or when feeding chicks, they sometimes hunt humans, making dives against lone explorers or small groups. They are instinctual enemies of the serpentmen.
+
+**GIANT EAGLE** #1d4 **AC** 13 **HD** 3+3 **Claws (2)** 1d6 **and Bite** 2d4 **Nat 19** Target *Grabbed* & carried away **S**16 **D**14 **C**14 **I**2 **P**15 **W**14 **Ch**7 **L**6, **Fly** Very Fast. Advantage on sight based Perception checks. If the target is surprised, attack with advantage and may carry away their victim (Str contest to resist, no action). **Reac** 2-4 Hostile 5-6 Hungry (especially for dogs, mules, or horses) 7-8 Reserved 9-10 Curious 11-12 Friendly.

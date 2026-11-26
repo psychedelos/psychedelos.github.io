@@ -1,0 +1,101 @@
+{
+ "patches": [],
+ "confirmed": [
+  {
+   "file": "7. Unique Features/7.2. Example Unique Features/Pilfer Pouch - d100 Table.md",
+   "note": "all 50 rows match p050 (both halves of the 4-column layout, 1-2 to 99-00); italics on Silvered, Cold iron, Carry Loot A match; d100 header from the ability text ('roll d100'), no title bar printed"
+  },
+  {
+   "file": "9. Equipment/9.3.1. Common Gear.md",
+   "note": "all 36 rows match p058; print duplicates '44' (Pickaxe, Pole, 10 ft) and has no 45 -- kept as printed; d66 header inferred (not printed)"
+  },
+  {
+   "file": "9. Equipment/9.15.1. Masterforged Weapon.md",
+   "note": "all 7 rows match p064 (1-2, 3-8); bold names and italics (Reroll, Dragon, Bulette) match; d8 inferred"
+  },
+  {
+   "file": "9. Equipment/9.15.2. Masterforged Armour.md",
+   "note": "all 6 rows match p064; bold names and italics match; d6 inferred"
+  },
+  {
+   "file": "11. Encounters/11.1.1. Reaction.md",
+   "note": "all 5 rows match p068 (2-3, 4-5, 6-8, 9-10, 11-12); 2d6 from prose 'roll 2d6'"
+  },
+  {
+   "file": "11. Encounters/11.2.1. Activity.md",
+   "note": "all 6 rows match p068; column titles STATUS / INTELLIGENT CREATURE / OTHER CREATURES as printed; icons (dagger, group of people, drumstick, shovel, footprint, campfire) correctly described; d6 inferred from prose 'Activity Die ... d6'"
+  },
+  {
+   "file": "12. Combat/12.5.1. Chase Events.md",
+   "note": "all 20 rows match p075-076 incl. row 5 sub-entries i.-vi. and all bold/bold-italic runs; d20 from p074 prose ('rolls 1d20 on the Chase Event')"
+  },
+  {
+   "file": "13. Injury & Death/13.1.1. Injuries & Setbacks.md",
+   "note": "all 18 rows (1-3, 4-20) match p085-086; '4-5' range rejoin in row 17 correct; d20 from prose '1d20 roll'"
+  },
+  {
+   "file": "13. Injury & Death/13.2.1. Blade Trauma.md",
+   "note": "all 12 rows match p086-087"
+  },
+  {
+   "file": "13. Injury & Death/13.2.2. Blast Trauma.md",
+   "note": "all 11 rows (1-2, 3-12) match p087; d12 header (prose says rolls vary 1d6 to 1d12; entries run to 12)"
+  },
+  {
+   "file": "13. Injury & Death/13.2.3. Blunt Trauma.md",
+   "note": "all 12 rows match p087-088 (rows 1-4 on p087, 5-12 on p088)"
+  },
+  {
+   "file": "13. Injury & Death/13.2.4. Missile Trauma.md",
+   "note": "all 12 rows match p088-089 (rows 1-9 on p088, 10-12 on p089)"
+  },
+  {
+   "file": "13. Injury & Death/13.2.5. Toxin Trauma.md",
+   "note": "all 12 rows match p089; '1d6 x 10' plain x correct"
+  }
+ ],
+ "rows_checked": {
+  "7. Unique Features/7.2. Example Unique Features/Pilfer Pouch - d100 Table.md": 50,
+  "9. Equipment/9.3.1. Common Gear.md": 36,
+  "9. Equipment/9.15.1. Masterforged Weapon.md": 7,
+  "9. Equipment/9.15.2. Masterforged Armour.md": 6,
+  "11. Encounters/11.1.1. Reaction.md": 5,
+  "11. Encounters/11.2.1. Activity.md": 6,
+  "12. Combat/12.5.1. Chase Events.md": 20,
+  "13. Injury & Death/13.1.1. Injuries & Setbacks.md": 18,
+  "13. Injury & Death/13.2.1. Blade Trauma.md": 12,
+  "13. Injury & Death/13.2.2. Blast Trauma.md": 11,
+  "13. Injury & Death/13.2.3. Blunt Trauma.md": 12,
+  "13. Injury & Death/13.2.4. Missile Trauma.md": 12,
+  "13. Injury & Death/13.2.5. Toxin Trauma.md": 12
+ },
+ "source_typos": [
+  {
+   "file": "9. Equipment/9.3.1. Common Gear.md",
+   "quote": "| 44 | Pickaxe |  /  | 44 | Pole, 10 ft |",
+   "page": "p058 (die 44 printed twice, 45 missing)"
+  },
+  {
+   "file": "12. Combat/12.5.1. Chase Events.md",
+   "quote": "check to notice to loss",
+   "page": "p075 row 5 i. (for 'notice the loss')"
+  },
+  {
+   "file": "12. Combat/12.5.1. Chase Events.md",
+   "quote": "split themselves.This may require",
+   "page": "p076 row 15 (missing space after period)"
+  },
+  {
+   "file": "13. Injury & Death/13.2.3. Blunt Trauma.md",
+   "quote": "3d6 days of rest mends the injury |",
+   "page": "p088 row 6 (no closing period)"
+  },
+  {
+   "file": "13. Injury & Death/13.1.1. Injuries & Setbacks.md",
+   "quote": "Roll 1d6: 1-3 hand, 4-5: below elbow",
+   "page": "p086 row 18 (no colon after 1-3, unlike 4-5:; same pattern in Blade/Blast/Blunt/Missile arm rows)"
+  }
+ ],
+ "questions": [],
+ "notes": "T02: 13 notes, 207 rows compared cell by cell against full-resolution page crops (p050, 058, 064, 068, 075-076, 085-089) and word+emphasis checked programmatically against fm pNNN.md. No discrepancies found; no patches needed. All automated table_check flags were layout noise (multi-line cells beside vertically centred die numbers, interleaved columns). The fidelity 'insert' flags are the next table's prose/rows on the same page, correctly kept out of these notes. Die headers inferred where not printed: Common Gear d66, Masterforged Weapon d8, Masterforged Armour d6, Activity d6, Blast Trauma d12. No typographic punctuation; no prose outside tables in any note."
+}

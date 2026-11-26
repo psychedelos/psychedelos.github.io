@@ -1,0 +1,3 @@
+*Giant Wasps* have 18 ft wingspans and tough, carapace hides not dissimilar to heavy armour. Their buzzing can be heard from afar, warning of the wasp's approach. *Giant Wasps* are aggressive hunters that seek to incapacitate their prey with poison before eating or implanting them with eggs.
+
+**GIANT WASP** #2d4 **AC** 14 **HD** 5 **Sting** 2d6 + Poison: *Luck* (Con) save or paralysed (*Helpless*) for 1d4 hours **Nat 19** Strong dose: Disad on Poison save and if failed, random limb paralysed for 1d4 days **S**14 **D**14 **C**9 **I**2 **P**13 **W**13 **Ch**6 **L**8, **Fly** Fast. **Reac** 2-7 Aggressive 8-9 Probing 10-12 Distracted.

@@ -1,0 +1,3 @@
+*Lake Wyrms* are 18 ft marine reptiles that dwell in deep lakes, rivers, and oceans. Their diet typically consists of dolphins, sharks, and other large marine mammals, but they will gladly tear apart ships to feast on men if given the chance. They prefer underwater environs but can survive on land for up to an hour, slithering and dragging themselves about on their foreclaws.
+
+**LAKE WYRM (HEAVY)** #1 **AC** 16 **HD** 10 **Bite** 2d10+1 **Nat 19-20** *Blade Trauma* (1d10+2) **S**19 **D**16 **C**18 **I**3 **P**13 **W**13 **Ch**6 **L**12, **Swim** Fast. **Heavy Traits. Steam Breath** Far range, targets in a Close area suffer 10d6 damage (*Luck* (Dex) save for half), **recharge** when *Wounded*. **Reac** 2-4 Violent 5-7 Starving 8-9 Indifferent 10-12 Attracted.

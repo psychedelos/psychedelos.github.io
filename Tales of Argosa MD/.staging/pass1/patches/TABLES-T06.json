@@ -1,0 +1,101 @@
+{
+ "patches": [],
+ "confirmed": [
+  {
+   "file": "17. GM Tools/17.4.1. Fortune Die Examples.md",
+   "note": "all 8 rows match p137 (two-column table re-ordered 1-8 correctly); bold caption 'Use the opposite for Misfortunes' is printed in the title bar and correctly kept; d8 header inferred (not printed)"
+  },
+  {
+   "file": "17. GM Tools/17.4.2. Weather Shift.md",
+   "note": "all 12 rows match p138 (group file lists p137, but the table is on p138); d12 header from the prose '1d12'"
+  },
+  {
+   "file": "17. GM Tools/17.4.3. Exploring.md",
+   "note": "all 20 rows match p138 (two-column layout re-ordered correctly); 'Random Encounter' cells are plain in print; d20 from prose 'roll 1d20'"
+  },
+  {
+   "file": "17. GM Tools/17.4.4. Travel Events.md",
+   "note": "all 20 rows x 3 columns match p138-140 word for word and emphasis for emphasis; rows printed as one full-width cell (2-5, 7-9, 11-12, 14-17, 19) are repeated in each column, and row 6 (Overwhelming Numbers spans Overland+Underground) and row 20 (Perfect Campsite spans Overland+Underground) are repeated correctly in the columns they span; literal asterisks escaped; d20 header inferred"
+  },
+  {
+   "file": "17. GM Tools/17.4.5. Back to Base.md",
+   "note": "all 9 rows (2, 3-4, 5-10, 11-12) match p141; 2d6 from prose 'roll 2d6'"
+  },
+  {
+   "file": "17. GM Tools/17.5.1. Aerial.md",
+   "note": "all 20 rows match p142"
+  },
+  {
+   "file": "17. GM Tools/17.5.2. City, Town, Village.md",
+   "note": "all 50 rows (1-2 ... 99-00) match p143-145 including italics on names and quoted speech; 'Thief! Thief!' correctly de-glitched from the text layer's 'Thief ! Thief !'; d100 header inferred from the ranges"
+  },
+  {
+   "file": "17. GM Tools/17.5.3. Deserts.md",
+   "note": "all 20 rows match p145-146; 'non-poisonous' (line-end hyphen in a real compound) and '11-12' (numeric range split over a line) correctly kept"
+  },
+  {
+   "file": "17. GM Tools/17.5.4. Jungles.md",
+   "note": "all 20 rows match p147"
+  }
+ ],
+ "rows_checked": {
+  "17. GM Tools/17.4.1. Fortune Die Examples.md": 8,
+  "17. GM Tools/17.4.2. Weather Shift.md": 12,
+  "17. GM Tools/17.4.3. Exploring.md": 20,
+  "17. GM Tools/17.4.4. Travel Events.md": 20,
+  "17. GM Tools/17.4.5. Back to Base.md": 9,
+  "17. GM Tools/17.5.1. Aerial.md": 20,
+  "17. GM Tools/17.5.2. City, Town, Village.md": 50,
+  "17. GM Tools/17.5.3. Deserts.md": 20,
+  "17. GM Tools/17.5.4. Jungles.md": 20
+ },
+ "source_typos": [
+  {
+   "file": "17. GM Tools/17.5.4. Jungles.md",
+   "quote": "A 15 ft stone statute,in the likeness of a serpentman",
+   "page": 147
+  },
+  {
+   "file": "17. GM Tools/17.5.3. Deserts.md",
+   "quote": "unearthed a humanoid statute with a beetle like head",
+   "page": 146
+  },
+  {
+   "file": "17. GM Tools/17.5.3. Deserts.md",
+   "quote": "They are guardians of a scared site",
+   "page": 146
+  },
+  {
+   "file": "17. GM Tools/17.5.2. City, Town, Village.md",
+   "quote": "staggers in a cluttered ally and collapses",
+   "page": 145
+  },
+  {
+   "file": "17. GM Tools/17.5.2. City, Town, Village.md",
+   "quote": "etc for discrete clientele",
+   "page": 144
+  },
+  {
+   "file": "17. GM Tools/17.5.2. City, Town, Village.md",
+   "quote": "a mix of guardsman and hunched, cowled figures",
+   "page": 144
+  },
+  {
+   "file": "17. GM Tools/17.5.1. Aerial.md",
+   "quote": "signalling an intention to parlay",
+   "page": 142
+  },
+  {
+   "file": "17. GM Tools/17.5.1. Aerial.md",
+   "quote": "A once a millennia full solar or lunar eclipse",
+   "page": 142
+  },
+  {
+   "file": "17. GM Tools/17.4.4. Travel Events.md",
+   "quote": "ill fated prophesy",
+   "page": 139
+  }
+ ],
+ "questions": [],
+ "notes": "T06: 179 rows compared against the 200 DPI page images plus a word-by-word and emphasis-by-emphasis machine comparison with fm/toa/p137-147.md (cells segmented by printed die markers). No discrepancies found, so no patches. All automated table_check/fidelity flags in tri/T06.json were layout noise (vertically centred die numbers, two-column halves, interleaved reading order). Minor observations, no change proposed: (1) Travel Events row 20, Overland/Underground cell: the word 'or' in 'one *Reroll*, or one point of *Luck*' is underlined in print (likely a link/underline style); Markdown has no underline, so left plain. (2) Weather Shift is on p138, not p137 as the group file says. (3) Die headers d8 (Fortune Die Examples), d20 (Travel Events) and d100 (City, Town, Village) are not printed in a title bar and were inferred; d12, d20 (Exploring), 2d6 come from the adjacent prose."
+}

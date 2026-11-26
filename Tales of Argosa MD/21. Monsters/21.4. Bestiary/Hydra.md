@@ -1,0 +1,3 @@
+The *Hydra* is a 30 ft long reptilian quadruped with nine serpentine heads that grow back if severed. They commonly lair in large caves, forest burrows, and swamplands. They are notoriously vicious, often toying with their prey before devouring them.
+
+**HYDRA** #1 **AC** 15 **HD** 13 **Bite (9)** 1d8+1 **Nat 19-20** Random limb torn off, *Luck* (Dex) save negates **S**22 **D**8 **C**20 **I**3 **P**14 **W**15 **Ch**3 **L**13. **Regen** (1d8, silver, fire). **Off Turn Attacks.** Severed heads by virtue of Major Exploits or similar grow back in one round unless the stump is sealed with fire, lightning, or acid. **Reac** 2-6 Destructive 7-9 Hungry 10-12 Annoyed.

@@ -1,0 +1,3 @@
+A rat swarm consists of hundreds of desperate, starving vermin. *[[21.3. Special Traits_#Swarms|Swarm]]* rules apply. Could also cover **Bat Swarms** (add Echolocation, Flying).
+
+**RAT SWARM** #1 **AC** 11 **HD** 2 **Bites** 1d6 + disease **Nat 19** Overwhelmed! *Luck* (Str/Dex) save or *[[12.11. Conditions_#Helpless|Helpless]]* for 1d3 rounds **S**3 **D**15 **C**4 **I**2 **P**10 **W**7 **Ch**4 **L**5. **[[21.3. Special Traits_#Swarms|Swarm]]**. Threatening the rats with fire may keep them at bay for a short time (Will check resists). After combat, anyone injured must make a *Luck* (Con) save or suffer a disease. **Reac** 2-3 Starving Rat Swarm! 4-5 Hostile 6-8 Threatening 9-10 Wary 11-12 Fearful.

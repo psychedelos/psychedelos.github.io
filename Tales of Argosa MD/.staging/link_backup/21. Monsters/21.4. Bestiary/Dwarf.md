@@ -1,0 +1,3 @@
+Dwarves have the qualities noted under the Races description. Culturally speaking, dwarves highly value honour, loyalty, and expert craftsmanship, and are renowned builders and miners. A dwarf puts his clan name before his own. Dwarves have a racial lust for gold, silver, and gems that most cannot resist.
+
+**DWARF** #4d6 **AC** 15 (plate) **HD** 1 **Hammer** 1d8 **Nat 19** *Blunt Trauma* (1d10+2) **S**11 **D**10 **C**14 **I**10 **P**10 **W**10 **Ch**8 **L**4. Advantage vs poison or magic, 50% chance sniff out gold, silver or gems, gold lust. **Reac** 2-3 Hostile 4-5 Cautious 6-7 Gruff 8-10 Inquisitive 11-12 Friendly.

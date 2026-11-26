@@ -1,0 +1,3 @@
+The *Giant Scorpion* is a 10 ft monstrosity straight out of an adventurer's worst nightmare: a skittering predator with an iron like carapace, limb snapping claws, and a barbed stinger loaded with deadly venom (the poison below is just an example, roll on the Poison table p.226 if preferred).
+
+**GIANT SCORPION** #1d6 **AC** 15 **HD** 6 **Claws (2)** 1d8 **and Stinger** 1d4 + Poison: 1d6 Con loss, *Luck* (Con) save for half **Nat 19** Claw Crush: 2d6 on victim's turn unless Str contest to break free (action) **S**19 **D**13 **C**15 **I**1 **P**10 **W**14 **Ch**3 **L**8. **Reac** 2-5 Destructive 6-8 Hungry 9-10 Guarded 11-12 Uncaring.

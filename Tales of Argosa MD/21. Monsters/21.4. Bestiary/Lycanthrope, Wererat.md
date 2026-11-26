@@ -1,0 +1,3 @@
+*Wererats* are often found in cities, lurking in sewers or abandoned alleyways. They are expert sneaks and may exert control over nearby vermin, including their *Giant* and *[[Dire Animal|Dire]]* cousins.
+
+**WERERAT** #1 **AC** 12 **HD** 3 **Bite** 2d4 **Nat 19** A *[[Rat, Giant|Giant Rat]]* comes to the lycan's aid (if possible) **S**14 **D**18 **C**10 **I**13 **P**14 **W**10 **Ch**8 **L**6, **Climb** Norm. Shift form (action). **Regen** (all damage, silver, fire). After combat, anyone injured must make a *Luck* (Con) save or suffer *[[21.3. Special Traits_#Lycanthropes|Lycanthropy]].* **Reac** 2-3 Hostile 4-5 Unfriendly 6-8 Heedful 9-10 Covetous 11-12 Curious.

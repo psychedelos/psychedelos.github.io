@@ -1,0 +1,1 @@
+You gain a limited version of the Cultist's *Blessings.* Choose a god, gain its tenets (not Patron Benefits), and learn two blessings (one random, one chosen). You begin an adventure with two uses of this ability.

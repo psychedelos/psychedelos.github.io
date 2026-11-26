@@ -6,8 +6,8 @@ Source for the page at `/argosa/` (dice roller, Consult the Bones, Read the Sign
 - `templates/page.html` -- the page shell: Dice, Bones and Signs tabs
 - `templates/tables_part.html` -- the Tables tab: roller, chained rolls, generators, character sheet
 - `tools/build_tables.py` -- turns the roll-table notes into the page's table data
-- `tables/` -- the 133 roll-table notes from the "Tales of Argosa MD" Obsidian vault (verified row by row against the book)
-- `table_pages.json` -- which book pages each table sits on (for page-reference links)
+- `table_pages.json` -- the 133 roll-table notes in `../Tales of Argosa MD/` the roller uses, and the book pages each sits on
+- `../Tales of Argosa MD/` -- the full Obsidian vault (the source of the table data; see its `_License.md`)
 - `cards/` -- the 50 Deck of Signs card faces
 - `build/` -- output (not committed)
 
