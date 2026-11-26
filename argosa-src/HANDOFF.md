@@ -22,7 +22,7 @@ Max's running notes for Claude. When a conversation resets, read this file, `REA
 - By the book. Character creation order: roll 3d6 x7, background bonus (cap 16), step 3 (raise one attribute to 15 / a second to 13, or swap) happens before choosing a class; class minimums (Artificer Int 15, Barbarian Con 13) are by the book; humans +1 to class key attribute.
 - Race: rolled d12 by default; a "Humans only" toggle (remembered on the device) rolls a new human. By the book (Races, p.13) humans get +1 attribute and +1 Reroll only when other races are allowed, so humans-only characters don't get them.
 - Age: humans can toggle Average (1d20+16) / Old (1d10+60); both ages are rolled at creation. Old = -1 Str & Con, +1 Int & Will (max 16), one extra use of the 1st level class ability per adventure. Old is its own layer on top of the attributes (`oldMod`), applied after the class steps (step 15), so class minimums, the 13/15 rule and swaps use the pre-age scores (`baseA`).
-- Race traits (Races, p.13) are listed in the builder and written under Skills & Abilities on the sheet (overflow goes to the notes); numeric ones are applied (halfling +1 Luck/AC, human perks, half-skorn +2 Death saves shown as "(+2)").
+- Race traits (Races, p.13) are listed in the builder and written under Skills & Abilities on the sheet (overflow goes to the notes); numeric ones are applied (halfling +1 Luck/AC, human perks, half-skorn +2 Death saves shown as "(+2)" in the builder and "11+2" in the sheet's narrow Death box).
 - Halfling weapons (Max's calls, 2026-11-26): large weapons are replaced -- Great Axe -> Battle Axe (1d8), Longbow -> Shortbow (1d6), also Great Sword -> Longsword, Great Hammer -> Heavy Hammer, Polearm -> Spear. "+1 dmg two handed" weapons are mid-size: two hands for a halfling, no +1 (shown in gear and the weapon row). A halfling Fighter keeps Longsword/Spear and shield, but AC is shown without the shield, with a note that it counts only with a small one-handed weapon.
 - Changing class keeps everything except what the class decides. Manual changes ("Your changes") are listed separately from "Automatic adjustments".
 - Vault text: plain keyboard punctuation (' " ... -- - x).
@@ -42,6 +42,8 @@ Max's running notes for Claude. When a conversation resets, read this file, `REA
 `Tales of Argosa MD/` -- full-book Obsidian vault (562 notes), with `_suggested_edits.md` (Max ticks those, never Claude), `_verification_log.md`, `_Transcription Progress.md`, snapshots in `.snapshots/`.
 
 ## Open items
+
+- Open ruling: halfling spear/staff. The book (Races, p.13) bans large weapons (great swords, polearms, longbows) and makes "longswords or similar moderately sized weapons" two-handed; it never sizes spear or staff. Currently they count as mid-size (two hands, no +1). Max leans toward letting halflings use them normally (and a halfling Fighter taking Spear + shield) -- waiting on his decision.
 
 - Max is giving character-generation questions and suggestions one at a time; the sheet export was the first. Ask for the next.
 - Not yet confirmed on device: safe-area padding on iPhone; the Save -> share sheet flow; the font fix above.

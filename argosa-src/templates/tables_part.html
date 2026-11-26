@@ -945,7 +945,7 @@ function sheetData(c, kind) {
   const gi = GSTF(D.init); f.Text44 = String(D.init); f.Text45 = sgn(modOf(D.init)); f.Text46 = String(gi[0]); f.Text47 = String(gi[1]);
   f.Text48 = String(D.ac); f.Text49 = String(D.hp);
   f.Text51 = String(D.luck); f.Text52 = String(D.luck); f.Text53 = String(D.rerolls); f.Text54 = String(D.rerolls);
-  f.Text55 = String(D.death); f.Text56 = '1';
+  f.Text55 = D.death + (c.race === 'Half-Skorn' ? '+2' : ''); f.Text56 = '1';   // Death: roll-under; the half-skorn +2 doesn't stack with healing magic
   // gear: weapons and shield are battle gear, armour is worn, the rest goes in the pack
   const G = gearOf(c), items = G.gear.concat([c.bg.item + ' (background)']);
   const weapons = [], battle = [], worn = [], pack = [];
