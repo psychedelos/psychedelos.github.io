@@ -23,7 +23,7 @@
 
   /* sheet */
   .sheet { position:fixed; inset:0; background:var(--bg); z-index:20; overflow-y:auto; display:none;
-    padding: calc(env(safe-area-inset-top, 0px) + 12px) max(14px, env(safe-area-inset-right)) calc(env(safe-area-inset-bottom, 0px) + 40px) max(14px, env(safe-area-inset-left)); }
+    padding: calc(env(safe-area-inset-top, 0px) + 12px) calc(env(safe-area-inset-right, 0px) + 14px) calc(env(safe-area-inset-bottom, 0px) + 40px) calc(env(safe-area-inset-left, 0px) + 14px); }
   .sheet.open { display:block; }
   .shead { position:sticky; top:calc(-12px - env(safe-area-inset-top, 0px)); padding-top:calc(env(safe-area-inset-top, 0px) + 12px) !important; margin-top:calc(-12px - env(safe-area-inset-top, 0px)) !important; background:var(--bg); display:flex; align-items:center; gap:10px; padding:6px 0 10px;
     border-bottom:1px solid var(--line); z-index:2; max-width:760px; margin:0 auto; }
