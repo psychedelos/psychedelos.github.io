@@ -941,13 +941,45 @@ function applyClass(c, cls) {
   }
   return c;
 }
+// Race traits (Races, p.13), short enough for one sheet line each
+const RACE_TRAITS = {
+  Dwarf: ['Adv. to resist poison and magic', 'Positive magic: half the usual benefit', 'Perc check: sniff out coins or a gem (Close)', 'Gold lust, pride (GM may call a Will check)', 'Night vision (still blind without light)'],
+  Elf: ['Adv. on Dex checks, defensive Luck (Dex) saves', 'Disad. on Con checks and Luck (Con) saves', 'No sleep: 6 hr trance as Look Out (-3 Perc)', 'Nature, aloofness (GM may call a Will check)', 'Night vision (still blind without light)'],
+  Halfling: ['Adv. on stealth; disad. on Str checks (not melee)', '+1 Luck and AC (AC lost in Heavy armour)', 'PC allies in sight or hearing: +1 Luck (no stack)', 'No large weapons; mid-size need 2 hands, no +1', 'Lifestyle x2; curious, indulgent (GM: Will check)'],
+  'Half-Skorn': ['Adv. on Str tests (not melee), vs disease, parasites', 'Disad. on Int checks (not spells or Initiative)', '+2 on Death saves (no stack with other bonuses)', 'Dominance, fearlessness (GM may call Will)', 'Night vision (still blind without light)']
+};
+// Halflings can't wield large weapons; the nearest weapon they can use replaces it (Max's call -- the book doesn't say)
+const HALFLING_SWAP = [[/great ?axe/i, 'Battle Axe (1d8)'], [/great ?sword/i, 'Longsword (1d8)'], [/great ?hammer/i, 'Heavy Hammer (1d8)'],
+  [/polearm|halberd/i, 'Spear (1d6+1)'], [/long ?bow/i, 'Shortbow (1d6)']];
+// longswords and similar (the "+1 damage two handed" weapons) need two hands for a halfling, without the +1
+const midSize = k => !!k && /\+1 dmg two handed/.test(WEAPONS[k][3]);
+const largeW = k => !!k && /^(Great |Polearm|Bow, Long)/.test(k);
+function gearOf(c) {
+  const C = CLASSES[c.cls], gear = [], notes = [];
+  for (const g of C.gear) {
+    if (c.race !== 'Halfling') { gear.push(g); continue; }
+    gear.push(g.split(/ or /i).map(part => {
+      for (const [re, rep] of HALFLING_SWAP) if (re.test(part)) {
+        notes.push('Halfling: ' + part.replace(/\s*\(.*?\)/, '') + ' is too large (Races, p.13) -- ' + rep + ' instead.'); return rep; }
+      return part;
+    }).join(' or '));
+  }
+  // a shield needs a free hand: if every class weapon takes both hands, it only counts with a small one-handed weapon
+  const weps = gear.flatMap(g => g.split(/ or /i)).map(weaponOf).filter(Boolean);
+  const shieldOff = c.race === 'Halfling' && !!C.shield && weps.length > 0 && weps.every(k => midSize(k) || largeW(k) || /two handed/i.test(WEAPONS[k][3]));
+  const wnames = gear.flatMap(g => g.split(/ or /i)).filter(weaponOf).map(p => p.replace(/\s*\(.*?\)/, ''));
+  if (shieldOff) notes.push('Halfling: ' + wnames.join(' and ') + (wnames.length > 1 ? ' take' : ' takes') +
+    ' both hands, so the shield only counts with a small one-handed weapon (dagger, shortsword...). AC is shown without it.');
+  return { gear, notes, shieldOff };
+}
+const halfNote = (c, k) => c.race === 'Halfling' && midSize(k) ? 'two hands (halfling), no +1' : '';
 function derived(c) {
   const C = CLASSES[c.cls], cur = a => curA(c, a), M = a => modOf(cur(a));
   return {
     luck: 11 + (c.race === 'Halfling' ? 1 : 0), rerolls: humanPerks(c) ? 2 : 1,
     init: Math.floor((cur('Dex') + cur('Int')) / 2), hp: cur('Con') + c.level * C.hp,
     death: Math.max(10, 10 + Math.max(M('Con'), M('Will'))),
-    ac: 10 + C.armour + C.shield + M('Dex') + (c.race === 'Halfling' ? 1 : 0),
+    ac: 10 + C.armour + (gearOf(c).shieldOff ? 0 : C.shield) + M('Dex') + (c.race === 'Halfling' ? 1 : 0),
     melee: C.ab + (c.cls === 'Monk' ? Math.max(M('Str'), M('Dex')) : M('Str')), ranged: C.ab + M('Perc'),
     battle: Math.max(5, Math.floor(cur('Str') / 2)), pack: Math.max(5, Math.ceil(cur('Str') / 2)), lang: M('Int')
   };
@@ -958,7 +990,7 @@ function charHtml() {
   const init = Math.floor((cur('Dex') + cur('Int')) / 2);
   const hp = cur('Con') + c.level * C.hp;
   const death = Math.max(10, 10 + Math.max(M('Con'), M('Will')));
-  const ac = 10 + C.armour + C.shield + M('Dex') + (c.race === 'Halfling' ? 1 : 0);
+  const G = gearOf(c), ac = 10 + C.armour + (G.shieldOff ? 0 : C.shield) + M('Dex') + (c.race === 'Halfling' ? 1 : 0);
   const melee = C.ab + (c.cls === 'Monk' ? Math.max(M('Str'), M('Dex')) : M('Str')), ranged = C.ab + M('Perc');
   const battle = Math.max(5, Math.floor(cur('Str') / 2)), pack = Math.max(5, Math.ceil(cur('Str') / 2));
   const lang = M('Int');
@@ -982,7 +1014,7 @@ function charHtml() {
     ['Death save', death + (c.race === 'Half-Skorn' ? ' (+2)' : '')], ['Melee AB', sgn(melee)], ['Ranged AB', sgn(ranged)],
     ['Battle slots', battle], ['Pack slots', pack], ['Languages', lang <= -2 ? 'illiterate' : sgn(Math.max(0, lang))]
   ].map(([k, v]) => '<div class="dstat"><small>' + k + '</small><span>' + v + '</span></div>').join('') + '</div>';
-  h += '<div class="cnote">HP = Con + ' + (C.hp === 1 ? 'Level' : 'Level x' + C.hp) + '. AC = 10 + armour ' + C.armour + (C.shield ? ' + shield 1' : '') + ' + Dex mod' + (c.race === 'Halfling' ? ' + 1 halfling (lost in Heavy armour)' : '') +
+  h += '<div class="cnote">HP = Con + ' + (C.hp === 1 ? 'Level' : 'Level x' + C.hp) + '. AC = 10 + armour ' + C.armour + (C.shield && !G.shieldOff ? ' + shield 1' : '') + ' + Dex mod' + (c.race === 'Halfling' ? ' + 1 halfling (lost in Heavy armour)' : '') + (G.shieldOff ? ' (shield not counted: both hands on the weapon)' : '') +
     '. Attack bonus = class ' + sgn(C.ab) + ' + Str mod (melee' + (c.cls === 'Monk' ? ', or Dex for a Monk' : '') + ') / Perc mod (ranged). Death save = 10 + the higher of Con or Will mod (min 10).</div>';
   h += '<div class="chead"><span>Skills</span></div><ul class="clist">' + c.skills.map(s => '<li>' + esc(s) + '</li>').join('') + '</ul>';
   h += '<div class="chead"><span>Class abilities</span></div>';
@@ -991,7 +1023,8 @@ function charHtml() {
     h += '<div class="cnote">' + esc(c.abilNote) + ', rolled on ' + esc(C.abil.table) + ':</div>' +
       c.abil.map(a => '<details class="ab"><summary>' + esc(a.name) + ' <span class="hint">(' + a.v + ')</span></summary><div class="cell">' + a.r.c.join('<br>') + '</div></details>').join('');
   }
-  h += '<div class="chead"><span>Gear</span></div><ul class="clist">' + C.gear.map(g => '<li>' + esc(g) + '</li>').join('') +
+  if (RACE_TRAITS[c.race]) h += '<div class="chead"><span>' + esc(c.race) + ' traits</span></div><ul class="clist">' + RACE_TRAITS[c.race].map(t => '<li>' + esc(t) + '</li>').join('') + '</ul>';
+  h += '<div class="chead"><span>Gear</span></div><ul class="clist">' + G.gear.map(g => { const n = halfNote(c, weaponOf(g.split(/ or /i)[0])); return '<li>' + esc(g) + (n ? ' <span class="hint">-- ' + n + '</span>' : '') + '</li>'; }).join('') +
     '<li>' + esc(c.bg.item) + ' (background)</li><li>Torch, bedroll, rations (5 days), tinderbox</li><li>10 sp</li></ul>';
   h += '<div class="chead"><span>Character</span></div><ul class="clist"><li><b>Personality:</b> ' + esc(c.personality) + '</li><li><b>Trait:</b> ' + c.trait.c.join(' ') + '</li></ul>';
   h += '<div class="chead"><span>Party Bond</span></div><div class="rcard"><div class="rhead"><span>Party Bonds &middot; ' + esc(c.bond.label) + '</span><span class="rv">' + c.bond.r.k + '</span></div>' + rowHtml(T('Party Bonds'), c.bond.r) + '</div>';
@@ -1000,7 +1033,7 @@ function charHtml() {
       : m.type === 'swap' ? 'Swapped ' + m.a + ' and ' + m.b + ' (' + m.a + ' ' + m.va + ' \u2194 ' + m.b + ' ' + m.vb + ')'
       : m.type === 'age' ? 'Age: ' + (m.old ? 'Average \u2192 Old' : 'Old \u2192 Average')
       : 'Class changed: ' + m.from + ' \u2192 ' + m.to) + '</li>').join('') + '</ul>';
-  const an = c.notes.concat(ageNotes(c));
+  const an = c.notes.concat(G.notes, ageNotes(c));
   if (an.length) h += '<div class="chead"><span>Automatic adjustments</span></div><ul class="clist">' + an.map(n => '<li class="cnote">' + esc(n) + '</li>').join('') + '</ul>';
   h += '<div class="cnote">Choose bonus languages equal to your Int mod. Racial traits: Races, p.13.</div>';
   h += '<details class="full"><summary>Backgrounds table (36 rows)</summary>' + fullTable(T('Backgrounds'), false) + '</details>';
@@ -1103,7 +1136,7 @@ function sheetData(c, kind) {
   f.Text51 = String(D.luck); f.Text52 = String(D.luck); f.Text53 = String(D.rerolls); f.Text54 = String(D.rerolls);
   f.Text55 = String(D.death); f.Text56 = '1';
   // gear: weapons and shield are battle gear, armour is worn, the rest goes in the pack
-  const items = C.gear.flatMap(g => g.split(/ or /i).length > 1 && weaponOf(g) ? [g] : [g]).concat([c.bg.item + ' (background)']);
+  const G = gearOf(c), items = G.gear.concat([c.bg.item + ' (background)']);
   const weapons = [], battle = [], worn = [], pack = [];
   for (const it of items) {
     const w = weaponOf(it.split(' or ')[0]);
@@ -1117,11 +1150,15 @@ function sheetData(c, kind) {
   weapons.slice(0, 5).forEach(([label, k], i) => {
     const W = WEAPONS[k], r = wr[i], hit = W[4] ? D.ranged : D.melee;
     f['Text' + r[0]] = label; f['Text' + r[1]] = W[1]; f['Text' + r[2]] = sgn(hit); f['Text' + r[3]] = W[0];
-    f['Text' + r[4]] = W[2]; f['Text' + r[5]] = critOf(W[0], c.level); f['Text' + r[6]] = W[3];
+    f['Text' + r[4]] = W[2]; f['Text' + r[5]] = critOf(W[0], c.level);
+    f['Text' + r[6]] = halfNote(c, k) ? W[3].replace('+1 dmg two handed', 'Two hands (halfling), no +1') : W[3];
   });
   // skills & abilities
-  const sk = c.skills.slice().concat([''], C.fixed, c.abil.map(a => a.name + (C.abil.table === 'Spell List' ? ' (spell)' : '')));
+  let sk = c.skills.slice().concat([''], C.fixed, c.abil.map(a => a.name + (C.abil.table === 'Spell List' ? ' (spell)' : '')));
+  const rt = RACE_TRAITS[c.race] ? [c.race + ' traits:'].concat(RACE_TRAITS[c.race]) : [];
+  sk = sk.concat(sk.length + 1 + rt.length <= 17 ? [''] : [], rt);
   for (let i = 0; i < 17; i++) f['Text' + (92 + i)] = sk[i] || '';
+  const spill = sk.slice(17);   // race traits that don't fit go to the notes
   f.Text109 = String(D.battle); f.Text120 = String(D.pack);
   const bSlots = kind === 'classic' ? [110, 111, 112, 113, 114, 115, 116, 117, 118, 119] : [110, 111, 112, 113, 114];
   battle.forEach((it, i) => { if (bSlots[i]) f['Text' + bSlots[i]] = it; });
@@ -1129,7 +1166,7 @@ function sheetData(c, kind) {
   pack.forEach((it, i) => { if (pSlots[i]) f['Text' + pSlots[i]] = it; });
   worn.forEach((it, i) => { const sl = [134, 135, 136][i]; if (sl) f['Text' + sl] = it; });
   // notes: party bond in full, adjustments
-  const notes = ['Party bond: ' + bond].concat(c.manual.map(m => m.type === 'adj' ? 'Changed ' + m.a + ' ' + sgn(m.d) + ' (' + m.from + ' to ' + m.to + ')'
+  const notes = ['Party bond: ' + bond].concat(spill, G.notes, c.manual.map(m => m.type === 'adj' ? 'Changed ' + m.a + ' ' + sgn(m.d) + ' (' + m.from + ' to ' + m.to + ')'
       : m.type === 'swap' ? 'Swapped ' + m.a + ' and ' + m.b : m.type === 'age' ? 'Age set to ' + (m.old ? 'old' : 'average')
       : 'Class changed ' + m.from + ' to ' + m.to), c.notes, ageNotes(c));
   const nf = [140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150];
