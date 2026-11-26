@@ -1076,7 +1076,7 @@ function sheetData(c, kind) {
   const weapons = [], battle = [], worn = [], pack = [];
   for (const it of items) {
     const w = weaponOf(it.split(' or ')[0]);
-    if (w) { weapons.push([it.split(' or ')[0].replace(/\s*\(.*?\)/, ''), w]); battle.push(it); }
+    if (w) { weapons.push([it.split(' or ')[0].replace(/\s*\(.*?\)/, ''), w]); battle.push(it.split(' or ')[0]); }
     else if (/shield/i.test(it)) battle.push(it);
     else if (/armour|chain|leather|hide/i.test(it) && /AC/.test(it)) worn.push(it);
     else if (/quiver/i.test(it)) battle.push(it);
@@ -1107,18 +1107,28 @@ const EXP = { lib: null, pdf: {}, ready: {} };
 function loadScript(src) { return new Promise((ok, no) => { const s = document.createElement('script'); s.src = src; s.onload = ok; s.onerror = no; document.head.appendChild(s); }); }
 async function exportSheet(kind) {
   if (!window.PDFLib) { await loadScript('lib/pdf-lib.min.js'); await loadScript('lib/fontkit.umd.min.js'); }
-  const { PDFDocument, rgb } = window.PDFLib;
-  const [bytes, fontBytes] = await Promise.all([fetch('sheets/' + kind + '.pdf').then(r => { if (!r.ok) throw 0; return r.arrayBuffer(); }),
-    fetch('lib/patrick-hand.ttf').then(r => { if (!r.ok) throw 0; return r.arrayBuffer(); })]);
+  const { PDFDocument, PDFName, PDFDict, decodePDFRawStream } = window.PDFLib;
+  const bytes = await fetch('sheets/' + kind + '.pdf').then(r => { if (!r.ok) throw 0; return r.arrayBuffer(); });
   const doc = await PDFDocument.load(bytes);
   doc.registerFontkit(window.fontkit);
-  const font = await doc.embedFont(fontBytes, { subset: true });
+  // write with the sheet's own fonts (Segoe Print, Segoe Print Bold, Segoe Script Bold), taken from the form itself
+  const dr = doc.catalog.lookup(PDFName.of('AcroForm'), PDFDict).lookup(PDFName.of('DR'), PDFDict).lookup(PDFName.of('Font'), PDFDict);
+  const fonts = {};
+  const sheetFont = async key => {
+    if (fonts[key]) return fonts[key];
+    let fd; try { fd = dr.lookup(PDFName.of(key), PDFDict).lookup(PDFName.of('FontDescriptor'), PDFDict); } catch (e) { fd = null; }
+    if (!fd) return key === 'SegoePrint' ? null : sheetFont('SegoePrint');
+    return (fonts[key] = await doc.embedFont(decodePDFRawStream(fd.lookup(PDFName.of('FontFile2'))).decode(), { subset: true }));
+  };
   const form = doc.getForm();
   const { f, notes, nf } = sheetData(CH, kind);
-  const fit = (name, text, base, minSize) => {
+  const fit = async (name, text, minSize, force) => {
     let fld; try { fld = form.getTextField(name); } catch (e) { return ''; }
-    const w = fld.acroField.getWidgets()[0].getRectangle(), room = Math.abs(w.width) - 4;
-    let size = base || Math.max(6, Math.min(11, Math.abs(w.height) * 0.72)), t = text;
+    const wd = fld.acroField.getWidgets()[0], w = wd.getRectangle(), room = Math.abs(w.width) - 4;
+    const da = wd.getDefaultAppearance() || fld.acroField.getDefaultAppearance() || '/SegoePrint 0 Tf 0 g';
+    const m = da.match(/\/(\S+)\s+([\d.]+)\s+Tf/) || [null, 'SegoePrint', '0'];
+    const font = await sheetFont(m[1]), dsize = parseFloat(m[2]) || 0;
+    let size = force || dsize || Math.max(6, Math.min(11, Math.abs(w.height) * 0.65)), t = text;
     while (size > minSize && font.widthOfTextAtSize(t, size) > room) size -= 0.5;
     let rest = '';
     if (font.widthOfTextAtSize(t, size) > room) {     // still too long: break at a word, hand back the rest
@@ -1127,15 +1137,20 @@ async function exportSheet(kind) {
       t = head || t; rest = words.join(' ');
     }
     try { fld.disableRichFormatting(); } catch (e) {}
+    const sized = da.replace(/([\d.]+)(\s+Tf)/, (+size.toFixed(1)) + '$2');
+    wd.setDefaultAppearance(sized);   // the widget's own size wins over the field's when the text is drawn
     fld.setText(t); fld.setFontSize(size); fld.updateAppearances(font);
+    // put the sheet's own appearance string back, so editing on the phone keeps the same font and colour
+    const keep = dsize ? sized : da;
+    wd.setDefaultAppearance(keep); fld.acroField.setDefaultAppearance(keep);
     return rest;
   };
   for (const [name, v] of Object.entries(f)) {
     if (v === '') continue;
-    fit(name, v, 0, 6);
+    await fit(name, v, 6);
   }
   let ni = 0;
-  for (const n of notes) { let r = n; while (r && ni < nf.length) r = fit('Text' + nf[ni++], r, 9, 7); }
+  for (const n of notes) { let r = n; while (r && ni < nf.length) r = await fit('Text' + nf[ni++], r, 8, 8); }   // notes: one even size, wrapped line to line
   const out = await doc.save({ updateFieldAppearances: false });   // ours are already drawn; fields stay fillable
   const name = (CH.name || 'Character').replace(/[^\w' -]/g, '') + ' - ToA ' + (kind === 'classic' ? 'Classic' : 'Simple') + '.pdf';
   return new File([out], name, { type: 'application/pdf' });
