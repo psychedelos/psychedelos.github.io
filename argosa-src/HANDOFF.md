@@ -43,7 +43,7 @@ Max's running notes for Claude. When a conversation resets, read this file, `REA
 
 ## Open items
 
-- Open ruling: halfling spear/staff. The book (Races, p.13) bans large weapons (great swords, polearms, longbows) and makes "longswords or similar moderately sized weapons" two-handed; it never sizes spear or staff. Currently they count as mid-size (two hands, no +1). Max leans toward letting halflings use them normally (and a halfling Fighter taking Spear + shield) -- waiting on his decision.
+- Max wants RAW (2026-11-26). Halfling spear/staff: read as "longswords or similar moderately sized" (same "+1 dmg two handed" line as the longsword), so two hands, no +1; a halfling Fighter's shield only counts with a small one-handed weapon. Rapier/flail (1d8, one-handed, no +1) might also be "moderately sized" given the rule's "if applicable", but the book doesn't say and no class or background starts with them -- left as normal.
 
 - Max is giving character-generation questions and suggestions one at a time; the sheet export was the first. Ask for the next.
 - Not yet confirmed on device: safe-area padding on iPhone; the Save -> share sheet flow; the font fix above.
