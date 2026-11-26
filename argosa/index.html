@@ -295,6 +295,7 @@
   details.ab summary { cursor:pointer; }
   details.ab .cell { margin-top:6px; font-size:.92rem; }
   .cnote { color:var(--muted); font-size:.8rem; line-height:1.45; margin-top:6px; }
+  .chipbtn.ready { background:var(--accent); color:#1b140e; border-color:var(--accent); }
 </style>
 
 <section class="panel" id="p-tables" hidden>
@@ -926,6 +927,17 @@ function applyClass(c, cls) {
   }
   return c;
 }
+function derived(c) {
+  const C = CLASSES[c.cls], cur = a => curA(c, a), M = a => modOf(cur(a));
+  return {
+    luck: 11 + (c.race === 'Halfling' ? 1 : 0), rerolls: c.race === 'Human' ? 2 : 1,
+    init: Math.floor((cur('Dex') + cur('Int')) / 2), hp: cur('Con') + c.level * C.hp,
+    death: Math.max(10, 10 + Math.max(M('Con'), M('Will'))),
+    ac: 10 + C.armour + C.shield + M('Dex') + (c.race === 'Halfling' ? 1 : 0),
+    melee: C.ab + (c.cls === 'Monk' ? Math.max(M('Str'), M('Dex')) : M('Str')), ranged: C.ab + M('Perc'),
+    battle: Math.max(5, Math.floor(cur('Str') / 2)), pack: Math.max(5, Math.ceil(cur('Str') / 2)), lang: M('Int')
+  };
+}
 function charHtml() {
   const c = CH, C = CLASSES[c.cls], cur = a => curA(c, a), M = a => modOf(cur(a));
   const luck = 11 + (c.race === 'Halfling' ? 1 : 0), rerolls = c.race === 'Human' ? 2 : 1;
@@ -942,6 +954,7 @@ function charHtml() {
       return '<option value="' + k + '"' + (k === c.fixedCls ? ' selected' : '') + (ok ? '' : ' disabled') + '>' + k + (ok ? '' : ' (needs ' + C2.key + ' ' + C2.min + ')') + '</option>';
     }).join('') + '</select></div>';
   if (!eligible(c, c.cls)) h += '<div class="cnote" style="color:#e58a7a">' + esc(c.cls) + ' needs ' + C.key + ' ' + C.min + '+, and this character no longer qualifies.</div>';
+  h += '<div class="ctrls" id="cexport"><button class="chipbtn" data-sheet="classic">Export Classic sheet</button><button class="chipbtn" data-sheet="simple">Export Simple sheet</button></div><div class="cnote" id="cexportMsg"></div>';
   h += '<div class="cname">' + esc(c.name) + '</div><div class="cline"><b>' + esc(c.race) + '</b> (d12: ' + c.raceRoll + ') &middot; <b>' + esc(c.cls) +
     '</b> &middot; Level 1 &middot; Age <b>' + c.age + '</b></div>';
   h += '<div class="cline">Background (d66 ' + esc(c.bg.roll) + '): <b>' + esc(c.bg.name) + '</b> -- ' + esc(c.bg.bonus) + ', ' + esc(c.bg.skill) + ', ' + esc(c.bg.item) + '</div>';
@@ -1009,6 +1022,145 @@ $('sbody').addEventListener('change', e => {
   if (was !== CH.cls) CH.manual.push({ type: 'class', from: was, to: CH.cls });
   drawCharacter();
   logIt('Character', CH.name + ' is now a ' + CH.cls);
+});
+
+// ---------- character sheet export (fillable PDF, stays editable) ----------
+// Weapons (Weapons, p.57-58): name -> [damage, range, Nat 19, properties, ranged?]
+const WEAPONS = {
+  'Axe, Battle': ['1d8', '-', '1d8+4 Blade Trauma', '+1 dmg two handed', 0], 'Axe, Light': ['1d6', 'Close', '1d12 Blade Trauma', '', 0],
+  'Club': ['1d6', '-', '1d10 Blunt Trauma', '', 0], 'Dagger': ['1d4', 'Close', '1d10 Blade Trauma', '+2 Initiative. Easily concealed', 0],
+  'Flail': ['1d8', '-', '1d12 Blunt Trauma', 'Nat 19 alt: trip or disarm', 0], 'Great Axe': ['1d12', '-', '1d8+4 Blade Trauma', 'Two handed. -2 Initiative', 0],
+  'Great Sword': ['1d12', '-', '1d8+4 Blade Trauma', 'Two handed. -2 Initiative', 0], 'Great Hammer': ['1d12', '-', '1d8+4 Blunt Trauma', 'Two handed. -2 Initiative', 0],
+  'Hammer, Heavy': ['1d8', '-', '1d10+2 Blunt Trauma', '+1 dmg two handed. Nat 19 alt: push or prone', 0],
+  'Mace, Heavy': ['1d8', '-', '1d10+2 Blunt Trauma', '+1 dmg two handed. Nat 19 alt: push or prone', 0],
+  'Hammer, Light': ['1d6', 'Close', '1d10 Blunt Trauma', 'Nat 19 alt: push or prone', 0], 'Mace, Light': ['1d6', 'Close', '1d10 Blunt Trauma', 'Nat 19 alt: push or prone', 0],
+  'Polearm': ['1d10', '-', '1d6+6 Blade Trauma', 'Two handed. -2 Initiative. Second Rank', 0], 'Rapier': ['1d8', '-', '1d12 Blade Trauma', '+2 Initiative', 0],
+  'Spear': ['1d6+1', 'Far', '1d12 Blade Trauma', '+1 dmg two handed. Second Rank', 0], 'Staff': ['1d6', '-', '1d12 Blunt Trauma', '+1 dmg two handed. Second Rank', 0],
+  'Sword, Bastard': ['1d8', '-', '1d10+2 Blade Trauma', '+1 dmg two handed. Nat 19 alt: disarm', 0],
+  'Sword, Long': ['1d8', '-', '1d10+2 Blade Trauma', '+1 dmg two handed. Nat 19 alt: disarm', 0],
+  'Sword, Short': ['1d6', '-', '1d12 Blade Trauma', '+2 Initiative. Nat 19 alt: disarm', 0], 'Whip': ['1d4', '-', 'Trip, Pull or Disarm', 'Second Rank', 0],
+  'Bow, Long': ['1d8', 'Very Far', '1d12 Missile Trauma', 'Two handed', 1], 'Bow, Short': ['1d6', 'Very Far', '1d10 Missile Trauma', 'Two handed', 1],
+  'Crossbow, Heavy': ['2d8', 'Very Far', '1d10+2 Missile Trauma', 'Two handed. Action to reload', 1],
+  'Crossbow, Light': ['2d4+1', 'Far', '1d10 Missile Trauma', 'Action to reload', 1], 'Javelin': ['1d6', 'Far', '1d10+2 Missile Trauma', 'Melee: Blade Trauma', 1],
+  'Sling': ['1d4', 'Very Far', '1d10 Blunt Trauma', '', 1]
+};
+const WEAPON_ALIAS = [[/great ?axe/i, 'Great Axe'], [/great ?sword/i, 'Great Sword'], [/great ?hammer/i, 'Great Hammer'], [/heavy hammer|hammer, heavy/i, 'Hammer, Heavy'],
+  [/heavy mace|mace, heavy/i, 'Mace, Heavy'], [/light hammer|hammer, light/i, 'Hammer, Light'], [/light mace|mace, light/i, 'Mace, Light'], [/long ?sword|sword, long/i, 'Sword, Long'],
+  [/bastard/i, 'Sword, Bastard'], [/short ?sword|sword, short/i, 'Sword, Short'], [/long ?bow|bow, long/i, 'Bow, Long'], [/short ?bow|bow, short/i, 'Bow, Short'],
+  [/heavy crossbow|crossbow, heavy/i, 'Crossbow, Heavy'], [/crossbow/i, 'Crossbow, Light'], [/battle ?axe|axe, battle/i, 'Axe, Battle'], [/hand ?axe|light axe|axe, light|hatchet/i, 'Axe, Light'],
+  [/\bspear\b/i, 'Spear'], [/\bstaff\b/i, 'Staff'], [/\bdagger|knife/i, 'Dagger'], [/\bclub\b|cudgel/i, 'Club'], [/\bflail\b/i, 'Flail'], [/polearm|halberd/i, 'Polearm'],
+  [/rapier/i, 'Rapier'], [/\bwhip\b/i, 'Whip'], [/javelin/i, 'Javelin'], [/\bsling\b/i, 'Sling']];
+const weaponOf = item => { for (const [re, k] of WEAPON_ALIAS) if (re.test(item)) return k; return null; };
+const GSTF = v => { const t = { 3: [1, 5], 4: [2, 7], 5: [2, 8], 6: [3, 10], 7: [3, 11], 8: [4, 13], 9: [4, 14], 10: [5, 16], 11: [5, 17], 12: [6, 19] };
+  return t[v] || (v < 3 ? [1, 5] : [Math.floor(v / 2), 20]); };
+function critOf(dmg, level) {
+  const m = dmg.match(/^(\d+)d(\d+)(?:\+(\d+))?$/); if (!m) return '';
+  return String(+m[1] * +m[2] + (+m[3] || 0) + Math.ceil(level / 2));
+}
+function sheetData(c, kind) {
+  const C = CLASSES[c.cls], D = derived(c), cur = a => curA(c, a), M = a => modOf(cur(a)), f = {};
+  f.Text1 = c.name; f.Text2 = 'Personality: ' + c.personality; f.Text3 = 'Trait: ' + plain(c.trait.c.join(' '));
+  f.Text4 = 'Languages: Common' + (D.lang > 0 ? ' + ' + D.lang + ' of choice' : D.lang <= -2 ? ' (illiterate)' : '');
+  f.Text6 = c.cls; f.Text7 = c.race; f.Text8 = c.bg.name;
+  const bond = plain(c.bond.r.c.join(' '));
+  f.Text9 = ''; f.Text10 = firstBold(c.bond.r.c[0]) || bond;   // the wide line under "Party Bonds"; full text goes in the notes
+  f.Text12 = String(c.age); f.Text13 = String(c.level); f.Text14 = '0'; f.Text15 = '10';
+  const rows = { Str: 16, Dex: 20, Con: 24, Int: 28, Perc: 32, Will: 36, Cha: 40 };
+  for (const a of ATTR) { const n = rows[a], v = cur(a), g = GSTF(v); f['Text' + n] = String(v); f['Text' + (n + 1)] = sgn(M(a)); f['Text' + (n + 2)] = String(g[0]); f['Text' + (n + 3)] = String(g[1]); }
+  const gi = GSTF(D.init); f.Text44 = String(D.init); f.Text45 = sgn(modOf(D.init)); f.Text46 = String(gi[0]); f.Text47 = String(gi[1]);
+  f.Text48 = String(D.ac); f.Text49 = String(D.hp);
+  f.Text51 = String(D.luck); f.Text52 = String(D.luck); f.Text53 = String(D.rerolls); f.Text54 = String(D.rerolls);
+  f.Text55 = String(D.death); f.Text56 = '1';
+  // gear: weapons and shield are battle gear, armour is worn, the rest goes in the pack
+  const items = C.gear.flatMap(g => g.split(/ or /i).length > 1 && weaponOf(g) ? [g] : [g]).concat([c.bg.item + ' (background)']);
+  const weapons = [], battle = [], worn = [], pack = [];
+  for (const it of items) {
+    const w = weaponOf(it.split(' or ')[0]);
+    if (w) { weapons.push([it.split(' or ')[0].replace(/\s*\(.*?\)/, ''), w]); battle.push(it); }
+    else if (/shield/i.test(it)) battle.push(it);
+    else if (/armour|chain|leather|hide/i.test(it) && /AC/.test(it)) worn.push(it);
+    else if (/quiver/i.test(it)) battle.push(it);
+    else pack.push(it);
+  }
+  const wr = [[57, 58, 59, 60, 61, 62, 63], [64, 65, 66, 67, 68, 69, 70], [71, 72, 73, 74, 75, 76, 77], [78, 79, 80, 81, 82, 83, 84], [85, 86, 87, 88, 89, 90, 91]];
+  weapons.slice(0, 5).forEach(([label, k], i) => {
+    const W = WEAPONS[k], r = wr[i], hit = W[4] ? D.ranged : D.melee;
+    f['Text' + r[0]] = label; f['Text' + r[1]] = W[1]; f['Text' + r[2]] = sgn(hit); f['Text' + r[3]] = W[0];
+    f['Text' + r[4]] = W[2]; f['Text' + r[5]] = critOf(W[0], c.level); f['Text' + r[6]] = W[3];
+  });
+  // skills & abilities
+  const sk = c.skills.slice().concat([''], C.fixed, c.abil.map(a => a.name + (C.abil.table === 'Spell List' ? ' (spell)' : '')));
+  for (let i = 0; i < 17; i++) f['Text' + (92 + i)] = sk[i] || '';
+  f.Text109 = String(D.battle); f.Text120 = String(D.pack);
+  const bSlots = kind === 'classic' ? [110, 111, 112, 113, 114, 115, 116, 117, 118, 119] : [110, 111, 112, 113, 114];
+  battle.forEach((it, i) => { if (bSlots[i]) f['Text' + bSlots[i]] = it; });
+  const pSlots = kind === 'classic' ? [124, 125, 126, 127, 128, 129, 130] : [124, 125, 131, 132, 133];
+  pack.forEach((it, i) => { if (pSlots[i]) f['Text' + pSlots[i]] = it; });
+  worn.forEach((it, i) => { const sl = [134, 135, 136][i]; if (sl) f['Text' + sl] = it; });
+  // notes: party bond in full, adjustments
+  const notes = ['Party bond: ' + bond].concat(c.manual.map(m => m.type === 'adj' ? 'Changed ' + m.a + ' ' + sgn(m.d) + ' (' + m.from + ' to ' + m.to + ')'
+      : m.type === 'swap' ? 'Swapped ' + m.a + ' and ' + m.b : 'Class changed ' + m.from + ' to ' + m.to), c.notes);
+  const nf = [140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150];
+  return { f, notes, nf };
+}
+const EXP = { lib: null, pdf: {}, ready: {} };
+function loadScript(src) { return new Promise((ok, no) => { const s = document.createElement('script'); s.src = src; s.onload = ok; s.onerror = no; document.head.appendChild(s); }); }
+async function exportSheet(kind) {
+  if (!window.PDFLib) { await loadScript('lib/pdf-lib.min.js'); await loadScript('lib/fontkit.umd.min.js'); }
+  const { PDFDocument, rgb } = window.PDFLib;
+  const [bytes, fontBytes] = await Promise.all([fetch('sheets/' + kind + '.pdf').then(r => { if (!r.ok) throw 0; return r.arrayBuffer(); }),
+    fetch('lib/patrick-hand.ttf').then(r => { if (!r.ok) throw 0; return r.arrayBuffer(); })]);
+  const doc = await PDFDocument.load(bytes);
+  doc.registerFontkit(window.fontkit);
+  const font = await doc.embedFont(fontBytes, { subset: true });
+  const form = doc.getForm();
+  const { f, notes, nf } = sheetData(CH, kind);
+  const fit = (name, text, base, minSize) => {
+    let fld; try { fld = form.getTextField(name); } catch (e) { return ''; }
+    const w = fld.acroField.getWidgets()[0].getRectangle(), room = Math.abs(w.width) - 4;
+    let size = base || Math.max(6, Math.min(11, Math.abs(w.height) * 0.72)), t = text;
+    while (size > minSize && font.widthOfTextAtSize(t, size) > room) size -= 0.5;
+    let rest = '';
+    if (font.widthOfTextAtSize(t, size) > room) {     // still too long: break at a word, hand back the rest
+      const words = t.split(' '); let head = '';
+      while (words.length && font.widthOfTextAtSize((head ? head + ' ' : '') + words[0], size) <= room) head = (head ? head + ' ' : '') + words.shift();
+      t = head || t; rest = words.join(' ');
+    }
+    try { fld.disableRichFormatting(); } catch (e) {}
+    fld.setText(t); fld.setFontSize(size); fld.updateAppearances(font);
+    return rest;
+  };
+  for (const [name, v] of Object.entries(f)) {
+    if (v === '') continue;
+    fit(name, v, 0, 6);
+  }
+  let ni = 0;
+  for (const n of notes) { let r = n; while (r && ni < nf.length) r = fit('Text' + nf[ni++], r, 9, 7); }
+  const out = await doc.save({ updateFieldAppearances: false });   // ours are already drawn; fields stay fillable
+  const name = (CH.name || 'Character').replace(/[^\w' -]/g, '') + ' - ToA ' + (kind === 'classic' ? 'Classic' : 'Simple') + '.pdf';
+  return new File([out], name, { type: 'application/pdf' });
+}
+$('sbody').addEventListener('click', async e => {
+  const b = e.target.closest('[data-sheet]'); if (!b || !CH) return;
+  const msg = $('cexportMsg'), kind = b.dataset.sheet;
+  if (b.classList.contains('ready') && EXP.ready[kind]) {   // second tap: hand the finished file to the share sheet / download
+    const file = EXP.ready[kind];
+    try {
+      if (navigator.canShare && navigator.canShare({ files: [file] })) { await navigator.share({ files: [file], title: file.name }); msg.textContent = 'Shared ' + file.name + '.'; return; }
+    } catch (err) { if (err && err.name === 'AbortError') return; }
+    const a = document.createElement('a'); a.href = URL.createObjectURL(file); a.download = file.name; document.body.appendChild(a); a.click(); a.remove();
+    msg.textContent = 'Downloaded ' + file.name + '.'; return;
+  }
+  msg.textContent = 'Filling the ' + kind + ' sheet...';
+  try {
+    EXP.ready[kind] = await exportSheet(kind);
+    $('cexport').querySelectorAll('[data-sheet]').forEach(x => { x.classList.remove('ready'); x.textContent = 'Export ' + (x.dataset.sheet === 'classic' ? 'Classic' : 'Simple') + ' sheet'; });
+    b.classList.add('ready'); b.textContent = 'Save ' + (kind === 'classic' ? 'Classic' : 'Simple') + ' PDF';
+    msg.textContent = 'Ready: tap "Save" to share or save it (Save to Files). The fields stay editable.';
+  } catch (err) {
+    console.error('sheet export failed', err);
+    msg.textContent = 'Sheet export works in the home-screen app (psychedelos.github.io/argosa), not inside Claude.';
+  }
 });
 
 window.toaTables = { TABLES, rollOnce, findRow, rollExpr, openTable, openGen, GENS, lairRoll, newCharacter, openCharacter };
