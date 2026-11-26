@@ -823,12 +823,26 @@ const firstBold = h => { const m = h.match(/<b>(.*?)<\/b>/); return m ? plain(m[
 let CH = null, swapSel = null;
 
 function rollRow(title, v) { const t = T(title); return t ? findRow(t, v).r : null; }
-const curA = (c, a) => c.raw[a] + c.auto[a] + c.user[a];
+// Old humans (step 15, after the class): -1 Str & Con, +1 Int & Will (max 16). Kept as its own layer so the toggle can undo it.
+const baseA = (c, a) => c.raw[a] + c.auto[a] + c.user[a];
+const oldMod = (c, a) => !c.old ? 0 : (a === 'Str' || a === 'Con') ? -1 : (a === 'Int' || a === 'Will') ? (baseA(c, a) < 16 ? 1 : 0) : 0;
+const curA = (c, a) => baseA(c, a) + oldMod(c, a);
+const ageOf = c => c.old ? c.ageOld : c.ageYoung;
+// Human bonuses (+1 attribute, +1 Reroll) apply only when other races are allowed (Races, p.13)
+const humanPerks = c => c.race === 'Human' && !c.humansOnly;
+const RACEMODE = { humansOnly: false };
+try { RACEMODE.humansOnly = localStorage.getItem('argosa.humansOnly') === '1'; } catch (e) {}
+function ageNotes(c) {
+  const n = [];
+  if (c.humansOnly) n.push('Humans only: no human bonus (+1 attribute, +1 Reroll) -- those apply only when other races are allowed (Races, p.13).');
+  if (c.old) n.push('Old (1d10+60 = ' + c.ageOld + '): -1 Str & Con, +1 Int & Will (max 16). Begin each adventure with one extra use of your 1st level class ability.');
+  return n;
+}
 function newCharacter(cls) {
   // everything the class doesn't decide is rolled once here and kept when the class changes
-  const c = { level: 1, user: {}, raw: {}, manual: [] };
-  // 1. race
-  const rr = rnd(12);
+  const c = { level: 1, user: {}, raw: {}, manual: [], old: false, humansOnly: RACEMODE.humansOnly };
+  // 1. race (d12, unless the table plays humans only)
+  const rr = c.humansOnly ? 0 : rnd(12);
   c.race = rr <= 9 ? 'Human' : rr === 10 ? 'Dwarf' : rr === 11 ? 'Elf' : (rnd(2) === 1 ? 'Halfling' : 'Half-Skorn');
   c.raceRoll = rr;
   // 2. background
@@ -839,7 +853,7 @@ function newCharacter(cls) {
   // 3. attributes: 3d6 seven times, in order
   ATTR.forEach(a => { c.raw[a] = rollExpr('3d6').total; c.user[a] = 0; });
   // 15. age
-  c.age = rollExpr('1d20+16').total;
+  c.ageYoung = rollExpr('1d20+16').total; c.ageOld = rollExpr('1d10+60').total;   // humans may choose old
   // 16. name, personality, trait (ignore trait entries 23-24 and 91-92)
   c.name = plain(rollOnce(T('Names')).r.c[0]);
   c.personality = plain(rollOnce(T('Personality')).r.c[0]);
@@ -856,7 +870,7 @@ function keyScore(c, cls) {
   let v = c.raw[a] + c.user[a];
   const bm = c.bg.bonus.match(/\+(\d)\s*(\w+)/);
   if (bm && bm[2] === a) v = Math.min(16, v + +bm[1]);
-  if (c.race === 'Human' && v < 16) v += 1;
+  if (humanPerks(c) && v < 16) v += 1;
   return v;
 }
 // By the book (p.8) the step-3 raise and swap happen before the class is chosen, so every class can be reached;
@@ -869,7 +883,7 @@ function applyClass(c, cls) {
   const C = CLASSES[c.cls];
   c.notes = []; c.auto = {};
   ATTR.forEach(a => { c.auto[a] = 0; });
-  const cur = a => curA(c, a);
+  const cur = a => baseA(c, a);   // class steps come before age (step 15)
   const bm = c.bg.bonus.match(/\+(\d)\s*(\w+)/);
   if (bm && ATTR.includes(bm[2])) {
     const a = bm[2], before = cur(a); c.auto[a] += Math.max(0, Math.min(+bm[1], 16 - before));
@@ -888,7 +902,7 @@ function applyClass(c, cls) {
       c.auto[k] += 15 - cur(k);
     }
   }
-  if (c.race === 'Human') {
+  if (humanPerks(c)) {
     const a = C.key, before = cur(a); c.auto[a] += before < 16 ? 1 : 0;
     c.notes.push('Human: +1 to an attribute of your choice -- applied to ' + a + ', the class key attribute (max 16). Move it with the -/+ buttons if you prefer.');
   }
@@ -930,7 +944,7 @@ function applyClass(c, cls) {
 function derived(c) {
   const C = CLASSES[c.cls], cur = a => curA(c, a), M = a => modOf(cur(a));
   return {
-    luck: 11 + (c.race === 'Halfling' ? 1 : 0), rerolls: c.race === 'Human' ? 2 : 1,
+    luck: 11 + (c.race === 'Halfling' ? 1 : 0), rerolls: humanPerks(c) ? 2 : 1,
     init: Math.floor((cur('Dex') + cur('Int')) / 2), hp: cur('Con') + c.level * C.hp,
     death: Math.max(10, 10 + Math.max(M('Con'), M('Will'))),
     ac: 10 + C.armour + C.shield + M('Dex') + (c.race === 'Halfling' ? 1 : 0),
@@ -940,7 +954,7 @@ function derived(c) {
 }
 function charHtml() {
   const c = CH, C = CLASSES[c.cls], cur = a => curA(c, a), M = a => modOf(cur(a));
-  const luck = 11 + (c.race === 'Halfling' ? 1 : 0), rerolls = c.race === 'Human' ? 2 : 1;
+  const luck = 11 + (c.race === 'Halfling' ? 1 : 0), rerolls = humanPerks(c) ? 2 : 1;
   const init = Math.floor((cur('Dex') + cur('Int')) / 2);
   const hp = cur('Con') + c.level * C.hp;
   const death = Math.max(10, 10 + Math.max(M('Con'), M('Will')));
@@ -954,9 +968,11 @@ function charHtml() {
       return '<option value="' + k + '"' + (k === c.fixedCls ? ' selected' : '') + (ok ? '' : ' disabled') + '>' + k + (ok ? '' : ' (needs ' + C2.key + ' ' + C2.min + ')') + '</option>';
     }).join('') + '</select></div>';
   if (!eligible(c, c.cls)) h += '<div class="cnote" style="color:#e58a7a">' + esc(c.cls) + ' needs ' + C.key + ' ' + C.min + '+, and this character no longer qualifies.</div>';
+  h += '<div class="ctrls"><span class="hint">Race</span><div class="seg"><button data-rmode="0" class="' + (RACEMODE.humansOnly ? '' : 'on') + '">Roll d12</button><button data-rmode="1" class="' + (RACEMODE.humansOnly ? 'on' : '') + '">Humans only</button></div>' +
+    (c.race === 'Human' ? '<span class="hint">Age</span><div class="seg"><button data-old="0" class="' + (c.old ? '' : 'on') + '">Average</button><button data-old="1" class="' + (c.old ? 'on' : '') + '">Old</button></div>' : '') + '</div>';
   h += '<div class="ctrls" id="cexport"><button class="chipbtn" data-sheet="classic">Export Classic sheet</button><button class="chipbtn" data-sheet="simple">Export Simple sheet</button></div><div class="cnote" id="cexportMsg"></div>';
-  h += '<div class="cname">' + esc(c.name) + '</div><div class="cline"><b>' + esc(c.race) + '</b> (d12: ' + c.raceRoll + ') &middot; <b>' + esc(c.cls) +
-    '</b> &middot; Level 1 &middot; Age <b>' + c.age + '</b></div>';
+  h += '<div class="cname">' + esc(c.name) + '</div><div class="cline"><b>' + esc(c.race) + '</b>' + (c.humansOnly ? '' : ' (d12: ' + c.raceRoll + ')') + ' &middot; <b>' + esc(c.cls) +
+    '</b> &middot; Level 1 &middot; Age <b>' + ageOf(c) + '</b></div>';
   h += '<div class="cline">Background (d66 ' + esc(c.bg.roll) + '): <b>' + esc(c.bg.name) + '</b> -- ' + esc(c.bg.bonus) + ', ' + esc(c.bg.skill) + ', ' + esc(c.bg.item) + '</div>';
   h += '<div class="chead"><span>Attributes</span><button id="cswap" class="' + (swapSel ? 'on' : '') + '">' + (swapSel ? 'Tap the second attribute' : 'Swap two') + '</button></div><div class="attrs">' +
     ATTR.map(a => '<div class="attr' + (swapSel === a ? ' sel' : '') + '" data-a="' + a + '"><span class="an">' + a + '<small>' + ATTR_LONG[a] + (a === C.key || a === C.key2 ? ' &middot; key' : '') + '</small></span>' +
@@ -982,9 +998,11 @@ function charHtml() {
   if (c.manual.length) h += '<div class="chead"><span>Your changes</span></div><ul class="clist">' + c.manual.map(m =>
     '<li class="cnote">' + esc(m.type === 'adj' ? m.a + ' ' + sgn(m.d) + ' (' + m.from + ' \u2192 ' + m.to + ')'
       : m.type === 'swap' ? 'Swapped ' + m.a + ' and ' + m.b + ' (' + m.a + ' ' + m.va + ' \u2194 ' + m.b + ' ' + m.vb + ')'
+      : m.type === 'age' ? 'Age: ' + (m.old ? 'Average \u2192 Old' : 'Old \u2192 Average')
       : 'Class changed: ' + m.from + ' \u2192 ' + m.to) + '</li>').join('') + '</ul>';
-  if (c.notes.length) h += '<div class="chead"><span>Automatic adjustments</span></div><ul class="clist">' + c.notes.map(n => '<li class="cnote">' + esc(n) + '</li>').join('') + '</ul>';
-  h += '<div class="cnote">Choose bonus languages equal to your Int mod. Old humans (1d10+60): -1 Str & Con, +1 Int & Will. Racial traits: Races, p.13.</div>';
+  const an = c.notes.concat(ageNotes(c));
+  if (an.length) h += '<div class="chead"><span>Automatic adjustments</span></div><ul class="clist">' + an.map(n => '<li class="cnote">' + esc(n) + '</li>').join('') + '</ul>';
+  h += '<div class="cnote">Choose bonus languages equal to your Int mod. Racial traits: Races, p.13.</div>';
   h += '<details class="full"><summary>Backgrounds table (36 rows)</summary>' + fullTable(T('Backgrounds'), false) + '</details>';
   return h;
 }
@@ -997,6 +1015,19 @@ function openCharacter() {
 $('sbody').addEventListener('click', e => {
   if (!CH || !$('cgo')) return;
   if (e.target.id === 'cgo') { const k = CH.fixedCls; CH = newCharacter(k); let n = 0; while (k && !eligible(CH, k) && n++ < 2000) CH = newCharacter(k); CH.fixedCls = k; swapSel = null; drawCharacter(); logIt('Character', CH.name + ', ' + CH.race + ' ' + CH.cls + ' (' + CH.bg.name + ')'); return; }
+  const rm = e.target.closest('[data-rmode]');
+  if (rm) {   // race mode applies from the race roll on, so it rolls a new character (keeping the class choice)
+    RACEMODE.humansOnly = rm.dataset.rmode === '1'; try { localStorage.setItem('argosa.humansOnly', RACEMODE.humansOnly ? '1' : '0'); } catch (er) {}
+    const k = CH.fixedCls; CH = newCharacter(k); CH.fixedCls = k; swapSel = null; drawCharacter(); logIt('Character', CH.name + ', ' + CH.race + ' ' + CH.cls + ' (' + CH.bg.name + ')'); return;
+  }
+  const og = e.target.closest('[data-old]');
+  if (og) {
+    const old = og.dataset.old === '1'; if (old === CH.old) return;
+    CH.old = old;
+    const last = CH.manual[CH.manual.length - 1];
+    if (last && last.type === 'age') CH.manual.pop(); else CH.manual.push({ type: 'age', old });
+    drawCharacter(); return;
+  }
   if (e.target.id === 'cswap') { swapSel = swapSel ? null : '__pick'; drawCharacter(); return; }
   const at = e.target.closest('.attr'); if (!at) return;
   const a = at.dataset.a, b = e.target.closest('button');
@@ -1010,7 +1041,7 @@ $('sbody').addEventListener('click', e => {
   }
   if (swapSel === '__pick') { swapSel = a; drawCharacter(); return; }
   if (swapSel && swapSel !== '__pick' && swapSel !== a) {
-    const va = curA(CH, swapSel), vb = curA(CH, a);
+    const va = baseA(CH, swapSel), vb = baseA(CH, a);   // the step 3 swap, before age
     CH.user[swapSel] += vb - va; CH.user[a] += va - vb;
     CH.manual.push({ type: 'swap', a: swapSel, b: a, va, vb }); swapSel = null; drawCharacter();
   }
@@ -1064,7 +1095,7 @@ function sheetData(c, kind) {
   f.Text6 = c.cls; f.Text7 = c.race; f.Text8 = c.bg.name;
   const bond = plain(c.bond.r.c.join(' '));
   f.Text9 = ''; f.Text10 = firstBold(c.bond.r.c[0]) || bond;   // the wide line under "Party Bonds"; full text goes in the notes
-  f.Text12 = String(c.age); f.Text13 = String(c.level); f.Text14 = '0'; f.Text15 = '10';
+  f.Text12 = String(ageOf(c)); f.Text13 = String(c.level); f.Text14 = '0'; f.Text15 = '10';
   const rows = { Str: 16, Dex: 20, Con: 24, Int: 28, Perc: 32, Will: 36, Cha: 40 };
   for (const a of ATTR) { const n = rows[a], v = cur(a), g = GSTF(v); f['Text' + n] = String(v); f['Text' + (n + 1)] = sgn(M(a)); f['Text' + (n + 2)] = String(g[0]); f['Text' + (n + 3)] = String(g[1]); }
   const gi = GSTF(D.init); f.Text44 = String(D.init); f.Text45 = sgn(modOf(D.init)); f.Text46 = String(gi[0]); f.Text47 = String(gi[1]);
@@ -1099,7 +1130,8 @@ function sheetData(c, kind) {
   worn.forEach((it, i) => { const sl = [134, 135, 136][i]; if (sl) f['Text' + sl] = it; });
   // notes: party bond in full, adjustments
   const notes = ['Party bond: ' + bond].concat(c.manual.map(m => m.type === 'adj' ? 'Changed ' + m.a + ' ' + sgn(m.d) + ' (' + m.from + ' to ' + m.to + ')'
-      : m.type === 'swap' ? 'Swapped ' + m.a + ' and ' + m.b : 'Class changed ' + m.from + ' to ' + m.to), c.notes);
+      : m.type === 'swap' ? 'Swapped ' + m.a + ' and ' + m.b : m.type === 'age' ? 'Age set to ' + (m.old ? 'old' : 'average')
+      : 'Class changed ' + m.from + ' to ' + m.to), c.notes, ageNotes(c));
   const nf = [140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150];
   return { f, notes, nf };
 }

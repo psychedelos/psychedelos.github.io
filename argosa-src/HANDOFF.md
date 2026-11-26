@@ -20,6 +20,8 @@ Max's running notes for Claude. When a conversation resets, read this file, `REA
 ## Rules Max has set
 
 - By the book. Character creation order: roll 3d6 x7, background bonus (cap 16), step 3 (raise one attribute to 15 / a second to 13, or swap) happens before choosing a class; class minimums (Artificer Int 15, Barbarian Con 13) are by the book; humans +1 to class key attribute.
+- Race: rolled d12 by default; a "Humans only" toggle (remembered on the device) rolls a new human. By the book (Races, p.13) humans get +1 attribute and +1 Reroll only when other races are allowed, so humans-only characters don't get them.
+- Age: humans can toggle Average (1d20+16) / Old (1d10+60); both ages are rolled at creation. Old = -1 Str & Con, +1 Int & Will (max 16), one extra use of the 1st level class ability per adventure. Old is its own layer on top of the attributes (`oldMod`), applied after the class steps (step 15), so class minimums, the 13/15 rule and swaps use the pre-age scores (`baseA`).
 - Changing class keeps everything except what the class decides. Manual changes ("Your changes") are listed separately from "Automatic adjustments".
 - Vault text: plain keyboard punctuation (' " ... -- - x).
 - Do not commit the purchased Tales of Argosa PDF (art/layout all rights reserved). The free playtest PDF (v5) is not the same content as the final book; not added.
@@ -40,6 +42,5 @@ Max's running notes for Claude. When a conversation resets, read this file, `REA
 ## Open items
 
 - Max is giving character-generation questions and suggestions one at a time; the sheet export was the first. Ask for the next.
-- Unanswered offer: a race menu (Random d12 by default, optional "Humans only").
 - Not yet confirmed on device: safe-area padding on iPhone; the Save -> share sheet flow; the font fix above.
 - Gear choices like "Longsword (1d8) or Spear (1d6+1)": the sheet gets the first option (weapon row and battle slot agree); the builder screen still shows the choice.
