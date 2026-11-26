@@ -1,0 +1,828 @@
+<style>
+  #p-tables { width:100%; max-width:760px; }
+  .tsearch { width:100%; background:var(--panel); border:1px solid var(--line); color:var(--fg); font:inherit;
+    font-size:16px; padding:12px 14px; border-radius:10px; margin:14px 0 10px; }
+  .tsearch::placeholder { color:#6f6252; font-style:italic; }
+  .gens { display:flex; flex-wrap:wrap; gap:8px; margin:4px 0 16px; }
+  .gens button, .chipbtn { background:#2a211b; border:1px solid #4a3a2c; color:var(--fg); font:inherit; font-size:.9rem;
+    border-radius:999px; padding:9px 14px; cursor:pointer; min-height:40px; }
+  .gens button b { color:var(--accent); font-weight:normal; }
+  .glabel { color:var(--muted); font-size:.75rem; text-transform:uppercase; letter-spacing:.12em; margin:10px 0 6px; }
+  details.chap { border-top:1px solid var(--line); }
+  details.chap > summary { cursor:pointer; padding:12px 4px; list-style:none; display:flex; justify-content:space-between; align-items:center; }
+  details.chap > summary::-webkit-details-marker { display:none; }
+  details.chap > summary .cn { color:var(--muted); font-size:.8rem; }
+  details.chap[open] > summary { color:var(--accent); }
+  .tlist { display:flex; flex-direction:column; padding:0 0 10px; }
+  .tbtn { display:flex; justify-content:space-between; align-items:center; gap:10px; text-align:left; background:transparent;
+    border:0; border-bottom:1px solid #241d18; color:var(--fg); font:inherit; font-size:.95rem; padding:11px 6px; cursor:pointer; min-height:44px; }
+  .tbtn:active { background:#221b16; }
+  .tbtn .num { color:#7d6b56; font-size:.78rem; margin-right:6px; }
+  .tbtn .dd { color:var(--muted); font-size:.75rem; border:1px solid var(--line); border-radius:6px; padding:2px 6px; white-space:nowrap; }
+  .tbtn .path { display:block; color:#7d6b56; font-size:.75rem; }
+
+  /* sheet */
+  .sheet { position:fixed; inset:0; background:var(--bg); z-index:20; overflow-y:auto; display:none;
+    padding: calc(env(safe-area-inset-top, 0px) + 12px) max(14px, env(safe-area-inset-right)) calc(env(safe-area-inset-bottom, 0px) + 40px) max(14px, env(safe-area-inset-left)); }
+  .sheet.open { display:block; }
+  .shead { position:sticky; top:calc(-12px - env(safe-area-inset-top, 0px)); padding-top:calc(env(safe-area-inset-top, 0px) + 12px) !important; margin-top:calc(-12px - env(safe-area-inset-top, 0px)) !important; background:var(--bg); display:flex; align-items:center; gap:10px; padding:6px 0 10px;
+    border-bottom:1px solid var(--line); z-index:2; max-width:760px; margin:0 auto; }
+  .sback { background:transparent; border:1px solid var(--line); color:var(--fg); border-radius:10px; font-size:1.2rem;
+    width:44px; height:44px; cursor:pointer; flex:none; }
+  .stitle { font-size:1.15rem; line-height:1.2; }
+  .stitle small { display:block; color:var(--muted); font-size:.75rem; }
+  .sbody { max-width:760px; margin:0 auto; }
+  .ctrls { display:flex; flex-wrap:wrap; gap:10px; align-items:center; margin:14px 0 4px; }
+  .seg { display:flex; border:1px solid var(--line); border-radius:999px; overflow:hidden; }
+  .seg button { background:transparent; border:0; color:var(--muted); font:inherit; font-size:.85rem; padding:8px 12px; cursor:pointer; min-height:40px; }
+  .seg button + button { border-left:1px solid var(--line); }
+  .seg button.on { background:#3a2c20; color:var(--fg); }
+  .mod { display:flex; align-items:center; gap:4px; color:var(--muted); font-size:.85rem; }
+  .mod button { width:36px; height:36px; border-radius:50%; border:1px solid var(--line); background:transparent; color:var(--fg); font-size:1.1rem; cursor:pointer; }
+  .mod span { min-width:2.2em; text-align:center; color:var(--fg); }
+  .rolls { margin-top:12px; display:flex; flex-direction:column; gap:12px; }
+  .rcard { background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:12px 14px; }
+  .rcard.latest { border-color:#6b4e33; }
+  .rhead { display:flex; justify-content:space-between; gap:8px; color:var(--muted); font-size:.8rem; margin-bottom:6px; }
+  .rhead .rv { color:var(--accent); font-size:1rem; }
+  .cell { line-height:1.5; font-size:1rem; }
+  .cell + .cell { margin-top:8px; padding-top:8px; border-top:1px dashed #3a2f25; }
+  .clabel { display:block; color:var(--muted); font-size:.72rem; letter-spacing:.08em; text-transform:uppercase; }
+  .cell b { color:#f6e8cf; }
+  .dx, .tr, .pc, .bo, .sg { border-radius:5px; padding:0 3px; cursor:pointer; white-space:nowrap; }
+  .dx { background:#3a2c20; color:#f1c98f; border:1px solid #5a4430; }
+  .pc { background:#2d2a1c; color:#e3d38b; border:1px solid #4d4630; }
+  .tr { color:#9fc6e8; border-bottom:1px dotted #6f9cc4; padding:0 1px; white-space:normal; }
+  .bo, .sg { background:#2a2233; color:#cdb6f0; border:1px solid #4a3d5c; }
+  .dx .out, .pc .out, .bo .out, .sg .out { color:#fff; font-weight:bold; }
+  .op.hit { background:#4a3622; outline:1px solid #c9925a; border-radius:4px; }
+  .nest { margin:8px 0 2px 6px; padding:8px 10px; border-left:3px solid #6b4e33; background:#1a1512; border-radius:0 8px 8px 0; }
+  .nest .nh { color:var(--muted); font-size:.75rem; margin-bottom:4px; }
+  .nest .nh b { color:var(--accent); font-weight:normal; }
+  .minicards { display:flex; gap:8px; margin-top:6px; }
+  .minicards figure { margin:0; width:96px; text-align:center; font-size:.75rem; color:var(--muted); }
+  .minicards img { width:96px; border-radius:6px; display:block; }
+  .foot { color:var(--muted); font-size:.82rem; margin-top:10px; line-height:1.45; }
+  details.full { margin-top:18px; }
+  details.full > summary { cursor:pointer; color:var(--fg); padding:8px 0; }
+  .ftable { width:100%; border-collapse:collapse; font-size:.88rem; line-height:1.4; }
+  .ftable th { text-align:left; color:var(--muted); font-weight:normal; font-size:.75rem; letter-spacing:.06em; text-transform:uppercase; border-bottom:1px solid var(--line); padding:6px; }
+  .ftable td { vertical-align:top; padding:7px 6px; border-bottom:1px solid #241d18; }
+  .ftable td:first-child { color:var(--accent); white-space:nowrap; }
+  .ftable tr.pick { cursor:pointer; }
+  .ftable tr.pick:active td, .ftable tr.sel td { background:#2a211b; }
+  .hint { color:var(--muted); font-size:.85rem; margin:8px 0; }
+  .hdpick { display:flex; flex-wrap:wrap; gap:8px; margin:12px 0; }
+  .gstep { margin-top:10px; }
+  .gstep > .glab { color:var(--accent); font-size:.8rem; letter-spacing:.06em; text-transform:uppercase; margin-bottom:3px; }
+  .tlog { margin-top:22px; color:var(--muted); font-size:.85rem; }
+  .tlog h2 { font-size:.8rem; text-transform:uppercase; letter-spacing:.12em; font-weight:normal; border-bottom:1px solid var(--line); padding-bottom:6px; margin:0 0 6px; }
+  .tlog ol { margin:0; padding-left:1.5em; } .tlog li { padding:3px 0; } .tlog li b { color:var(--fg); font-weight:normal; }
+  .empty { color:var(--muted); font-style:italic; padding:16px 4px; }
+  /* character sheet */
+  .csel { background:var(--panel); color:var(--fg); border:1px solid var(--line); border-radius:10px; font:inherit; font-size:16px; padding:9px 10px; min-height:44px; }
+  .cname { font-size:1.5rem; margin:14px 0 2px; }
+  .cline { color:var(--muted); font-size:.9rem; }
+  .cline b { color:var(--fg); font-weight:normal; }
+  .chead { color:var(--accent); font-size:.78rem; letter-spacing:.1em; text-transform:uppercase; margin:18px 0 6px; border-bottom:1px solid var(--line); padding-bottom:4px; display:flex; justify-content:space-between; align-items:center; }
+  .chead button { background:transparent; border:1px solid var(--line); color:var(--muted); border-radius:999px; font:inherit; font-size:.75rem; padding:5px 10px; cursor:pointer; text-transform:none; letter-spacing:0; }
+  .chead button.on { background:#3a2c20; color:var(--fg); }
+  .attrs { display:grid; grid-template-columns:minmax(0,1fr); gap:8px; }
+  @media (min-width:560px) { .attrs { grid-template-columns:repeat(2,minmax(0,1fr)); gap:8px 14px; } }
+  .attr { display:flex; align-items:center; gap:6px; background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:6px 8px; }
+  .attr.sel { border-color:var(--accent); background:#2a211b; }
+  .attr .an { flex:1; cursor:pointer; min-width:6.5em; }
+  .attr .an small { display:block; color:var(--muted); font-size:.7rem; }
+  .attr button { width:32px; height:32px; border-radius:50%; border:1px solid var(--line); background:transparent; color:var(--fg); font-size:1rem; cursor:pointer; flex:none; }
+  .attr .av { min-width:2em; text-align:center; font-size:1.25rem; font-variant-numeric:tabular-nums; }
+  .attr .am { min-width:2.2em; text-align:right; color:var(--accent); font-size:.9rem; }
+  .derived { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:8px; }
+  .dstat { background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:8px; text-align:center; }
+  .dstat small { display:block; color:var(--muted); font-size:.7rem; letter-spacing:.05em; text-transform:uppercase; }
+  .dstat span { font-size:1.15rem; }
+  .clist { margin:0; padding-left:1.2em; line-height:1.55; }
+  .clist li { padding:2px 0; }
+  details.ab { background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:8px 10px; margin-bottom:6px; }
+  details.ab summary { cursor:pointer; }
+  details.ab .cell { margin-top:6px; font-size:.92rem; }
+  .cnote { color:var(--muted); font-size:.8rem; line-height:1.45; margin-top:6px; }
+</style>
+
+<section class="panel" id="p-tables" hidden>
+  <div class="sub">Every roll table in the book, from the vault. Tap a table to roll it.</div>
+  <input class="tsearch" id="tsearch" type="search" placeholder="Search tables (e.g. trauma, forest, trinkets)" autocomplete="off">
+  <div id="genBox">
+    <div class="glabel">Generators</div>
+    <div class="gens">
+      <button data-g="character"><b>&#9670;</b> Character</button>
+      <button data-g="dungeon"><b>&#9670;</b> Dungeon</button>
+      <button data-g="room"><b>&#9670;</b> Dungeon Room</button>
+      <button data-g="lair"><b>&#9670;</b> Lair Treasure</button>
+      <button data-g="item"><b>&#9670;</b> Major Magic Item</button>
+      <button data-g="hireling"><b>&#9670;</b> Hireling</button>
+    </div>
+  </div>
+  <div id="tindex"></div>
+  <div class="tlog" id="tlogBox" hidden><h2>Past rolls</h2><ol id="tlog" reversed></ol></div>
+</section>
+
+<div class="sheet" id="sheet">
+  <div class="shead"><button class="sback" id="sheetBack" aria-label="Back">&#8592;</button><div class="stitle" id="stitle"></div></div>
+  <div class="sbody" id="sbody"></div>
+</div>
+
+<script>
+{
+const TABLES = /*TABLES_JSON*/[];
+const byId = Object.fromEntries(TABLES.map(t => [t.id, t]));
+const byTitle = Object.fromEntries(TABLES.map(t => [t.title.toLowerCase(), t]));
+const $ = id => document.getElementById(id);
+function rnd(n) {
+  if (window.crypto && crypto.getRandomValues) {
+    const b = new Uint32Array(1), lim = Math.floor(0x100000000 / n) * n;
+    do { crypto.getRandomValues(b); } while (b[0] >= lim);
+    return b[0] % n + 1;
+  }
+  return Math.floor(Math.random() * n) + 1;
+}
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const plain = h => { const d = document.createElement('div'); d.innerHTML = h; return d.textContent.replace(/\s+/g, ' ').trim(); };
+const T = t => byTitle[t.toLowerCase()];
+
+// ---------- dice ----------
+function rollExpr(e) {           // "3d6", "1d6+1", "10x1d100", "1d6x10", "1d4-1"
+  const m = e.match(/^(?:(\d+)x)?(\d+)d(\d+)(?:([+-])(\d+))?(?:x(\d+))?$/);
+  if (!m) return null;
+  const n = +m[2], s = +m[3], dice = [];
+  for (let i = 0; i < n; i++) dice.push(rnd(s));
+  let tot = dice.reduce((a, b) => a + b, 0);
+  if (m[4]) tot += (m[4] === '+' ? 1 : -1) * (+m[5]);
+  if (m[1]) tot *= +m[1];
+  if (m[6]) tot *= +m[6];
+  return { total: tot, dice };
+}
+// Per-table roll rules the header alone can't express
+const OVERRIDE = { 'spell like blessings': { expr: '1d6+6', label: '1d6+6 (results 7-12 of the Blessings d12)' } };
+function dieRoll(t, opt) {
+  const o = OVERRIDE[t.title.toLowerCase()];
+  if (o && !opt.die) { const r = rollExpr(o.expr); return { v: r.total, label: o.label }; }
+  let d = opt.die || t.die;
+  if (d === 'd4/d12') d = opt.gear === 'nc' ? 'd4' : 'd12';
+  let v, label = d;
+  if (d === 'd66') { const a = rnd(6), b = rnd(6); v = a * 10 + b; label = 'd66 (' + a + ', ' + b + ')'; }
+  else if (d === '2d6') { const a = rnd(6), b = rnd(6); v = a + b; label = '2d6 (' + a + '+' + b + ')'; }
+  else { const s = +d.slice(1); v = rnd(s); if (s === 100 && v === 100) label = 'd100 (00)'; }
+  if (opt.mod) { v += opt.mod; label += (opt.mod > 0 ? ' +' : ' ') + opt.mod; }
+  return { v, label };
+}
+function findRow(t, v) {
+  const rs = t.rows.filter(r => r.lo !== null);
+  let r = rs.find(r => v >= r.lo && v <= r.hi);
+  if (r) return { r, note: '' };
+  const lo = Math.min(...rs.map(r => r.lo)), hi = Math.max(...rs.map(r => r.hi === 999 ? r.lo : r.hi));
+  if (v > hi) return { r: rs.reduce((a, b) => (b.lo > a.lo ? b : a)), note: 'above the table: highest row used' };
+  if (v < lo) return { r: rs.reduce((a, b) => (b.lo < a.lo ? b : a)), note: 'below the table: lowest row used' };
+  return { r: null, note: 'the book prints no entry for ' + v };
+}
+
+// ---------- rendering ----------
+const isNamedCol = h => plain(h) !== '';
+function rowHtml(t, r, colFilter) {
+  if (!r) return '<div class="cell"><i>No entry.</i></div>';
+  const named = t.header.slice(1).some(isNamedCol);
+  return r.c.map((c, i) => {
+    if (colFilter != null && colFilter !== i) return '';
+    const lab = named && isNamedCol(t.header[i + 1]) ? '<span class="clabel">' + t.header[i + 1] + '</span>' : '';
+    return '<div class="cell">' + lab + addListChip(c) + '</div>';
+  }).join('') + footFor(t, r);
+}
+function footFor(t, r) {          // a result that cites a footnote (sup 1) carries that footnote with it
+  const sups = new Set(); r.c.join(' ').replace(/<sup>(\d+)<\/sup>/g, (m, n) => sups.add(n));
+  if (!sups.size) return '';
+  return t.post.filter(p => { const m = p.match(/^<sup>(\d+)<\/sup>/); return m && sups.has(m[1]); })
+    .map(p => '<div class="cell foot">' + p + '</div>').join('');
+}
+function addListChip(c) {          // a cell that lists options with no die of its own gets one
+  if (!/class="op"/.test(c)) return c;
+  const d = document.createElement('div'); d.innerHTML = c;
+  const ops = [...d.querySelectorAll('.op')];
+  const first = ops[0]; let hasDie = false;
+  d.querySelectorAll('.dx').forEach(x => { if (x.compareDocumentPosition(first) & Node.DOCUMENT_POSITION_FOLLOWING) hasDie = true; });
+  if (hasDie) return c;
+  const n = Math.max(...ops.map(o => +o.dataset.hi));
+  return '<span class="dx" data-e="1d' + n + '">roll 1d' + n + '</span> ' + c;
+}
+function cardHtml(t, r, rollLabel, v, note, colFilter) {
+  return '<div class="rcard latest"><div class="rhead"><span>' + esc(t.title) + (rollLabel ? ' &middot; ' + esc(rollLabel) : '') +
+    (note ? ' &middot; <i>' + esc(note) + '</i>' : '') + '</span>' +
+    (v != null ? '<span class="rv">' + (r ? r.k : v) + (r && String(v) !== plain(r.k) ? ' <small>(' + v + ')</small>' : '') + '</span>' : (r ? '<span class="rv">' + r.k + '</span>' : '')) +
+    '</div>' + rowHtml(t, r, colFilter) + '</div>';
+}
+function nestHtml(t, r, rollLabel, v, note) {
+  return '<div class="nest"><div class="nh"><b>' + esc(t.title) + '</b>' + (rollLabel ? ' &middot; ' + esc(rollLabel) : '') +
+    ' &middot; ' + (r ? r.k : '') + (note ? ' &middot; <i>' + esc(note) + '</i>' : '') + '</div>' + rowHtml(t, r) + '</div>';
+}
+function rollOnce(t, opt = {}) {
+  if (t.lookup) { const r = t.rows[rnd(t.rows.length) - 1]; return { r, label: 'random row', v: null, note: '' }; }
+  const d = dieRoll(t, opt);
+  const f = findRow(t, d.v);
+  return { r: f.r, label: d.label, v: d.v, note: f.note };
+}
+
+// ---------- log ----------
+function logIt(title, text) {
+  const li = document.createElement('li');
+  li.innerHTML = '<b></b> - <span></span>';
+  li.querySelector('b').textContent = title;
+  li.querySelector('span').textContent = text.length > 110 ? text.slice(0, 107) + '...' : text;
+  $('tlog').prepend(li); $('tlogBox').hidden = false;
+}
+
+// ---------- interactions inside results (event delegation) ----------
+function afterCell(el) { return el.closest('.cell') || el.closest('.nest') || el.closest('.rcard') || el.parentElement; }
+function insertNest(el, html) {
+  const cell = afterCell(el);
+  const holder = document.createElement('div'); holder.innerHTML = html;
+  const n = holder.firstElementChild;
+  // put nested results after the cell, in click order
+  let anchor = cell; while (anchor.nextElementSibling && anchor.nextElementSibling.classList.contains('nest')) anchor = anchor.nextElementSibling;
+  anchor.after(n);
+  return n;
+}
+function depthOf(el) { let d = 0, p = el; while (p) { if (p.classList && p.classList.contains('nest')) d++; p = p.parentElement; } return d; }
+function highlightOps(chip, v) {
+  const cell = chip.closest('.cell') || chip.parentElement;
+  const ops = [...cell.querySelectorAll('.op')].filter(o => chip.compareDocumentPosition(o) & Node.DOCUMENT_POSITION_FOLLOWING);
+  if (!ops.length) return;
+  // only the first run of options after the chip (until a gap in numbering restarts)
+  const run = [ops[0]];
+  for (let i = 1; i < ops.length; i++) { if (+ops[i].dataset.lo <= +run[run.length - 1].dataset.lo) break; run.push(ops[i]); }
+  run.forEach(o => o.classList.toggle('hit', v >= +o.dataset.lo && v <= +o.dataset.hi));
+}
+document.addEventListener('click', e => {
+  const el = e.target.closest('.dx, .pc, .tr, .bo, .sg');
+  if (!el || !el.closest('#sheet, #p-tables')) return;
+  e.preventDefault();
+  if (el.classList.contains('dx')) {
+    const base = el.dataset.base || el.textContent; el.dataset.base = base;
+    const r = rollExpr(el.dataset.e); if (!r) return;
+    el.innerHTML = esc(base) + ' &#8594; <span class="out">' + r.total + '</span>';
+    el.dataset.last = r.total;
+    highlightOps(el, r.total);
+  } else if (el.classList.contains('pc')) {
+    const base = el.dataset.base || el.textContent; el.dataset.base = base;
+    const v = rnd(100), ok = v <= +el.dataset.p;
+    el.innerHTML = esc(base) + ' &#8594; <span class="out">' + (ok ? 'yes' : 'no') + '</span> (' + v + ')';
+  } else if (el.classList.contains('bo')) {
+    const base = el.dataset.base || el.textContent; el.dataset.base = base;
+    const b = window.castBonesQuick('even');
+    el.innerHTML = esc(base) + ' &#8594; <span class="out">' + esc(b.text) + '</span>';
+  } else if (el.classList.contains('sg')) {
+    if (depthOf(el) > 5) return;
+    const [a, b] = window.drawTwo();
+    insertNest(el, '<div class="nest"><div class="nh"><b>Read the Signs</b> &middot; ' + esc(a.name) + ' + ' + esc(b.name) + '</div><div class="minicards">' +
+      [a, b].map(c => '<figure><img alt="" src="' + c.src + '">' + esc(c.name) + '</figure>').join('') + '</div></div>');
+  } else if (el.classList.contains('tr')) {
+    if (depthOf(el) > 5) return;
+    const tid = el.dataset.t, t0 = byId[tid];
+    const sec = tid.startsWith('__SEC:') ? tid.slice(6) : null;
+    const pageRef = /^p\.\s?\d+$/.test(el.textContent.trim());
+    // "the relevant terrain" / a page reference to the encounter tables -> choose the terrain
+    if (tid === '__ENC' || sec === '17.5' || (t0 && t0.num.startsWith('17.5.') && pageRef && !el.dataset.r)) { insertNest(el, '<div class="nest">' + encounterPicker() + '</div>'); return; }
+    if (sec) {                                  // a rules section that owns several roll tables
+      const ts = TABLES.filter(x => x.num.startsWith(sec + '.'));
+      if (ts.length === 1) { const o = rollOnce(ts[0]); insertNest(el, nestHtml(ts[0], o.r, o.label, o.v, o.note)); logIt(ts[0].title, o.r ? plain(o.r.c.join(' / ')) : o.note); return; }
+      insertNest(el, '<div class="nest"><div class="nh"><b>Choose a table</b></div><div class="hdpick">' + ts.map(x => '<button class="chipbtn" data-enc="' + x.id + '">' + esc(x.title) + '</button>').join('') + '</div></div>');
+      return;
+    }
+    const t = t0; if (!t) return;
+    if (el.dataset.r) {
+      const v = +el.dataset.r, f = findRow(t, v);
+      insertNest(el, nestHtml(t, f.r, 'entry #' + v, v, ''));
+      return;
+    }
+    if (t.lookup) { insertNest(el, '<div class="nest"><div class="nh"><b>' + esc(t.title) + '</b> &middot; pick a row</div>' + fullTable(t, true) + '</div>'); return; }
+    const d = precedingDie(el);
+    let o;
+    if (d && !t.lookup) {                       // "Roll 1d8+12 on the Injuries & Setbacks table"
+      let v = d.dataset.last ? +d.dataset.last : null;
+      if (v === null) { const r = rollExpr(d.dataset.e); v = r.total; d.dataset.base = d.dataset.base || d.textContent; d.dataset.last = v; d.innerHTML = esc(d.dataset.base) + ' &#8594; <span class="out">' + v + '</span>'; }
+      const f = findRow(t, v); o = { r: f.r, label: d.dataset.e.replace('x', ' x '), v, note: f.note };
+    } else o = rollOnce(t);
+    insertNest(el, nestHtml(t, o.r, o.label, o.v, o.note));
+    logIt(t.title, o.r ? plain(o.r.c.join(' / ')) : o.note);
+  }
+});
+function precedingDie(el) {
+  const cell = afterCell(el);
+  const dxs = [...cell.querySelectorAll('.dx')].filter(d => d.compareDocumentPosition(el) & Node.DOCUMENT_POSITION_FOLLOWING);
+  if (!dxs.length) return null;
+  const d = dxs[dxs.length - 1], rg = document.createRange();
+  rg.setStartAfter(d); rg.setEndBefore(el);
+  const between = rg.toString();
+  return between.length <= 30 && /\bon\b/i.test(between) && !/[.;]/.test(between) ? d : null;
+}
+document.addEventListener('click', e => {      // encounter-terrain picker + lookup rows inside nests
+  const b = e.target.closest('[data-enc]');
+  if (b) {
+    const t = byId[b.dataset.enc];
+    if (t.lookup) { b.closest('.nest').outerHTML = '<div class="nest"><div class="nh"><b>' + esc(t.title) + '</b> &middot; pick a row</div>' + fullTable(t, true) + '</div>'; return; }
+    const o = rollOnce(t);
+    const n = b.closest('.nest'); n.outerHTML = nestHtml(t, o.r, o.label, o.v, o.note);
+    logIt(t.title, plain(o.r.c.join(' / ')));
+    return;
+  }
+  const tr = e.target.closest('tr.pick');
+  if (tr && tr.closest('.nest')) {
+    const t = byId[tr.dataset.t], r = t.rows[+tr.dataset.i];
+    const n = tr.closest('.nest'); n.outerHTML = nestHtml(t, r, 'chosen', null, '');
+  }
+});
+function encounterPicker() {
+  const enc = TABLES.filter(t => t.num.startsWith('17.5.'));
+  return '<div class="nh"><b>Random Encounter</b> &middot; choose the terrain</div><div class="hdpick">' +
+    enc.map(t => '<button class="chipbtn" data-enc="' + t.id + '">' + esc(t.title) + '</button>').join('') + '</div>';
+}
+function fullTable(t, pick) {
+  const named = t.header.some((h, i) => i > 0 && isNamedCol(h));
+  let h = '<table class="ftable">';
+  if (named || plain(t.header[0])) h += '<tr>' + t.header.map(x => '<th>' + x + '</th>').join('') + '</tr>';
+  t.rows.forEach((r, i) => {
+    h += '<tr' + (pick ? ' class="pick" data-t="' + t.id + '" data-i="' + i + '"' : '') + '><td>' + r.k + '</td>' + r.c.map(c => '<td>' + c + '</td>').join('') + '</tr>';
+  });
+  return h + '</table>';
+}
+
+// ---------- index ----------
+function buildIndex(filter) {
+  const q = (filter || '').trim().toLowerCase();
+  const box = $('tindex');
+  $('genBox').hidden = !!q;
+  if (q) {
+    const hits = TABLES.filter(t => (t.title + ' ' + t.chapter + ' ' + t.path).toLowerCase().includes(q));
+    box.innerHTML = hits.length ? '<div class="tlist">' + hits.map(btnHtml).join('') + '</div>' : '<div class="empty">No table matches.</div>';
+    return;
+  }
+  const chaps = [];
+  TABLES.forEach(t => { let c = chaps.find(c => c.n === t.chapterNum); if (!c) chaps.push(c = { n: t.chapterNum, name: t.chapter, ts: [] }); c.ts.push(t); });
+  chaps.sort((a, b) => a.n - b.n);
+  box.innerHTML = chaps.map(c => '<details class="chap"><summary><span>' + c.n + '. ' + esc(c.name) + '</span><span class="cn">' + c.ts.length + '</span></summary><div class="tlist">' +
+    c.ts.map(btnHtml).join('') + '</div></details>').join('');
+}
+function btnHtml(t) {
+  const d = t.lookup ? 'look up' : (OVERRIDE[t.title.toLowerCase()] ? OVERRIDE[t.title.toLowerCase()].expr : t.die);
+  return '<button class="tbtn" data-id="' + t.id + '"><span><span class="num">' + esc(t.num.replace(/\.x$/, '')) + '</span>' + esc(t.title) +
+    '<span class="path">' + esc(t.chapter) + '</span></span><span class="dd">' + esc(d) + '</span></button>';
+}
+$('tsearch').addEventListener('input', e => buildIndex(e.target.value));
+$('tindex').addEventListener('click', e => {
+  const b = e.target.closest('.tbtn'); if (!b) return;
+  const t = byId[b.dataset.id];
+  if (t.title === 'Backgrounds') openCharacter(); else openTable(t);
+});
+document.querySelectorAll('#genBox [data-g]').forEach(b => b.addEventListener('click', () => openGen(b.dataset.g)));
+
+// ---------- sheet ----------
+const sheet = $('sheet');
+function openSheet(title, sub) {
+  $('stitle').innerHTML = esc(title) + (sub ? '<small>' + esc(sub) + '</small>' : '');
+  sheet.classList.add('open'); sheet.scrollTop = 0; document.body.style.overflow = 'hidden';
+  try { history.pushState({ sheet: 1 }, ''); } catch (e) {}
+}
+function closeSheet() { sheet.classList.remove('open'); document.body.style.overflow = ''; }
+$('sheetBack').addEventListener('click', () => { try { if (history.state && history.state.sheet) { history.back(); return; } } catch (e) {} closeSheet(); });
+window.addEventListener('popstate', () => { if (sheet.classList.contains('open')) closeSheet(); });
+
+function openTable(t) {
+  openSheet(t.title, t.chapter + (t.pages.length ? ' · p.' + t.pages[0] : ''));
+  const named = t.header.slice(1).filter(isNamedCol);
+  const numeric = !t.lookup && /^d(4|6|8|10|12|20|100)$/.test(t.die || '');
+  let h = '';
+  if (t.pre.length) h += '<div class="foot">' + t.pre.join('<br>') + '</div>';
+  if (t.lookup) {
+    h += '<div class="hint">This table is looked up, not rolled: tap the row that applies' +
+      (t.title === 'Monsters by HD' || t.title === 'Theme Items' ? ', then roll within it.' : '.') + '</div>';
+    h += '<div class="ctrls"><button class="go" id="tgo">Random row</button></div><div class="rolls" id="trolls"></div>';
+  } else {
+    h += '<div class="ctrls"><button class="go" id="tgo">Roll ' + esc(OVERRIDE[t.title.toLowerCase()] ? OVERRIDE[t.title.toLowerCase()].expr : t.die === 'd4/d12' ? '' : t.die) + '</button>';
+    if (t.die === 'd4/d12') h += '<div class="seg" id="gearSeg"><button data-v="nc" class="on">Non-combatant d4</button><button data-v="m">Mercenary d12</button></div>';
+    if (numeric) h += '<div class="mod">mod <button data-m="-1">&minus;</button><span id="modv">0</span><button data-m="1">+</button></div>';
+    h += '</div>';
+    if (named.length > 1 && t.title !== 'Objective' && t.title !== 'Triggers & Counters') {
+      h += '<div class="ctrls"><div class="seg" id="colSeg"><button data-c="all" class="on">All</button>' +
+        t.header.slice(1).map((x, i) => isNamedCol(x) ? '<button data-c="' + i + '">' + plain(x).toLowerCase().replace(/^\w/, c => c.toUpperCase()) + '</button>' : '').join('') + '</div></div>';
+    }
+    if (t.title === 'Objective') h += '<div class="hint">The book rolls 1d6 twice: once for the Task and once for the Thing.</div>';
+    h += '<div class="rolls" id="trolls"></div>';
+  }
+  if (t.post.length) h += '<div class="foot">' + t.post.join('<br>') + '</div>';
+  h += '<details class="full"' + (t.lookup ? ' open' : '') + '><summary>' + (t.lookup ? 'Table' : 'Show the whole table') + ' (' + t.rows.length + ' rows)</summary>' + fullTable(t, true) + '</details>';
+  $('sbody').innerHTML = h;
+  let mod = 0, col = null, gear = 'nc';
+  const out = $('trolls');
+  const push = html => { out.querySelectorAll('.rcard.latest').forEach(c => c.classList.remove('latest')); out.insertAdjacentHTML('afterbegin', html); };
+  $('tgo').addEventListener('click', () => {
+    if (t.title === 'Objective') {
+      const a = rnd(6), b = rnd(6), ra = t.rows.find(r => r.lo === a), rb = t.rows.find(r => r.lo === b);
+      push('<div class="rcard latest"><div class="rhead"><span>Objective &middot; 1d6 twice</span><span class="rv">' + a + ' / ' + b + '</span></div>' +
+        '<div class="cell"><span class="clabel">Task</span>' + ra.c[0] + '</div><div class="cell"><span class="clabel">Thing</span>' + rb.c[1] + '</div></div>');
+      logIt('Objective', plain(ra.c[0]) + ' / ' + plain(rb.c[1]));
+      return;
+    }
+    const o = rollOnce(t, { mod, gear });
+    let r = o.r;
+    if (t.die === 'd4/d12' && r) {         // show only the line for the hireling type
+      const want = gear === 'nc' ? 'Non-Combatant' : 'Mercenary';
+      const part = r.c[0].split('<br>').find(p => p.includes(want));
+      if (part) r = Object.assign({}, r, { c: [part] });
+    }
+    push(cardHtml(t, r, o.label, o.v, o.note, col));
+    logIt(t.title, r ? plain(r.c.join(' / ')) : o.note);
+  });
+  const ms = $('sbody').querySelectorAll('.mod button');
+  ms.forEach(b => b.addEventListener('click', () => { mod += +b.dataset.m; $('modv').textContent = (mod > 0 ? '+' : '') + mod; }));
+  const cs = $('colSeg');
+  if (cs) cs.addEventListener('click', e => { const b = e.target.closest('button'); if (!b) return; cs.querySelectorAll('button').forEach(x => x.classList.toggle('on', x === b)); col = b.dataset.c === 'all' ? null : +b.dataset.c; });
+  const gs = $('gearSeg');
+  if (gs) gs.addEventListener('click', e => { const b = e.target.closest('button'); if (!b) return; gs.querySelectorAll('button').forEach(x => x.classList.toggle('on', x === b)); gear = b.dataset.v; });
+  $('sbody').querySelector('details.full').addEventListener('click', e => {
+    const tr = e.target.closest('tr.pick'); if (!tr || e.target.closest('.dx,.pc,.tr,.bo,.sg')) return;
+    $('sbody').querySelectorAll('tr.sel').forEach(x => x.classList.remove('sel')); tr.classList.add('sel');
+    const r = t.rows[+tr.dataset.i];
+    push(cardHtml(t, r, t.lookup ? 'chosen' : 'chosen row', null, '', col));
+    if (t.lookup) logIt(t.title, plain(r.k) + ': ' + plain(r.c.join(' / ')));
+    out.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+}
+
+// ---------- generators ----------
+function step(label, t, o, extra) {
+  return '<div class="gstep"><div class="glab">' + esc(label) + '</div><div class="rcard"><div class="rhead"><span>' + esc(t.title) + ' &middot; ' + esc(o.label || '') +
+    (o.note ? ' &middot; <i>' + esc(o.note) + '</i>' : '') + '</span><span class="rv">' + (o.r ? o.r.k : '') + '</span></div>' + rowHtml(t, o.r) + (extra || '') + '</div></div>';
+}
+function note(label, html) { return '<div class="gstep"><div class="glab">' + esc(label) + '</div><div class="rcard"><div class="cell">' + html + '</div></div></div>'; }
+function signsHtml() {
+  const [a, b] = window.drawTwo();
+  return '<div class="minicards">' + [a, b].map(c => '<figure><img alt="" src="' + c.src + '">' + esc(c.name) + '</figure>').join('') + '</div>';
+}
+function monsterFor(hdText) {           // "HD 9-10", "HD 11+" -> a Monsters by HD row + a monster from its list
+  const mt = T('Monsters by HD');
+  let n = hdText.match(/HD\s*([\d]+)(?:-(\d+))?(\+)?/);
+  if (!mt || !n) return '';
+  let hd = +n[1];
+  if (n[2]) hd = hd + rnd(+n[2] - hd + 1) - 1;
+  let rows = mt.rows.filter(r => { const k = plain(r.k); const m = k.match(/^(\d+)(?:-(\d+))?(\+)?$/); if (!m) return false; const lo = +m[1], hi = m[3] ? 99 : (m[2] ? +m[2] : lo); return n[3] ? lo >= hd || (hd >= lo && hd <= hi) : hd >= lo && hd <= hi; });
+  if (!rows.length) return '';
+  const r = rows[rnd(rows.length) - 1];
+  const d = document.createElement('div'); d.innerHTML = r.c[0];
+  const ops = [...d.querySelectorAll('.op')], k = rnd(ops.length);
+  ops.forEach(o => o.classList.toggle('hit', +o.dataset.lo === k));
+  return '<div class="nest"><div class="nh"><b>Monsters by HD</b> &middot; HD ' + r.k + ' &middot; 1d' + ops.length + ' &#8594; ' + k + '</div><div class="cell">' + d.innerHTML + '</div></div>';
+}
+function themeItems(themeText) {
+  const ti = T('Theme Items'); if (!ti) return '';
+  const key = plain(themeText).toLowerCase().slice(0, 5);
+  const r = ti.rows.find(r => plain(r.k).toLowerCase().slice(0, 5) === key);
+  if (!r) return '';
+  const d = document.createElement('div'); d.innerHTML = r.c[0];
+  const ops = [...d.querySelectorAll('.op')];
+  if (!ops.length) return '<div class="nest"><div class="nh"><b>Theme Items</b> &middot; ' + r.k + '</div><div class="cell">' + d.innerHTML + '</div></div>';
+  const v = rnd(20);
+  ops.forEach(o => o.classList.toggle('hit', v >= +o.dataset.lo && v <= +o.dataset.hi));
+  return '<div class="nest"><div class="nh"><b>Theme Items</b> &middot; ' + r.k + ' &middot; d20 &#8594; ' + v + '</div><div class="cell">' + d.innerHTML + '</div></div>';
+}
+const GENS = {
+  dungeon: { title: 'Dungeon', sub: 'Solo Rules - Dungeon Generator', run() {
+    let h = '';
+    const site = T('Dungeon Site'), o1 = rollOnce(site); h += step('Site', site, o1);
+    const dist = rollExpr('2d6');
+    h += note('Location', 'Distance: <b>' + dist.total + ' hexes</b> (2d6) from the party or the nearest settlement. Direction - Read the Signs:' + signsHtml());
+    const sz = T('Size'), o2 = rollOnce(sz); h += step('Size', sz, o2);
+    const ob = T('Objective'), a = rnd(6), b = rnd(6), ra = ob.rows.find(r => r.lo === a), rb = ob.rows.find(r => r.lo === b);
+    h += note('Objective', '<span class="clabel">Task (' + a + ')</span>' + ra.c[0] + '<br><span class="clabel">Thing (' + b + ')</span>' + rb.c[1]);
+    const rw = T('Reward'), o3 = rollOnce(rw); h += step('Reward', rw, o3);
+    const mo = T('Main Opposition'), o4 = rollOnce(mo); h += step('Main opposition', mo, o4, monsterFor(plain(o4.r.c[0])));
+    const sl = T('Special Leader'), o5 = rollOnce(sl); h += step('Special leader', sl, o5);
+    h += note('Leader\'s motivation & status quo - Read the Signs', signsHtml());
+    logIt('Dungeon', plain(o1.r.c[0]) + ', ' + plain(o2.r.c[0]) + ', ' + plain(ra.c[0]) + ' / ' + plain(rb.c[1]));
+    return h;
+  } },
+  room: { title: 'Dungeon Room', sub: 'Solo Rules - Dungeon Generator', run() {
+    let h = '';
+    const th = T('Room Theme'), o1 = rollOnce(th);
+    h += step('Theme', th, o1, themeItems(o1.r.c[0]));
+    const rc = T('Room Contents'), o2 = rollOnce(rc);
+    let extra = '';
+    if (/Complication/i.test(plain(o2.r.c[0]))) { const c = T('Complications'), oc = rollOnce(c); extra += nestHtml(c, oc.r, oc.label, oc.v, oc.note); }
+    h += step('Contents', rc, o2, extra);
+    const ex = rollExpr('1d4').total;
+    const dr = T('Doors'); let dh = '';
+    for (let i = 0; i < ex; i++) { const od = rollOnce(dr); dh += nestHtml(dr, od.r, 'exit ' + (i + 1) + ' · ' + od.label, od.v, od.note); }
+    h += note('Exits: ' + ex + ' (1d4)', '<span class="hint">The first room has at least two exits. If you have a pre-made map, ignore the doors.</span>' + dh);
+    const rcor = T('Rooms & Corridors'), o3 = rollOnce(rcor); h += step('Next area (if generating the map)', rcor, o3);
+    logIt('Dungeon Room', plain(o1.r.c[0]) + ' / ' + plain(o2.r.c[0]));
+    return h;
+  } },
+  item: { title: 'Major Magic Item', sub: 'Treasure - Major Item Generator', run() {
+    let h = '';
+    const it = T('Item Type'), o1 = rollOnce(it); h += step('Item type', it, o1);
+    const ty = plain(o1.r.c[0]);
+    const sub = /Jewellery/.test(ty) ? 'Jewellery' : /Clothing/.test(ty) ? 'Clothing' : /Misc/.test(ty) ? 'Miscellaneous' : null;
+    if (sub) { const s = T(sub), o = rollOnce(s); h += step('Form', s, o); }
+    const np = T('Number of Powers'), o2 = rollOnce(np); h += step('Number of powers', np, o2);
+    const txt = plain(o2.r.c[0]), W = { One: 1, Two: 2, Three: 3 };
+    let ob = 0, di = 0;
+    txt.replace(/(One|Two|Three) (Obvious|Discreet)/g, (m, n, k) => { if (k === 'Obvious') ob += W[n]; else di += W[n]; });
+    const OP = T('Obvious Powers'), DP = T('Discreet Powers');
+    for (let i = 0; i < ob; i++) { const o = rollOnce(OP); h += step('Obvious power ' + (i + 1), OP, o); }
+    for (let i = 0; i < di; i++) { const o = rollOnce(DP); h += step('Discreet power ' + (i + 1), DP, o); }
+    logIt('Major Magic Item', ty + ', ' + txt);
+    return h;
+  } },
+  hireling: { title: 'Hireling', sub: 'Hirelings', run() {
+    let h = '';
+    const merc = rnd(2) === 2;
+    h += note('Kind', '<b>' + (merc ? 'Mercenary' : 'Non-combatant') + '</b> (even chance; mercs cost about 10 sp/day, non-combatants 3 sp/day)');
+    const parts = [];
+    [['Name', 'Names'], ['Personality', 'Personality'], ['Trait', 'Traits']].forEach(([l, tn]) => { const t = T(tn), o = rollOnce(t); parts.push(plain(o.r.c.join(' '))); h += step(l, t, o); });
+    const g = T('Hireling Gear'), og = rollOnce(g, { gear: merc ? 'm' : 'nc' });
+    let r = og.r; const part = r.c[0].split('<br>').find(p => p.includes(merc ? 'Mercenary' : 'Non-Combatant'));
+    if (part) r = Object.assign({}, r, { c: [part] });
+    h += step('Gear', g, Object.assign({}, og, { r }));
+    const c = T('Catchphrase'), oc = rollOnce(c); h += step('Catchphrase', c, oc);
+    logIt('Hireling', (merc ? 'Mercenary ' : 'Non-combatant ') + parts.join(', '));
+    return h;
+  } },
+  lair: { title: 'Lair Treasure', sub: 'Treasure - by the HD of the lair', run() {
+    const lt = T('Lair Treasure');
+    return '<div class="hint">Choose the predominant or highest HD of the vanquished:</div><div class="hdpick">' +
+      lt.rows.map((r, i) => '<button class="chipbtn" data-lair="' + i + '">HD ' + r.k + '</button>').join('') + '</div><div id="lairOut"></div>';
+  } }
+};
+function lairRoll(i) {
+  const lt = T('Lair Treasure'), r = lt.rows[i];
+  const H = lt.header.map(plain);
+  let h = '', coins = [];
+  const count = s => { s = plain(s); if (s === 'NA') return 0; const p = s.match(/^(\d+)%$/); if (p) return rnd(100) <= +p[1] ? 1 : 0; const d = s.match(/^(\d+)d(\d+)$/); if (d) return rollExpr(s).total; return +s || 0; };
+  r.c.forEach((c, j) => {
+    const col = H[j + 1], s = plain(c);
+    if (['CP', 'SP', 'GP'].includes(col)) {
+      if (s === 'NA') return;
+      const e = s.replace(/\s*x\s*d/, 'x1d');
+      const v = rollExpr(e.includes('d') ? e : '0d1');
+      coins.push('<b>' + (v ? v.total : s) + ' ' + col.toLowerCase() + '</b> <span class="hint">(' + esc(s) + ')</span>');
+    }
+  });
+  h += note('Coins', coins.join('<br>') || 'none');
+  const map = { 'VAL A': 'Valuables A', 'VAL B': 'Valuables B', 'T&C': 'Trinkets & Curios', 'MINOR': 'Minor Magical Items', 'MAJOR': 'Major Magical Items' };
+  r.c.forEach((c, j) => {
+    const col = H[j + 1]; if (!map[col]) return;
+    const s = plain(c), n = count(c), t = T(map[col]);
+    if (!n) { h += note(map[col] + ' (' + s + ')', '<span class="hint">none</span>'); return; }
+    let inner = '';
+    for (let k = 0; k < n; k++) { const o = rollOnce(t); inner += nestHtml(t, o.r, o.label, o.v, o.note); }
+    h += note(map[col] + ' (' + s + ' → ' + n + ')', inner + (col === 'MAJOR' ? '<div class="hint">Or build one with the Major Magic Item generator.</div>' : ''));
+  });
+  logIt('Lair Treasure', 'HD ' + plain(r.k));
+  return h;
+}
+function openGen(g) {
+  if (g === 'character') { openCharacter(); return; }
+  const G = GENS[g];
+  openSheet(G.title, G.sub);
+  $('sbody').innerHTML = '<div class="ctrls"><button class="go" id="ggo">' + (g === 'lair' ? 'Choose HD' : 'Generate') + '</button></div><div id="gout">' + G.run() + '</div>';
+  $('ggo').addEventListener('click', () => { $('gout').innerHTML = G.run(); sheet.scrollTop = 0; });
+}
+$('sbody').addEventListener('click', e => { const b = e.target.closest('[data-lair]'); if (b && $('lairOut')) { $('lairOut').innerHTML = lairRoll(+b.dataset.lair); } });
+// ---------- character generator (Character Creation, p.8) ----------
+const ATTR = ['Str', 'Dex', 'Con', 'Int', 'Perc', 'Will', 'Cha'];
+const ATTR_LONG = { Str: 'Strength', Dex: 'Dexterity', Con: 'Constitution', Int: 'Intelligence', Perc: 'Perception', Will: 'Willpower', Cha: 'Charisma' };
+const modOf = v => v <= 4 ? -3 : v <= 6 ? -2 : v <= 8 ? -1 : v <= 12 ? 0 : v <= 14 ? 1 : v <= 16 ? 2 : v <= 18 ? 3 : v <= 20 ? 4 : 5;
+const sgn = n => (n > 0 ? '+' : '') + n;
+const CLASSES = {
+  Artificer: { key: 'Int', min: 15, hp: 1, ab: 0, armour: 1, shield: 0, gear: ['Heavy Hammer (1d8)', 'Leather (+1 AC)', 'Toolkit'],
+    skills: ['Apothecary', 'General Lore'], die: 12, pool: ['Acrobatics', 'Animal Lore', 'Athletics', 'Deception', 'Detection', 'Divine Lore', 'Gather Information', 'Persuasion', 'Watercraft', 'Sleight of Hand', 'Stealth', 'Traps & Locks'],
+    abil: { table: 'Alchemy & Mechanica', by: 'Int', what: 'inventions' }, fixed: [] },
+  Barbarian: { key: 'Con', min: 13, hp: 2, ab: 1, armour: 3, shield: 0, gear: ['Great Axe (1d12)', 'Hide (+3 AC*)'],
+    skills: ['Athletics', 'Wilderness Lore'], die: 10, pool: ['Acrobatics', 'Animal Lore', 'Deception', 'Detection', 'Divine Lore', 'Gather Information', 'Leadership', 'Persuasion', 'Watercraft', 'Stealth'],
+    abil: null, fixed: ['Wild Born', 'Ferocious Rage'] },
+  Bard: { key: 'Cha', hp: 2, ab: 0, armour: 3, shield: 0, gear: ['Spear (1d6+1)', 'Chain shirt (+3 AC)', 'Instrument (if desired)'],
+    skills: ['Persuasion', 'Deception', 'General Lore'], die: 10, pool: ['Apothecary', 'Arcane Lore', 'Athletics', 'Detection', 'Divine Lore', 'Gather Information', 'Leadership', 'Stealth', 'Watercraft', 'Traps & Locks'],
+    abil: null, fixed: ['Silver Tongued', 'Inspire Greatness'] },
+  Cultist: { key: 'Will', hp: 2, ab: 0, armour: 3, shield: 0, gear: ['Heavy Mace (1d8)', 'Chain shirt (+3 AC)', 'Holy symbol'],
+    skills: ['Apothecary', 'Divine Lore'], die: 10, pool: ['Arcane Lore', 'Athletics', 'Deception', 'Detection', 'Gather Information', 'General Lore', 'Persuasion', 'Watercraft', 'Stealth', 'Wilderness Lore'],
+    abil: { table: 'Blessings', by: 'Will', what: 'blessings' }, fixed: ['Sacred Lore', 'Patron: choose your deity'] },
+  Fighter: { key: 'Str', hp: 3, ab: 1, armour: 3, shield: 1, gear: ['Longsword (1d8) or Spear (1d6+1)', 'Chain shirt (+3 AC)', 'Shield (+1 AC)'],
+    skills: ['Leadership', 'Athletics'], die: 12, pool: ['Acrobatics', 'Animal Lore', 'Apothecary', 'Deception', 'Detection', 'Gather Information', 'General Lore', 'Persuasion', 'Watercraft', 'Stealth', 'Traps & Locks', 'Wilderness Lore'],
+    abil: { table: 'Adaptable', by: 'Str', what: 'styles (choose one as default)' }, fixed: ['Deadly Strikes'] },
+  'Magic User': { key: 'Int', hp: 1, ab: 0, armour: 1, shield: 0, gear: ['Spellbook', 'Longsword (1d8)', 'Leather armour (+1 AC)'],
+    skills: ['Arcane Lore', 'Apothecary'], die: 10, pool: ['Animal Lore', 'Deception', 'Detection', 'Divine Lore', 'Gather Information', 'General Lore', 'Persuasion', 'Watercraft', 'Stealth', 'Wilderness Lore'],
+    abil: { table: 'Spell List', by: 'Int', what: 'spells' }, fixed: ['Sense Magic'] },
+  Monk: { key: 'Will', key2: 'Dex', hp: 2, ab: 0, armour: 1, shield: 0, gear: ['Staff (1d6)', 'Leather armour (+1 AC)', "Healer's Kit"],
+    skills: ['Acrobatics', 'Apothecary', 'Athletics'], die: 10, pool: ['Arcane Lore', 'Deception', 'Detection', 'Divine Lore', 'General Lore', 'Persuasion', 'Watercraft', 'Stealth', 'Traps & Locks', 'Wilderness Lore'],
+    abil: { table: 'Monk Techniques', by: 'Will', what: 'techniques' }, fixed: ['Martial Arts (1d6 unarmed, Dex for melee, Extra attack)'] },
+  Ranger: { key: 'Perc', hp: 2, ab: 1, armour: 1, shield: 0, gear: ['Longbow (1d8)', 'Quiver', 'Shortsword (1d6)', 'Leather armour (+1 AC)'],
+    skills: ['Animal Lore', 'Wilderness Lore', 'Stealth'], die: 10, pool: ['Acrobatics', 'Athletics', 'Apothecary', 'Deception', 'Detection', 'Divine Lore', 'General Lore', 'Persuasion', 'Watercraft', 'Traps & Locks'],
+    abil: { table: 'Rangercraft', by: 'Perc', what: 'talents' }, fixed: ['Beast Companion'] },
+  Rogue: { key: 'Dex', hp: 2, ab: 0, armour: 1, shield: 0, gear: ['Shortsword (1d6)', 'Dagger (1d4)', 'Leather armour (+1 AC)', "Thieves' Tools"],
+    skills: ['Stealth', 'Sleight of Hand', 'Traps & Locks'], die: 10, pool: ['Acrobatics', 'Apothecary', 'Arcane Lore', 'Deception', 'Detection', 'Divine Lore', 'Gather Information', 'General Lore', 'Persuasion', 'Watercraft'],
+    abil: { table: 'Tricks & Techniques', by: 'Dex', what: 'tricks' }, fixed: ['Backstab (+4 attack, +1d8 damage)', 'Finisher'] },
+};
+const normSkill = s => s.replace(/^Gather Info$/, 'Gather Information').trim();
+const firstBold = h => { const m = h.match(/<b>(.*?)<\/b>/); return m ? plain(m[1]).replace(/[.:]$/, '') : plain(h).slice(0, 40); };
+let CH = null, swapSel = null;
+
+function rollRow(title, v) { const t = T(title); return t ? findRow(t, v).r : null; }
+const curA = (c, a) => c.raw[a] + c.auto[a] + c.user[a];
+function newCharacter(cls) {
+  // everything the class doesn't decide is rolled once here and kept when the class changes
+  const c = { level: 1, user: {}, raw: {}, manual: [] };
+  // 1. race
+  const rr = rnd(12);
+  c.race = rr <= 9 ? 'Human' : rr === 10 ? 'Dwarf' : rr === 11 ? 'Elf' : (rnd(2) === 1 ? 'Halfling' : 'Half-Skorn');
+  c.raceRoll = rr;
+  // 2. background
+  const br = rollOnce(T('Backgrounds')).r;
+  c.bg = { roll: plain(br.k), name: plain(br.c[0]), bonus: plain(br.c[1]), rest: plain(br.c[2]) };
+  const sk = c.bg.rest.split(/[,.]\s*/);
+  c.bg.skill = normSkill(sk[0]); c.bg.item = c.bg.rest.slice(sk[0].length).replace(/^[,.]\s*/, '');
+  // 3. attributes: 3d6 seven times, in order
+  ATTR.forEach(a => { c.raw[a] = rollExpr('3d6').total; c.user[a] = 0; });
+  // 15. age
+  c.age = rollExpr('1d20+16').total;
+  // 16. name, personality, trait (ignore trait entries 23-24 and 91-92)
+  c.name = plain(rollOnce(T('Names')).r.c[0]);
+  c.personality = plain(rollOnce(T('Personality')).r.c[0]);
+  const tr = T('Traits'); let guard = 0, to;
+  do { to = rollOnce(tr); } while ((to.v >= 23 && to.v <= 24 || to.v >= 91 && to.v <= 92) && guard++ < 50);
+  c.trait = to.r;
+  // 17. party bond
+  c.bond = rollOnce(T('Party Bonds'));
+  applyClass(c, cls);
+  return c;
+}
+function keyScore(c, cls) {
+  const C = CLASSES[cls], a = C.key;
+  let v = c.raw[a] + c.user[a];
+  const bm = c.bg.bonus.match(/\+(\d)\s*(\w+)/);
+  if (bm && bm[2] === a) v = Math.min(16, v + +bm[1]);
+  if (c.race === 'Human' && v < 16) v += 1;
+  return v;
+}
+// By the book (p.8) the step-3 raise and swap happen before the class is chosen, so every class can be reached;
+// the generator uses that swap/raise to meet Artificer Int 15 / Barbarian Con 13 when needed.
+const eligible = (c, cls) => true;
+function applyClass(c, cls) {
+  // 4. class (chosen, or random among the classes this character qualifies for) and everything it decides
+  const ok = Object.keys(CLASSES).filter(k => eligible(c, k));
+  c.cls = cls && CLASSES[cls] ? cls : ok[rnd(ok.length) - 1];
+  const C = CLASSES[c.cls];
+  c.notes = []; c.auto = {};
+  ATTR.forEach(a => { c.auto[a] = 0; });
+  const cur = a => curA(c, a);
+  const bm = c.bg.bonus.match(/\+(\d)\s*(\w+)/);
+  if (bm && ATTR.includes(bm[2])) {
+    const a = bm[2], before = cur(a); c.auto[a] += Math.max(0, Math.min(+bm[1], 16 - before));
+    c.notes.push('Background ' + c.bg.name + ': +' + bm[1] + ' ' + a + (before >= 16 ? ' (already at the 16 maximum)' : ''));
+  }
+  if (C.min && cur(C.key) < C.min) {
+    // step 3 swap: bring the lowest score that still meets the minimum into the key attribute
+    const k = C.key, cand = ATTR.filter(a => a !== k && cur(a) >= C.min).sort((x, y) => cur(x) - cur(y))[0];
+    if (cand) {
+      const vk = cur(k), vc = cur(cand);
+      c.auto[k] += vc - vk; c.auto[cand] += vk - vc;
+      c.notes.push(c.cls + ' needs ' + k + ' ' + C.min + '+: swapped ' + cand + ' (' + vc + ') with ' + k + ' (' + vk + ') -- the step 3 swap.');
+    } else {
+      // no score that high, so no 15+ either: the step 3 raise to 15 goes to the key attribute
+      c.notes.push(c.cls + ' needs ' + k + ' ' + C.min + '+ and no score reaches it: ' + k + ' raised from ' + cur(k) + ' to 15 -- the step 3 raise.');
+      c.auto[k] += 15 - cur(k);
+    }
+  }
+  if (c.race === 'Human') {
+    const a = C.key, before = cur(a); c.auto[a] += before < 16 ? 1 : 0;
+    c.notes.push('Human: +1 to an attribute of your choice -- applied to ' + a + ', the class key attribute (max 16). Move it with the -/+ buttons if you prefer.');
+  }
+  const top = () => ATTR.slice().sort((x, y) => cur(y) - cur(x));
+  if (cur(top()[0]) < 15) { const a = C.key; c.notes.push('No attribute of 15+: ' + a + ' raised from ' + cur(a) + ' to 15.'); c.auto[a] += 15 - cur(a); }
+  const t15 = top()[0], other = top().filter(a => a !== t15)[0];
+  if (cur(other) < 13) { c.notes.push('Needs a second attribute of 13+: ' + other + ' raised from ' + cur(other) + ' to 13.'); c.auto[other] += 13 - cur(other); }
+  // 9. skills: class skills + background skill + three rolled (repeats rolled again)
+  c.skills = C.skills.slice();
+  let need = 3;
+  if (!c.skills.includes(c.bg.skill)) c.skills.push(c.bg.skill + ' (background)');
+  else { need = 4; c.notes.push('Background skill ' + c.bg.skill + ' is already a class skill: rolled one more skill instead.'); }
+  const have = s => c.skills.some(x => x.replace(' (background)', '') === s);
+  let guard = 0, got = 0;
+  while (got < need && guard++ < 200) {
+    const s = normSkill(C.pool[rnd(C.die) - 1]);
+    if (have(s)) continue;
+    c.skills.push(s); got++;
+  }
+  // 10. class abilities
+  c.abil = []; c.abilNote = '';
+  if (C.abil) {
+    const n = Math.max(1, modOf(cur(C.abil.by)));
+    c.abilNote = n + ' ' + C.abil.what + ' (' + C.abil.by + ' mod' + (modOf(cur(C.abil.by)) < 1 ? ', minimum 1' : '') + ')';
+    const seen = new Set(); guard = 0;
+    while (c.abil.length < n && guard++ < 300) {
+      let t = T(C.abil.table), v, r;
+      if (C.abil.table === 'Spell List') { v = rnd(100); r = findRow(t, v).r; }
+      else { v = rnd(12); r = findRow(t, v).r; if (C.abil.table === 'Blessings' && v >= 7) { t = T('Spell Like Blessings'); r = findRow(t, v).r; } }
+      if (!r) continue;
+      const key = t.title + '|' + plain(r.k);
+      if (seen.has(key)) continue;
+      seen.add(key);
+      c.abil.push({ t, r, v, name: (t.title === 'Spell Like Blessings' ? 'Spell like Blessing: ' : '') + firstBold(r.c[0]) });
+    }
+  }
+  return c;
+}
+function charHtml() {
+  const c = CH, C = CLASSES[c.cls], cur = a => curA(c, a), M = a => modOf(cur(a));
+  const luck = 11 + (c.race === 'Halfling' ? 1 : 0), rerolls = c.race === 'Human' ? 2 : 1;
+  const init = Math.floor((cur('Dex') + cur('Int')) / 2);
+  const hp = cur('Con') + c.level * C.hp;
+  const death = Math.max(10, 10 + Math.max(M('Con'), M('Will')));
+  const ac = 10 + C.armour + C.shield + M('Dex') + (c.race === 'Halfling' ? 1 : 0);
+  const melee = C.ab + (c.cls === 'Monk' ? Math.max(M('Str'), M('Dex')) : M('Str')), ranged = C.ab + M('Perc');
+  const battle = Math.max(5, Math.floor(cur('Str') / 2)), pack = Math.max(5, Math.ceil(cur('Str') / 2));
+  const lang = M('Int');
+  let h = '<div class="ctrls"><button class="go" id="cgo">New character</button><select class="csel" id="ccls"><option value="">Random class</option>' +
+    Object.keys(CLASSES).map(k => {
+      const C2 = CLASSES[k], ok = eligible(c, k);
+      return '<option value="' + k + '"' + (k === c.fixedCls ? ' selected' : '') + (ok ? '' : ' disabled') + '>' + k + (ok ? '' : ' (needs ' + C2.key + ' ' + C2.min + ')') + '</option>';
+    }).join('') + '</select></div>';
+  if (!eligible(c, c.cls)) h += '<div class="cnote" style="color:#e58a7a">' + esc(c.cls) + ' needs ' + C.key + ' ' + C.min + '+, and this character no longer qualifies.</div>';
+  h += '<div class="cname">' + esc(c.name) + '</div><div class="cline"><b>' + esc(c.race) + '</b> (d12: ' + c.raceRoll + ') &middot; <b>' + esc(c.cls) +
+    '</b> &middot; Level 1 &middot; Age <b>' + c.age + '</b></div>';
+  h += '<div class="cline">Background (d66 ' + esc(c.bg.roll) + '): <b>' + esc(c.bg.name) + '</b> -- ' + esc(c.bg.bonus) + ', ' + esc(c.bg.skill) + ', ' + esc(c.bg.item) + '</div>';
+  h += '<div class="chead"><span>Attributes</span><button id="cswap" class="' + (swapSel ? 'on' : '') + '">' + (swapSel ? 'Tap the second attribute' : 'Swap two') + '</button></div><div class="attrs">' +
+    ATTR.map(a => '<div class="attr' + (swapSel === a ? ' sel' : '') + '" data-a="' + a + '"><span class="an">' + a + '<small>' + ATTR_LONG[a] + (a === C.key || a === C.key2 ? ' &middot; key' : '') + '</small></span>' +
+      '<button data-d="-1">&minus;</button><span class="av">' + cur(a) + '</span><button data-d="1">+</button><span class="am">' + sgn(M(a)) + '</span></div>').join('') + '</div>';
+  h += '<div class="chead"><span>Derived</span></div><div class="derived">' + [
+    ['Hit Points', hp], ['AC', ac], ['Initiative', init], ['Luck', luck], ['Rerolls', rerolls], ['DDM', 1],
+    ['Death save', death + (c.race === 'Half-Skorn' ? ' (+2)' : '')], ['Melee AB', sgn(melee)], ['Ranged AB', sgn(ranged)],
+    ['Battle slots', battle], ['Pack slots', pack], ['Languages', lang <= -2 ? 'illiterate' : sgn(Math.max(0, lang))]
+  ].map(([k, v]) => '<div class="dstat"><small>' + k + '</small><span>' + v + '</span></div>').join('') + '</div>';
+  h += '<div class="cnote">HP = Con + ' + (C.hp === 1 ? 'Level' : 'Level x' + C.hp) + '. AC = 10 + armour ' + C.armour + (C.shield ? ' + shield 1' : '') + ' + Dex mod' + (c.race === 'Halfling' ? ' + 1 halfling (lost in Heavy armour)' : '') +
+    '. Attack bonus = class ' + sgn(C.ab) + ' + Str mod (melee' + (c.cls === 'Monk' ? ', or Dex for a Monk' : '') + ') / Perc mod (ranged). Death save = 10 + the higher of Con or Will mod (min 10).</div>';
+  h += '<div class="chead"><span>Skills</span></div><ul class="clist">' + c.skills.map(s => '<li>' + esc(s) + '</li>').join('') + '</ul>';
+  h += '<div class="chead"><span>Class abilities</span></div>';
+  h += '<ul class="clist">' + C.fixed.map(f => '<li>' + esc(f) + '</li>').join('') + '</ul>';
+  if (c.abil.length) {
+    h += '<div class="cnote">' + esc(c.abilNote) + ', rolled on ' + esc(C.abil.table) + ':</div>' +
+      c.abil.map(a => '<details class="ab"><summary>' + esc(a.name) + ' <span class="hint">(' + a.v + ')</span></summary><div class="cell">' + a.r.c.join('<br>') + '</div></details>').join('');
+  }
+  h += '<div class="chead"><span>Gear</span></div><ul class="clist">' + C.gear.map(g => '<li>' + esc(g) + '</li>').join('') +
+    '<li>' + esc(c.bg.item) + ' (background)</li><li>Torch, bedroll, rations (5 days), tinderbox</li><li>10 sp</li></ul>';
+  h += '<div class="chead"><span>Character</span></div><ul class="clist"><li><b>Personality:</b> ' + esc(c.personality) + '</li><li><b>Trait:</b> ' + c.trait.c.join(' ') + '</li></ul>';
+  h += '<div class="chead"><span>Party Bond</span></div><div class="rcard"><div class="rhead"><span>Party Bonds &middot; ' + esc(c.bond.label) + '</span><span class="rv">' + c.bond.r.k + '</span></div>' + rowHtml(T('Party Bonds'), c.bond.r) + '</div>';
+  if (c.manual.length) h += '<div class="chead"><span>Your changes</span></div><ul class="clist">' + c.manual.map(m =>
+    '<li class="cnote">' + esc(m.type === 'adj' ? m.a + ' ' + sgn(m.d) + ' (' + m.from + ' \u2192 ' + m.to + ')'
+      : m.type === 'swap' ? 'Swapped ' + m.a + ' and ' + m.b + ' (' + m.a + ' ' + m.va + ' \u2194 ' + m.b + ' ' + m.vb + ')'
+      : 'Class changed: ' + m.from + ' \u2192 ' + m.to) + '</li>').join('') + '</ul>';
+  if (c.notes.length) h += '<div class="chead"><span>Automatic adjustments</span></div><ul class="clist">' + c.notes.map(n => '<li class="cnote">' + esc(n) + '</li>').join('') + '</ul>';
+  h += '<div class="cnote">Choose bonus languages equal to your Int mod. Old humans (1d10+60): -1 Str & Con, +1 Int & Will. Racial traits: Races, p.13.</div>';
+  h += '<details class="full"><summary>Backgrounds table (36 rows)</summary>' + fullTable(T('Backgrounds'), false) + '</details>';
+  return h;
+}
+function drawCharacter() { $('sbody').innerHTML = charHtml(); }
+function openCharacter() {
+  openSheet('Character', 'Character Creation - p.8');
+  CH = newCharacter(); CH.fixedCls = ''; swapSel = null; drawCharacter();
+  logIt('Character', CH.name + ', ' + CH.race + ' ' + CH.cls + ' (' + CH.bg.name + ')');
+}
+$('sbody').addEventListener('click', e => {
+  if (!CH || !$('cgo')) return;
+  if (e.target.id === 'cgo') { const k = CH.fixedCls; CH = newCharacter(k); let n = 0; while (k && !eligible(CH, k) && n++ < 2000) CH = newCharacter(k); CH.fixedCls = k; swapSel = null; drawCharacter(); logIt('Character', CH.name + ', ' + CH.race + ' ' + CH.cls + ' (' + CH.bg.name + ')'); return; }
+  if (e.target.id === 'cswap') { swapSel = swapSel ? null : '__pick'; drawCharacter(); return; }
+  const at = e.target.closest('.attr'); if (!at) return;
+  const a = at.dataset.a, b = e.target.closest('button');
+  if (b) {
+    const d = +b.dataset.d, from = curA(CH, a);
+    CH.user[a] += d;
+    const last = CH.manual[CH.manual.length - 1];
+    if (last && last.type === 'adj' && last.a === a) { last.d += d; last.to = curA(CH, a); if (!last.d) CH.manual.pop(); }
+    else CH.manual.push({ type: 'adj', a, d, from, to: curA(CH, a) });
+    drawCharacter(); return;
+  }
+  if (swapSel === '__pick') { swapSel = a; drawCharacter(); return; }
+  if (swapSel && swapSel !== '__pick' && swapSel !== a) {
+    const va = curA(CH, swapSel), vb = curA(CH, a);
+    CH.user[swapSel] += vb - va; CH.user[a] += va - vb;
+    CH.manual.push({ type: 'swap', a: swapSel, b: a, va, vb }); swapSel = null; drawCharacter();
+  }
+});
+$('sbody').addEventListener('change', e => {
+  if (e.target.id !== 'ccls') return;
+  // keep name, race, background, rolled attributes, age, personality, trait and bond; redo only what the class decides
+  const k = e.target.value, was = CH.cls; applyClass(CH, k); CH.fixedCls = k; swapSel = null;
+  if (was !== CH.cls) CH.manual.push({ type: 'class', from: was, to: CH.cls });
+  drawCharacter();
+  logIt('Character', CH.name + ' is now a ' + CH.cls);
+});
+
+window.toaTables = { TABLES, rollOnce, findRow, rollExpr, openTable, openGen, GENS, lairRoll, newCharacter, openCharacter };
+buildIndex('');
+}
+</script>

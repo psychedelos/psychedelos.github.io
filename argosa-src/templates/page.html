@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Argosa Oracles</title>
+<style>
+  :root { --bg:#141110; --panel:#1e1916; --line:#2e2620; --fg:#efe3cf; --muted:#a8977e;
+          --accent:#c9925a; --yes:#9fd18b; --no:#e58a7a; --red:#8e1b1b; --ivory:#e8dcc2; color-scheme:dark; }
+  * { box-sizing:border-box; min-width:0; }
+  html,body { margin:0; background:var(--bg); color:var(--fg); font-family: Georgia, "Times New Roman", serif; }
+  body { display:flex; flex-direction:column; align-items:center; overflow-x:clip;
+    padding: calc(env(safe-area-inset-top, 0px) + 18px) max(14px, env(safe-area-inset-right)) calc(env(safe-area-inset-bottom, 0px) + 32px) max(14px, env(safe-area-inset-left)); }
+  .wrap { width:100%; max-width:760px; }
+  .narrow { max-width:560px; margin:0 auto; }
+  h1 { font-size:1.35rem; letter-spacing:.12em; text-transform:uppercase; font-weight:normal; margin:6px 0 12px; text-align:center; }
+  .sub { color:var(--muted); font-size:.85rem; margin:14px 0 16px; text-align:center; }
+
+  /* Tool switcher */
+  .tabs { display:flex; max-width:520px; margin:0 auto; border:1px solid var(--line); border-radius:999px; overflow:hidden; }
+  .tabs button { flex:1; background:transparent; border:0; color:var(--muted); font:inherit; font-size:.95rem;
+    padding:12px 4px; cursor:pointer; min-height:44px; line-height:1.15; }
+  .tabs button + button { border-left:1px solid var(--line); }
+  .tabs button.on { background:#3a2c20; color:var(--fg); }
+  .panel[hidden] { display:none; }
+
+  /* Shared */
+  button.go { background:var(--accent); color:#1b140e; border:0; border-radius:999px; font:inherit;
+    font-size:1.1rem; letter-spacing:.08em; padding:14px 40px; cursor:pointer; box-shadow:0 4px 14px rgba(201,146,90,.3); min-height:48px; }
+  button.go:active { transform:scale(.97); }
+  .controls { display:flex; justify-content:center; margin:18px 0 6px; }
+  .history { margin-top:24px; color:var(--muted); font-size:.85rem; }
+  .history h2 { font-size:.8rem; text-transform:uppercase; letter-spacing:.12em; font-weight:normal;
+    border-bottom:1px solid var(--line); padding-bottom:6px; margin:0 0 6px; }
+  .history ol { margin:0; padding-left:1.5em; }
+  .history li { padding:3px 0; }
+  .history .hq { color:var(--fg); }
+  .history .hy { color:var(--yes); } .history .hn { color:var(--no); }
+
+  /* ---- Dice ---- */
+  .dresult { display:flex; flex-direction:column; align-items:center; justify-content:center; background:var(--panel);
+    border:1px solid var(--line); border-radius:14px; padding:16px 10px; margin:4px 0 18px; min-height:150px; }
+  .dlab { color:var(--muted); font-size:.9rem; letter-spacing:.1em; text-transform:uppercase; }
+  .dval { font-size:4.2rem; line-height:1.05; color:var(--fg); font-variant-numeric:tabular-nums; }
+  .dval.pop { animation: dpop .35s ease-out; }
+  @keyframes dpop { 0%{transform:scale(.6);opacity:.2} 70%{transform:scale(1.08)} 100%{transform:scale(1);opacity:1} }
+  .dsub { color:var(--muted); font-size:.85rem; min-height:1.2em; }
+  .dgrid { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:10px; }
+  .dgrid button { aspect-ratio:1; border-radius:14px; border:1px solid #5a4430; background:radial-gradient(circle at 35% 30%, #3a2c20, #221a14 75%);
+    color:#f1c98f; font:inherit; font-size:1.15rem; cursor:pointer; box-shadow:0 4px 10px rgba(0,0,0,.45); min-height:56px; }
+  .dgrid button:active { transform:scale(.95); }
+  .dgrid button.last { border-color:var(--accent); color:#fff; }
+  @media (max-width:380px) { .dgrid { grid-template-columns:repeat(4,minmax(0,1fr)); } }
+
+  /* ---- Bones ---- */
+  .likely { display:flex; margin:12px 0 4px; border:1px solid var(--line); border-radius:999px; overflow:hidden; }
+  .likely button { flex:1; background:transparent; border:0; color:var(--muted); font:inherit;
+    font-size:.88rem; padding:10px 4px; cursor:pointer; min-height:44px; }
+  .likely button + button { border-left:1px solid var(--line); }
+  .likely button.on { background:#3a2c20; color:var(--fg); }
+  .tray { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:10px; margin:22px 0 6px; }
+  .dcol { display:flex; flex-direction:column; align-items:center; }
+  .die { width:100%; max-width:110px; aspect-ratio:1; border-radius:18%; position:relative;
+    display:flex; align-items:center; justify-content:center;
+    box-shadow: inset 0 -6px 0 rgba(0,0,0,.25), 0 6px 14px rgba(0,0,0,.5); transition: opacity .3s; }
+  .die svg { width:72%; height:72%; }
+  .die.judg { background:radial-gradient(circle at 35% 30%, #b02a2a, var(--red) 70%); color:var(--ivory); }
+  .die.fate { background:radial-gradient(circle at 35% 30%, #f6eedb, #d8c9a8 75%); color:#1b1410; }
+  .die.fort { background:radial-gradient(circle at 35% 30%, #34302c, #0d0b0a 75%); color:var(--ivory); border:1px solid #3a322b; }
+  .die.rolling { animation: tumble .12s linear infinite; }
+  .die.ignored, .die.cancelled { opacity:.35; }
+  .die.rerolled::after { content:"\21BB"; position:absolute; top:-8px; right:-8px; background:var(--accent);
+    color:#1b140e; width:24px; height:24px; border-radius:50%; font-size:15px; display:flex;
+    align-items:center; justify-content:center; font-family:sans-serif; }
+  @keyframes tumble { 0%{transform:rotate(-8deg) translateY(-2px)} 50%{transform:rotate(8deg) translateY(2px)} 100%{transform:rotate(-8deg) translateY(-2px)} }
+  .dname { margin-top:8px; font-size:.72rem; color:var(--muted); text-align:center; letter-spacing:.04em; line-height:1.2; }
+  .dface { font-size:.8rem; color:var(--fg); min-height:1.1em; }
+  .result { background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:16px;
+    margin-top:14px; text-align:center; min-height:96px; }
+  .answer { font-size:1.7rem; letter-spacing:.05em; }
+  .answer.yes { color:var(--yes); } .answer.no { color:var(--no); }
+  .mag { color:var(--fg); font-size:.95rem; margin-top:4px; }
+  .fortune { margin-top:8px; font-size:.95rem; }
+  .fortune.good { color:#e9c46a; } .fortune.bad { color:#d77; } .fortune.none { color:var(--muted); }
+  .why { margin-top:10px; font-size:.8rem; color:var(--muted); line-height:1.45; text-align:left; }
+  .why div::before { content:"\25C6  "; color:#5d4b38; }
+  .placeholder { color:var(--muted); font-style:italic; padding-top:22px; }
+  details.rules { margin-top:22px; color:var(--muted); font-size:.82rem; line-height:1.5; }
+  details.rules summary { cursor:pointer; color:var(--fg); }
+  .legend { display:flex; flex-wrap:wrap; gap:10px 16px; margin-top:8px; }
+  .legend > span { display:inline-flex; align-items:center; gap:6px; }
+  .legend svg { width:22px; height:22px; }
+
+  /* ---- Signs ---- */
+  .table { display:flex; gap:14px; justify-content:center; width:100%; margin-top:16px; }
+  .col { flex:1 1 0; max-width:340px; }
+  .slot { width:100%; aspect-ratio:5/7; perspective:1200px; }
+  .card { position:relative; width:100%; height:100%; transform-style:preserve-3d;
+    transition: transform .7s cubic-bezier(.2,.7,.2,1); cursor:zoom-in; }
+  .card.flipped { transform: rotateY(180deg); }
+  .face { position:absolute; inset:0; backface-visibility:hidden; -webkit-backface-visibility:hidden;
+    border-radius:4.5%; overflow:hidden; box-shadow:0 8px 24px rgba(0,0,0,.55); }
+  .face img { width:100%; height:100%; display:block; object-fit:cover; }
+  .back { background:#000; display:flex; align-items:center; justify-content:center; border:2px solid #3a2f25; }
+  .back span { color:#5d4b38; font-size:2.4rem; }
+  .front { transform: rotateY(180deg); }
+  .label { text-align:center; margin-top:8px; font-size:.95rem; color:var(--muted); min-height:1.3em; }
+  .zoom { position:fixed; inset:0; background:rgba(0,0,0,.88); display:none;
+    align-items:center; justify-content:center; z-index:10; cursor:zoom-out; padding:16px; }
+  .zoom.open { display:flex; }
+  .zoom img { max-width:100%; max-height:100%; border-radius:12px; box-shadow:0 10px 40px #000; }
+
+  @media (prefers-reduced-motion: reduce) {
+    .card { transition:none; } .die.rolling { animation:none; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Argosa Oracles</h1>
+  <div class="tabs" id="tabs">
+    <button data-t="dice" class="on">Dice</button>
+    <button data-t="bones">Bones</button>
+    <button data-t="signs">Signs</button>
+    <button data-t="tables">Tables</button>
+  </div>
+
+  <!-- ============ DICE ============ -->
+  <section class="panel narrow" id="p-dice">
+    <div class="sub">Tap a die to roll it</div>
+    <div class="dresult" id="dResult"><span class="dlab" id="dLab">&nbsp;</span><span class="dval" id="dVal">&ndash;</span><span class="dsub" id="dSub">&nbsp;</span></div>
+    <div class="dgrid" id="dGrid"></div>
+    <div class="history" id="diceHistBox" hidden><h2>Past rolls</h2><ol id="diceHist" reversed></ol></div>
+  </section>
+
+  <!-- ============ BONES ============ -->
+  <section class="panel narrow" id="p-bones" hidden>
+    <div class="sub">Pose a yes-or-no question, then cast the four dice</div>
+    <div class="likely" id="likely">
+      <button data-v="even" class="on">Even odds</button>
+      <button data-v="yes">Yes likely</button>
+      <button data-v="no">No likely</button>
+    </div>
+    <div class="tray">
+      <div class="dcol"><div class="die judg" id="d0"></div><div class="dname">Hammer of<br>Judgment</div><div class="dface" id="f0"></div></div>
+      <div class="dcol"><div class="die fate" id="d1"></div><div class="dname">Twin of<br>Fate</div><div class="dface" id="f1"></div></div>
+      <div class="dcol"><div class="die fate" id="d2"></div><div class="dname">Twin of<br>Fate</div><div class="dface" id="f2"></div></div>
+      <div class="dcol"><div class="die fort" id="d3"></div><div class="dname">Fortune<br>Die</div><div class="dface" id="f3"></div></div>
+    </div>
+    <div class="controls"><button class="go" id="castBtn">Cast the Bones</button></div>
+    <div class="result" id="result"><div class="placeholder">The Bones await your question.</div></div>
+    <div class="history" id="bonesHistBox" hidden><h2>Past castings</h2><ol id="bonesHist" reversed></ol></div>
+    <details class="rules">
+      <summary>How the Bones are read</summary>
+      <div class="legend" id="legend"></div>
+      <p>Yes and No cancel each other out. Exception: if the Judgment die is opposed by just one Twin of Fate, Judgment breaks the tie and that Fate die is ignored. A single result is an ordinary answer; a double is greater or more definitive; a triple is extreme or exaggerated.</p>
+      <p>Sun on the Fortune die adds a benefit or advantage for the PCs; Skull adds a complication, setback or disadvantage; blank adds nothing.</p>
+      <p><b>Likely / unlikely:</b> if any die shows the answer you judged unlikely, reroll one of them, once. If the Judgment die shows it, the Judgment die must be the one rerolled.</p>
+      <p>Dice: Judgment 3 Yes / 3 No. Each Twin 2 Yes / 2 No / 2 blank. Fortune 2 Sun / 2 Skull / 2 blank.</p>
+    </details>
+  </section>
+
+  <!-- ============ SIGNS ============ -->
+  <section class="panel" id="p-signs" hidden>
+    <div class="sub">Pose an open question and draw two different cards</div>
+    <div class="table">
+      <div class="col">
+        <div class="slot"><div class="card" id="c0"><div class="face back"><span>&#10022;</span></div><div class="face front"><img alt=""></div></div></div>
+        <div class="label" id="l0"></div>
+      </div>
+      <div class="col">
+        <div class="slot"><div class="card" id="c1"><div class="face back"><span>&#10022;</span></div><div class="face front"><img alt=""></div></div></div>
+        <div class="label" id="l1"></div>
+      </div>
+    </div>
+    <div class="controls"><button class="go" id="drawBtn">Draw Two</button></div>
+    <div class="history" id="signsHistBox" hidden><h2>Past draws</h2><ol id="signsHist" reversed></ol></div>
+  </section>
+</div>
+
+<!--TABLES_PANEL-->
+<div class="zoom" id="zoom"><img alt=""></div>
+
+<script>
+{
+const CARDS = /*CARDS_JSON*/[];
+
+// ---------- shared ----------
+function randInt(n) {
+  if (window.crypto && crypto.getRandomValues) {
+    const buf = new Uint32Array(1), lim = Math.floor(0x100000000 / n) * n;
+    do { crypto.getRandomValues(buf); } while (buf[0] >= lim);
+    return buf[0] % n;
+  }
+  return Math.floor(Math.random() * n);
+}
+const wait = ms => new Promise(r => setTimeout(r, ms));
+const $ = id => document.getElementById(id);
+
+// ---------- tabs (hash routed: #bones / #signs) ----------
+function showTab(t) {
+  if (!['dice', 'bones', 'signs', 'tables'].includes(t)) t = 'dice';
+  $('p-dice').hidden = t !== 'dice';
+  document.querySelectorAll('#tabs button').forEach(b => b.classList.toggle('on', b.dataset.t === t));
+  $('p-bones').hidden = t !== 'bones';
+  $('p-signs').hidden = t !== 'signs';
+  $('p-tables').hidden = t !== 'tables';
+}
+document.querySelectorAll('#tabs button').forEach(b => b.addEventListener('click', () => {
+  showTab(b.dataset.t);
+  try { history.replaceState(null, '', '#' + b.dataset.t); } catch (e) { location.hash = b.dataset.t; }
+}));
+window.addEventListener('hashchange', () => showTab(location.hash.slice(1)));
+showTab(location.hash.slice(1));
+
+// =================== DICE ===================
+{
+  const DICE = ['d2', 'd3', 'd4', 'd6', 'd8', 'd10', 'd12', 'd20', 'd100', 'd66'];
+  const grid = $('dGrid');
+  grid.innerHTML = DICE.map(d => '<button data-d="' + d + '">' + d + '</button>').join('');
+  grid.addEventListener('click', e => {
+    const b = e.target.closest('button'); if (!b) return;
+    const d = b.dataset.d; let v, sub = '';
+    if (d === 'd66') { const a = randInt(6) + 1, c = randInt(6) + 1; v = a * 10 + c; sub = 'tens ' + a + ', ones ' + c; }
+    else { v = randInt(+d.slice(1)) + 1; if (d === 'd100' && v === 100) sub = '00'; }
+    $('dLab').textContent = d; $('dSub').textContent = sub || '\u00a0';
+    const dv = $('dVal'); dv.textContent = v; dv.classList.remove('pop'); void dv.offsetWidth; dv.classList.add('pop');
+    grid.querySelectorAll('button').forEach(x => x.classList.toggle('last', x === b));
+    const li = document.createElement('li'); li.textContent = d + ': ' + v + (sub && d === 'd66' ? ' (' + sub + ')' : '');
+    $('diceHist').prepend(li); $('diceHistBox').hidden = false;
+    while ($('diceHist').children.length > 60) $('diceHist').lastChild.remove();
+  });
+}
+
+// =================== BONES ===================
+const SYM = {
+  jYes: `<svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+           <path d="M50 88V14M36 30L50 14L64 30"/><path d="M50 50Q36 26 16 40M50 50Q64 26 84 40"/></svg>`,
+  jNo: `<svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+           <path d="M24 88V16H70L80 88"/><path d="M42 88V58Q42 46 56 50"/></svg>`,
+  fYes: `<svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+           <path d="M50 88V12"/><path d="M22 14V38Q22 56 50 56Q78 56 78 38V14"/></svg>`,
+  fNo: `<svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="9" stroke-linecap="round" stroke-linejoin="round">
+           <path d="M24 88V16H70L80 88"/><circle cx="51" cy="66" r="5" fill="currentColor" stroke="none"/></svg>`,
+  sun: (() => {
+    let spikes = '';
+    for (let i = 0; i < 12; i++) {
+      const a = i * Math.PI / 6, b = a + 0.17, c = a - 0.17;
+      const p = (r, t) => (50 + r * Math.cos(t)).toFixed(1) + ' ' + (50 + r * Math.sin(t)).toFixed(1);
+      spikes += `M${p(28, c)}L${p(44, a)}L${p(28, b)}Z`;
+    }
+    return `<svg viewBox="0 0 100 100"><path d="${spikes}" fill="currentColor"/>
+            <circle cx="50" cy="50" r="27" fill="currentColor"/>
+            <circle cx="50" cy="50" r="20" fill="none" stroke="#0d0b0a" stroke-width="3"/></svg>`;
+  })(),
+  skull: `<svg viewBox="0 0 100 100">
+           <path fill="currentColor" d="M50 10C28 10 14 25 14 45c0 12 6 20 13 25v14c0 3 2 5 5 5h36c3 0 5-2 5-5V70c7-5 13-13 13-25C86 25 72 10 50 10Z"/>
+           <path fill="#0d0b0a" d="M26 46c2-8 14-10 20-3c1 7-3 13-11 13c-6 0-10-4-9-10Z M74 46c-2-8-14-10-20-3c-1 7 3 13 11 13c6 0 10-4 9-10Z M50 58l-6 11h12Z"/>
+           <path stroke="#0d0b0a" stroke-width="3" d="M40 76v13M50 76v13M60 76v13"/></svg>`,
+  blank: ''
+};
+const JUDG = ['Y','Y','Y','N','N','N'];
+const FATE = ['Y','Y','N','N','-','-'];
+const FORT = ['S','S','K','K','-','-'];
+const roll = faces => faces[randInt(6)];
+
+function faceSvg(i, v) {
+  if (i === 0) return v === 'Y' ? SYM.jYes : SYM.jNo;
+  if (i === 3) return v === 'S' ? SYM.sun : v === 'K' ? SYM.skull : SYM.blank;
+  return v === 'Y' ? SYM.fYes : v === 'N' ? SYM.fNo : SYM.blank;
+}
+function faceName(i, v) {
+  if (i === 3) return v === 'S' ? 'Fortune' : v === 'K' ? 'Misfortune' : 'Blank';
+  return v === 'Y' ? 'Yes' : v === 'N' ? 'No' : 'Blank';
+}
+
+function interpret(d) {
+  const notes = [];
+  const J = d[0], opp = J === 'Y' ? 'N' : 'Y';
+  const twins = [d[1], d[2]];
+  const ignored = [];
+  const oppTwins = twins.map((t, k) => t === opp ? k : -1).filter(k => k >= 0);
+  if (oppTwins.length === 1) {
+    ignored.push(oppTwins[0] + 1);
+    notes.push(`Judgment (${faceName(0, J)}) is opposed by one Twin, so it breaks the tie and that Fate die is ignored.`);
+  }
+  let yes = 0, no = 0;
+  [J, ...twins].forEach((v, idx) => {
+    if (ignored.includes(idx)) return;
+    if (v === 'Y') yes++; else if (v === 'N') no++;
+  });
+  const net = yes - no;
+  if (yes && no) notes.push(`${yes} Yes and ${no} No cancel out, leaving ${Math.abs(net)} ${net > 0 ? 'Yes' : 'No'}.`);
+  else notes.push(`${Math.abs(net)} ${net > 0 ? 'Yes' : 'No'} showing, nothing to cancel.`);
+  const cancelled = [];
+  if (yes && no) {
+    const major = net > 0 ? 'Y' : 'N', minor = net > 0 ? 'N' : 'Y';
+    let majCancel = Math.min(yes, no);
+    [1, 2, 0].forEach(idx => { if (!ignored.includes(idx) && d[idx] === minor) cancelled.push(idx); });
+    [2, 1, 0].forEach(idx => {
+      if (ignored.includes(idx) || majCancel === 0) return;
+      if (d[idx] === major) { cancelled.push(idx); majCancel--; }
+    });
+  }
+  const answer = net > 0 ? 'Yes' : 'No';
+  const n = Math.abs(net);
+  const mag = n === 1 ? 'An ordinary answer' : n === 2 ? 'Double: a greater, more definitive result' : 'Triple: an extremely great, exaggerated result';
+  const F = d[3];
+  const fort = F === 'S' ? ['good', 'Fortune: with an additional benefit or advantage to the PCs']
+             : F === 'K' ? ['bad', 'Misfortune: with an additional complication, setback or disadvantage']
+             : ['none', 'No twist of fortune'];
+  return { answer, n, mag, fort, notes, ignored, cancelled };
+}
+window.interpret = interpret;
+window.castBonesQuick = function (lk) {
+  // one casting with the same rules as the Bones tab; lk = 'even' | 'yes' | 'no'
+  const d = [roll(JUDG), roll(FATE), roll(FATE), roll(FORT)];
+  let rr = '';
+  if (lk && lk !== 'even') {
+    const un = lk === 'yes' ? 'N' : 'Y';
+    let tg = -1;
+    if (d[0] === un) tg = 0; else { const t = [1, 2].filter(i => d[i] === un); if (t.length) tg = t[randInt(t.length)]; }
+    if (tg >= 0) { d[tg] = roll(tg === 0 ? JUDG : FATE); rr = ' (one die rerolled)'; }
+  }
+  const r = interpret(d);
+  const label = r.n === 1 ? r.answer : r.n === 2 ? r.answer + ', greatly' : r.answer + ', extremely';
+  const fort = d[3] === 'S' ? ' + Fortune' : d[3] === 'K' ? ' + Misfortune' : '';
+  return { answer: r.answer, label, fort, text: label + fort + rr };
+};
+
+const dieEls = [0,1,2,3].map(i => $('d' + i));
+const faceEls = [0,1,2,3].map(i => $('f' + i));
+let likely = 'even', casting = false;
+
+document.querySelectorAll('#likely button').forEach(b => b.addEventListener('click', () => {
+  document.querySelectorAll('#likely button').forEach(x => x.classList.remove('on'));
+  b.classList.add('on'); likely = b.dataset.v;
+}));
+
+function showDie(i, v) { dieEls[i].innerHTML = faceSvg(i, v); faceEls[i].textContent = faceName(i, v); }
+function spin(idxs, ms) {
+  return new Promise(res => {
+    idxs.forEach(i => { dieEls[i].classList.add('rolling'); faceEls[i].textContent = ''; });
+    const t = setInterval(() => idxs.forEach(i => {
+      const f = i === 0 ? JUDG : i === 3 ? FORT : FATE;
+      dieEls[i].innerHTML = faceSvg(i, roll(f));
+    }), 70);
+    setTimeout(() => { clearInterval(t); idxs.forEach(i => dieEls[i].classList.remove('rolling')); res(); }, ms);
+  });
+}
+
+$('castBtn').addEventListener('click', async () => {
+  if (casting) return; casting = true;
+  dieEls.forEach(e => e.classList.remove('ignored', 'cancelled', 'rerolled'));
+  const res = $('result');
+  res.innerHTML = '<div class="placeholder">The Bones tumble...</div>';
+
+  const d = [roll(JUDG), roll(FATE), roll(FATE), roll(FORT)];
+  await spin([0,1,2,3], 750);
+  d.forEach((v, i) => showDie(i, v));
+
+  const notes = [];
+  if (likely !== 'even') {
+    const unlikely = likely === 'yes' ? 'N' : 'Y';
+    let target = -1;
+    if (d[0] === unlikely) target = 0;
+    else {
+      const t = [1, 2].filter(i => d[i] === unlikely);
+      if (t.length) target = t[randInt(t.length)];
+    }
+    if (target >= 0) {
+      const before = faceName(target, d[target]);
+      await wait(450);
+      await spin([target], 600);
+      d[target] = roll(target === 0 ? JUDG : FATE);
+      showDie(target, d[target]);
+      dieEls[target].classList.add('rerolled');
+      notes.push(`${target === 0 ? 'Judgment' : 'A Twin of Fate'} showed the unlikely ${before}, so it was rerolled once: now ${faceName(target, d[target])}.`);
+    }
+  }
+
+  const r = interpret(d);
+  r.ignored.forEach(i => dieEls[i].classList.add('ignored'));
+  r.cancelled.forEach(i => dieEls[i].classList.add('cancelled'));
+  const cls = r.answer === 'Yes' ? 'yes' : 'no';
+  const label = r.n === 1 ? r.answer : r.n === 2 ? `${r.answer}, greatly` : `${r.answer}, extremely`;
+  res.innerHTML = `
+    <div class="answer ${cls}">${label.toUpperCase()}</div>
+    <div class="mag">${r.mag}</div>
+    <div class="fortune ${r.fort[0]}">${r.fort[1]}</div>
+    <div class="why">${[...notes, ...r.notes].map(n => `<div>${n}</div>`).join('')}</div>`;
+
+  const li = document.createElement('li');
+  const fortTag = d[3] === 'S' ? ' + Fortune' : d[3] === 'K' ? ' + Misfortune' : '';
+  const lk = likely === 'even' ? '' : ` <i>(${likely} likely)</i>`;
+  li.innerHTML = `<span class="${r.answer === 'Yes' ? 'hy' : 'hn'}">${label}</span>${fortTag}${lk}`;
+  $('bonesHist').prepend(li);
+  $('bonesHistBox').hidden = false;
+  casting = false;
+});
+
+
+showDie(0, 'Y'); showDie(1, 'Y'); showDie(2, 'N'); showDie(3, 'S');
+faceEls.forEach(f => f.textContent = '');
+const L = (svg, txt, bg, fg) => `<span><span style="display:inline-flex;background:${bg};color:${fg};border-radius:5px;padding:2px">${svg}</span>${txt}</span>`;
+$('legend').innerHTML =
+  L(SYM.jYes, 'Judgment Yes', '#8e1b1b', '#e8dcc2') + L(SYM.jNo, 'Judgment No', '#8e1b1b', '#e8dcc2') +
+  L(SYM.fYes, 'Fate Yes', '#e8dcc2', '#1b1410') + L(SYM.fNo, 'Fate No', '#e8dcc2', '#1b1410') +
+  L(SYM.sun, 'Fortune', '#0d0b0a', '#e8dcc2') + L(SYM.skull, 'Misfortune', '#0d0b0a', '#e8dcc2');
+
+// =================== SIGNS ===================
+function drawTwo() {
+  const a = randInt(CARDS.length);
+  let b = randInt(CARDS.length - 1);
+  if (b >= a) b++;
+  return [CARDS[a], CARDS[b]];
+}
+window.drawTwo = drawTwo;
+window.ORACLE_CARDS = CARDS;
+
+const cardEls = [$('c0'), $('c1')], labelEls = [$('l0'), $('l1')];
+let drawing = false;
+
+$('drawBtn').addEventListener('click', () => {
+  if (drawing) return;
+  drawing = true;
+  const wasFlipped = cardEls[0].classList.contains('flipped');
+  cardEls.forEach(c => c.classList.remove('flipped'));
+  labelEls.forEach(l => l.textContent = '');
+  setTimeout(() => {
+    const cur = drawTwo();
+    cur.forEach((card, i) => {
+      const img = cardEls[i].querySelector('.front img');
+      img.src = card.src; img.alt = card.name;
+    });
+    cardEls.forEach((c, i) => setTimeout(() => {
+      c.classList.add('flipped');
+      setTimeout(() => { labelEls[i].textContent = cur[i].name; }, 450);
+    }, 120 + i * 260));
+    const li = document.createElement('li');
+    li.textContent = cur[0].name + ' + ' + cur[1].name;
+    $('signsHist').prepend(li);
+    $('signsHistBox').hidden = false;
+    setTimeout(() => drawing = false, 1100);
+  }, wasFlipped ? 650 : 0);
+});
+
+const zoom = $('zoom');
+cardEls.forEach(c => c.addEventListener('click', () => {
+  if (!c.classList.contains('flipped')) return;
+  zoom.querySelector('img').src = c.querySelector('.front img').src;
+  zoom.classList.add('open');
+}));
+zoom.addEventListener('click', () => zoom.classList.remove('open'));
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') zoom.classList.remove('open');
+  if ((e.key === ' ' || e.key === 'Enter') && !zoom.classList.contains('open')
+      && !document.getElementById('sheet').classList.contains('open')
+      && !($('p-bones').hidden && $('p-signs').hidden)
+      && document.activeElement && document.activeElement.tagName !== 'INPUT'
+      && document.activeElement.tagName !== 'BUTTON') {
+    e.preventDefault();
+    ($('p-signs').hidden ? $('castBtn') : $('drawBtn')).click();
+  }
+});
+}
+</script>
+</body>
+</html>
