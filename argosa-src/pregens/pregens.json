@@ -22,7 +22,8 @@
    "bg": "Organlegger",
    "sex": "Male",
    "age": 25,
-   "bond": "Betrayed by an employer"
+   "bond": "Betrayed by an employer",
+   "solo": true
   },
   {
    "file": "cultist-1.pdf",
@@ -41,7 +42,8 @@
    "bg": "Prisoner",
    "sex": "Female",
    "age": 28,
-   "bond": "Fought in a War"
+   "bond": "Fought in a War",
+   "solo": true
   },
   {
    "file": "thrak-harrowhold-fighter-2.jpg",
@@ -67,7 +69,8 @@
    "bg": "Yellow Lotus Addict",
    "sex": "Male",
    "age": 61,
-   "bond": "Fought in a war"
+   "bond": "Fought in a war",
+   "solo": true
   },
   {
    "file": "monk-1.pdf",
@@ -101,7 +104,8 @@
    "bg": "Miner",
    "sex": "Female",
    "age": 22,
-   "bond": "Caravan Attack"
+   "bond": "Caravan Attack",
+   "solo": true
   }
  ]
 }

@@ -686,7 +686,11 @@ function newCharacter(cls) {
   // 15. age
   c.ageYoung = rollExpr('1d20+16').total; c.ageOld = rollExpr('1d10+60').total;   // humans may choose old
   // 16. name, personality, trait (ignore trait entries 23-24 and 91-92)
-  c.name = plain(rollOnce(T('Names')).r.c[0]);
+  // Names (Hirelings, p.156): tags give the human culture -- (n) Nydissian, (v) Varnori, (k) Karok, (t) Thuel, none Argosan -- and (f) a female name
+  const nm = plain(rollOnce(T('Names')).r.c[0]), tg = (nm.match(/\(([a-z,]+)\)\s*$/) || [, ''])[1].split(',');
+  c.name = nm.replace(/\s*\([a-z,]+\)\s*$/, '');
+  c.culture = { n: 'Nydissian', v: 'Varnori', k: 'Karok', t: 'Thuel' }[tg.find(x => 'nvkt'.includes(x) && x)] || 'Argosan';
+  c.sex = tg.includes('f') ? 'Female' : 'Male';
   c.personality = plain(rollOnce(T('Personality')).r.c[0]);
   const tr = T('Traits'); let guard = 0, to;
   do { to = rollOnce(tr); } while ((to.v >= 23 && to.v <= 24 || to.v >= 91 && to.v <= 92) && guard++ < 50);
@@ -838,7 +842,7 @@ function charHtml() {
     (c.race === 'Human' && !c.traitTeen ? '<span class="hint">Age</span><div class="seg"><button data-old="0" class="' + (isElderly(c) ? '' : 'on') + '"' + (c.traitElderly ? ' disabled' : '') + '>Average</button><button data-old="1" class="' + (isElderly(c) ? 'on' : '') + '"' + (c.traitElderly ? ' disabled' : '') + '>Elderly</button></div>' +
       (c.traitElderly ? '<span class="hint">rolled as a trait</span>' : '') : '') + '</div>';
   h += '<div class="ctrls" id="cexport"><button class="chipbtn" data-sheet="classic">Export Classic sheet</button><button class="chipbtn" data-sheet="simple">Export Simple sheet</button></div><div class="cnote" id="cexportMsg"></div>';
-  h += '<div class="cname">' + esc(c.name) + '</div><div class="cline"><b>' + esc(c.race) + '</b>' + (c.humansOnly ? '' : ' (d12: ' + c.raceRoll + ')') + ' &middot; <b>' + esc(c.cls) +
+  h += '<div class="cname">' + esc(c.name) + '</div><div class="hint">' + esc(c.culture) + ' name &middot; ' + esc(c.sex) + (c.race !== 'Human' ? ' (the Names table holds human names)' : '') + '</div><div class="cline"><b>' + esc(c.race) + '</b>' + (c.humansOnly ? '' : ' (d12: ' + c.raceRoll + ')') + ' &middot; <b>' + esc(c.cls) +
     '</b> &middot; Level 1 &middot; Age <b>' + ageOf(c) + '</b></div>';
   h += '<div class="cline">Background (d66 ' + esc(c.bg.roll) + '): <b>' + esc(c.bg.name) + '</b> -- ' + esc(c.bg.bonus) + ', ' + esc(c.bg.skill) + ', ' + esc(c.bg.item) + '</div>';
   h += '<div class="chead"><span>Attributes</span><button id="cswap" class="' + (swapSel ? 'on' : '') + '">' + (swapSel ? 'Tap the second attribute' : 'Swap two') + '</button></div><div class="attrs">' +
@@ -880,13 +884,19 @@ function charHtml() {
 // Official pregens (argosa/pregens/, listed by tools/build_pregens.py): pick one to view it in place of the generator
 const PREGENS = /*PREGENS_JSON*/[];
 let PG = null;
-const pregenSelect = () => PREGENS.length ? '<select class="csel" id="cpg"><option value="">Pregens…</option>' + PREGENS.map((p, i) =>
-  '<option value="' + i + '"' + (i === PG ? ' selected' : '') + '>' + esc(p.name) + ' -- ' + esc(p.race + ' ' + p.cls + ' ' + p.level) + (p.kind === 'image' ? ' (sheet picture)' : '') + '</option>').join('') + '</select>' : '';
+const pregenSelect = () => {
+  if (!PREGENS.length) return '';
+  const opt = (p, i) => '<option value="' + i + '"' + (i === PG ? ' selected' : '') + '>' + esc(p.name) + ' -- ' + esc(p.race + ' ' + p.cls + ' ' + p.level) + (p.solo ? ' (solo)' : '') + (p.kind === 'image' ? ' (picture)' : '') + '</option>';
+  const grp = (label, test) => { const o = PREGENS.map((p, i) => test(p) ? opt(p, i) : '').join(''); return o ? '<optgroup label="' + label + '">' + o + '</optgroup>' : ''; };
+  return '<select class="csel" id="cpg"><option value="">Pregens…</option>' + grp('Level 1', p => p.level === 1) +
+    grp('Solo play (level 3)', p => p.solo) + grp('Level 2', p => p.level !== 1 && !p.solo) + '</select>';
+};
 function pregenHtml(p) {
   const f = p.f || {}, F = n => f['Text' + n] || '', url = 'pregens/' + p.file;
   let h = '<div class="ctrls"><button class="go" id="cgo">New character</button>' + pregenSelect() + '</div>';
   h += '<div class="cname">' + esc(p.name) + '</div><div class="cline"><b>' + esc(p.race) + '</b> &middot; <b>' + esc(p.cls) + '</b> &middot; Level ' + esc(String(p.level)) +
     ' &middot; ' + esc(p.bg) + (p.sex ? ' &middot; ' + esc(p.sex) : '') + (p.age ? ' &middot; Age ' + esc(String(p.age)) : '') + '</div>';
+  if (p.solo) h += '<div class="cnote"><b>Solo character</b> -- a level 3 pregen for solo play. A Lone Wolf (Solo Rules, p.216) starts at Level 3 with Hit Points 25 + class bonus; this sheet shows normal HP.</div>';
   if (p.bond) h += '<div class="cnote">Party bond: ' + esc(p.bond) + '</div>';
   h += '<div><a class="pglink" href="' + url + '" target="_blank" rel="noopener">' + (p.kind === 'pdf' ? 'Parchment sheet (' : 'Sheet picture (') + (p.size / 1e6).toFixed(1) + ' MB)</a>' +
     (p.white ? ' <a class="pglink" href="pregens/' + p.white + '" target="_blank" rel="noopener">White sheet (' + (p.wsize / 1e6).toFixed(1) + ' MB)</a>' : '') + '</div>' +
@@ -1025,8 +1035,9 @@ function initText(c, base, items) {
 }
 function sheetData(c, kind) {
   const C = CLASSES[c.cls], D = derived(c), cur = a => curA(c, a), M = a => modOf(cur(a)), f = {};
-  f.Text1 = c.name; f.Text2 = 'Personality: ' + c.personality; f.Text3 = 'Trait: ' + plain(c.trait.c.join(' '));
-  f.Text4 = 'Languages: Common' + (D.lang > 0 ? ' + ' + D.lang + ' of choice' : D.lang <= -2 ? ' (illiterate)' : '');
+  // the four lines under the name: name type, personality, trait, languages; Sex from the name's tag
+  f.Text1 = c.name; f.Text2 = c.culture + ' name'; f.Text3 = 'Personality: ' + c.personality; f.Text4 = 'Trait: ' + plain(c.trait.c.join(' ')); f.Text11 = c.sex;
+  f.Text5 = 'Languages: Common' + (D.lang > 0 ? ' + ' + D.lang + ' of choice' : D.lang <= -2 ? ' (illiterate)' : '');
   f.Text6 = c.cls; f.Text7 = c.race; f.Text8 = c.bg.name;
   const bond = plain(c.bond.r.c.join(' '));
   f.Text9 = ''; f.Text10 = firstBold(c.bond.r.c[0]) || bond;   // the wide line under "Party Bonds"; full text goes in the notes

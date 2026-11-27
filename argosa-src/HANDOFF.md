@@ -53,7 +53,9 @@ Max's running notes for Claude. When a conversation resets, read this file, `REA
 
 ## Open items
 
-- Waiting on Max: name type (culture + female/male from the Names tags) -- proposal: name type on the line under the name, then Personality, Trait, Languages (the sheets have 4 lines there, Text2-5), and fill the Sex box from the tag. Also: should staff/spear (and 10 ft pole) count as 2 item slots like the pregens do (book: "Two handed items take two slots")?
+- Name (done 2026-11-27): the Names tag gives culture ((n) Nydissian, (v) Varnori, (k) Karok, (t) Thuel, none Argosan) and (f) female; sheet lines under the name = "<Culture> name", Personality, Trait, Languages (Text2-5); Sex box (Text11) filled.
+- Pregens at level 3 are marked as solo characters (Max): own group in the menu, a note on the card (Lone Wolf p.216: starts Level 3, HP 25 + class bonus; the pregen sheets show normal HP). Asked Max whether the level 2 dwarf brothers are solo too.
+- Waiting on Max: item slots for staff/spear (book: only "Two handed" items take 2 slots, bows 1 + quiver 1; L1 pregens write staff and spear twice, the L3 sheets write "Spear (1/2)"); and whether to switch the sheet's Skills & Abilities to the pregen style (asked if it's really more readable -- see conversation).
 
 - Max wants RAW (2026-11-26). Halfling spear/staff: read as "longswords or similar moderately sized" (same "+1 dmg two handed" line as the longsword), so two hands, no +1; a halfling Fighter's shield only counts with a small one-handed weapon. Rapier/flail (1d8, one-handed, no +1) might also be "moderately sized" given the rule's "if applicable", but the book doesn't say and no class or background starts with them -- left as normal.
 
