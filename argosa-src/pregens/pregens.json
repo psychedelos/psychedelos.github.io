@@ -1,5 +1,5 @@
 {
- "_note": "Official pregenerated characters (free downloads, Max 2026-11-27). PDFs: form-fillable sheets in two styles, parchment (file) and printer-friendly white (white), slimmed with tools/slim_sheet.py into argosa/pregens/; fields are read from the parchment copy at build time. Images: level 2-3 sheet pictures (JPEG) with their details typed in here.",
+ "_note": "Official pregenerated characters (free downloads, Max 2026-11-27). PDFs: form-fillable sheets in two styles, parchment (file) and printer-friendly white (white), slimmed with tools/slim_sheet.py into argosa/pregens/; fields are read from the parchment copy at build time. Images: level 2-3 sheet pictures (PNG, byte-identical to the originals) with their details typed in here.",
  "pregens": [
   {
    "file": "artificer-1.pdf",
@@ -14,7 +14,7 @@
    "white": "bard-1-white.pdf"
   },
   {
-   "file": "bard-3.jpg",
+   "file": "bard-3.png",
    "name": "Lucius the Wanderer",
    "cls": "Bard",
    "race": "Human",
@@ -33,7 +33,7 @@
    "white": "fighter-1-white.pdf"
   },
   {
-   "file": "fighter-3.jpg",
+   "file": "fighter-3.png",
    "name": "Nyssa of Northgate",
    "cls": "Fighter",
    "race": "Human",
@@ -44,7 +44,7 @@
    "bond": "Fought in a War"
   },
   {
-   "file": "thrak-harrowhold-fighter-2.jpg",
+   "file": "thrak-harrowhold-fighter-2.png",
    "name": "Thrak Harrowhold",
    "cls": "Fighter",
    "race": "Dwarf",
@@ -59,7 +59,7 @@
    "white": "magic-user-1-white.pdf"
   },
   {
-   "file": "magic-user-3.jpg",
+   "file": "magic-user-3.png",
    "name": "Neberchek the Golden",
    "cls": "Magic User",
    "race": "Human",
@@ -74,7 +74,7 @@
    "white": "monk-1-white.pdf"
   },
   {
-   "file": "stonmir-harrowhold-ranger-2.jpg",
+   "file": "stonmir-harrowhold-ranger-2.png",
    "name": "Stonmir Harrowhold",
    "cls": "Ranger",
    "race": "Dwarf",
@@ -93,7 +93,7 @@
    "white": "rogue-1-white.pdf"
   },
   {
-   "file": "rogue-3.jpg",
+   "file": "rogue-3.png",
    "name": "Jinx",
    "cls": "Rogue",
    "race": "Human",

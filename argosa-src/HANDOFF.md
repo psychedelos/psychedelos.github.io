@@ -31,6 +31,7 @@ Max's running notes for Claude. When a conversation resets, read this file, `REA
 - Vault text: plain keyboard punctuation (' " ... -- - x).
 - Do not commit the purchased Tales of Argosa PDF (art/layout all rights reserved). The free playtest PDF (v5) is not the same content as the final book; not added.
 - Max's Mac TTRPG/Obsidian folders are read-only for Claude.
+- Official sheets and pregens stay exactly as Max uploaded them -- never altered visually or textually, errors and typos included (Max, 2026-11-27). Slimming is allowed only because it keeps every page pixel-identical and every field value identical (checked for all 18 pregen PDFs at 72 dpi, spot-checked at 150 dpi); the 6 sheet pictures are the uploaded PNGs, byte for byte (no JPEG).
 
 ## Character sheet export
 
@@ -42,7 +43,7 @@ Max's running notes for Claude. When a conversation resets, read this file, `REA
 
 ## Pregens
 
-- Official pregens (free downloads, no licensing issue -- Max, 2026-11-27): 24 files = 9 level 1 characters x 2 sheet styles (parchment `<class>-1.pdf` and printer-friendly `<class>-1-white.pdf`; same data, except the white Bard has a typo "Lucon") + 6 level 2-3 sheet pictures (`*.jpg`: Lucius 3, Nyssa 3, Neberchek 3, Jinx 3, and two dwarves only seen as pictures, Thrak Harrowhold Fighter 2 and Stonmir Harrowhold Ranger 2). So 11 different characters, 15 different sheets. PDFs slimmed with `tools/slim_sheet.py` (30 MB -> ~4 MB, pixel-identical). Manifest `argosa-src/pregens/pregens.json`; `tools/build_pregens.py` reads the parchment PDF's fields at build time. The Character screen's "Pregens..." menu shows one in place of the generator with links to both sheets.
+- Official pregens (free downloads, no licensing issue -- Max, 2026-11-27): 24 files = 9 level 1 characters x 2 sheet styles (parchment `<class>-1.pdf` and printer-friendly `<class>-1-white.pdf`; same data, except the white Bard has a typo "Lucon") + 6 level 2-3 sheet pictures (`*.png`, the uploaded files unchanged: Lucius 3, Nyssa 3, Neberchek 3, Jinx 3, and two dwarves only seen as pictures, Thrak Harrowhold Fighter 2 and Stonmir Harrowhold Ranger 2). So 11 different characters, 15 different sheets. PDFs slimmed with `tools/slim_sheet.py` (30 MB -> ~4 MB, pixel-identical). Manifest `argosa-src/pregens/pregens.json`; `tools/build_pregens.py` reads the parchment PDF's fields at build time. The Character screen's "Pregens..." menu shows one in place of the generator with links to both sheets.
 - To add more: slim the PDF into `argosa/pregens/`, add an entry to the manifest, rebuild.
 - What they taught us (see the 2026-11-27 conversation): the generator matches them on Init, HP, Luck, Rerolls, slots and to-hit; their known slips are noted there (Barbarian AC ignores Wild Born, Cultist Death ignores elderly Will, some level 1 damage/crit off by one).
 - Max chose a public repo and asked for these to be committed; they're the publisher's free downloads like the sheets (art belongs to the publisher).
