@@ -1,17 +1,107 @@
 {
-  "_note": "Official pregenerated characters. PDFs: form-fillable sheets, slimmed with tools/slim_sheet.py into argosa/pregens/ (their fields are read at build time). Images: sheet pictures (JPEG) with the details typed in here.",
-  "pregens": [
-    {"file": "artificer-1.pdf"},
-    {"file": "barbarian-1.pdf"},
-    {"file": "bard-1.pdf"},
-    {"file": "bard-3.jpg", "name": "Lucius the Wanderer", "cls": "Bard", "race": "Human", "level": 3, "bg": "Organlegger", "sex": "Male", "age": 25, "bond": "Betrayed by an employer"},
-    {"file": "cultist-1.pdf"},
-    {"file": "fighter-1.pdf"},
-    {"file": "fighter-3.jpg", "name": "Nyssa of Northgate", "cls": "Fighter", "race": "Human", "level": 3, "bg": "Prisoner", "sex": "Female", "age": 28, "bond": "Fought in a War"},
-    {"file": "thrak-harrowhold-fighter-2.jpg", "name": "Thrak Harrowhold", "cls": "Fighter", "race": "Dwarf", "level": 2, "bg": "Herbalist Assistant", "sex": "Male", "age": 35, "bond": "Brothers"},
-    {"file": "magic-user-1.pdf"},
-    {"file": "magic-user-3.jpg", "name": "Neberchek the Golden", "cls": "Magic User", "race": "Human", "level": 3, "bg": "Yellow Lotus Addict", "sex": "Male", "age": 61, "bond": "Fought in a war"},
-    {"file": "monk-1.pdf"},
-    {"file": "stonmir-harrowhold-ranger-2.jpg", "name": "Stonmir Harrowhold", "cls": "Ranger", "race": "Dwarf", "level": 2, "bg": "Street Preacher", "sex": "Male", "age": 34, "bond": "Brothers"}
-  ]
+ "_note": "Official pregenerated characters (free downloads, Max 2026-11-27). PDFs: form-fillable sheets in two styles, parchment (file) and printer-friendly white (white), slimmed with tools/slim_sheet.py into argosa/pregens/; fields are read from the parchment copy at build time. Images: level 2-3 sheet pictures (JPEG) with their details typed in here.",
+ "pregens": [
+  {
+   "file": "artificer-1.pdf",
+   "white": "artificer-1-white.pdf"
+  },
+  {
+   "file": "barbarian-1.pdf",
+   "white": "barbarian-1-white.pdf"
+  },
+  {
+   "file": "bard-1.pdf",
+   "white": "bard-1-white.pdf"
+  },
+  {
+   "file": "bard-3.jpg",
+   "name": "Lucius the Wanderer",
+   "cls": "Bard",
+   "race": "Human",
+   "level": 3,
+   "bg": "Organlegger",
+   "sex": "Male",
+   "age": 25,
+   "bond": "Betrayed by an employer"
+  },
+  {
+   "file": "cultist-1.pdf",
+   "white": "cultist-1-white.pdf"
+  },
+  {
+   "file": "fighter-1.pdf",
+   "white": "fighter-1-white.pdf"
+  },
+  {
+   "file": "fighter-3.jpg",
+   "name": "Nyssa of Northgate",
+   "cls": "Fighter",
+   "race": "Human",
+   "level": 3,
+   "bg": "Prisoner",
+   "sex": "Female",
+   "age": 28,
+   "bond": "Fought in a War"
+  },
+  {
+   "file": "thrak-harrowhold-fighter-2.jpg",
+   "name": "Thrak Harrowhold",
+   "cls": "Fighter",
+   "race": "Dwarf",
+   "level": 2,
+   "bg": "Herbalist Assistant",
+   "sex": "Male",
+   "age": 35,
+   "bond": "Brothers"
+  },
+  {
+   "file": "magic-user-1.pdf",
+   "white": "magic-user-1-white.pdf"
+  },
+  {
+   "file": "magic-user-3.jpg",
+   "name": "Neberchek the Golden",
+   "cls": "Magic User",
+   "race": "Human",
+   "level": 3,
+   "bg": "Yellow Lotus Addict",
+   "sex": "Male",
+   "age": 61,
+   "bond": "Fought in a war"
+  },
+  {
+   "file": "monk-1.pdf",
+   "white": "monk-1-white.pdf"
+  },
+  {
+   "file": "stonmir-harrowhold-ranger-2.jpg",
+   "name": "Stonmir Harrowhold",
+   "cls": "Ranger",
+   "race": "Dwarf",
+   "level": 2,
+   "bg": "Street Preacher",
+   "sex": "Male",
+   "age": 34,
+   "bond": "Brothers"
+  },
+  {
+   "file": "ranger-1.pdf",
+   "white": "ranger-1-white.pdf"
+  },
+  {
+   "file": "rogue-1.pdf",
+   "white": "rogue-1-white.pdf"
+  },
+  {
+   "file": "rogue-3.jpg",
+   "name": "Jinx",
+   "cls": "Rogue",
+   "race": "Human",
+   "level": 3,
+   "bg": "Miner",
+   "sex": "Female",
+   "age": 22,
+   "bond": "Caravan Attack"
+  }
+ ]
 }

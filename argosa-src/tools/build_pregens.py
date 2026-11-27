@@ -21,6 +21,8 @@ for p in json.load(open(man, encoding='utf-8'))['pregens']:
     else:
         e = dict(p, kind='image')
     e['size'] = os.path.getsize(path)
+    if p.get('white'):
+        e['white'] = p['white']; e['wsize'] = os.path.getsize(os.path.join(folder, p['white']))
     res.append(e)
 res.sort(key=lambda e: (e['name'], e['level']))
 json.dump(res, open(out, 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))

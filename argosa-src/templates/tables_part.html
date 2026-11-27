@@ -888,8 +888,9 @@ function pregenHtml(p) {
   h += '<div class="cname">' + esc(p.name) + '</div><div class="cline"><b>' + esc(p.race) + '</b> &middot; <b>' + esc(p.cls) + '</b> &middot; Level ' + esc(String(p.level)) +
     ' &middot; ' + esc(p.bg) + (p.sex ? ' &middot; ' + esc(p.sex) : '') + (p.age ? ' &middot; Age ' + esc(String(p.age)) : '') + '</div>';
   if (p.bond) h += '<div class="cnote">Party bond: ' + esc(p.bond) + '</div>';
-  h += '<div><a class="pglink" href="' + url + '" target="_blank" rel="noopener">Open the ' + (p.kind === 'pdf' ? 'sheet (PDF, ' : 'sheet picture (') + (p.size / 1e6).toFixed(1) + ' MB)</a></div>' +
-    '<div class="hint">Official pregen. The sheet opens in the home-screen app (psychedelos.github.io/argosa), not inside Claude.' + (p.kind === 'pdf' ? ' The PDF is form-fillable.' : '') + '</div>';
+  h += '<div><a class="pglink" href="' + url + '" target="_blank" rel="noopener">' + (p.kind === 'pdf' ? 'Parchment sheet (' : 'Sheet picture (') + (p.size / 1e6).toFixed(1) + ' MB)</a>' +
+    (p.white ? ' <a class="pglink" href="pregens/' + p.white + '" target="_blank" rel="noopener">White sheet (' + (p.wsize / 1e6).toFixed(1) + ' MB)</a>' : '') + '</div>' +
+    '<div class="hint">Official pregen. The sheet opens in the home-screen app (psychedelos.github.io/argosa), not inside Claude.' + (p.kind === 'pdf' ? ' Both PDFs are form-fillable; the white one is printer friendly.' : '') + '</div>';
   if (p.kind === 'image') return h + '<a href="' + url + '" target="_blank" rel="noopener"><img class="pgimg" alt="' + esc(p.name) + ' character sheet" src="' + url + '"></a>';
   const desc = [2, 3, 4, 5].map(F).filter(Boolean).join(' ');
   if (desc) h += '<div class="chead"><span>Character</span></div><div>' + esc(desc) + '</div>';
@@ -1016,10 +1017,11 @@ function weaponRows(c, items) {
   }
   return out;
 }
-// Initiative with the first weapon's +2/-2 written after a slash, as on the pregens (eg 11/9)
+// Initiative with a weapon's +2/-2 written after a slash, as on the pregens (eg 11/9)
 function initText(c, base, items) {
-  const k = items.map(it => weaponOf(it.split(/ or /i)[0])).find(Boolean); if (!k) return String(base);
-  const m = WEAPONS[k][3].match(/([+-]2) Initiative/); return m ? base + '/' + (base + +m[1]) : String(base);
+  // the first weapon that changes Initiative (the Ranger pregen writes 11/13 for its shortsword, behind the longbow)
+  const k = items.map(it => weaponOf(it.split(/ or /i)[0])).find(k => k && /[+-]2 Initiative/.test(WEAPONS[k][3])); if (!k) return String(base);
+  const m = WEAPONS[k][3].match(/([+-]2) Initiative/); return base + '/' + (base + +m[1]);
 }
 function sheetData(c, kind) {
   const C = CLASSES[c.cls], D = derived(c), cur = a => curA(c, a), M = a => modOf(cur(a)), f = {};
@@ -1049,7 +1051,7 @@ function sheetData(c, kind) {
   const wr = [[57, 58, 59, 60, 61, 62, 63], [64, 65, 66, 67, 68, 69, 70], [71, 72, 73, 74, 75, 76, 77], [78, 79, 80, 81, 82, 83, 84], [85, 86, 87, 88, 89, 90, 91]];
   weaponRows(c, items).slice(0, 5).forEach((w, i) => {
     const r = wr[i];
-    f['Text' + r[0]] = w.label; f['Text' + r[1]] = w.rng; f['Text' + r[2]] = w.hit; f['Text' + r[3]] = w.dmg;
+    f['Text' + r[0]] = w.label; f['Text' + r[1]] = w.rng.replace('Very Far', 'V.Far');   // narrow column, as on the pregens f['Text' + r[2]] = w.hit; f['Text' + r[3]] = w.dmg;
     // the Nat 19 column is narrow: dice only, with * pointing to the alternative in the properties (as on the pregens)
     const d = w.nat19.match(/^\d+d\d+(?:[+-]\d+)?/), alt = /Nat 19 alt/.test(w.props);
     f['Text' + r[4]] = d ? d[0] + (alt ? '*' : '') : '*';
