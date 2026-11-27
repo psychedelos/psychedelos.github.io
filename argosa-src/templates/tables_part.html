@@ -786,6 +786,19 @@ const RACE_TRAITS = {
   Halfling: ['Adv. on stealth; disad. on Str checks (not melee)', '+1 Luck and AC (AC lost in Heavy armour)', 'PC allies in sight or hearing: +1 Luck (no stack)', 'No large weapons; mid-size need 2 hands, no +1', 'Lifestyle x2; curious, indulgent (GM: Will check)'],
   'Half-Skorn': ['Adv. on Str tests (not melee), vs disease, parasites', 'Disad. on Int checks (not spells or Initiative)', '+2 on Death saves (no stack with other bonuses)', 'Dominance, fearlessness (GM may call Will)', 'Night vision (still blind without light)']
 };
+// Printed page for a name (abilities, spells, class features, tables), built from the vault's page map
+const PAGES = /*PAGES_JSON*/{};
+const pageOf = (...names) => { for (const n of names) { const k = String(n || '').replace(/\s*[(:].*$/, '').trim().toLowerCase(); if (PAGES[k]) return PAGES[k]; } return 0; };
+const withPage = (name, ...more) => { const p = pageOf(name, ...more); return p ? name + ' p.' + p : name; };
+const RACE_HEAD = { Dwarf: 'dwarves', Elf: 'elves', Halfling: 'halfling', 'Half-Skorn': 'half-skorn', Human: 'humans' };
+// Item slots (Encumbrance p.55): "Two handed" items take two; bows and heavy crossbows one (their ammo takes another);
+// weapons that only get +1 damage two handed are one handed weapons (Fighting Styles p.80): one slot. Worn armour takes none.
+function slotsOf(it) {
+  const k = weaponOf(it.split(/ or /i)[0]);
+  if (k) return /^Two handed/.test(WEAPONS[k][3]) && !/^(Bow|Crossbow, Heavy)/.test(k) ? 2 : 1;
+  return /10 ?ft pole|ladder/i.test(it) ? 2 : 1;
+}
+const slotLabel = it => it.split(/ or /i)[0].replace(/\s*\((?:\d+d\d+[^)]*|\+\d+ AC\*?)\)/, '').trim() + ' (' + slotsOf(it) + ')';
 // Halflings can't wield large weapons; the nearest weapon they can use replaces it (Max's call -- the book doesn't say)
 const HALFLING_SWAP = [[/great ?axe/i, 'Battle Axe (1d8)'], [/great ?sword/i, 'Longsword (1d8)'], [/great ?hammer/i, 'Heavy Hammer (1d8)'],
   [/polearm|halberd/i, 'Spear (1d6+1)'], [/long ?bow/i, 'Shortbow (1d6)']];
@@ -857,17 +870,24 @@ function charHtml() {
     '. Attack bonus = class ' + sgn(C.ab) + ' + Str mod (melee' + (c.cls === 'Monk' ? ', or Dex for a Monk' : '') + ') / Perc mod (ranged). Death save = 10 + the higher of Con or Will mod (min 10).</div>';
   h += '<div class="chead"><span>Skills</span></div><ul class="clist">' + c.skills.map(s => '<li>' + esc(s) + '</li>').join('') + '</ul>';
   h += '<div class="chead"><span>Class abilities</span></div>';
-  h += '<ul class="clist">' + C.fixed.map(f => '<li>' + esc(f) + (f === C.uses ? ' <b>(' + usesOf(c) + ')</b>' : '') + '</li>').join('') + '</ul>';
+  const pg = (...n) => { const p = pageOf(...n); return p ? ' <span class="hint">p.' + p + '</span>' : ''; };
+  h += '<ul class="clist">' + C.fixed.map(f => '<li>' + esc(f) + (f === C.uses ? ' <b>(' + usesOf(c) + ')</b>' : '') + pg(f) + '</li>').join('') + '</ul>';
   if (c.abil.length) {
-    h += '<div class="cnote"><b>' + esc(C.uses) + ' (' + usesOf(c) + ')</b> -- uses per adventure (one per level' + (isElderly(c) ? ', +1 elderly' : '') + '). ' + esc(c.abilNote) + ', rolled on ' + esc(C.abil.table) + ':</div>' +
-      c.abil.map(a => '<details class="ab"><summary>' + esc(a.name) + ' <span class="hint">(' + a.v + ')</span></summary><div class="cell">' + a.r.c.join('<br>') + '</div></details>').join('');
+    h += '<div class="cnote"><b>' + esc(C.uses) + ' (' + usesOf(c) + ')</b>' + pg(C.uses) + ' -- uses per adventure (one per level' + (isElderly(c) ? ', +1 elderly' : '') + '). ' + esc(c.abilNote) + ', rolled on ' + esc(C.abil.table) + ':</div>' +
+      c.abil.map(a => '<details class="ab"><summary>' + esc(a.name) + ' <span class="hint">(' + a.v + ')</span>' + pg(a.name, C.abil.table) + '</summary><div class="cell">' + a.r.c.join('<br>') + '</div></details>').join('');
   }
   const wrows = weaponRows(c, G.gear.concat([c.bg.item]));
   if (wrows.length) h += '<div class="chead"><span>Weapons</span></div><div class="cweps">' + wrows.map(w => '<div class="cwep"><b>' + esc(w.label) + '</b> <span>' + esc(w.rng) + '</span> <span>Hit ' + esc(w.hit) +
     '</span> <span>Dmg ' + esc(w.dmg) + '</span> <span>Crit ' + esc(w.crit) + '</span><div class="hint">Nat 19: ' + esc(w.nat19) + (w.props ? '. ' + esc(w.props) : '') + '</div></div>').join('') + '</div>';
-  if (RACE_TRAITS[c.race]) h += '<div class="chead"><span>' + esc(c.race) + ' traits</span></div><ul class="clist">' + RACE_TRAITS[c.race].map(t => '<li>' + esc(t) + '</li>').join('') + '</ul>';
-  h += '<div class="chead"><span>Gear</span></div><ul class="clist">' + G.gear.map(g => { const n = halfNote(c, weaponOf(g.split(/ or /i)[0])); return '<li>' + esc(g) + (n ? ' <span class="hint">-- ' + n + '</span>' : '') + '</li>'; }).join('') +
-    '<li>' + esc(c.bg.item) + ' (background)</li><li>Torch, bedroll, rations (5 days), tinderbox</li><li>10 sp</li></ul>';
+  if (RACE_TRAITS[c.race]) h += '<div class="chead"><span>' + esc(c.race) + ' traits</span><span class="hint">Races p.' + pageOf(RACE_HEAD[c.race], 'races') + '</span></div><ul class="clist">' + RACE_TRAITS[c.race].map(t => '<li>' + esc(t) + '</li>').join('') + '</ul>';
+  // slots (Encumbrance p.55): weapons, shield and quiver are battle gear, armour is worn, the rest is pack gear (with the torch, bedroll, rations and tinderbox)
+  const isWorn = g => /armour|chain|leather|hide/i.test(g) && /AC/.test(g), isBattle = g => !!weaponOf(g.split(/ or /i)[0]) || /shield|quiver/i.test(g);
+  const allG = G.gear.concat([c.bg.item]);
+  const bUsed = allG.filter(isBattle).reduce((n, g) => n + slotsOf(g), 0), pUsed = 4 + allG.filter(g => !isBattle(g) && !isWorn(g)).reduce((n, g) => n + slotsOf(g), 0);
+  const sl = g => isWorn(g) ? ' <span class="hint">worn</span>' : ' <span class="hint">' + slotsOf(g) + (slotsOf(g) > 1 ? ' slots' : ' slot') + (isBattle(g) ? ', battle' : ', pack') + '</span>';
+  h += '<div class="chead"><span>Gear</span><span class="hint">battle ' + bUsed + '/' + battle + ' &middot; pack ' + pUsed + '/' + pack + ' slots</span></div><ul class="clist">' +
+    G.gear.map(g => { const n = halfNote(c, weaponOf(g.split(/ or /i)[0])); return '<li>' + esc(g) + sl(g) + (n ? ' <span class="hint">-- ' + n + '</span>' : '') + '</li>'; }).join('') +
+    '<li>' + esc(c.bg.item) + ' (background)' + sl(c.bg.item) + '</li><li>Torch, bedroll, rations (5 days), tinderbox <span class="hint">4 slots, pack</span></li><li>10 sp</li></ul>';
   h += '<div class="chead"><span>Character</span></div><ul class="clist"><li><b>Personality:</b> ' + esc(c.personality) + '</li><li><b>Trait:</b> ' + c.trait.c.join(' ') + '</li>' + (c.disease ? '<li><b>Disease:</b> ' + esc(c.disease) + ' (Diseases, p.130)</li>' : '') + '</ul>';
   h += '<div class="chead"><span>Party Bond</span></div><div class="rcard"><div class="rhead"><span>Party Bonds &middot; ' + esc(c.bond.label) + '</span><span class="rv">' + c.bond.r.k + '</span></div>' + rowHtml(T('Party Bonds'), c.bond.r) + '</div>';
   if (c.manual.length) h += '<div class="chead"><span>Your changes</span></div><ul class="clist">' + c.manual.map(m =>
@@ -886,17 +906,15 @@ const PREGENS = /*PREGENS_JSON*/[];
 let PG = null;
 const pregenSelect = () => {
   if (!PREGENS.length) return '';
-  const opt = (p, i) => '<option value="' + i + '"' + (i === PG ? ' selected' : '') + '>' + esc(p.name) + ' -- ' + esc(p.race + ' ' + p.cls + ' ' + p.level) + (p.solo ? ' (solo)' : '') + (p.kind === 'image' ? ' (picture)' : '') + '</option>';
+  const opt = (p, i) => '<option value="' + i + '"' + (i === PG ? ' selected' : '') + '>' + esc(p.name) + ' -- ' + esc(p.race + ' ' + p.cls + ' ' + p.level) + (p.kind === 'image' ? ' (picture)' : '') + '</option>';
   const grp = (label, test) => { const o = PREGENS.map((p, i) => test(p) ? opt(p, i) : '').join(''); return o ? '<optgroup label="' + label + '">' + o + '</optgroup>' : ''; };
-  return '<select class="csel" id="cpg"><option value="">Pregens…</option>' + grp('Level 1', p => p.level === 1) +
-    grp('Solo play (level 3)', p => p.solo) + grp('Level 2', p => p.level !== 1 && !p.solo) + '</select>';
+  return '<select class="csel" id="cpg"><option value="">Pregens…</option>' + [...new Set(PREGENS.map(p => p.level))].sort().map(l => grp('Level ' + l, p => p.level === l)).join('') + '</select>';
 };
 function pregenHtml(p) {
   const f = p.f || {}, F = n => f['Text' + n] || '', url = 'pregens/' + p.file;
   let h = '<div class="ctrls"><button class="go" id="cgo">New character</button>' + pregenSelect() + '</div>';
   h += '<div class="cname">' + esc(p.name) + '</div><div class="cline"><b>' + esc(p.race) + '</b> &middot; <b>' + esc(p.cls) + '</b> &middot; Level ' + esc(String(p.level)) +
     ' &middot; ' + esc(p.bg) + (p.sex ? ' &middot; ' + esc(p.sex) : '') + (p.age ? ' &middot; Age ' + esc(String(p.age)) : '') + '</div>';
-  if (p.solo) h += '<div class="cnote"><b>Solo character</b> -- a level 3 pregen for solo play. A Lone Wolf (Solo Rules, p.216) starts at Level 3 with Hit Points 25 + class bonus; this sheet shows normal HP.</div>';
   if (p.bond) h += '<div class="cnote">Party bond: ' + esc(p.bond) + '</div>';
   h += '<div><a class="pglink" href="' + url + '" target="_blank" rel="noopener">' + (p.kind === 'pdf' ? 'Parchment sheet (' : 'Sheet picture (') + (p.size / 1e6).toFixed(1) + ' MB)</a>' +
     (p.white ? ' <a class="pglink" href="pregens/' + p.white + '" target="_blank" rel="noopener">White sheet (' + (p.wsize / 1e6).toFixed(1) + ' MB)</a>' : '') + '</div>' +
@@ -1044,7 +1062,7 @@ function sheetData(c, kind) {
   f.Text12 = String(ageOf(c)); f.Text13 = String(c.level); f.Text14 = '0'; f.Text15 = '10';
   const rows = { Str: 16, Dex: 20, Con: 24, Int: 28, Perc: 32, Will: 36, Cha: 40 };
   for (const a of ATTR) { const n = rows[a], v = cur(a), g = GSTF(v); f['Text' + n] = String(v); f['Text' + (n + 1)] = sgn0(M(a)); f['Text' + (n + 2)] = String(g[0]); f['Text' + (n + 3)] = String(g[1]); }
-  const G = gearOf(c), items = G.gear.concat([c.bg.item + ' (background)']);
+  const G = gearOf(c), items = G.gear.concat([c.bg.item]);
   const gi = GSTF(D.init); f.Text44 = initText(c, D.init, items); f.Text45 = sgn0(modOf(D.init)); f.Text46 = String(gi[0]); f.Text47 = String(gi[1]);
   f.Text48 = String(D.ac); f.Text49 = String(D.hp); f.Text50 = String(D.hp);
   f.Text51 = String(D.luck); f.Text52 = String(D.luck); f.Text53 = String(D.rerolls); f.Text54 = String(D.rerolls);
@@ -1062,7 +1080,7 @@ function sheetData(c, kind) {
   const wr = [[57, 58, 59, 60, 61, 62, 63], [64, 65, 66, 67, 68, 69, 70], [71, 72, 73, 74, 75, 76, 77], [78, 79, 80, 81, 82, 83, 84], [85, 86, 87, 88, 89, 90, 91]];
   weaponRows(c, items).slice(0, 5).forEach((w, i) => {
     const r = wr[i];
-    f['Text' + r[0]] = w.label; f['Text' + r[1]] = w.rng.replace('Very Far', 'V.Far');   // narrow column, as on the pregens f['Text' + r[2]] = w.hit; f['Text' + r[3]] = w.dmg;
+    f['Text' + r[0]] = w.label; f['Text' + r[1]] = w.rng.replace('Very Far', 'V.Far'); f['Text' + r[2]] = w.hit; f['Text' + r[3]] = w.dmg;   // V.Far: narrow column, as on the pregens
     // the Nat 19 column is narrow: dice only, with * pointing to the alternative in the properties (as on the pregens)
     const d = w.nat19.match(/^\d+d\d+(?:[+-]\d+)?/), alt = /Nat 19 alt/.test(w.props);
     f['Text' + r[4]] = d ? d[0] + (alt ? '*' : '') : '*';
@@ -1070,17 +1088,23 @@ function sheetData(c, kind) {
     f['Text' + r[6]] = d ? w.props.replace('Nat 19 alt', '*Nat 19 alt') : '*Nat 19: ' + w.nat19.toLowerCase() + (w.props ? '. ' + w.props : '');
   });
   // skills & abilities
-  const U = C.uses + ' (' + usesOf(c) + ')';   // uses per adventure: one per level, +1 if elderly
-  let sk = c.skills.slice().concat([''], C.fixed.map(x => x === C.uses ? U : x), c.abil.length ? [U].concat(c.abil.map(a => a.name + (C.abil.table === 'Spell List' ? ' (spell)' : ''))) : []);
-  const rt = RACE_TRAITS[c.race] ? [c.race + ' traits:'].concat(RACE_TRAITS[c.race]) : [];
-  sk = sk.concat(sk.length + 1 + rt.length <= 17 ? [''] : [], rt);
+  // skills one per line; abilities and race traits with their page (as on the pregens); if it all won't fit in the 17 lines, skills become a comma list
+  const U = withPage(C.uses) + ' (' + usesOf(c) + ')';   // uses per adventure: one per level, +1 if elderly
+  const fx = C.fixed.map(x => x === C.uses ? U : withPage(x.replace(/\s*\(.*$/, '')) + (/\(/.test(x) ? ' ' + x.match(/\(.*$/)[0] : ''));
+  const ab = c.abil.length ? [U].concat(c.abil.map(a => withPage(a.name, C.abil.table))) : [];
+  const rt = RACE_TRAITS[c.race] ? [c.race + ' traits p.' + pageOf(RACE_HEAD[c.race], 'races')].concat(RACE_TRAITS[c.race]) : [];
+  const commaLines = (list, w) => { const out = []; let line = ''; for (const x of list) { const t = line ? line + ', ' + x : x; if (t.length > w && line) { out.push(line + ','); line = x; } else line = t; } if (line) out.push(line); return out; };
+  let skl = c.skills.slice();
+  if (skl.length + 1 + fx.length + ab.length + (rt.length ? 1 + rt.length : 0) > 17) skl = commaLines(['Skills: ' + skl[0]].concat(skl.slice(1)), 34);
+  let sk = skl.concat([''], fx, ab);
+  sk = sk.concat(rt.length && sk.length + 1 + rt.length <= 17 ? [''] : [], rt);
   for (let i = 0; i < 17; i++) f['Text' + (92 + i)] = sk[i] || '';
   const spill = sk.slice(17);   // race traits that don't fit go to the notes
   f.Text109 = String(D.battle); f.Text120 = String(D.pack);
   const bSlots = kind === 'classic' ? [110, 111, 112, 113, 114, 115, 116, 117, 118, 119] : [110, 111, 112, 113, 114];
-  battle.forEach((it, i) => { if (bSlots[i]) f['Text' + bSlots[i]] = it; });
+  battle.forEach((it, i) => { if (bSlots[i]) f['Text' + bSlots[i]] = slotLabel(it); });
   const pSlots = kind === 'classic' ? [124, 125, 126, 127, 128, 129, 130] : [124, 125, 131, 132, 133];
-  pack.forEach((it, i) => { if (pSlots[i]) f['Text' + pSlots[i]] = it; });
+  pack.forEach((it, i) => { if (pSlots[i]) f['Text' + pSlots[i]] = slotLabel(it); });
   worn.forEach((it, i) => { const sl = [134, 135, 136][i]; if (sl) f['Text' + sl] = it; });
   // notes: party bond in full, adjustments
   const notes = ['Party bond: ' + bond].concat(spill, G.notes, c.manual.map(m => m.type === 'adj' ? 'Changed ' + m.a + ' ' + sgn(m.d) + ' (' + m.from + ' to ' + m.to + ')'

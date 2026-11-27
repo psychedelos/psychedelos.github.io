@@ -23,15 +23,22 @@ subprocess.run([sys.executable, os.path.join(HERE, 'tools', 'build_tables.py'), 
 subprocess.run([sys.executable, os.path.join(HERE, 'tools', 'build_pregens.py'), os.path.join(HERE, 'pregens', 'pregens.json'),
                 os.path.join(HERE, '..', 'argosa', 'pregens'), os.path.join(BUILD, 'pregens.json')], check=True)
 
+# 1c. printed page numbers for ability names (pagemap.json from the vault's linking pass)
+subprocess.run([sys.executable, os.path.join(HERE, 'tools', 'build_pagerefs.py'), os.path.join(HERE, 'pagemap.json'),
+                os.path.join(HERE, 'table_pages.json'), os.path.join(BUILD, 'pagerefs.json')], check=True)
+
 # 2. the page
 page = open(os.path.join(HERE, 'templates', 'page.html'), encoding='utf-8').read()
 part = open(os.path.join(HERE, 'templates', 'tables_part.html'), encoding='utf-8').read()
 tables = open(os.path.join(BUILD, 'tables.json'), encoding='utf-8').read()
 pregens = open(os.path.join(BUILD, 'pregens.json'), encoding='utf-8').read()
+pagerefs = open(os.path.join(BUILD, 'pagerefs.json'), encoding='utf-8').read()
 cards = [{'name': os.path.basename(f)[3:-5], 'src': 'data:image/webp;base64,' + base64.b64encode(open(f, 'rb').read()).decode()}
          for f in sorted(glob.glob(os.path.join(HERE, 'cards', '*.webp')))]
 assert page.count('<!--TABLES_PANEL-->') == 1 and part.count('/*TABLES_JSON*/[]') == 1 and part.count('/*PREGENS_JSON*/[]') == 1
 part = part.replace('/*PREGENS_JSON*/[]', pregens.replace('</', '<\\/'))
+assert part.count('/*PAGES_JSON*/{}') == 1
+part = part.replace('/*PAGES_JSON*/{}', pagerefs)
 out = page.replace('<!--TABLES_PANEL-->', part.replace('/*TABLES_JSON*/[]', tables.replace('</', '<\\/'))).replace('/*CARDS_JSON*/[]', json.dumps(cards))
 art = os.path.join(BUILD, 'Argosa_Oracles.html')
 open(art, 'w', encoding='utf-8').write(out)

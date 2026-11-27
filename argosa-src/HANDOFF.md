@@ -54,8 +54,9 @@ Max's running notes for Claude. When a conversation resets, read this file, `REA
 ## Open items
 
 - Name (done 2026-11-27): the Names tag gives culture ((n) Nydissian, (v) Varnori, (k) Karok, (t) Thuel, none Argosan) and (f) female; sheet lines under the name = "<Culture> name", Personality, Trait, Languages (Text2-5); Sex box (Text11) filled.
-- Pregens at level 3 are marked as solo characters (Max): own group in the menu, a note on the card (Lone Wolf p.216: starts Level 3, HP 25 + class bonus; the pregen sheets show normal HP). Asked Max whether the level 2 dwarf brothers are solo too.
-- Waiting on Max: item slots for staff/spear (book: only "Two handed" items take 2 slots, bows 1 + quiver 1; L1 pregens write staff and spear twice, the L3 sheets write "Spear (1/2)"); and whether to switch the sheet's Skills & Abilities to the pregen style (asked if it's really more readable -- see conversation).
+- Pregens are grouped by level in the menu (Max: the level 3 ones are NOT solo characters -- he was mistaken; don't label them solo).
+- Item slots (done, RAW): Encumbrance p.55 "Two handed items take two slots"; Fighting Styles p.80: "Bows and some large or high damage weapons require two hands... Wielding certain one handed weapons with two hands grants +1 damage" -- so staff, spear, longsword etc. are one handed weapons, 1 slot; great weapons/polearm 2; bows and heavy crossbow 1 (+1 for the quiver/bolts); 10 ft pole 2; worn armour 0. Sheet writes "Longsword (1)"; builder shows slots used/available. Pregen slot errors are ignored.
+- Skills & Abilities (done): one skill per line, abilities, class features and race traits with their printed page ("Brain Burst p.104"), from `argosa-src/pagemap.json` (vault linking pass page map) via `tools/build_pagerefs.py`; if it won't fit the 17 lines, skills become a comma list. No paraphrased ability descriptions (RAW).
 
 - Max wants RAW (2026-11-26). Halfling spear/staff: read as "longswords or similar moderately sized" (same "+1 dmg two handed" line as the longsword), so two hands, no +1; a halfling Fighter's shield only counts with a small one-handed weapon. Rapier/flail (1d8, one-handed, no +1) might also be "moderately sized" given the rule's "if applicable", but the book doesn't say and no class or background starts with them -- left as normal.
 

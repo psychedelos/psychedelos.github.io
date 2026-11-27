@@ -1,0 +1,5208 @@
+{
+ "toa": {
+  "243": [
+   {
+    "note": "27. Treasure/27.6. Old Magic Grimoires/Unchain the World Eater",
+    "share": 0.29,
+    "headings": []
+   },
+   {
+    "note": "27. Treasure/27.6. Old Magic Grimoires_",
+    "share": 0.24,
+    "headings": []
+   },
+   {
+    "note": "27. Treasure/27.6. Old Magic Grimoires/Veil of the Balor",
+    "share": 0.22,
+    "headings": []
+   },
+   {
+    "note": "27. Treasure/27.6. Old Magic Grimoires/Word of Ending",
+    "share": 0.19,
+    "headings": []
+   }
+  ],
+  "145": [
+   {
+    "note": "17. GM Tools/17.5.4. Jungles",
+    "share": 1.0,
+    "headings": []
+   }
+  ],
+  "204": [
+   {
+    "note": "21. Monsters/21.4. Bestiary/Will o' Wisp",
+    "share": 0.24,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Wight",
+    "share": 0.23,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Vine Puppet",
+    "share": 0.22,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Wasp, Giant",
+    "share": 0.18,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Vampire",
+    "share": 0.11,
+    "headings": []
+   }
+  ],
+  "155": [
+   {
+    "note": "17. GM Tools/17.5.12. Underground",
+    "share": 1.0,
+    "headings": []
+   }
+  ],
+  "227": [
+   {
+    "note": "26. Traps/26.4.19. Relocation",
+    "share": 0.19,
+    "headings": []
+   },
+   {
+    "note": "26. Traps/26.4.23. Snare",
+    "share": 0.17,
+    "headings": []
+   },
+   {
+    "note": "26. Traps/26.4.20. Rolling Boulder",
+    "share": 0.16,
+    "headings": []
+   },
+   {
+    "note": "26. Traps/26.4.22. Self Destruct",
+    "share": 0.16,
+    "headings": []
+   },
+   {
+    "note": "26. Traps/26.4.24. Spear, Spikes",
+    "share": 0.15,
+    "headings": []
+   },
+   {
+    "note": "26. Traps/26.4.21. Scything Blades",
+    "share": 0.11,
+    "headings": []
+   }
+  ],
+  "13": [
+   {
+    "note": "4. Races/4.1. Races_",
+    "share": 0.99,
+    "headings": [
+     "Humans"
+    ]
+   }
+  ],
+  "242": [
+   {
+    "note": "27. Treasure/27.6. Old Magic Grimoires/Reaper of Hidden Shadow",
+    "share": 0.28,
+    "headings": []
+   },
+   {
+    "note": "27. Treasure/27.6. Old Magic Grimoires/Ray of Unmaking",
+    "share": 0.22,
+    "headings": []
+   },
+   {
+    "note": "27. Treasure/27.6. Old Magic Grimoires/Rite of Revelation",
+    "share": 0.2,
+    "headings": []
+   },
+   {
+    "note": "27. Treasure/27.6. Old Magic Grimoires/Sign of Subjugation",
+    "share": 0.14,
+    "headings": []
+   },
+   {
+    "note": "27. Treasure/27.6. Old Magic Grimoires/Starmaiden's Miracle",
+    "share": 0.12,
+    "headings": []
+   }
+  ],
+  "108": [
+   {
+    "note": "15. Sorcery/15.9. Spells/Shadows & Dust",
+    "share": 0.2,
+    "headings": []
+   },
+   {
+    "note": "15. Sorcery/15.9. Spells/Pierce the Veil",
+    "share": 0.16,
+    "headings": []
+   },
+   {
+    "note": "15. Sorcery/15.9. Spells/Sever Arcarnum",
+    "share": 0.15,
+    "headings": []
+   },
+   {
+    "note": "15. Sorcery/15.9. Spells/Riddle of Bones",
+    "share": 0.11,
+    "headings": []
+   },
+   {
+    "note": "15. Sorcery/15.9. Spells/Rain of Stone",
+    "share": 0.1,
+    "headings": []
+   },
+   {
+    "note": "15. Sorcery/15.9. Spells/Place of Perfect Night",
+    "share": 0.09,
+    "headings": []
+   },
+   {
+    "note": "15. Sorcery/15.9. Spells/Phase Door",
+    "share": 0.08,
+    "headings": []
+   }
+  ],
+  "187": [
+   {
+    "note": "21. Monsters/21.4. Bestiary/Harpy",
+    "share": 0.22,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Human, Assassin",
+    "share": 0.18,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Human, Bandit",
+    "share": 0.13,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Human, Berserker",
+    "share": 0.13,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Human, Commoner",
+    "share": 0.12,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Human, Archer",
+    "share": 0.11,
+    "headings": []
+   }
+  ],
+  "33": [
+   {
+    "note": "5. Classes/5.7. Magic User_",
+    "share": 1.0,
+    "headings": [
+     "Magic User Attack Bonus & Abilities",
+     "Spellcraft",
+     "Spellbook",
+     "Sense Magic",
+     "Mental Apparatus",
+     "Unique Feature",
+     "New Skill",
+     "Veil Amulet",
+     "Battle Foci"
+    ]
+   },
+   {
+    "note": "5. Classes/5.5. Cultist_",
+    "share": 0.22,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   },
+   {
+    "note": "5. Classes/5.8. Monk_",
+    "share": 0.21,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   },
+   {
+    "note": "5. Classes/5.2. Artificer_",
+    "share": 0.19,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   },
+   {
+    "note": "5. Classes/5.10. Rogue_",
+    "share": 0.19,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   },
+   {
+    "note": "5. Classes/5.9. Ranger_",
+    "share": 0.17,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   },
+   {
+    "note": "5. Classes/5.4. Bard_",
+    "share": 0.17,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   }
+  ],
+  "11": [
+   {
+    "note": "3. Attributes/3.1. Attributes_",
+    "share": 1.0,
+    "headings": [
+     "Strength (Str)",
+     "Dexterity (Dex)",
+     "Constitution (Con)",
+     "Intelligence (Int)",
+     "Perception (Perc)",
+     "Willpower (Will)",
+     "Charisma (Cha)",
+     "Initiative (Init)",
+     "Modifiers",
+     "Attribute Modifiers"
+    ]
+   }
+  ],
+  "66": [
+   {
+    "note": "11. Encounters/11.2.1. Activity",
+    "share": 0.38,
+    "headings": []
+   },
+   {
+    "note": "11. Encounters/11.1. Reaction Roll_",
+    "share": 0.25,
+    "headings": []
+   },
+   {
+    "note": "11. Encounters/11.2. Activity Die_",
+    "share": 0.18,
+    "headings": []
+   }
+  ],
+  "224": [
+   {
+    "note": "26. Traps/26.4. Simple Traps_",
+    "share": 0.28,
+    "headings": [
+     "Danger Level",
+     "Bypasses",
+     "Purchasing Traps",
+     "Cost"
+    ]
+   },
+   {
+    "note": "26. Traps/26.4.6. Alarm",
+    "share": 0.24,
+    "headings": []
+   },
+   {
+    "note": "26. Traps/26.4.5. Acid",
+    "share": 0.16,
+    "headings": []
+   },
+   {
+    "note": "26. Traps/26.4.4. Bypasses",
+    "share": 0.13,
+    "headings": []
+   },
+   {
+    "note": "26. Traps/26.4.7. Arrows, Darts",
+    "share": 0.1,
+    "headings": []
+   }
+  ],
+  "31": [
+   {
+    "note": "5. Classes/5.6.1. Adaptable",
+    "share": 0.55,
+    "headings": []
+   },
+   {
+    "note": "5. Classes/5.6. Fighter_",
+    "share": 0.43,
+    "headings": [
+     "Adaptable"
+    ]
+   },
+   {
+    "note": "5. Classes/5.9. Ranger_",
+    "share": 0.11,
+    "headings": []
+   },
+   {
+    "note": "5. Classes/5.8. Monk_",
+    "share": 0.09,
+    "headings": []
+   },
+   {
+    "note": "5. Classes/5.10. Rogue_",
+    "share": 0.08,
+    "headings": []
+   }
+  ],
+  "165": [
+   {
+    "note": "20. Mass Battle/20.2.1. Sudden Twist",
+    "share": 0.87,
+    "headings": []
+   },
+   {
+    "note": "20. Mass Battle/20.3. Final Confrontation_",
+    "share": 0.11,
+    "headings": []
+   }
+  ],
+  "4": [
+   {
+    "note": "1. What Is Tales of Argosa/1.1. What Is Tales of Argosa_",
+    "share": 1.0,
+    "headings": [
+     "Simple Rules",
+     "Fierce Battle",
+     "Dread Sorcery",
+     "Bold Adventurers",
+     "Emergent Play",
+     "Adventure Game"
+    ]
+   }
+  ],
+  "115": [
+   {
+    "note": "16. Downtime/16.2. Advancement_",
+    "share": 0.89,
+    "headings": [
+     "Combat",
+     "Exploration",
+     "Social",
+     "Bonus XP",
+     "Hirelings & Pets",
+     "Downtime Level Up",
+     "Session Advance"
+    ]
+   }
+  ],
+  "211": [
+   {
+    "note": "22. Naval Combat/22.5.1. Boarding",
+    "share": 0.49,
+    "headings": []
+   },
+   {
+    "note": "22. Naval Combat/22.7. Blackpowder Weapons_",
+    "share": 0.3,
+    "headings": []
+   },
+   {
+    "note": "22. Naval Combat/22.5.2. Crew vs Crew",
+    "share": 0.11,
+    "headings": []
+   }
+  ],
+  "42": [
+   {
+    "note": "5. Classes/5.10.1. Tricks & Techniques",
+    "share": 0.57,
+    "headings": []
+   },
+   {
+    "note": "5. Classes/5.10. Rogue_",
+    "share": 0.41,
+    "headings": [
+     "Backstab",
+     "Finisher",
+     "Tricks & Techniques"
+    ]
+   },
+   {
+    "note": "5. Classes/5.8. Monk_",
+    "share": 0.13,
+    "headings": []
+   },
+   {
+    "note": "5. Classes/5.2. Artificer_",
+    "share": 0.12,
+    "headings": []
+   },
+   {
+    "note": "5. Classes/5.9. Ranger_",
+    "share": 0.12,
+    "headings": []
+   },
+   {
+    "note": "5. Classes/5.6. Fighter_",
+    "share": 0.11,
+    "headings": []
+   }
+  ],
+  "27": [
+   {
+    "note": "5. Classes/5.5. Example Gods/Graxus (The Iron God)",
+    "share": 0.38,
+    "headings": []
+   },
+   {
+    "note": "5. Classes/5.5. Example Gods/Baal (Lord of Crows)",
+    "share": 0.33,
+    "headings": []
+   },
+   {
+    "note": "5. Classes/5.5. Example Gods/Shennog",
+    "share": 0.26,
+    "headings": []
+   }
+  ],
+  "134": [
+   {
+    "note": "17. GM Tools/17.4. Hexploration_",
+    "share": 0.96,
+    "headings": [
+     "Watches",
+     "Exploring and Travel",
+     "Injured or Encumbered",
+     "Travel Roles",
+     "Night Shift",
+     "Weather",
+     "Exploring a Hex"
+    ]
+   }
+  ],
+  "167": [
+   {
+    "note": "21. Monsters/21.2.1. Monsters by HD",
+    "share": 0.66,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.2. Custom Monsters_",
+    "share": 0.22,
+    "headings": []
+   }
+  ],
+  "191": [
+   {
+    "note": "21. Monsters/21.4. Bestiary/Mimic",
+    "share": 0.3,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Medusa",
+    "share": 0.25,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Merscine",
+    "share": 0.25,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Manticore",
+    "share": 0.18,
+    "headings": []
+   }
+  ],
+  "93": [
+   {
+    "note": "15. Sorcery/15.5.1. Dark and Dangerous Magic",
+    "share": 0.97,
+    "headings": []
+   }
+  ],
+  "100": [
+   {
+    "note": "15. Sorcery/15.8.1. Spell List",
+    "share": 0.99,
+    "headings": []
+   }
+  ],
+  "87": [
+   {
+    "note": "13. Injury & Death/13.2.5. Toxin Trauma",
+    "share": 0.71,
+    "headings": []
+   },
+   {
+    "note": "13. Injury & Death/13.2.4. Missile Trauma",
+    "share": 0.19,
+    "headings": []
+   },
+   {
+    "note": "13. Injury & Death/13.2. Trauma Tables_",
+    "share": 0.08,
+    "headings": [
+     "Toxin Trauma"
+    ]
+   }
+  ],
+  "79": [
+   {
+    "note": "12. Combat/12.8. Exploits_",
+    "share": 0.99,
+    "headings": [
+     "Major Exploits",
+     "Rescues"
+    ]
+   }
+  ],
+  "36": [
+   {
+    "note": "5. Classes/5.8.1. Monk Techniques",
+    "share": 0.59,
+    "headings": []
+   },
+   {
+    "note": "5. Classes/5.8. Monk_",
+    "share": 0.41,
+    "headings": [
+     "Martial Arts",
+     "Monk Techniques",
+     "Open Hand Versatility",
+     "Unique Feature",
+     "New Skill"
+    ]
+   },
+   {
+    "note": "5. Classes/5.6. Fighter_",
+    "share": 0.15,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   },
+   {
+    "note": "5. Classes/5.9. Ranger_",
+    "share": 0.15,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   },
+   {
+    "note": "5. Classes/5.10. Rogue_",
+    "share": 0.15,
+    "headings": [
+     "Skirmisher",
+     "Unique Feature",
+     "New Skill"
+    ]
+   },
+   {
+    "note": "5. Classes/5.2. Artificer_",
+    "share": 0.13,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   },
+   {
+    "note": "5. Classes/5.3. Barbarian_",
+    "share": 0.11,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   },
+   {
+    "note": "5. Classes/5.5. Cultist_",
+    "share": 0.11,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   },
+   {
+    "note": "5. Classes/5.7. Magic User_",
+    "share": 0.1,
+    "headings": [
+     "Sense Magic",
+     "Unique Feature",
+     "New Skill"
+    ]
+   }
+  ],
+  "65": [
+   {
+    "note": "10. Doing Things/10.8. Montages_",
+    "share": 0.43,
+    "headings": []
+   },
+   {
+    "note": "10. Doing Things/10.9. Random Checks_",
+    "share": 0.15,
+    "headings": []
+   },
+   {
+    "note": "10. Doing Things/10.5. Group Checks_",
+    "share": 0.14,
+    "headings": []
+   },
+   {
+    "note": "10. Doing Things/10.6. Representative Checks_",
+    "share": 0.12,
+    "headings": []
+   },
+   {
+    "note": "10. Doing Things/10.7. Retries_",
+    "share": 0.11,
+    "headings": []
+   }
+  ],
+  "192": [
+   {
+    "note": "21. Monsters/21.4. Bestiary/Monkey, Man Eating",
+    "share": 0.3,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Minotaur",
+    "share": 0.27,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Mummy",
+    "share": 0.21,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/N'Tarc",
+    "share": 0.18,
+    "headings": []
+   }
+  ],
+  "41": [
+   {
+    "note": "5. Classes/5.10. Rogue_",
+    "share": 1.0,
+    "headings": [
+     "Rogue Attack Bonus & Abilities",
+     "Backstab",
+     "Finisher",
+     "Skirmisher",
+     "Unique Feature",
+     "New Skill",
+     "Lethal Precision"
+    ]
+   },
+   {
+    "note": "5. Classes/5.9. Ranger_",
+    "share": 0.21,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   },
+   {
+    "note": "5. Classes/5.8. Monk_",
+    "share": 0.2,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   },
+   {
+    "note": "5. Classes/5.2. Artificer_",
+    "share": 0.19,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   },
+   {
+    "note": "5. Classes/5.7. Magic User_",
+    "share": 0.19,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   },
+   {
+    "note": "5. Classes/5.4. Bard_",
+    "share": 0.18,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   },
+   {
+    "note": "5. Classes/5.5. Cultist_",
+    "share": 0.17,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   },
+   {
+    "note": "5. Classes/5.3. Barbarian_",
+    "share": 0.08,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   }
+  ],
+  "198": [
+   {
+    "note": "21. Monsters/21.4. Bestiary/Skorn",
+    "share": 0.23,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Shade",
+    "share": 0.23,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Skeleton",
+    "share": 0.18,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Shrieker",
+    "share": 0.17,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Shrieker Traits",
+    "share": 0.15,
+    "headings": []
+   }
+  ],
+  "149": [
+   {
+    "note": "17. GM Tools/17.5.7. Oceans, Lakes, Rivers",
+    "share": 0.62,
+    "headings": []
+   },
+   {
+    "note": "17. GM Tools/17.5.8. Plains & Grasslands",
+    "share": 0.38,
+    "headings": []
+   }
+  ],
+  "208": [
+   {
+    "note": "22. Naval Combat/22.2. Ships_",
+    "share": 0.57,
+    "headings": [
+     "Ships"
+    ]
+   },
+   {
+    "note": "22. Naval Combat/22.3. Artillery_",
+    "share": 0.27,
+    "headings": []
+   }
+  ],
+  "83": [
+   {
+    "note": "13. Injury & Death/13.1. Injury & Death_",
+    "share": 0.58,
+    "headings": [
+     "Wounded & Zero HP",
+     "Death Save",
+     "Dying & Injuries"
+    ]
+   },
+   {
+    "note": "13. Injury & Death/13.1.1. Injuries & Setbacks",
+    "share": 0.41,
+    "headings": []
+   }
+  ],
+  "18": [
+   {
+    "note": "5. Classes/5.2. Artificer_",
+    "share": 0.4,
+    "headings": []
+   },
+   {
+    "note": "5. Classes/5.2.2. Mutagen",
+    "share": 0.3,
+    "headings": []
+   },
+   {
+    "note": "5. Classes/5.2.1. Alchemy & Mechanica",
+    "share": 0.29,
+    "headings": []
+   }
+  ],
+  "43": [
+   {
+    "note": "5. Classes/5.10. Rogue_",
+    "share": 0.99,
+    "headings": [
+     "Backstab",
+     "Skirmisher",
+     "Unique Feature",
+     "New Skill",
+     "Lethal Precision",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.7. Magic User_",
+    "share": 0.4,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.2. Artificer_",
+    "share": 0.35,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.3. Barbarian_",
+    "share": 0.33,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.8. Monk_",
+    "share": 0.32,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.4. Bard_",
+    "share": 0.32,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.5. Cultist_",
+    "share": 0.31,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.9. Ranger_",
+    "share": 0.3,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.6. Fighter_",
+    "share": 0.27,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   }
+  ],
+  "91": [
+   {
+    "note": "15. Sorcery/15.1. Spell Casting_",
+    "share": 0.37,
+    "headings": [
+     "Spell Limits"
+    ]
+   },
+   {
+    "note": "15. Sorcery/15.4. Illusions_",
+    "share": 0.18,
+    "headings": []
+   },
+   {
+    "note": "15. Sorcery/15.3. Sensing Magic_",
+    "share": 0.17,
+    "headings": []
+   },
+   {
+    "note": "15. Sorcery/15.2. Spell Duration_",
+    "share": 0.13,
+    "headings": []
+   },
+   {
+    "note": "15. Sorcery/15.1.1. Spell Casting",
+    "share": 0.08,
+    "headings": []
+   }
+  ],
+  "246": [
+   {
+    "note": "27. Treasure/27.7.1. Minor Charms",
+    "share": 1.0,
+    "headings": []
+   }
+  ],
+  "177": [
+   {
+    "note": "21. Monsters/21.4. Bestiary/Demon, Basartu",
+    "share": 0.38,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Demon, Gmorsha",
+    "share": 0.23,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Demon, Balor",
+    "share": 0.21,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Demon, Hellhound",
+    "share": 0.18,
+    "headings": []
+   }
+  ],
+  "220": [
+   {
+    "note": "25. Solo Rules/25.4. Dungeon Generator_",
+    "share": 0.46,
+    "headings": [
+     "Playing the Adventure"
+    ]
+   },
+   {
+    "note": "25. Solo Rules/25.4.10. Room Contents",
+    "share": 0.26,
+    "headings": []
+   }
+  ],
+  "194": [
+   {
+    "note": "21. Monsters/21.4. Bestiary/Ooze, Grey",
+    "share": 0.31,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Ooze Traits",
+    "share": 0.26,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Ooze, Sentient",
+    "share": 0.23,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Owlbear",
+    "share": 0.2,
+    "headings": []
+   }
+  ],
+  "106": [
+   {
+    "note": "15. Sorcery/15.9. Spells/Infuse Animus",
+    "share": 0.17,
+    "headings": []
+   },
+   {
+    "note": "15. Sorcery/15.9. Spells/Hunger for Blood",
+    "share": 0.13,
+    "headings": []
+   },
+   {
+    "note": "15. Sorcery/15.9. Spells/Hellblast",
+    "share": 0.12,
+    "headings": []
+   },
+   {
+    "note": "15. Sorcery/15.9. Spells/Hand of the Void",
+    "share": 0.12,
+    "headings": []
+   },
+   {
+    "note": "15. Sorcery/15.9. Spells/Gaze of Beguilement",
+    "share": 0.12,
+    "headings": []
+   },
+   {
+    "note": "15. Sorcery/15.9. Spells/Hex of Volcanic Steel",
+    "share": 0.11,
+    "headings": []
+   }
+  ],
+  "21": [
+   {
+    "note": "5. Classes/5.3. Barbarian_",
+    "share": 0.98,
+    "headings": [
+     "Ferocious Rage",
+     "Wild Born",
+     "Sixth Sense",
+     "Unique Feature",
+     "New Skill",
+     "Second Attack",
+     "Killer Instinct",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.9. Ranger_",
+    "share": 0.23,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Second Attack",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.6. Fighter_",
+    "share": 0.22,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Second Attack",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.5. Cultist_",
+    "share": 0.19,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Second Attack",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.2. Artificer_",
+    "share": 0.17,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.8. Monk_",
+    "share": 0.17,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.10. Rogue_",
+    "share": 0.17,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.7. Magic User_",
+    "share": 0.13,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.4. Bard_",
+    "share": 0.11,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   }
+  ],
+  "158": [
+   {
+    "note": "18. Hirelings/18.5.2. Catchphrase",
+    "share": 0.52,
+    "headings": []
+   },
+   {
+    "note": "18. Hirelings/18.5.1. Hireling Gear",
+    "share": 0.24,
+    "headings": []
+   },
+   {
+    "note": "18. Hirelings/18.5. Gear_",
+    "share": 0.15,
+    "headings": []
+   }
+  ],
+  "102": [
+   {
+    "note": "15. Sorcery/15.8.1. Spell List",
+    "share": 0.99,
+    "headings": []
+   }
+  ],
+  "107": [
+   {
+    "note": "15. Sorcery/15.9. Spells/Mask of Many Faces",
+    "share": 0.23,
+    "headings": []
+   },
+   {
+    "note": "15. Sorcery/15.9. Spells/Mend Flesh",
+    "share": 0.22,
+    "headings": []
+   },
+   {
+    "note": "15. Sorcery/15.9. Spells/None Shall Pass",
+    "share": 0.21,
+    "headings": []
+   },
+   {
+    "note": "15. Sorcery/15.9. Spells/Light of Soliri",
+    "share": 0.15,
+    "headings": []
+   },
+   {
+    "note": "15. Sorcery/15.9. Spells/Lightning Bolt",
+    "share": 0.13,
+    "headings": []
+   }
+  ],
+  "73": [
+   {
+    "note": "12. Combat/12.5.1. Chase Events",
+    "share": 0.95,
+    "headings": []
+   }
+  ],
+  "56": [
+   {
+    "note": "9. Equipment/9.5. Rare Gear_",
+    "share": 0.55,
+    "headings": [
+     "Acid",
+     "Antitoxin",
+     "Fire Pot",
+     "Healer's Kit",
+     "Hook Hand",
+     "Magnifying Glass or Spyglass",
+     "Peg Leg",
+     "Poison",
+     "Poppy Milk",
+     "Poisoner's Ring",
+     "Thieves' Tools",
+     "Smelling Salts",
+     "Tripwires",
+     "Trollblood Ointment",
+     "Yellow Lotus Powder"
+    ]
+   },
+   {
+    "note": "9. Equipment/9.4. Uncommon Gear_",
+    "share": 0.12,
+    "headings": []
+   },
+   {
+    "note": "9. Equipment/9.3. Common Gear_",
+    "share": 0.1,
+    "headings": []
+   }
+  ],
+  "259": [
+   {
+    "note": "27. Treasure/27.10.7. Discreet Powers",
+    "share": 0.93,
+    "headings": []
+   }
+  ],
+  "239": [
+   {
+    "note": "27. Treasure/27.5.2. Potions",
+    "share": 0.41,
+    "headings": []
+   },
+   {
+    "note": "27. Treasure/27.5. Minor Magical Items_",
+    "share": 0.37,
+    "headings": [
+     "Potions",
+     "Scrolls",
+     "Spellbooks"
+    ]
+   },
+   {
+    "note": "27. Treasure/27.5.1. Minor Magical Items",
+    "share": 0.18,
+    "headings": []
+   }
+  ],
+  "1": [],
+  "2": [],
+  "154": [
+   {
+    "note": "17. GM Tools/17.5.11. Swamps",
+    "share": 0.53,
+    "headings": []
+   },
+   {
+    "note": "17. GM Tools/17.5.12. Underground",
+    "share": 0.45,
+    "headings": []
+   }
+  ],
+  "105": [
+   {
+    "note": "15. Sorcery/15.9. Spells/Echo of Days",
+    "share": 0.22,
+    "headings": []
+   },
+   {
+    "note": "15. Sorcery/15.9. Spells/Flesh to Stone",
+    "share": 0.14,
+    "headings": []
+   },
+   {
+    "note": "15. Sorcery/15.9. Spells/Fetid Fog of the Pit People",
+    "share": 0.11,
+    "headings": []
+   },
+   {
+    "note": "15. Sorcery/15.9. Spells/Dark Slumber",
+    "share": 0.1,
+    "headings": []
+   },
+   {
+    "note": "15. Sorcery/15.9. Spells/Gabbling of the Jade Moon",
+    "share": 0.1,
+    "headings": []
+   },
+   {
+    "note": "15. Sorcery/15.9. Spells/Cradle of Formlessness",
+    "share": 0.09,
+    "headings": []
+   },
+   {
+    "note": "15. Sorcery/15.9. Spells/Elemental Ward",
+    "share": 0.09,
+    "headings": []
+   },
+   {
+    "note": "15. Sorcery/15.9. Spells/Crush of the Warp",
+    "share": 0.08,
+    "headings": []
+   }
+  ],
+  "120": [
+   {
+    "note": "16. Downtime/16.4.1. Carousing",
+    "share": 0.99,
+    "headings": []
+   }
+  ],
+  "132": [
+   {
+    "note": "17. GM Tools/17.3. Dungeon Crawling_",
+    "share": 0.58,
+    "headings": [
+     "Marching Order",
+     "Who's Got the Light?",
+     "Dead Adventurers"
+    ]
+   },
+   {
+    "note": "17. GM Tools/17.3.1. Fancy Meeting You Here",
+    "share": 0.39,
+    "headings": []
+   }
+  ],
+  "248": [
+   {
+    "note": "27. Treasure/27.9. Attunement & Using Powers_",
+    "share": 0.51,
+    "headings": [
+     "Attunement",
+     "Using Powers"
+    ]
+   },
+   {
+    "note": "27. Treasure/27.8. Major Magical Items_",
+    "share": 0.47,
+    "headings": [
+     "Appearance & History"
+    ]
+   }
+  ],
+  "35": [
+   {
+    "note": "5. Classes/5.8. Monk_",
+    "share": 1.0,
+    "headings": [
+     "Monk Attack Bonus & Abilities",
+     "Martial Arts",
+     "Monk Techniques",
+     "Open Hand Versatility",
+     "Unique Feature",
+     "New Skill",
+     "Spirit Warrior",
+     "Counterattack"
+    ]
+   },
+   {
+    "note": "5. Classes/5.7. Magic User_",
+    "share": 0.2,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   },
+   {
+    "note": "5. Classes/5.10. Rogue_",
+    "share": 0.19,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   },
+   {
+    "note": "5. Classes/5.5. Cultist_",
+    "share": 0.18,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   },
+   {
+    "note": "5. Classes/5.9. Ranger_",
+    "share": 0.17,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   },
+   {
+    "note": "5. Classes/5.4. Bard_",
+    "share": 0.17,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   },
+   {
+    "note": "5. Classes/5.2. Artificer_",
+    "share": 0.15,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   }
+  ],
+  "17": [
+   {
+    "note": "5. Classes/5.2.1. Alchemy & Mechanica",
+    "share": 0.81,
+    "headings": []
+   },
+   {
+    "note": "5. Classes/5.2. Artificer_",
+    "share": 0.19,
+    "headings": [
+     "Alchemy & Mechanica"
+    ]
+   }
+  ],
+  "142": [
+   {
+    "note": "17. GM Tools/17.5.2. City, Town, Village",
+    "share": 0.99,
+    "headings": []
+   }
+  ],
+  "223": [
+   {
+    "note": "26. Traps/26.4. Simple Traps_",
+    "share": 0.49,
+    "headings": [
+     "Danger Level",
+     "Triggers & Counters",
+     "Mode of Attack"
+    ]
+   },
+   {
+    "note": "26. Traps/26.4.2. Triggers & Counters",
+    "share": 0.22,
+    "headings": []
+   }
+  ],
+  "48": [
+   {
+    "note": "7. Unique Features/7.2. Example Unique Features/Pack Tactics",
+    "share": 0.2,
+    "headings": []
+   },
+   {
+    "note": "7. Unique Features/7.2. Example Unique Features/Poisoner",
+    "share": 0.19,
+    "headings": []
+   },
+   {
+    "note": "7. Unique Features/7.2. Example Unique Features/Pilfer Pouch",
+    "share": 0.14,
+    "headings": []
+   }
+  ],
+  "174": [
+   {
+    "note": "21. Monsters/21.4. Bestiary/Ant, Giant",
+    "share": 0.29,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Animated Object",
+    "share": 0.21,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Banshee",
+    "share": 0.17,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Basilisk",
+    "share": 0.13,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Skinless Terror",
+    "share": 0.13,
+    "headings": []
+   }
+  ],
+  "164": [
+   {
+    "note": "20. Mass Battle/20.2.1. Sudden Twist",
+    "share": 0.46,
+    "headings": []
+   },
+   {
+    "note": "20. Mass Battle/20.1.1. Field Events",
+    "share": 0.43,
+    "headings": []
+   },
+   {
+    "note": "20. Mass Battle/20.2. Sudden Twists_",
+    "share": 0.1,
+    "headings": []
+   }
+  ],
+  "253": [
+   {
+    "note": "27. Treasure/27.8. Major Magical Items/Fangs of the Unflinching Mother",
+    "share": 0.49,
+    "headings": [
+     "Unflinching Fangs"
+    ]
+   },
+   {
+    "note": "27. Treasure/27.8. Major Magical Items/Torc of Sebutett",
+    "share": 0.29,
+    "headings": [
+     "Torc of Sebutett"
+    ]
+   },
+   {
+    "note": "27. Treasure/27.8. Major Magical Items/Mask of the Golden One",
+    "share": 0.15,
+    "headings": [
+     "Golden Mask"
+    ]
+   }
+  ],
+  "12": [
+   {
+    "note": "3. Attributes/3.2. Luck_",
+    "share": 0.99,
+    "headings": [
+     "Luck Rolls",
+     "Other Uses",
+     "Regaining Luck"
+    ]
+   }
+  ],
+  "103": [
+   {
+    "note": "15. Sorcery/15.9. Spells/Bending the Stone",
+    "share": 0.16,
+    "headings": []
+   },
+   {
+    "note": "15. Sorcery/15.9. Spells/Bestial Communion",
+    "share": 0.15,
+    "headings": []
+   },
+   {
+    "note": "15. Sorcery/15.9. Spells/Blast of Frozen Ruin",
+    "share": 0.13,
+    "headings": []
+   },
+   {
+    "note": "15. Sorcery/15.9. Spells/Beseech the Ancient Ones",
+    "share": 0.11,
+    "headings": []
+   },
+   {
+    "note": "15. Sorcery/15.9. Spells/Arcane Aegis",
+    "share": 0.1,
+    "headings": []
+   },
+   {
+    "note": "15. Sorcery/15.9. Spells_",
+    "share": 0.09,
+    "headings": []
+   },
+   {
+    "note": "15. Sorcery/15.9. Spells/A Wisp Unseen",
+    "share": 0.09,
+    "headings": []
+   },
+   {
+    "note": "15. Sorcery/15.9. Spells/Abjure the Unnatural",
+    "share": 0.09,
+    "headings": []
+   }
+  ],
+  "214": [
+   {
+    "note": "24. Rival Adventurers/24.1. Rival Adventurers_",
+    "share": 0.91,
+    "headings": []
+   }
+  ],
+  "188": [
+   {
+    "note": "21. Monsters/21.4. Bestiary/Hydra",
+    "share": 0.2,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Human, Guard",
+    "share": 0.17,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Human, Sorcerer",
+    "share": 0.15,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Human, Mob",
+    "share": 0.12,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Human, Knight",
+    "share": 0.11,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Human, Champion",
+    "share": 0.11,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Human, Cultist",
+    "share": 0.1,
+    "headings": []
+   }
+  ],
+  "170": [
+   {
+    "note": "21. Monsters/21.3. Special Traits_",
+    "share": 0.99,
+    "headings": [
+     "Incorporeal",
+     "Lycanthropes",
+     "Magic Resistance %",
+     "Off Turn Attacks",
+     "Regeneration",
+     "Senses",
+     "Swarms"
+    ]
+   }
+  ],
+  "62": [
+   {
+    "note": "9. Equipment/9.15. Masterforged Gear_",
+    "share": 0.41,
+    "headings": []
+   },
+   {
+    "note": "9. Equipment/9.15.1. Masterforged Weapon",
+    "share": 0.31,
+    "headings": []
+   },
+   {
+    "note": "9. Equipment/9.15.2. Masterforged Armour",
+    "share": 0.25,
+    "headings": []
+   }
+  ],
+  "171": [
+   {
+    "note": "21. Monsters/21.4. Bestiary/Ape",
+    "share": 0.16,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Bird or Bat",
+    "share": 0.16,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Cat",
+    "share": 0.15,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Bear",
+    "share": 0.14,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Dire Animal",
+    "share": 0.14,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Boar",
+    "share": 0.13,
+    "headings": []
+   }
+  ],
+  "57": [
+   {
+    "note": "9. Equipment/9.5. Rare Gear_",
+    "share": 0.69,
+    "headings": [
+     "Acid",
+     "Hook Hand",
+     "Poison",
+     "Poppy Milk",
+     "Poisoner's Ring",
+     "Thieves' Tools",
+     "Smelling Salts",
+     "Tripwires",
+     "Trollblood Ointment",
+     "Yellow Lotus Powder"
+    ]
+   },
+   {
+    "note": "9. Equipment/9.8. Lifestyle_",
+    "share": 0.15,
+    "headings": []
+   },
+   {
+    "note": "9. Equipment/9.7. Services_",
+    "share": 0.1,
+    "headings": []
+   }
+  ],
+  "256": [
+   {
+    "note": "27. Treasure/27.10.6. Obvious Powers",
+    "share": 0.3,
+    "headings": []
+   },
+   {
+    "note": "27. Treasure/27.10. Major Item Generator_",
+    "share": 0.16,
+    "headings": [
+     "Powers"
+    ]
+   }
+  ],
+  "172": [
+   {
+    "note": "21. Monsters/21.4. Bestiary/Rat Swarm",
+    "share": 0.17,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Snake",
+    "share": 0.15,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Tiger",
+    "share": 0.14,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Wolf (or Dog)",
+    "share": 0.14,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Horse",
+    "share": 0.13,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Rhino",
+    "share": 0.12,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Shark",
+    "share": 0.11,
+    "headings": []
+   }
+  ],
+  "146": [
+   {
+    "note": "17. GM Tools/17.5.5. Forests",
+    "share": 1.0,
+    "headings": []
+   }
+  ],
+  "233": [
+   {
+    "note": "27. Treasure/27.3.1. Trinkets & Curios",
+    "share": 0.99,
+    "headings": []
+   }
+  ],
+  "161": [
+   {
+    "note": "19. Madness/19.1.1. Madness",
+    "share": 1.0,
+    "headings": []
+   }
+  ],
+  "34": [
+   {
+    "note": "5. Classes/5.7. Magic User_",
+    "share": 1.0,
+    "headings": [
+     "Spellcraft",
+     "Spellbook",
+     "Sense Magic",
+     "Mental Apparatus",
+     "Unique Feature",
+     "New Skill",
+     "Veil Amulet",
+     "Battle Foci",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.10. Rogue_",
+    "share": 0.16,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.2. Artificer_",
+    "share": 0.14,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.9. Ranger_",
+    "share": 0.14,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.8. Monk_",
+    "share": 0.14,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.6. Fighter_",
+    "share": 0.13,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.5. Cultist_",
+    "share": 0.13,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.3. Barbarian_",
+    "share": 0.12,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.4. Bard_",
+    "share": 0.11,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   }
+  ],
+  "50": [
+   {
+    "note": "7. Unique Features/7.2. Example Unique Features/Slippery Bastard",
+    "share": 0.26,
+    "headings": []
+   },
+   {
+    "note": "7. Unique Features/7.2. Example Unique Features/Unusual Mount",
+    "share": 0.15,
+    "headings": []
+   },
+   {
+    "note": "7. Unique Features/7.2. Example Unique Features/Void Caller",
+    "share": 0.14,
+    "headings": []
+   },
+   {
+    "note": "7. Unique Features/7.2. Example Unique Features/Thieves' Grace",
+    "share": 0.13,
+    "headings": []
+   },
+   {
+    "note": "7. Unique Features/7.2. Example Unique Features/Weapons Training",
+    "share": 0.09,
+    "headings": []
+   }
+  ],
+  "32": [
+   {
+    "note": "5. Classes/5.6. Fighter_",
+    "share": 1.0,
+    "headings": [
+     "Deadly Strikes",
+     "Supplies",
+     "Unique Feature",
+     "New Skill",
+     "Second Attack",
+     "Master of Arms",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.3. Barbarian_",
+    "share": 0.24,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Second Attack",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.9. Ranger_",
+    "share": 0.24,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Second Attack",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.5. Cultist_",
+    "share": 0.24,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Second Attack",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.8. Monk_",
+    "share": 0.14,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.4. Bard_",
+    "share": 0.14,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.2. Artificer_",
+    "share": 0.13,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.10. Rogue_",
+    "share": 0.13,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.7. Magic User_",
+    "share": 0.13,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   }
+  ],
+  "26": [
+   {
+    "note": "5. Classes/5.5. Cultist_",
+    "share": 0.59,
+    "headings": [
+     "Blessings",
+     "Tenets & Favour",
+     "Example Gods"
+    ]
+   },
+   {
+    "note": "5. Classes/5.5. Example Gods/Argona (The Starmaiden)",
+    "share": 0.26,
+    "headings": []
+   },
+   {
+    "note": "5. Classes/5.5. Example Gods/Baal (Lord of Crows)",
+    "share": 0.12,
+    "headings": []
+   }
+  ],
+  "143": [
+   {
+    "note": "17. GM Tools/17.5.2. City, Town, Village",
+    "share": 0.75,
+    "headings": []
+   },
+   {
+    "note": "17. GM Tools/17.5.3. Deserts",
+    "share": 0.24,
+    "headings": []
+   }
+  ],
+  "92": [
+   {
+    "note": "15. Sorcery/15.5. Dark & Dangerous Magic_",
+    "share": 0.52,
+    "headings": [
+     "DDM Die"
+    ]
+   },
+   {
+    "note": "15. Sorcery/15.5.1. Dark and Dangerous Magic",
+    "share": 0.43,
+    "headings": []
+   }
+  ],
+  "126": [
+   {
+    "note": "16. Downtime/16.11. Scroll Inscribing_",
+    "share": 0.72,
+    "headings": [
+     "Scroll Materials"
+    ]
+   },
+   {
+    "note": "16. Downtime/16.10. Rumours_",
+    "share": 0.27,
+    "headings": []
+   }
+  ],
+  "244": [
+   {
+    "note": "27. Treasure/27.7.1. Minor Charms",
+    "share": 0.73,
+    "headings": []
+   },
+   {
+    "note": "27. Treasure/27.7. Minor Charms_",
+    "share": 0.25,
+    "headings": []
+   }
+  ],
+  "236": [
+   {
+    "note": "27. Treasure/27.3.1. Trinkets & Curios",
+    "share": 1.0,
+    "headings": []
+   }
+  ],
+  "169": [
+   {
+    "note": "21. Monsters/21.3.1. Heavy Abilities",
+    "share": 0.84,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.3. Special Traits_",
+    "share": 0.13,
+    "headings": [
+     "Boss",
+     "Heavy",
+     "Immunity to Non Magical Weapons"
+    ]
+   }
+  ],
+  "6": [
+   {
+    "note": "1. What Is Tales of Argosa/1.3. How to Play_",
+    "share": 0.99,
+    "headings": []
+   }
+  ],
+  "258": [
+   {
+    "note": "27. Treasure/27.10.7. Discreet Powers",
+    "share": 0.55,
+    "headings": []
+   },
+   {
+    "note": "27. Treasure/27.10.6. Obvious Powers",
+    "share": 0.45,
+    "headings": []
+   }
+  ],
+  "97": [
+   {
+    "note": "15. Sorcery/15.6.1. Divine Rebuke",
+    "share": 1.0,
+    "headings": []
+   }
+  ],
+  "159": [
+   {
+    "note": "18. Hirelings/18.5.2. Catchphrase",
+    "share": 0.36,
+    "headings": []
+   },
+   {
+    "note": "18. Hirelings/18.6.1. Hireling Advancement",
+    "share": 0.2,
+    "headings": []
+   },
+   {
+    "note": "18. Hirelings/18.7.1. Payback",
+    "share": 0.17,
+    "headings": []
+   },
+   {
+    "note": "18. Hirelings/18.6. Hireling Advancement_",
+    "share": 0.17,
+    "headings": []
+   }
+  ],
+  "80": [
+   {
+    "note": "12. Combat/12.9. Fighting Styles_",
+    "share": 0.99,
+    "headings": [
+     "Single Weapon Fighting",
+     "Two Weapon Fighting",
+     "Unarmed Combat",
+     "Two Handed Style",
+     "Mounted"
+    ]
+   }
+  ],
+  "133": [
+   {
+    "note": "17. GM Tools/17.3. Dungeon Crawling_",
+    "share": 0.69,
+    "headings": [
+     "Dungeon Events",
+     "Consult the Bones"
+    ]
+   },
+   {
+    "note": "17. GM Tools/17.3.2. Dungeon Event",
+    "share": 0.29,
+    "headings": []
+   }
+  ],
+  "77": [
+   {
+    "note": "12. Combat/12.7. Melee & Ranged Attacks_",
+    "share": 0.94,
+    "headings": [
+     "Melee Attacks",
+     "Melee Modifiers",
+     "Ranged Attacks",
+     "Ranged Modifiers",
+     "Damage",
+     "Critical Hits",
+     "Fumbles",
+     "Dodge"
+    ]
+   }
+  ],
+  "138": [
+   {
+    "note": "17. GM Tools/17.4.4. Travel Events",
+    "share": 0.99,
+    "headings": []
+   }
+  ],
+  "200": [
+   {
+    "note": "21. Monsters/21.4. Bestiary/Spider, Giant",
+    "share": 0.3,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Stirge",
+    "share": 0.29,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Sprite",
+    "share": 0.27,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Swarm, Bone Cutter Ant",
+    "share": 0.12,
+    "headings": []
+   }
+  ],
+  "9": [
+   {
+    "note": "2. Character Creation/2.1.1. Backgrounds",
+    "share": 0.96,
+    "headings": []
+   }
+  ],
+  "162": [
+   {
+    "note": "20. Mass Battle/20.1.1. Field Events",
+    "share": 0.5,
+    "headings": []
+   },
+   {
+    "note": "20. Mass Battle/20.1. Mass Battle_",
+    "share": 0.48,
+    "headings": [
+     "Field Events"
+    ]
+   }
+  ],
+  "231": [
+   {
+    "note": "27. Treasure/27.2.1. Valuables A",
+    "share": 0.54,
+    "headings": []
+   },
+   {
+    "note": "27. Treasure/27.2.2. Valuables B",
+    "share": 0.43,
+    "headings": []
+   }
+  ],
+  "212": [
+   {
+    "note": "23. Oracle Tools/23.2. Consult the Bones_",
+    "share": 0.89,
+    "headings": [
+     "Consulting the Bones",
+     "More or Less Likely",
+     "Alternatives"
+    ]
+   }
+  ],
+  "20": [
+   {
+    "note": "5. Classes/5.3. Barbarian_",
+    "share": 0.99,
+    "headings": [
+     "Barbarian Attack Bonus & Abilities",
+     "Ferocious Rage",
+     "Wild Born",
+     "Sixth Sense",
+     "Unique Feature",
+     "New Skill",
+     "Second Attack",
+     "Killer Instinct"
+    ]
+   },
+   {
+    "note": "5. Classes/5.6. Fighter_",
+    "share": 0.22,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Second Attack"
+    ]
+   },
+   {
+    "note": "5. Classes/5.4. Bard_",
+    "share": 0.13,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   },
+   {
+    "note": "5. Classes/5.5. Cultist_",
+    "share": 0.12,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Second Attack"
+    ]
+   },
+   {
+    "note": "5. Classes/5.9. Ranger_",
+    "share": 0.1,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Second Attack"
+    ]
+   },
+   {
+    "note": "5. Classes/5.10. Rogue_",
+    "share": 0.09,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   },
+   {
+    "note": "5. Classes/5.2. Artificer_",
+    "share": 0.08,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   }
+  ],
+  "121": [
+   {
+    "note": "16. Downtime/16.4.1. Carousing",
+    "share": 0.53,
+    "headings": []
+   },
+   {
+    "note": "16. Downtime/16.5. Gambling_",
+    "share": 0.45,
+    "headings": []
+   }
+  ],
+  "7": [
+   {
+    "note": "1. What Is Tales of Argosa/1.3. How to Play_",
+    "share": 1.0,
+    "headings": [
+     "Game Dice",
+     "Exploding Dice",
+     "Round Down"
+    ]
+   }
+  ],
+  "98": [
+   {
+    "note": "15. Sorcery/15.6.1. Divine Rebuke",
+    "share": 0.5,
+    "headings": []
+   },
+   {
+    "note": "15. Sorcery/15.7.1. Rites of Atonement",
+    "share": 0.4,
+    "headings": []
+   }
+  ],
+  "8": [
+   {
+    "note": "2. Character Creation/2.1. Character Creation_",
+    "share": 0.85,
+    "headings": []
+   },
+   {
+    "note": "2. Character Creation/2.1.1. Backgrounds",
+    "share": 0.13,
+    "headings": []
+   }
+  ],
+  "19": [
+   {
+    "note": "5. Classes/5.2. Artificer_",
+    "share": 1.0,
+    "headings": [
+     "Alchemy & Mechanica",
+     "Troubleshooter",
+     "Unique Feature",
+     "New Skill",
+     "Major Breakthrough",
+     "Supercharged",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.7. Magic User_",
+    "share": 0.13,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.10. Rogue_",
+    "share": 0.12,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.5. Cultist_",
+    "share": 0.11,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.3. Barbarian_",
+    "share": 0.1,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.9. Ranger_",
+    "share": 0.1,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.8. Monk_",
+    "share": 0.1,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.4. Bard_",
+    "share": 0.1,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.6. Fighter_",
+    "share": 0.09,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   }
+  ],
+  "114": [
+   {
+    "note": "16. Downtime/16.2. Advancement_",
+    "share": 0.93,
+    "headings": [
+     "Experience Points",
+     "XP Per Level",
+     "Loot",
+     "Combat",
+     "Exploration",
+     "Social",
+     "Bonus XP",
+     "Downtime Level Up",
+     "Session Advance"
+    ]
+   },
+   {
+    "note": "5. Classes/5.1. Classes_",
+    "share": 0.08,
+    "headings": [
+     "Hit Points"
+    ]
+   }
+  ],
+  "110": [
+   {
+    "note": "15. Sorcery/15.9. Spells/Whispers of the Watchers",
+    "share": 0.37,
+    "headings": []
+   },
+   {
+    "note": "15. Sorcery/15.9. Spells/Enchantment",
+    "share": 0.19,
+    "headings": []
+   },
+   {
+    "note": "15. Sorcery/15.9. Spells/Witchblade",
+    "share": 0.16,
+    "headings": []
+   },
+   {
+    "note": "15. Sorcery/15.9. Spells/Undead Servant",
+    "share": 0.15,
+    "headings": []
+   }
+  ],
+  "175": [
+   {
+    "note": "21. Monsters/21.4. Bestiary/Bugbear",
+    "share": 0.3,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Bulette",
+    "share": 0.22,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Centaur",
+    "share": 0.2,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Centipede, Giant",
+    "share": 0.13,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Beetle, Fire",
+    "share": 0.11,
+    "headings": []
+   }
+  ],
+  "189": [
+   {
+    "note": "21. Monsters/21.4. Bestiary/Lich",
+    "share": 0.27,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Lake Wyrm",
+    "share": 0.25,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Leech, Projectile",
+    "share": 0.23,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Invisible Stalker",
+    "share": 0.21,
+    "headings": []
+   }
+  ],
+  "119": [
+   {
+    "note": "16. Downtime/16.4.1. Carousing",
+    "share": 1.0,
+    "headings": []
+   }
+  ],
+  "166": [
+   {
+    "note": "21. Monsters/21.1. Monsters_",
+    "share": 1.0,
+    "headings": [
+     "# Number Appearing",
+     "Armour Class",
+     "Hit Dice",
+     "Attacks",
+     "Nat 19",
+     "Attributes",
+     "Luck",
+     "Movement",
+     "Reaction",
+     "Special Abilities",
+     "Recharge",
+     "Harvesting the Dead"
+    ]
+   }
+  ],
+  "70": [
+   {
+    "note": "12. Combat/12.3. Move_",
+    "share": 0.99,
+    "headings": [
+     "Charge",
+     "Intercept",
+     "Withdrawing & Free Attacks",
+     "Stand Up From Prone",
+     "Blocking an Area",
+     "Falling"
+    ]
+   }
+  ],
+  "221": [
+   {
+    "note": "25. Solo Rules/25.4.11. Theme Items",
+    "share": 0.48,
+    "headings": []
+   },
+   {
+    "note": "25. Solo Rules/25.4.12. Complications",
+    "share": 0.43,
+    "headings": []
+   }
+  ],
+  "52": [
+   {
+    "note": "8. Skills & Rerolls/8.1. Skills_",
+    "share": 0.61,
+    "headings": [
+     "Relevant vs Required",
+     "Skills"
+    ]
+   },
+   {
+    "note": "8. Skills & Rerolls/8.2. Rerolls_",
+    "share": 0.35,
+    "headings": [
+     "Rerolls",
+     "Backgrounds"
+    ]
+   }
+  ],
+  "196": [
+   {
+    "note": "21. Monsters/21.4. Bestiary/Rust Monster",
+    "share": 0.25,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Roper",
+    "share": 0.23,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Scorpion, Giant",
+    "share": 0.19,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Scroach",
+    "share": 0.17,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Serpent, Giant",
+    "share": 0.13,
+    "headings": []
+   }
+  ],
+  "104": [
+   {
+    "note": "15. Sorcery/15.9. Spells/Conjure Entity",
+    "share": 0.51,
+    "headings": []
+   },
+   {
+    "note": "15. Sorcery/15.9. Spells/Conjuring",
+    "share": 0.15,
+    "headings": []
+   },
+   {
+    "note": "15. Sorcery/15.9. Spells/Cleansing Charm",
+    "share": 0.14,
+    "headings": []
+   },
+   {
+    "note": "15. Sorcery/15.9. Spells/Brain Burst",
+    "share": 0.14,
+    "headings": []
+   }
+  ],
+  "130": [
+   {
+    "note": "17. GM Tools/17.2.1. Diseases",
+    "share": 0.8,
+    "headings": []
+   },
+   {
+    "note": "17. GM Tools/17.2. Diseases & Parasites_",
+    "share": 0.18,
+    "headings": []
+   }
+  ],
+  "156": [
+   {
+    "note": "18. Hirelings/18.1. Hirelings_",
+    "share": 0.66,
+    "headings": [
+     "Roles",
+     "How Many?",
+     "Cost & Names"
+    ]
+   }
+  ],
+  "137": [
+   {
+    "note": "17. GM Tools/17.4.4. Travel Events",
+    "share": 0.99,
+    "headings": []
+   }
+  ],
+  "14": [
+   {
+    "note": "4. Races/4.1. Races_",
+    "share": 1.0,
+    "headings": [
+     "Humans",
+     "Dwarves",
+     "Elves",
+     "Halfling",
+     "Half-Skorn"
+    ]
+   }
+  ],
+  "147": [
+   {
+    "note": "17. GM Tools/17.5.6. Mountains & Hills",
+    "share": 0.99,
+    "headings": []
+   }
+  ],
+  "86": [
+   {
+    "note": "13. Injury & Death/13.2.4. Missile Trauma",
+    "share": 0.53,
+    "headings": []
+   },
+   {
+    "note": "13. Injury & Death/13.2.3. Blunt Trauma",
+    "share": 0.5,
+    "headings": []
+   },
+   {
+    "note": "13. Injury & Death/13.2.1. Blade Trauma",
+    "share": 0.21,
+    "headings": []
+   },
+   {
+    "note": "13. Injury & Death/13.1.1. Injuries & Setbacks",
+    "share": 0.1,
+    "headings": []
+   },
+   {
+    "note": "13. Injury & Death/13.2.2. Blast Trauma",
+    "share": 0.1,
+    "headings": []
+   }
+  ],
+  "173": [
+   {
+    "note": "21. Monsters/21.4. Bestiary/Terror Traits",
+    "share": 0.3,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Gibbering Terror",
+    "share": 0.25,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Eye Terror",
+    "share": 0.22,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Aberrant Terrors",
+    "share": 0.11,
+    "headings": []
+   }
+  ],
+  "129": [
+   {
+    "note": "17. GM Tools/17.1. GM Tools_",
+    "share": 0.99,
+    "headings": []
+   }
+  ],
+  "144": [
+   {
+    "note": "17. GM Tools/17.5.3. Deserts",
+    "share": 1.0,
+    "headings": []
+   }
+  ],
+  "238": [
+   {
+    "note": "27. Treasure/27.4. Lair Treasure_",
+    "share": 0.61,
+    "headings": []
+   },
+   {
+    "note": "27. Treasure/27.4.1. Lair Treasure",
+    "share": 0.34,
+    "headings": []
+   }
+  ],
+  "195": [
+   {
+    "note": "21. Monsters/21.4. Bestiary/Purple Worm",
+    "share": 0.26,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Roc",
+    "share": 0.26,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Rat, Giant",
+    "share": 0.24,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Rock Grinder",
+    "share": 0.21,
+    "headings": []
+   }
+  ],
+  "82": [
+   {
+    "note": "12. Combat/12.11. Conditions_",
+    "share": 1.0,
+    "headings": [
+     "Blind",
+     "Burning",
+     "Dazed",
+     "Encumbered",
+     "Fatigued",
+     "Grabbed",
+     "Helpless",
+     "Near Blind",
+     "Prone",
+     "Starving",
+     "Stunned",
+     "Wounded"
+    ]
+   }
+  ],
+  "260": [
+   {
+    "note": "28. Variant Rules/28.1. Variant Rules_",
+    "share": 0.99,
+    "headings": [
+     "Customised PC Creation",
+     "Swapping Out Class Abilities",
+     "More Deadly",
+     "Less Deadly",
+     "Less Dark Magic",
+     "Less Dangerous Magic",
+     "Individual Initiative",
+     "Simultaneous Initiative",
+     "Distances in Feet",
+     "Small Party Play",
+     "Str for Thrown Weapon Damage",
+     "Advancement beyond 9th level"
+    ]
+   }
+  ],
+  "148": [
+   {
+    "note": "17. GM Tools/17.5.6. Mountains & Hills",
+    "share": 0.54,
+    "headings": []
+   },
+   {
+    "note": "17. GM Tools/17.5.7. Oceans, Lakes, Rivers",
+    "share": 0.45,
+    "headings": []
+   }
+  ],
+  "237": [
+   {
+    "note": "27. Treasure/27.3.1. Trinkets & Curios",
+    "share": 1.0,
+    "headings": []
+   }
+  ],
+  "64": [
+   {
+    "note": "10. Doing Things/10.3. Great Success & Terrible Failure_",
+    "share": 0.48,
+    "headings": []
+   },
+   {
+    "note": "10. Doing Things/10.2. Attribute Checks_",
+    "share": 0.36,
+    "headings": [
+     "Modifiers"
+    ]
+   },
+   {
+    "note": "10. Doing Things/10.4. Opposed Checks_",
+    "share": 0.11,
+    "headings": []
+   }
+  ],
+  "216": [
+   {
+    "note": "25. Solo Rules/25.3. Published Adventures_",
+    "share": 0.47,
+    "headings": []
+   },
+   {
+    "note": "25. Solo Rules/25.2. Lone Wolf_",
+    "share": 0.36,
+    "headings": []
+   },
+   {
+    "note": "25. Solo Rules/25.1. Solo Rules_",
+    "share": 0.14,
+    "headings": []
+   }
+  ],
+  "206": [
+   {
+    "note": "21. Monsters/21.4. Bestiary/Yegnu",
+    "share": 0.33,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Xornling",
+    "share": 0.32,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Xarrox",
+    "share": 0.18,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Yellow Mould",
+    "share": 0.13,
+    "headings": []
+   }
+  ],
+  "78": [
+   {
+    "note": "12. Combat/12.8. Exploits_",
+    "share": 0.99,
+    "headings": [
+     "Minor Exploits",
+     "Major Exploits"
+    ]
+   }
+  ],
+  "222": [
+   {
+    "note": "26. Traps/26.1. Traps_",
+    "share": 0.48,
+    "headings": [
+     "Simple vs Complex",
+     "Mechanical vs Magical",
+     "Rarity"
+    ]
+   },
+   {
+    "note": "26. Traps/26.3. Three Second Trigger_",
+    "share": 0.32,
+    "headings": []
+   },
+   {
+    "note": "26. Traps/26.2. Where & How_",
+    "share": 0.17,
+    "headings": []
+   }
+  ],
+  "179": [
+   {
+    "note": "21. Monsters/21.4. Bestiary/Doppelganger",
+    "share": 0.41,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/T-Rex",
+    "share": 0.37,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Triceratops",
+    "share": 0.17,
+    "headings": []
+   }
+  ],
+  "75": [
+   {
+    "note": "12. Combat/12.6. Action_",
+    "share": 1.0,
+    "headings": [
+     "Common Actions"
+    ]
+   }
+  ],
+  "240": [
+   {
+    "note": "27. Treasure/27.5.2. Potions",
+    "share": 0.5,
+    "headings": []
+   },
+   {
+    "note": "27. Treasure/27.5. Minor Magical Items_",
+    "share": 0.39,
+    "headings": [
+     "Scrolls",
+     "Spellbooks"
+    ]
+   }
+  ],
+  "153": [
+   {
+    "note": "17. GM Tools/17.5.11. Swamps",
+    "share": 0.65,
+    "headings": []
+   },
+   {
+    "note": "17. GM Tools/17.5.10. Snow & Ice",
+    "share": 0.34,
+    "headings": []
+   }
+  ],
+  "111": [
+   {
+    "note": "15. Sorcery/15.10. Ritual Magic_",
+    "share": 0.53,
+    "headings": [
+     "Components",
+     "Examples"
+    ]
+   },
+   {
+    "note": "15. Sorcery/15.10.1. Ritual Components",
+    "share": 0.14,
+    "headings": []
+   }
+  ],
+  "123": [
+   {
+    "note": "16. Downtime/16.7. Potion Brewing_",
+    "share": 1.0,
+    "headings": [
+     "Special Ingredient",
+     "Special Ingredient"
+    ]
+   }
+  ],
+  "229": [
+   {
+    "note": "27. Treasure/27.1. Treasure_",
+    "share": 0.66,
+    "headings": [
+     "Carry Loot B"
+    ]
+   },
+   {
+    "note": "27. Treasure/27.1.1. Carry Loot A",
+    "share": 0.31,
+    "headings": []
+   }
+  ],
+  "55": [
+   {
+    "note": "9. Equipment/9.2. Encumbrance_",
+    "share": 0.53,
+    "headings": [
+     "Encumbered"
+    ]
+   },
+   {
+    "note": "9. Equipment/9.1. Equipment_",
+    "share": 0.44,
+    "headings": [
+     "Supply",
+     "Supply",
+     "Light Sources"
+    ]
+   }
+  ],
+  "193": [
+   {
+    "note": "21. Monsters/21.4. Bestiary/Ogre Mage",
+    "share": 0.25,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/N'Tarc",
+    "share": 0.22,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Octopus, Giant",
+    "share": 0.21,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Ogre",
+    "share": 0.14,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Ochre Jelly",
+    "share": 0.14,
+    "headings": []
+   }
+  ],
+  "96": [
+   {
+    "note": "15. Sorcery/15.6. Divine Blessings & Rebukes_",
+    "share": 0.73,
+    "headings": []
+   },
+   {
+    "note": "15. Sorcery/15.6.1. Divine Rebuke",
+    "share": 0.24,
+    "headings": []
+   }
+  ],
+  "140": [
+   {
+    "note": "17. GM Tools/17.5.1. Aerial",
+    "share": 0.89,
+    "headings": []
+   },
+   {
+    "note": "17. GM Tools/17.5. Encounter Tables_",
+    "share": 0.1,
+    "headings": []
+   }
+  ],
+  "245": [
+   {
+    "note": "27. Treasure/27.7.1. Minor Charms",
+    "share": 1.0,
+    "headings": []
+   }
+  ],
+  "89": [
+   {
+    "note": "14. Healing & Recovery/14.1. Short Rest_",
+    "share": 0.65,
+    "headings": [
+     "Healer's Kit",
+     "Other Gear"
+    ]
+   },
+   {
+    "note": "14. Healing & Recovery/14.3. Long Rest_",
+    "share": 0.21,
+    "headings": []
+   },
+   {
+    "note": "14. Healing & Recovery/14.2. Sleep_",
+    "share": 0.1,
+    "headings": []
+   }
+  ],
+  "28": [
+   {
+    "note": "5. Classes/5.5. Example Gods/Wodon",
+    "share": 0.49,
+    "headings": []
+   },
+   {
+    "note": "5. Classes/5.5. Example Gods/Soliri (The World Tree)",
+    "share": 0.37,
+    "headings": []
+   },
+   {
+    "note": "5. Classes/5.5. Example Gods/Shennog",
+    "share": 0.16,
+    "headings": []
+   }
+  ],
+  "24": [
+   {
+    "note": "5. Classes/5.5. Cultist_",
+    "share": 1.0,
+    "headings": [
+     "Cultist Attack Bonus & Abilities",
+     "Blessings",
+     "Sacred Lore",
+     "Child of the Gods",
+     "Unique Feature",
+     "New Skill",
+     "Second Attack",
+     "Church Militant"
+    ]
+   },
+   {
+    "note": "5. Classes/5.7. Magic User_",
+    "share": 0.21,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   },
+   {
+    "note": "5. Classes/5.4. Bard_",
+    "share": 0.2,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   },
+   {
+    "note": "5. Classes/5.9. Ranger_",
+    "share": 0.19,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Second Attack"
+    ]
+   },
+   {
+    "note": "5. Classes/5.8. Monk_",
+    "share": 0.18,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   },
+   {
+    "note": "5. Classes/5.10. Rogue_",
+    "share": 0.17,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   },
+   {
+    "note": "5. Classes/5.2. Artificer_",
+    "share": 0.15,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   },
+   {
+    "note": "5. Classes/5.3. Barbarian_",
+    "share": 0.11,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Second Attack"
+    ]
+   }
+  ],
+  "44": [
+   {
+    "note": "6. Party Bonds/6.1. Party Bonds_",
+    "share": 0.41,
+    "headings": []
+   },
+   {
+    "note": "6. Party Bonds/6.1.1. Party Bonds",
+    "share": 0.18,
+    "headings": []
+   }
+  ],
+  "261": [
+   {
+    "note": "28. Variant Rules/28.2. Conversion Tips_",
+    "share": 0.84,
+    "headings": [
+     "Monsters",
+     "NPCs",
+     "Spells & Traps",
+     "Treasure"
+    ]
+   },
+   {
+    "note": "28. Variant Rules/28.1. Variant Rules_",
+    "share": 0.15,
+    "headings": [
+     "Class, Race & Background as Skills",
+     "Longer Adventures"
+    ]
+   }
+  ],
+  "203": [
+   {
+    "note": "21. Monsters/21.4. Bestiary/Vampire",
+    "share": 0.8,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Mutations",
+    "share": 0.18,
+    "headings": []
+   }
+  ],
+  "15": [
+   {
+    "note": "5. Classes/5.1. Classes_",
+    "share": 0.98,
+    "headings": [
+     "Hit Points",
+     "Wounded",
+     "Levelling Up",
+     "Class Abilities",
+     "Unique Features"
+    ]
+   }
+  ],
+  "61": [
+   {
+    "note": "9. Equipment/9.11. Shields_",
+    "share": 0.23,
+    "headings": []
+   },
+   {
+    "note": "9. Equipment/9.10. Armour_",
+    "share": 0.17,
+    "headings": [
+     "Armour"
+    ]
+   },
+   {
+    "note": "9. Equipment/9.12. Repairs & Crafting_",
+    "share": 0.15,
+    "headings": []
+   },
+   {
+    "note": "9. Equipment/9.13. Animals_",
+    "share": 0.09,
+    "headings": []
+   },
+   {
+    "note": "9. Equipment/9.14. Vehicles & Ships_",
+    "share": 0.08,
+    "headings": []
+   }
+  ],
+  "209": [
+   {
+    "note": "22. Naval Combat/22.3.1. Artillery",
+    "share": 0.91,
+    "headings": []
+   }
+  ],
+  "151": [
+   {
+    "note": "17. GM Tools/17.5.9. Roads & Trails",
+    "share": 1.0,
+    "headings": []
+   }
+  ],
+  "226": [
+   {
+    "note": "26. Traps/26.4.17. Pit",
+    "share": 0.23,
+    "headings": []
+   },
+   {
+    "note": "26. Traps/26.4. Simple Traps_",
+    "share": 0.15,
+    "headings": []
+   },
+   {
+    "note": "26. Traps/26.4.15. Monster",
+    "share": 0.15,
+    "headings": []
+   }
+  ],
+  "178": [
+   {
+    "note": "21. Monsters/21.4. Bestiary/Demon, Imp",
+    "share": 0.24,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Demon, Surgat",
+    "share": 0.21,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Demon, Malafas",
+    "share": 0.19,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Ankylosaurus",
+    "share": 0.14,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Raptor",
+    "share": 0.13,
+    "headings": []
+   }
+  ],
+  "249": [
+   {
+    "note": "27. Treasure/27.8. Major Magical Items/Storm Spear",
+    "share": 0.39,
+    "headings": [
+     "Storm Spear"
+    ]
+   },
+   {
+    "note": "27. Treasure/27.8. Major Magical Items/Shield of Argaunt",
+    "share": 0.27,
+    "headings": [
+     "Shield of Argaunt"
+    ]
+   },
+   {
+    "note": "27. Treasure/27.8.1. Major Magical Items",
+    "share": 0.11,
+    "headings": []
+   }
+  ],
+  "113": [
+   {
+    "note": "16. Downtime/16.1. Downtime_",
+    "share": 0.81,
+    "headings": [
+     "Downtime Period",
+     "Buildings"
+    ]
+   }
+  ],
+  "135": [
+   {
+    "note": "17. GM Tools/17.4. Hexploration_",
+    "share": 0.93,
+    "headings": [
+     "Watches",
+     "Travel Roles",
+     "Night Shift",
+     "Weather",
+     "Rivers"
+    ]
+   }
+  ],
+  "16": [
+   {
+    "note": "5. Classes/5.2. Artificer_",
+    "share": 1.0,
+    "headings": [
+     "Artificer Attack Bonus & Abilities",
+     "Alchemy & Mechanica",
+     "Troubleshooter",
+     "Unique Feature",
+     "New Skill",
+     "Major Breakthrough",
+     "Supercharged"
+    ]
+   },
+   {
+    "note": "5. Classes/5.9. Ranger_",
+    "share": 0.19,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   },
+   {
+    "note": "5. Classes/5.10. Rogue_",
+    "share": 0.18,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   },
+   {
+    "note": "5. Classes/5.7. Magic User_",
+    "share": 0.18,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   },
+   {
+    "note": "5. Classes/5.8. Monk_",
+    "share": 0.15,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   },
+   {
+    "note": "5. Classes/5.4. Bard_",
+    "share": 0.15,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   },
+   {
+    "note": "5. Classes/5.5. Cultist_",
+    "share": 0.15,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   },
+   {
+    "note": "5. Classes/5.6. Fighter_",
+    "share": 0.09,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   }
+  ],
+  "25": [
+   {
+    "note": "5. Classes/5.5. Cultist_",
+    "share": 0.49,
+    "headings": [
+     "Blessings",
+     "Sacred Lore",
+     "Child of the Gods",
+     "Unique Feature",
+     "New Skill",
+     "Second Attack",
+     "Church Militant",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.5.1. Blessings",
+    "share": 0.44,
+    "headings": []
+   },
+   {
+    "note": "5. Classes/5.9. Ranger_",
+    "share": 0.18,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Second Attack",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.6. Fighter_",
+    "share": 0.16,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Second Attack",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.3. Barbarian_",
+    "share": 0.15,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Second Attack",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.8. Monk_",
+    "share": 0.14,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.10. Rogue_",
+    "share": 0.12,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.2. Artificer_",
+    "share": 0.11,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.7. Magic User_",
+    "share": 0.11,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.4. Bard_",
+    "share": 0.1,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   }
+  ],
+  "39": [
+   {
+    "note": "5. Classes/5.9. Ranger_",
+    "share": 0.92,
+    "headings": [
+     "Beast Companion",
+     "Rangercraft"
+    ]
+   },
+   {
+    "note": "5. Classes/5.8. Monk_",
+    "share": 0.12,
+    "headings": []
+   },
+   {
+    "note": "5. Classes/5.10. Rogue_",
+    "share": 0.12,
+    "headings": []
+   },
+   {
+    "note": "5. Classes/5.6. Fighter_",
+    "share": 0.11,
+    "headings": []
+   },
+   {
+    "note": "5. Classes/5.2. Artificer_",
+    "share": 0.1,
+    "headings": []
+   }
+  ],
+  "184": [
+   {
+    "note": "21. Monsters/21.4. Bestiary/Giant, Frost",
+    "share": 0.3,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Giant, Storm",
+    "share": 0.26,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Goblin",
+    "share": 0.24,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Giant, Hill",
+    "share": 0.22,
+    "headings": []
+   }
+  ],
+  "235": [
+   {
+    "note": "27. Treasure/27.3.1. Trinkets & Curios",
+    "share": 1.0,
+    "headings": []
+   }
+  ],
+  "40": [
+   {
+    "note": "5. Classes/5.9.1. Rangercraft",
+    "share": 0.64,
+    "headings": []
+   },
+   {
+    "note": "5. Classes/5.9. Ranger_",
+    "share": 0.36,
+    "headings": [
+     "Beast Companion",
+     "Rangercraft",
+     "Steady Shot",
+     "Unique Feature",
+     "New Skill",
+     "Second Attack",
+     "Master Hunter",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.5. Cultist_",
+    "share": 0.14,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Second Attack",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.3. Barbarian_",
+    "share": 0.13,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Second Attack",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.6. Fighter_",
+    "share": 0.13,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Second Attack",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.8. Monk_",
+    "share": 0.09,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.7. Magic User_",
+    "share": 0.08,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   }
+  ],
+  "141": [
+   {
+    "note": "17. GM Tools/17.5.2. City, Town, Village",
+    "share": 0.99,
+    "headings": []
+   }
+  ],
+  "247": [
+   {
+    "note": "27. Treasure/27.7.1. Minor Charms",
+    "share": 1.0,
+    "headings": []
+   }
+  ],
+  "5": [
+   {
+    "note": "1. What Is Tales of Argosa/1.2. Core Features_",
+    "share": 1.0,
+    "headings": []
+   }
+  ],
+  "46": [
+   {
+    "note": "7. Unique Features/7.2. Example Unique Features/Faustian Pact",
+    "share": 0.19,
+    "headings": []
+   },
+   {
+    "note": "7. Unique Features/7.2. Example Unique Features/Combat Medic",
+    "share": 0.17,
+    "headings": []
+   },
+   {
+    "note": "7. Unique Features/7.2. Example Unique Features/Enchanter",
+    "share": 0.12,
+    "headings": []
+   },
+   {
+    "note": "7. Unique Features/7.2. Example Unique Features/Dance of Dragons",
+    "share": 0.1,
+    "headings": []
+   },
+   {
+    "note": "7. Unique Features/7.2. Example Unique Features/Divine Bargain",
+    "share": 0.1,
+    "headings": []
+   }
+  ],
+  "207": [
+   {
+    "note": "21. Monsters/21.4. Bestiary/Zombie, Giant",
+    "share": 0.24,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Zombie, Swarm",
+    "share": 0.2,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Yellow Mould",
+    "share": 0.2,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Zombie, Walker",
+    "share": 0.19,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Zombie, Brain Eater",
+    "share": 0.19,
+    "headings": []
+   }
+  ],
+  "176": [
+   {
+    "note": "21. Monsters/21.4. Bestiary/Cyclops",
+    "share": 0.31,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Crocodile, Giant",
+    "share": 0.22,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Cockatrice",
+    "share": 0.18,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Chuul",
+    "share": 0.15,
+    "headings": []
+   }
+  ],
+  "234": [
+   {
+    "note": "27. Treasure/27.3.1. Trinkets & Curios",
+    "share": 1.0,
+    "headings": []
+   }
+  ],
+  "47": [
+   {
+    "note": "7. Unique Features/7.2. Example Unique Features/Monster Lore",
+    "share": 0.18,
+    "headings": []
+   },
+   {
+    "note": "7. Unique Features/7.2. Example Unique Features/Master of Faces",
+    "share": 0.14,
+    "headings": []
+   },
+   {
+    "note": "7. Unique Features/7.2. Example Unique Features/Marksman",
+    "share": 0.12,
+    "headings": []
+   },
+   {
+    "note": "7. Unique Features/7.2. Example Unique Features/Oracle",
+    "share": 0.11,
+    "headings": []
+   },
+   {
+    "note": "7. Unique Features/7.2. Example Unique Features/Iron Grit",
+    "share": 0.1,
+    "headings": []
+   },
+   {
+    "note": "7. Unique Features/7.2. Example Unique Features/Knife Fighter",
+    "share": 0.1,
+    "headings": []
+   },
+   {
+    "note": "7. Unique Features/7.2. Example Unique Features/Injury Adaption",
+    "share": 0.09,
+    "headings": []
+   }
+  ],
+  "59": [
+   {
+    "note": "9. Equipment/9.9. Weapons_",
+    "share": 0.87,
+    "headings": [
+     "Melee Weapons"
+    ]
+   }
+  ],
+  "53": [
+   {
+    "note": "8. Skills & Rerolls/8.1. Skills_",
+    "share": 1.0,
+    "headings": [
+     "Skills"
+    ]
+   }
+  ],
+  "232": [
+   {
+    "note": "27. Treasure/27.2.2. Valuables B",
+    "share": 0.59,
+    "headings": []
+   },
+   {
+    "note": "27. Treasure/27.3.1. Trinkets & Curios",
+    "share": 0.31,
+    "headings": []
+   }
+  ],
+  "3": [],
+  "125": [
+   {
+    "note": "16. Downtime/16.9. Research_",
+    "share": 0.79,
+    "headings": [
+     "Standard Research",
+     "Magical Research",
+     "Minor or Major Research",
+     "Magical Research"
+    ]
+   },
+   {
+    "note": "16. Downtime/16.9.1. Standard Research",
+    "share": 0.17,
+    "headings": []
+   }
+  ],
+  "205": [
+   {
+    "note": "21. Monsters/21.4. Bestiary/Winged Snake",
+    "share": 0.25,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Worm, Plague",
+    "share": 0.22,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Wraith",
+    "share": 0.18,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Worm, Frost",
+    "share": 0.17,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Wyvern",
+    "share": 0.15,
+    "headings": []
+   }
+  ],
+  "197": [
+   {
+    "note": "21. Monsters/21.4. Bestiary/Razkarrt",
+    "share": 0.32,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Hraask",
+    "share": 0.23,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Serpentmen",
+    "share": 0.17,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Ssurloc",
+    "share": 0.16,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Serpent, Giant",
+    "share": 0.11,
+    "headings": []
+   }
+  ],
+  "95": [
+   {
+    "note": "15. Sorcery/15.5.1. Dark and Dangerous Magic",
+    "share": 0.96,
+    "headings": []
+   }
+  ],
+  "183": [
+   {
+    "note": "21. Monsters/21.4. Bestiary/Ghost",
+    "share": 0.26,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Giant, Fire",
+    "share": 0.26,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Ghoul",
+    "share": 0.21,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Gelatinous Cube",
+    "share": 0.19,
+    "headings": []
+   }
+  ],
+  "38": [
+   {
+    "note": "5. Classes/5.9. Ranger_",
+    "share": 1.0,
+    "headings": [
+     "Ranger Attack Bonus & Abilities",
+     "Beast Companion",
+     "Rangercraft",
+     "Steady Shot",
+     "Unique Feature",
+     "New Skill",
+     "Second Attack",
+     "Master Hunter"
+    ]
+   },
+   {
+    "note": "5. Classes/5.2. Artificer_",
+    "share": 0.21,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   },
+   {
+    "note": "5. Classes/5.10. Rogue_",
+    "share": 0.21,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   },
+   {
+    "note": "5. Classes/5.5. Cultist_",
+    "share": 0.2,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Second Attack"
+    ]
+   },
+   {
+    "note": "5. Classes/5.8. Monk_",
+    "share": 0.18,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   },
+   {
+    "note": "5. Classes/5.4. Bard_",
+    "share": 0.18,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   },
+   {
+    "note": "5. Classes/5.7. Magic User_",
+    "share": 0.17,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   },
+   {
+    "note": "5. Classes/5.6. Fighter_",
+    "share": 0.11,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Second Attack"
+    ]
+   },
+   {
+    "note": "5. Classes/5.3. Barbarian_",
+    "share": 0.1,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Second Attack"
+    ]
+   }
+  ],
+  "225": [
+   {
+    "note": "26. Traps/26.4.13. Lockdown",
+    "share": 0.2,
+    "headings": []
+   },
+   {
+    "note": "26. Traps/26.4.10. Drowning",
+    "share": 0.2,
+    "headings": []
+   },
+   {
+    "note": "26. Traps/26.4.8. Crushing Walls",
+    "share": 0.18,
+    "headings": []
+   },
+   {
+    "note": "26. Traps/26.4.11. Fire, Explosion",
+    "share": 0.15,
+    "headings": []
+   },
+   {
+    "note": "26. Traps/26.4.9. Deadfall",
+    "share": 0.13,
+    "headings": []
+   },
+   {
+    "note": "26. Traps/26.4.12. Gas",
+    "share": 0.1,
+    "headings": []
+   }
+  ],
+  "254": [
+   {
+    "note": "27. Treasure/27.8. Major Magical Items/Coil of the Worm",
+    "share": 0.29,
+    "headings": [
+     "Coil of the Worm"
+    ]
+   },
+   {
+    "note": "27. Treasure/27.8. Major Magical Items/Plague Demon's Clasp",
+    "share": 0.27,
+    "headings": [
+     "Plague Demon's Clasp"
+    ]
+   },
+   {
+    "note": "27. Treasure/27.8. Major Magical Items/Gnar Sumek",
+    "share": 0.23,
+    "headings": [
+     "Gnar Sumek"
+    ]
+   },
+   {
+    "note": "27. Treasure/27.8. Major Magical Items/Mask of the Golden One",
+    "share": 0.17,
+    "headings": []
+   }
+  ],
+  "67": [
+   {
+    "note": "11. Encounters/11.3. Influencing NPCs_",
+    "share": 0.98,
+    "headings": []
+   }
+  ],
+  "219": [
+   {
+    "note": "25. Solo Rules/25.4. Dungeon Generator_",
+    "share": 0.55,
+    "headings": []
+   }
+  ],
+  "252": [
+   {
+    "note": "27. Treasure/27.8. Major Magical Items/Morg Tor",
+    "share": 0.32,
+    "headings": [
+     "Morg Tor"
+    ]
+   },
+   {
+    "note": "27. Treasure/27.8. Major Magical Items/Horn of Karagoss",
+    "share": 0.3,
+    "headings": [
+     "Horn of Karagoss"
+    ]
+   },
+   {
+    "note": "27. Treasure/27.8. Major Magical Items/Lash of the Elf Queen",
+    "share": 0.28,
+    "headings": [
+     "Lash of the Elf Queen"
+    ]
+   }
+  ],
+  "163": [
+   {
+    "note": "20. Mass Battle/20.1.1. Field Events",
+    "share": 1.0,
+    "headings": []
+   }
+  ],
+  "150": [
+   {
+    "note": "17. GM Tools/17.5.8. Plains & Grasslands",
+    "share": 0.69,
+    "headings": []
+   },
+   {
+    "note": "17. GM Tools/17.5.9. Roads & Trails",
+    "share": 0.3,
+    "headings": []
+   }
+  ],
+  "23": [
+   {
+    "note": "5. Classes/5.4. Bard_",
+    "share": 0.99,
+    "headings": [
+     "Inspire Greatness",
+     "Silver Tongued",
+     "Bardic Knowledge",
+     "Unique Feature",
+     "New Skill",
+     "Rallying Shout",
+     "Warlord",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.2. Artificer_",
+    "share": 0.1,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.3. Barbarian_",
+    "share": 0.1,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.9. Ranger_",
+    "share": 0.1,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.8. Monk_",
+    "share": 0.1,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.10. Rogue_",
+    "share": 0.1,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.5. Cultist_",
+    "share": 0.1,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.7. Magic User_",
+    "share": 0.1,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   },
+   {
+    "note": "5. Classes/5.6. Fighter_",
+    "share": 0.09,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Beyond 9th Level"
+    ]
+   }
+  ],
+  "124": [
+   {
+    "note": "16. Downtime/16.8. Recovery_",
+    "share": 0.99,
+    "headings": [
+     "Addiction",
+     "Madness Remission",
+     "Persistent Injuries",
+     "Permanent Injuries"
+    ]
+   }
+  ],
+  "37": [
+   {
+    "note": "5. Classes/5.8. Monk_",
+    "share": 0.99,
+    "headings": [
+     "Open Hand Versatility",
+     "Spirit Warrior",
+     "Counterattack",
+     "Beyond 9th Level"
+    ]
+   }
+  ],
+  "262": [],
+  "94": [
+   {
+    "note": "15. Sorcery/15.5.1. Dark and Dangerous Magic",
+    "share": 0.98,
+    "headings": []
+   }
+  ],
+  "81": [
+   {
+    "note": "12. Combat/12.10. Miscellaneous Factors_",
+    "share": 0.99,
+    "headings": [
+     "Cover",
+     "Visibility",
+     "Invisible or Stealthy Attacker",
+     "Surprise",
+     "Non-Proficiency",
+     "Knock Outs",
+     "Underwater Combat",
+     "Flanking",
+     "Drowning and Suffocation",
+     "Aerial Combat",
+     "Other Modifiers"
+    ]
+   }
+  ],
+  "101": [
+   {
+    "note": "15. Sorcery/15.8.1. Spell List",
+    "share": 1.0,
+    "headings": []
+   }
+  ],
+  "257": [
+   {
+    "note": "27. Treasure/27.10.6. Obvious Powers",
+    "share": 1.0,
+    "headings": []
+   }
+  ],
+  "199": [
+   {
+    "note": "21. Monsters/21.4. Bestiary/Spectre",
+    "share": 0.36,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Slop Gorger",
+    "share": 0.32,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Skratt",
+    "share": 0.32,
+    "headings": []
+   }
+  ],
+  "218": [
+   {
+    "note": "25. Solo Rules/25.4. Dungeon Generator_",
+    "share": 0.42,
+    "headings": []
+   }
+  ],
+  "168": [
+   {
+    "note": "21. Monsters/21.3. Special Traits_",
+    "share": 0.98,
+    "headings": [
+     "Boss",
+     "Demons & Undead",
+     "Heavy",
+     "Off Turn Attacks"
+    ]
+   }
+  ],
+  "117": [
+   {
+    "note": "16. Downtime/16.4.1. Carousing",
+    "share": 0.81,
+    "headings": []
+   },
+   {
+    "note": "16. Downtime/16.4. Carousing_",
+    "share": 0.16,
+    "headings": []
+   }
+  ],
+  "136": [
+   {
+    "note": "17. GM Tools/17.4.4. Travel Events",
+    "share": 0.38,
+    "headings": []
+   },
+   {
+    "note": "17. GM Tools/17.4. Hexploration_",
+    "share": 0.31,
+    "headings": [
+     "Watches",
+     "Weather",
+     "Rivers",
+     "Exploring a Hex"
+    ]
+   }
+  ],
+  "45": [
+   {
+    "note": "7. Unique Features/7.1. Unique Features_",
+    "share": 0.3,
+    "headings": []
+   },
+   {
+    "note": "7. Unique Features/7.2. Example Unique Features/Born to Loot",
+    "share": 0.18,
+    "headings": []
+   },
+   {
+    "note": "7. Unique Features/7.2. Example Unique Features/Armour Master",
+    "share": 0.13,
+    "headings": []
+   }
+  ],
+  "99": [
+   {
+    "note": "15. Sorcery/15.7.1. Rites of Atonement",
+    "share": 0.99,
+    "headings": []
+   }
+  ],
+  "255": [
+   {
+    "note": "27. Treasure/27.8. Major Magical Items/Dusker's Vest",
+    "share": 0.39,
+    "headings": [
+     "Dusker's Vest"
+    ]
+   },
+   {
+    "note": "27. Treasure/27.8. Major Magical Items/Armour of the Phoenix",
+    "share": 0.3,
+    "headings": [
+     "Phoenix Armour"
+    ]
+   },
+   {
+    "note": "27. Treasure/27.8. Major Magical Items/Cyldimere",
+    "share": 0.27,
+    "headings": [
+     "Cyldimere"
+    ]
+   }
+  ],
+  "60": [
+   {
+    "note": "9. Equipment/9.9. Weapons_",
+    "share": 0.99,
+    "headings": [
+     "Ranged Weapons"
+    ]
+   },
+   {
+    "note": "22. Naval Combat/22.7. Blackpowder Weapons_",
+    "share": 0.08,
+    "headings": []
+   }
+  ],
+  "180": [
+   {
+    "note": "21. Monsters/21.4. Bestiary/Dragon",
+    "share": 0.46,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Eagle, Giant",
+    "share": 0.28,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Dwarf",
+    "share": 0.23,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Griffon",
+    "share": 0.09,
+    "headings": []
+   }
+  ],
+  "215": [
+   {
+    "note": "24. Rival Adventurers/24.1. Rival Adventurers_",
+    "share": 0.86,
+    "headings": []
+   }
+  ],
+  "186": [
+   {
+    "note": "21. Monsters/21.4. Bestiary/Hag",
+    "share": 0.32,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Green Slime",
+    "share": 0.23,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Hammer Snail",
+    "share": 0.16,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Griffon",
+    "share": 0.14,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Harpy",
+    "share": 0.12,
+    "headings": []
+   }
+  ],
+  "202": [
+   {
+    "note": "21. Monsters/21.4. Bestiary/Mutations",
+    "share": 0.38,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Urgot",
+    "share": 0.32,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Troll",
+    "share": 0.22,
+    "headings": []
+   }
+  ],
+  "182": [
+   {
+    "note": "21. Monsters/21.4. Bestiary/Feathered Maw",
+    "share": 0.24,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Gargoyle",
+    "share": 0.18,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Fey Creeper",
+    "share": 0.18,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Flesh Eating Vines",
+    "share": 0.16,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Ettin",
+    "share": 0.16,
+    "headings": []
+   }
+  ],
+  "72": [
+   {
+    "note": "12. Combat/12.5. Chases_",
+    "share": 0.69,
+    "headings": [
+     "Setup",
+     "Resolving the Chase"
+    ]
+   },
+   {
+    "note": "12. Combat/12.4. Party Retreat_",
+    "share": 0.29,
+    "headings": []
+   }
+  ],
+  "109": [
+   {
+    "note": "15. Sorcery/15.9. Spells/Thunderous Invocation",
+    "share": 0.2,
+    "headings": []
+   },
+   {
+    "note": "15. Sorcery/15.9. Spells/Transmogrification",
+    "share": 0.17,
+    "headings": []
+   },
+   {
+    "note": "15. Sorcery/15.9. Spells/Strange Joining",
+    "share": 0.15,
+    "headings": []
+   },
+   {
+    "note": "15. Sorcery/15.9. Spells/Sight Beyond Sight",
+    "share": 0.12,
+    "headings": []
+   },
+   {
+    "note": "15. Sorcery/15.9. Spells/Thrice Bound Curse",
+    "share": 0.09,
+    "headings": []
+   },
+   {
+    "note": "15. Sorcery/15.9. Spells/Sundering Sign",
+    "share": 0.09,
+    "headings": []
+   }
+  ],
+  "201": [
+   {
+    "note": "21. Monsters/21.4. Bestiary/Tentacle Spawn",
+    "share": 0.36,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Toad, Giant",
+    "share": 0.24,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Swarm, Bone Cutter Ant",
+    "share": 0.18,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Treant, Bloodroot",
+    "share": 0.18,
+    "headings": []
+   }
+  ],
+  "122": [
+   {
+    "note": "16. Downtime/16.6. Pets_",
+    "share": 0.49,
+    "headings": [
+     "Ordinary Pets",
+     "Monstrous Pets"
+    ]
+   },
+   {
+    "note": "16. Downtime/16.6.2. Monstrous Instincts",
+    "share": 0.33,
+    "headings": []
+   }
+  ],
+  "69": [
+   {
+    "note": "12. Combat/12.1. Initiative & Turn Order_",
+    "share": 0.5,
+    "headings": []
+   },
+   {
+    "note": "12. Combat/12.2. Morale_",
+    "share": 0.48,
+    "headings": [
+     "Finish Them!",
+     "Rallying NPC Allies"
+    ]
+   }
+  ],
+  "84": [
+   {
+    "note": "13. Injury & Death/13.2.1. Blade Trauma",
+    "share": 0.54,
+    "headings": []
+   },
+   {
+    "note": "13. Injury & Death/13.1.1. Injuries & Setbacks",
+    "share": 0.49,
+    "headings": []
+   },
+   {
+    "note": "13. Injury & Death/13.2.3. Blunt Trauma",
+    "share": 0.13,
+    "headings": []
+   },
+   {
+    "note": "13. Injury & Death/13.2.4. Missile Trauma",
+    "share": 0.1,
+    "headings": []
+   }
+  ],
+  "250": [
+   {
+    "note": "27. Treasure/27.8. Major Magical Items/Orb of T'Seroskk",
+    "share": 0.34,
+    "headings": [
+     "Orb of T'Seroskk"
+    ]
+   },
+   {
+    "note": "27. Treasure/27.8. Major Magical Items/Cowl of the North",
+    "share": 0.32,
+    "headings": [
+     "Cowl of the North"
+    ]
+   },
+   {
+    "note": "27. Treasure/27.8. Major Magical Items/Ballard's Blade",
+    "share": 0.27,
+    "headings": [
+     "Ballard's Blade"
+    ]
+   }
+  ],
+  "210": [
+   {
+    "note": "22. Naval Combat/22.5.1. Boarding",
+    "share": 0.59,
+    "headings": []
+   },
+   {
+    "note": "22. Naval Combat/22.5. Boarding_",
+    "share": 0.17,
+    "headings": []
+   },
+   {
+    "note": "22. Naval Combat/22.4. Ramming_",
+    "share": 0.12,
+    "headings": []
+   },
+   {
+    "note": "22. Naval Combat/22.6. Withdrawing_",
+    "share": 0.12,
+    "headings": []
+   }
+  ],
+  "30": [
+   {
+    "note": "5. Classes/5.6. Fighter_",
+    "share": 1.0,
+    "headings": [
+     "Fighter Attack Bonus & Abilities",
+     "Adaptable",
+     "Deadly Strikes",
+     "Supplies",
+     "Unique Feature",
+     "New Skill",
+     "Second Attack",
+     "Master of Arms"
+    ]
+   },
+   {
+    "note": "5. Classes/5.3. Barbarian_",
+    "share": 0.22,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Second Attack"
+    ]
+   },
+   {
+    "note": "5. Classes/5.9. Ranger_",
+    "share": 0.11,
+    "headings": [
+     "Unique Feature",
+     "New Skill",
+     "Second Attack"
+    ]
+   },
+   {
+    "note": "5. Classes/5.2. Artificer_",
+    "share": 0.1,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   }
+  ],
+  "251": [
+   {
+    "note": "27. Treasure/27.8. Major Magical Items/Yûlnvorg the Bonebreaker",
+    "share": 0.34,
+    "headings": [
+     "Yûlnvorg"
+    ]
+   },
+   {
+    "note": "27. Treasure/27.8. Major Magical Items/Talisman of the Black Sun",
+    "share": 0.33,
+    "headings": [
+     "Talisman"
+    ]
+   },
+   {
+    "note": "27. Treasure/27.8. Major Magical Items/Staff of Mensicor",
+    "share": 0.27,
+    "headings": [
+     "Staff of Mensicor"
+    ]
+   }
+  ],
+  "85": [
+   {
+    "note": "13. Injury & Death/13.2.2. Blast Trauma",
+    "share": 0.53,
+    "headings": []
+   },
+   {
+    "note": "13. Injury & Death/13.2.3. Blunt Trauma",
+    "share": 0.31,
+    "headings": []
+   },
+   {
+    "note": "13. Injury & Death/13.2.1. Blade Trauma",
+    "share": 0.2,
+    "headings": []
+   },
+   {
+    "note": "13. Injury & Death/13.2. Trauma Tables_",
+    "share": 0.13,
+    "headings": [
+     "Blast Trauma",
+     "Blunt Trauma"
+    ]
+   },
+   {
+    "note": "13. Injury & Death/13.2.4. Missile Trauma",
+    "share": 0.13,
+    "headings": []
+   }
+  ],
+  "139": [
+   {
+    "note": "17. GM Tools/17.4. Hexploration_",
+    "share": 0.7,
+    "headings": [
+     "Random Encounters",
+     "Starting Distances",
+     "Back to Base"
+    ]
+   },
+   {
+    "note": "17. GM Tools/17.4.5. Back to Base",
+    "share": 0.28,
+    "headings": []
+   }
+  ],
+  "63": [
+   {
+    "note": "10. Doing Things/10.2. Attribute Checks_",
+    "share": 0.56,
+    "headings": [
+     "Modifiers"
+    ]
+   },
+   {
+    "note": "10. Doing Things/10.1. Doing Things_",
+    "share": 0.42,
+    "headings": [
+     "Kinds of Checks"
+    ]
+   }
+  ],
+  "131": [
+   {
+    "note": "17. GM Tools/17.2.1. Diseases",
+    "share": 0.5,
+    "headings": []
+   },
+   {
+    "note": "17. GM Tools/17.2.2. Parasites",
+    "share": 0.49,
+    "headings": []
+   }
+  ],
+  "213": [
+   {
+    "note": "23. Oracle Tools/23.3. Read the Signs_",
+    "share": 0.94,
+    "headings": [
+     "Time",
+     "Direction"
+    ]
+   }
+  ],
+  "185": [
+   {
+    "note": "21. Monsters/21.4. Bestiary/Gnoll",
+    "share": 0.31,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Golem, Flesh",
+    "share": 0.2,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Golem, Iron",
+    "share": 0.2,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Golem, Stone",
+    "share": 0.17,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Golems",
+    "share": 0.11,
+    "headings": []
+   }
+  ],
+  "160": [
+   {
+    "note": "19. Madness/19.1. Madness_",
+    "share": 0.53,
+    "headings": [
+     "Symptoms of Madness",
+     "Acute Episodes",
+     "Curing Madness"
+    ]
+   },
+   {
+    "note": "18. Hirelings/18.7.1. Payback",
+    "share": 0.46,
+    "headings": []
+   }
+  ],
+  "230": [
+   {
+    "note": "27. Treasure/27.1.2. Carry Loot B",
+    "share": 0.47,
+    "headings": []
+   },
+   {
+    "note": "27. Treasure/27.2.1. Valuables A",
+    "share": 0.33,
+    "headings": []
+   },
+   {
+    "note": "27. Treasure/27.1. Treasure_",
+    "share": 0.13,
+    "headings": [
+     "Carry Loot B"
+    ]
+   }
+  ],
+  "181": [
+   {
+    "note": "21. Monsters/21.4. Bestiary/Elemental, Water",
+    "share": 0.19,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Elf",
+    "share": 0.19,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Elemental, Fire",
+    "share": 0.18,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Elemental, Air",
+    "share": 0.17,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Elemental, Earth",
+    "share": 0.15,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Elementals",
+    "share": 0.15,
+    "headings": []
+   }
+  ],
+  "190": [
+   {
+    "note": "21. Monsters/21.4. Bestiary/Lycanthrope, Werebear",
+    "share": 0.23,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Lycanthrope, Werewolf",
+    "share": 0.22,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Lycanthrope, Wererat",
+    "share": 0.21,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Mammoth",
+    "share": 0.19,
+    "headings": []
+   },
+   {
+    "note": "21. Monsters/21.4. Bestiary/Lizard, Giant",
+    "share": 0.18,
+    "headings": []
+   }
+  ],
+  "116": [
+   {
+    "note": "16. Downtime/16.3.1. Complication",
+    "share": 0.72,
+    "headings": []
+   },
+   {
+    "note": "16. Downtime/16.3. Black Market Trade_",
+    "share": 0.26,
+    "headings": []
+   }
+  ],
+  "152": [
+   {
+    "note": "17. GM Tools/17.5.10. Snow & Ice",
+    "share": 0.99,
+    "headings": []
+   }
+  ],
+  "118": [
+   {
+    "note": "16. Downtime/16.4.1. Carousing",
+    "share": 0.99,
+    "headings": []
+   }
+  ],
+  "58": [
+   {
+    "note": "9. Equipment/9.9. Weapons_",
+    "share": 0.98,
+    "headings": [
+     "Second Rank Weapons",
+     "Ammunition Rolls",
+     "Special Metals"
+    ]
+   }
+  ],
+  "241": [
+   {
+    "note": "27. Treasure/27.6. Old Magic Grimoires/Phylactery of the Undying",
+    "share": 0.33,
+    "headings": []
+   },
+   {
+    "note": "27. Treasure/27.6. Old Magic Grimoires/Ineffable Force",
+    "share": 0.27,
+    "headings": []
+   },
+   {
+    "note": "27. Treasure/27.6. Old Magic Grimoires/Conclave of Wind & Sky",
+    "share": 0.24,
+    "headings": []
+   },
+   {
+    "note": "27. Treasure/27.6. Old Magic Grimoires/Forbidden Wish",
+    "share": 0.13,
+    "headings": []
+   }
+  ],
+  "49": [
+   {
+    "note": "7. Unique Features/7.2. Example Unique Features/Runesmith",
+    "share": 0.3,
+    "headings": []
+   },
+   {
+    "note": "7. Unique Features/7.2. Example Unique Features/Secret History",
+    "share": 0.23,
+    "headings": []
+   },
+   {
+    "note": "7. Unique Features/7.2. Example Unique Features/Shieldmaiden",
+    "share": 0.17,
+    "headings": []
+   },
+   {
+    "note": "7. Unique Features/7.2. Example Unique Features/Signature Weapon",
+    "share": 0.17,
+    "headings": []
+   }
+  ],
+  "157": [
+   {
+    "note": "18. Hirelings/18.2. Backgrounds_",
+    "share": 0.11,
+    "headings": []
+   }
+  ],
+  "263": [],
+  "22": [
+   {
+    "note": "5. Classes/5.4. Bard_",
+    "share": 0.99,
+    "headings": [
+     "Bard Attack Bonus & Abilities",
+     "Inspire Greatness",
+     "Silver Tongued",
+     "Bardic Knowledge",
+     "Unique Feature",
+     "New Skill",
+     "Rallying Shout",
+     "Warlord"
+    ]
+   },
+   {
+    "note": "5. Classes/5.5. Cultist_",
+    "share": 0.21,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   },
+   {
+    "note": "5. Classes/5.9. Ranger_",
+    "share": 0.18,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   },
+   {
+    "note": "5. Classes/5.8. Monk_",
+    "share": 0.18,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   },
+   {
+    "note": "5. Classes/5.10. Rogue_",
+    "share": 0.18,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   },
+   {
+    "note": "5. Classes/5.7. Magic User_",
+    "share": 0.17,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   },
+   {
+    "note": "5. Classes/5.2. Artificer_",
+    "share": 0.16,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   },
+   {
+    "note": "5. Classes/5.3. Barbarian_",
+    "share": 0.13,
+    "headings": [
+     "Unique Feature",
+     "New Skill"
+    ]
+   }
+  ],
+  "74": [
+   {
+    "note": "12. Combat/12.5.1. Chase Events",
+    "share": 1.0,
+    "headings": []
+   }
+  ]
+ }
+}
