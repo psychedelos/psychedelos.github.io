@@ -54,6 +54,8 @@ Max's running notes for Claude. When a conversation resets, read this file, `REA
 
 ## Open items
 
+- Future (Max asked, not started): Lone Wolf toggle (Solo Rules p.216: starts Level 3, HP 25 + class bonus -- probably the 1-3 class hp bonus, confirm with Max -- bonus attack, Fortune die on hits taken, auto-stabilise, 3 Will checks on Short Rest, halve 5+ enemies, always Look Out). Plan: first a Level picker (levelling up p.15: +1 attribute of choice per level max 16, +class hp, class level table AB/abilities, new skill at 2, Unique Feature every 3rd level, examples p.45), then the Lone Wolf toggle on top. Check the rule behind the level 3 pregens' Rerolls 4 / Luck 12 before building.
+
 - Name (done 2026-11-27): the Names tag gives culture ((n) Nydissian, (v) Varnori, (k) Karok, (t) Thuel, none Argosan) and (f) female; sheet lines under the name = "<Culture> name", Personality, Trait, Languages (Text2-5); Sex box (Text11) filled.
 - Pregens are grouped by level in the menu (Max: the level 3 ones are NOT solo characters -- he was mistaken; don't label them solo).
 - Item slots (done, RAW): Encumbrance p.55 "Two handed items take two slots"; Fighting Styles p.80: "Bows and some large or high damage weapons require two hands... Wielding certain one handed weapons with two hands grants +1 damage" -- so staff, spear, longsword etc. are one handed weapons, 1 slot; great weapons/polearm 2; bows and heavy crossbow 1 (+1 for the quiver/bolts); 10 ft pole 2; worn armour 0. Sheet writes "Longsword (1)"; builder shows slots used/available. Pregen slot errors are ignored.
