@@ -101,6 +101,13 @@
   .dstat small { display:block; color:var(--muted); font-size:.7rem; letter-spacing:.05em; text-transform:uppercase; }
   .dstat span { font-size:1.15rem; }
   .clist { margin:0; padding-left:1.2em; line-height:1.55; }
+  .cweps { display:grid; gap:6px; margin:4px 0 8px; }
+  .cwep { line-height:1.4; }
+  .cwep > span { margin-left:6px; white-space:nowrap; }
+  .pgattrs { display:grid; grid-template-columns:repeat(4, 1fr); gap:6px; margin:6px 0; }
+  .pgtext { line-height:1.5; }
+  .pgimg { width:100%; height:auto; border-radius:8px; margin-top:8px; border:1px solid var(--line); }
+  a.pglink { display:inline-block; background:var(--accent); color:#1b140e; border-radius:999px; padding:10px 18px; text-decoration:none; margin:8px 0 4px; }
   .clist li { padding:2px 0; }
   details.ab { background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:8px 10px; margin-bottom:6px; }
   details.ab summary { cursor:pointer; }
@@ -601,31 +608,31 @@ const ATTR_LONG = { Str: 'Strength', Dex: 'Dexterity', Con: 'Constitution', Int:
 const modOf = v => v <= 4 ? -3 : v <= 6 ? -2 : v <= 8 ? -1 : v <= 12 ? 0 : v <= 14 ? 1 : v <= 16 ? 2 : v <= 18 ? 3 : v <= 20 ? 4 : 5;
 const sgn = n => (n > 0 ? '+' : '') + n;
 const CLASSES = {
-  Artificer: { key: 'Int', min: 15, hp: 1, ab: 0, armour: 1, shield: 0, gear: ['Heavy Hammer (1d8)', 'Leather (+1 AC)', 'Toolkit'],
+  Artificer: { uses: 'Alchemy & Mechanica', key: 'Int', min: 15, hp: 1, ab: 0, armour: 1, shield: 0, gear: ['Heavy Hammer (1d8)', 'Leather (+1 AC)', 'Toolkit'],
     skills: ['Apothecary', 'General Lore'], die: 12, pool: ['Acrobatics', 'Animal Lore', 'Athletics', 'Deception', 'Detection', 'Divine Lore', 'Gather Information', 'Persuasion', 'Watercraft', 'Sleight of Hand', 'Stealth', 'Traps & Locks'],
     abil: { table: 'Alchemy & Mechanica', by: 'Int', what: 'inventions' }, fixed: [] },
-  Barbarian: { key: 'Con', min: 13, hp: 2, ab: 1, armour: 3, shield: 0, gear: ['Great Axe (1d12)', 'Hide (+3 AC*)'],
+  Barbarian: { uses: 'Ferocious Rage', key: 'Con', min: 13, hp: 2, ab: 1, armour: 3, shield: 0, gear: ['Great Axe (1d12)', 'Hide (+3 AC*)'],
     skills: ['Athletics', 'Wilderness Lore'], die: 10, pool: ['Acrobatics', 'Animal Lore', 'Deception', 'Detection', 'Divine Lore', 'Gather Information', 'Leadership', 'Persuasion', 'Watercraft', 'Stealth'],
     abil: null, fixed: ['Wild Born', 'Ferocious Rage'] },
-  Bard: { key: 'Cha', hp: 2, ab: 0, armour: 3, shield: 0, gear: ['Spear (1d6+1)', 'Chain shirt (+3 AC)', 'Instrument (if desired)'],
+  Bard: { uses: 'Inspire Greatness', key: 'Cha', hp: 2, ab: 0, armour: 3, shield: 0, gear: ['Spear (1d6+1)', 'Chain shirt (+3 AC)', 'Instrument (if desired)'],
     skills: ['Persuasion', 'Deception', 'General Lore'], die: 10, pool: ['Apothecary', 'Arcane Lore', 'Athletics', 'Detection', 'Divine Lore', 'Gather Information', 'Leadership', 'Stealth', 'Watercraft', 'Traps & Locks'],
     abil: null, fixed: ['Silver Tongued', 'Inspire Greatness'] },
-  Cultist: { key: 'Will', hp: 2, ab: 0, armour: 3, shield: 0, gear: ['Heavy Mace (1d8)', 'Chain shirt (+3 AC)', 'Holy symbol'],
+  Cultist: { uses: 'Blessings', key: 'Will', hp: 2, ab: 0, armour: 3, shield: 0, gear: ['Heavy Mace (1d8)', 'Chain shirt (+3 AC)', 'Holy symbol'],
     skills: ['Apothecary', 'Divine Lore'], die: 10, pool: ['Arcane Lore', 'Athletics', 'Deception', 'Detection', 'Gather Information', 'General Lore', 'Persuasion', 'Watercraft', 'Stealth', 'Wilderness Lore'],
     abil: { table: 'Blessings', by: 'Will', what: 'blessings' }, fixed: ['Sacred Lore', 'Patron: choose your deity'] },
-  Fighter: { key: 'Str', hp: 3, ab: 1, armour: 3, shield: 1, gear: ['Longsword (1d8) or Spear (1d6+1)', 'Chain shirt (+3 AC)', 'Shield (+1 AC)'],
+  Fighter: { uses: 'Adaptable', key: 'Str', hp: 3, ab: 1, armour: 3, shield: 1, gear: ['Longsword (1d8) or Spear (1d6+1)', 'Chain shirt (+3 AC)', 'Shield (+1 AC)'],
     skills: ['Leadership', 'Athletics'], die: 12, pool: ['Acrobatics', 'Animal Lore', 'Apothecary', 'Deception', 'Detection', 'Gather Information', 'General Lore', 'Persuasion', 'Watercraft', 'Stealth', 'Traps & Locks', 'Wilderness Lore'],
     abil: { table: 'Adaptable', by: 'Str', what: 'styles (choose one as default)' }, fixed: ['Deadly Strikes'] },
-  'Magic User': { key: 'Int', hp: 1, ab: 0, armour: 1, shield: 0, gear: ['Spellbook', 'Longsword (1d8)', 'Leather armour (+1 AC)'],
+  'Magic User': { uses: 'Spellcraft', key: 'Int', hp: 1, ab: 0, armour: 1, shield: 0, gear: ['Spellbook', 'Longsword (1d8)', 'Leather armour (+1 AC)'],
     skills: ['Arcane Lore', 'Apothecary'], die: 10, pool: ['Animal Lore', 'Deception', 'Detection', 'Divine Lore', 'Gather Information', 'General Lore', 'Persuasion', 'Watercraft', 'Stealth', 'Wilderness Lore'],
     abil: { table: 'Spell List', by: 'Int', what: 'spells' }, fixed: ['Sense Magic'] },
-  Monk: { key: 'Will', key2: 'Dex', hp: 2, ab: 0, armour: 1, shield: 0, gear: ['Staff (1d6)', 'Leather armour (+1 AC)', "Healer's Kit"],
+  Monk: { uses: 'Monk Techniques', key: 'Will', key2: 'Dex', hp: 2, ab: 0, armour: 1, shield: 0, gear: ['Staff (1d6)', 'Leather armour (+1 AC)', "Healer's Kit"],
     skills: ['Acrobatics', 'Apothecary', 'Athletics'], die: 10, pool: ['Arcane Lore', 'Deception', 'Detection', 'Divine Lore', 'General Lore', 'Persuasion', 'Watercraft', 'Stealth', 'Traps & Locks', 'Wilderness Lore'],
     abil: { table: 'Monk Techniques', by: 'Will', what: 'techniques' }, fixed: ['Martial Arts (1d6 unarmed, Dex for melee, Extra attack)'] },
-  Ranger: { key: 'Perc', hp: 2, ab: 1, armour: 1, shield: 0, gear: ['Longbow (1d8)', 'Quiver', 'Shortsword (1d6)', 'Leather armour (+1 AC)'],
+  Ranger: { uses: 'Rangercraft', key: 'Perc', hp: 2, ab: 1, armour: 1, shield: 0, gear: ['Longbow (1d8)', 'Quiver', 'Shortsword (1d6)', 'Leather armour (+1 AC)'],
     skills: ['Animal Lore', 'Wilderness Lore', 'Stealth'], die: 10, pool: ['Acrobatics', 'Athletics', 'Apothecary', 'Deception', 'Detection', 'Divine Lore', 'General Lore', 'Persuasion', 'Watercraft', 'Traps & Locks'],
     abil: { table: 'Rangercraft', by: 'Perc', what: 'talents' }, fixed: ['Beast Companion'] },
-  Rogue: { key: 'Dex', hp: 2, ab: 0, armour: 1, shield: 0, gear: ['Shortsword (1d6)', 'Dagger (1d4)', 'Leather armour (+1 AC)', "Thieves' Tools"],
+  Rogue: { uses: 'Tricks & Techniques', key: 'Dex', hp: 2, ab: 0, armour: 1, shield: 0, gear: ['Shortsword (1d6)', 'Dagger (1d4)', 'Leather armour (+1 AC)', "Thieves' Tools"],
     skills: ['Stealth', 'Sleight of Hand', 'Traps & Locks'], die: 10, pool: ['Acrobatics', 'Apothecary', 'Arcane Lore', 'Deception', 'Detection', 'Divine Lore', 'Gather Information', 'General Lore', 'Persuasion', 'Watercraft'],
     abil: { table: 'Tricks & Techniques', by: 'Dex', what: 'tricks' }, fixed: ['Backstab (+4 attack, +1d8 damage)', 'Finisher'] },
 };
@@ -636,9 +643,15 @@ let CH = null, swapSel = null;
 function rollRow(title, v) { const t = T(title); return t ? findRow(t, v).r : null; }
 // Old humans (step 15, after the class): -1 Str & Con, +1 Int & Will (max 16). Kept as its own layer so the toggle can undo it.
 const baseA = (c, a) => c.raw[a] + c.auto[a] + c.user[a];
-const oldMod = (c, a) => !c.old ? 0 : (a === 'Str' || a === 'Con') ? -1 : (a === 'Int' || a === 'Will') ? (baseA(c, a) < 16 ? 1 : 0) : 0;
-const curA = (c, a) => baseA(c, a) + oldMod(c, a);
-const ageOf = c => c.old ? c.ageOld : c.ageYoung;
+const oldMod = (c, a) => !isElderly(c) ? 0 : (a === 'Str' || a === 'Con') ? -1 : (a === 'Int' || a === 'Will') ? (baseA(c, a) < 16 ? 1 : 0) : 0;
+// Step 16 traits that carry numbers (Hirelings, Traits p.157), applied last: Half Dwarf Con 15, Half Skorn Str & Con 13
+// (raised to that score, never lowered), Lucky +1 Luck, Elderly, 1d4+12 yrs old
+const TRAIT_FLOOR = { 3: { Con: 15 }, 4: { Con: 15 }, 67: { Str: 13, Con: 13 }, 68: { Str: 13, Con: 13 } };
+const traitFloor = (c, a) => ((TRAIT_FLOOR[c.traitV] || {})[a]) || 0;
+const isElderly = c => !!(c.old || c.traitElderly);
+const curA = (c, a) => Math.max(baseA(c, a) + oldMod(c, a), traitFloor(c, a));
+const ageOf = c => c.traitTeen ? c.ageTeen : (isElderly(c) && c.race === 'Human') ? c.ageOld : c.ageYoung;
+const usesOf = c => c.level + (isElderly(c) ? 1 : 0);
 // Human bonuses (+1 attribute, +1 Reroll) apply only when other races are allowed (Races, p.13)
 const humanPerks = c => c.race === 'Human' && !c.humansOnly;
 const RACEMODE = { humansOnly: false };
@@ -646,7 +659,14 @@ try { RACEMODE.humansOnly = localStorage.getItem('argosa.humansOnly') === '1'; }
 function ageNotes(c) {
   const n = [];
   if (c.humansOnly) n.push('Humans only: no human bonus (+1 attribute, +1 Reroll) -- those apply only when other races are allowed (Races, p.13).');
-  if (c.old) n.push('Old (1d10+60 = ' + c.ageOld + '): -1 Str & Con, +1 Int & Will (max 16). Begin each adventure with one extra use of your 1st level class ability.');
+  if (isElderly(c)) n.push((c.traitElderly ? 'Elderly (trait)' : 'Elderly') + (c.race === 'Human' && !c.traitTeen ? ' (1d10+60 = ' + c.ageOld + ')' : '') +
+    ': -1 Str & Con, +1 Int & Will (max 16). Begin each adventure with one extra use of your 1st level class ability.' +
+    (c.traitElderly && c.race !== 'Human' ? ' The book gives no elderly age for non-humans: age left as rolled.' : ''));
+  const fl = TRAIT_FLOOR[c.traitV];
+  if (fl) for (const [a, v] of Object.entries(fl)) if (baseA(c, a) + oldMod(c, a) < v) n.push('Trait ' + plain(c.trait.c.join(' ')) + ': ' + a + ' raised from ' + (baseA(c, a) + oldMod(c, a)) + ' to ' + v + '.');
+  if (c.traitLucky) n.push('Trait Lucky (like a Halfling): +1 Luck.');
+  if (c.traitTeen) n.push('Trait 1d4+12 yrs old: age ' + c.ageTeen + (c.old ? ' -- replaces the elderly age; elderly is switched off.' : '.'));
+  if (c.disease) n.push('Trait Random Disease: ' + c.disease + ' (Diseases, p.130).');
   return n;
 }
 function newCharacter(cls) {
@@ -670,7 +690,10 @@ function newCharacter(cls) {
   c.personality = plain(rollOnce(T('Personality')).r.c[0]);
   const tr = T('Traits'); let guard = 0, to;
   do { to = rollOnce(tr); } while ((to.v >= 23 && to.v <= 24 || to.v >= 91 && to.v <= 92) && guard++ < 50);
-  c.trait = to.r;
+  c.trait = to.r; c.traitV = to.v;
+  c.traitElderly = to.v >= 55 && to.v <= 56; c.traitLucky = to.v >= 41 && to.v <= 42; c.traitTeen = to.v >= 61 && to.v <= 62;
+  if (c.traitTeen) c.ageTeen = rollExpr('1d4+12').total;
+  if (to.v <= 2 && T('Diseases')) { const d = rollOnce(T('Diseases')).r; c.disease = firstBold(d.c.join(' ')) || plain(d.c.join(' ')); }
   // 17. party bond
   c.bond = rollOnce(T('Party Bonds'));
   applyClass(c, cls);
@@ -787,7 +810,7 @@ const halfNote = (c, k) => c.race === 'Halfling' && midSize(k) ? 'two hands (hal
 function derived(c) {
   const C = CLASSES[c.cls], cur = a => curA(c, a), M = a => modOf(cur(a));
   return {
-    luck: 11 + (c.race === 'Halfling' ? 1 : 0), rerolls: humanPerks(c) ? 2 : 1,
+    luck: 11 + (c.race === 'Halfling' ? 1 : 0) + (c.traitLucky ? 1 : 0), rerolls: humanPerks(c) ? 2 : 1,
     init: Math.floor((cur('Dex') + cur('Int')) / 2), hp: cur('Con') + c.level * C.hp,
     death: Math.max(10, 10 + Math.max(M('Con'), M('Will'))),
     ac: 10 + C.armour + (gearOf(c).shieldOff ? 0 : C.shield) + M('Dex') + (c.race === 'Halfling' ? 1 : 0),
@@ -797,7 +820,7 @@ function derived(c) {
 }
 function charHtml() {
   const c = CH, C = CLASSES[c.cls], cur = a => curA(c, a), M = a => modOf(cur(a));
-  const luck = 11 + (c.race === 'Halfling' ? 1 : 0), rerolls = humanPerks(c) ? 2 : 1;
+  const luck = 11 + (c.race === 'Halfling' ? 1 : 0) + (c.traitLucky ? 1 : 0), rerolls = humanPerks(c) ? 2 : 1;
   const init = Math.floor((cur('Dex') + cur('Int')) / 2);
   const hp = cur('Con') + c.level * C.hp;
   const death = Math.max(10, 10 + Math.max(M('Con'), M('Will')));
@@ -809,10 +832,11 @@ function charHtml() {
     Object.keys(CLASSES).map(k => {
       const C2 = CLASSES[k], ok = eligible(c, k);
       return '<option value="' + k + '"' + (k === c.fixedCls ? ' selected' : '') + (ok ? '' : ' disabled') + '>' + k + (ok ? '' : ' (needs ' + C2.key + ' ' + C2.min + ')') + '</option>';
-    }).join('') + '</select></div>';
+    }).join('') + '</select>' + pregenSelect() + '</div>';
   if (!eligible(c, c.cls)) h += '<div class="cnote" style="color:#e58a7a">' + esc(c.cls) + ' needs ' + C.key + ' ' + C.min + '+, and this character no longer qualifies.</div>';
   h += '<div class="ctrls"><span class="hint">Race</span><div class="seg"><button data-rmode="0" class="' + (RACEMODE.humansOnly ? '' : 'on') + '">Roll d12</button><button data-rmode="1" class="' + (RACEMODE.humansOnly ? 'on' : '') + '">Humans only</button></div>' +
-    (c.race === 'Human' ? '<span class="hint">Age</span><div class="seg"><button data-old="0" class="' + (c.old ? '' : 'on') + '">Average</button><button data-old="1" class="' + (c.old ? 'on' : '') + '">Old</button></div>' : '') + '</div>';
+    (c.race === 'Human' && !c.traitTeen ? '<span class="hint">Age</span><div class="seg"><button data-old="0" class="' + (isElderly(c) ? '' : 'on') + '"' + (c.traitElderly ? ' disabled' : '') + '>Average</button><button data-old="1" class="' + (isElderly(c) ? 'on' : '') + '"' + (c.traitElderly ? ' disabled' : '') + '>Elderly</button></div>' +
+      (c.traitElderly ? '<span class="hint">rolled as a trait</span>' : '') : '') + '</div>';
   h += '<div class="ctrls" id="cexport"><button class="chipbtn" data-sheet="classic">Export Classic sheet</button><button class="chipbtn" data-sheet="simple">Export Simple sheet</button></div><div class="cnote" id="cexportMsg"></div>';
   h += '<div class="cname">' + esc(c.name) + '</div><div class="cline"><b>' + esc(c.race) + '</b>' + (c.humansOnly ? '' : ' (d12: ' + c.raceRoll + ')') + ' &middot; <b>' + esc(c.cls) +
     '</b> &middot; Level 1 &middot; Age <b>' + ageOf(c) + '</b></div>';
@@ -821,7 +845,7 @@ function charHtml() {
     ATTR.map(a => '<div class="attr' + (swapSel === a ? ' sel' : '') + '" data-a="' + a + '"><span class="an">' + a + '<small>' + ATTR_LONG[a] + (a === C.key || a === C.key2 ? ' &middot; key' : '') + '</small></span>' +
       '<button data-d="-1">&minus;</button><span class="av">' + cur(a) + '</span><button data-d="1">+</button><span class="am">' + sgn(M(a)) + '</span></div>').join('') + '</div>';
   h += '<div class="chead"><span>Derived</span></div><div class="derived">' + [
-    ['Hit Points', hp], ['AC', ac], ['Initiative', init], ['Luck', luck], ['Rerolls', rerolls], ['DDM', 1],
+    ['Hit Points', hp], ['AC', ac], ['Initiative', initText(c, init, G.gear.concat([c.bg.item]))], ['Luck', luck], ['Rerolls', rerolls], ['DDM', 1],
     ['Death save', death + (c.race === 'Half-Skorn' ? ' (+2)' : '')], ['Melee AB', sgn(melee)], ['Ranged AB', sgn(ranged)],
     ['Battle slots', battle], ['Pack slots', pack], ['Languages', lang <= -2 ? 'illiterate' : sgn(Math.max(0, lang))]
   ].map(([k, v]) => '<div class="dstat"><small>' + k + '</small><span>' + v + '</span></div>').join('') + '</div>';
@@ -829,20 +853,23 @@ function charHtml() {
     '. Attack bonus = class ' + sgn(C.ab) + ' + Str mod (melee' + (c.cls === 'Monk' ? ', or Dex for a Monk' : '') + ') / Perc mod (ranged). Death save = 10 + the higher of Con or Will mod (min 10).</div>';
   h += '<div class="chead"><span>Skills</span></div><ul class="clist">' + c.skills.map(s => '<li>' + esc(s) + '</li>').join('') + '</ul>';
   h += '<div class="chead"><span>Class abilities</span></div>';
-  h += '<ul class="clist">' + C.fixed.map(f => '<li>' + esc(f) + '</li>').join('') + '</ul>';
+  h += '<ul class="clist">' + C.fixed.map(f => '<li>' + esc(f) + (f === C.uses ? ' <b>(' + usesOf(c) + ')</b>' : '') + '</li>').join('') + '</ul>';
   if (c.abil.length) {
-    h += '<div class="cnote">' + esc(c.abilNote) + ', rolled on ' + esc(C.abil.table) + ':</div>' +
+    h += '<div class="cnote"><b>' + esc(C.uses) + ' (' + usesOf(c) + ')</b> -- uses per adventure (one per level' + (isElderly(c) ? ', +1 elderly' : '') + '). ' + esc(c.abilNote) + ', rolled on ' + esc(C.abil.table) + ':</div>' +
       c.abil.map(a => '<details class="ab"><summary>' + esc(a.name) + ' <span class="hint">(' + a.v + ')</span></summary><div class="cell">' + a.r.c.join('<br>') + '</div></details>').join('');
   }
+  const wrows = weaponRows(c, G.gear.concat([c.bg.item]));
+  if (wrows.length) h += '<div class="chead"><span>Weapons</span></div><div class="cweps">' + wrows.map(w => '<div class="cwep"><b>' + esc(w.label) + '</b> <span>' + esc(w.rng) + '</span> <span>Hit ' + esc(w.hit) +
+    '</span> <span>Dmg ' + esc(w.dmg) + '</span> <span>Crit ' + esc(w.crit) + '</span><div class="hint">Nat 19: ' + esc(w.nat19) + (w.props ? '. ' + esc(w.props) : '') + '</div></div>').join('') + '</div>';
   if (RACE_TRAITS[c.race]) h += '<div class="chead"><span>' + esc(c.race) + ' traits</span></div><ul class="clist">' + RACE_TRAITS[c.race].map(t => '<li>' + esc(t) + '</li>').join('') + '</ul>';
   h += '<div class="chead"><span>Gear</span></div><ul class="clist">' + G.gear.map(g => { const n = halfNote(c, weaponOf(g.split(/ or /i)[0])); return '<li>' + esc(g) + (n ? ' <span class="hint">-- ' + n + '</span>' : '') + '</li>'; }).join('') +
     '<li>' + esc(c.bg.item) + ' (background)</li><li>Torch, bedroll, rations (5 days), tinderbox</li><li>10 sp</li></ul>';
-  h += '<div class="chead"><span>Character</span></div><ul class="clist"><li><b>Personality:</b> ' + esc(c.personality) + '</li><li><b>Trait:</b> ' + c.trait.c.join(' ') + '</li></ul>';
+  h += '<div class="chead"><span>Character</span></div><ul class="clist"><li><b>Personality:</b> ' + esc(c.personality) + '</li><li><b>Trait:</b> ' + c.trait.c.join(' ') + '</li>' + (c.disease ? '<li><b>Disease:</b> ' + esc(c.disease) + ' (Diseases, p.130)</li>' : '') + '</ul>';
   h += '<div class="chead"><span>Party Bond</span></div><div class="rcard"><div class="rhead"><span>Party Bonds &middot; ' + esc(c.bond.label) + '</span><span class="rv">' + c.bond.r.k + '</span></div>' + rowHtml(T('Party Bonds'), c.bond.r) + '</div>';
   if (c.manual.length) h += '<div class="chead"><span>Your changes</span></div><ul class="clist">' + c.manual.map(m =>
     '<li class="cnote">' + esc(m.type === 'adj' ? m.a + ' ' + sgn(m.d) + ' (' + m.from + ' \u2192 ' + m.to + ')'
       : m.type === 'swap' ? 'Swapped ' + m.a + ' and ' + m.b + ' (' + m.a + ' ' + m.va + ' \u2194 ' + m.b + ' ' + m.vb + ')'
-      : m.type === 'age' ? 'Age: ' + (m.old ? 'Average \u2192 Old' : 'Old \u2192 Average')
+      : m.type === 'age' ? 'Age: ' + (m.old ? 'Average \u2192 Elderly' : 'Elderly \u2192 Average')
       : 'Class changed: ' + m.from + ' \u2192 ' + m.to) + '</li>').join('') + '</ul>';
   const an = c.notes.concat(G.notes, ageNotes(c));
   if (an.length) h += '<div class="chead"><span>Automatic adjustments</span></div><ul class="clist">' + an.map(n => '<li class="cnote">' + esc(n) + '</li>').join('') + '</ul>';
@@ -850,15 +877,48 @@ function charHtml() {
   h += '<details class="full"><summary>Backgrounds table (36 rows)</summary>' + fullTable(T('Backgrounds'), false) + '</details>';
   return h;
 }
-function drawCharacter() { $('sbody').innerHTML = charHtml(); }
+// Official pregens (argosa/pregens/, listed by tools/build_pregens.py): pick one to view it in place of the generator
+const PREGENS = /*PREGENS_JSON*/[];
+let PG = null;
+const pregenSelect = () => PREGENS.length ? '<select class="csel" id="cpg"><option value="">Pregens…</option>' + PREGENS.map((p, i) =>
+  '<option value="' + i + '"' + (i === PG ? ' selected' : '') + '>' + esc(p.name) + ' -- ' + esc(p.race + ' ' + p.cls + ' ' + p.level) + (p.kind === 'image' ? ' (sheet picture)' : '') + '</option>').join('') + '</select>' : '';
+function pregenHtml(p) {
+  const f = p.f || {}, F = n => f['Text' + n] || '', url = 'pregens/' + p.file;
+  let h = '<div class="ctrls"><button class="go" id="cgo">New character</button>' + pregenSelect() + '</div>';
+  h += '<div class="cname">' + esc(p.name) + '</div><div class="cline"><b>' + esc(p.race) + '</b> &middot; <b>' + esc(p.cls) + '</b> &middot; Level ' + esc(String(p.level)) +
+    ' &middot; ' + esc(p.bg) + (p.sex ? ' &middot; ' + esc(p.sex) : '') + (p.age ? ' &middot; Age ' + esc(String(p.age)) : '') + '</div>';
+  if (p.bond) h += '<div class="cnote">Party bond: ' + esc(p.bond) + '</div>';
+  h += '<div><a class="pglink" href="' + url + '" target="_blank" rel="noopener">Open the ' + (p.kind === 'pdf' ? 'sheet (PDF, ' : 'sheet picture (') + (p.size / 1e6).toFixed(1) + ' MB)</a></div>' +
+    '<div class="hint">Official pregen. The sheet opens in the home-screen app (psychedelos.github.io/argosa), not inside Claude.' + (p.kind === 'pdf' ? ' The PDF is form-fillable.' : '') + '</div>';
+  if (p.kind === 'image') return h + '<a href="' + url + '" target="_blank" rel="noopener"><img class="pgimg" alt="' + esc(p.name) + ' character sheet" src="' + url + '"></a>';
+  const desc = [2, 3, 4, 5].map(F).filter(Boolean).join(' ');
+  if (desc) h += '<div class="chead"><span>Character</span></div><div>' + esc(desc) + '</div>';
+  const rows = [['Str', 16], ['Dex', 20], ['Con', 24], ['Int', 28], ['Perc', 32], ['Will', 36], ['Cha', 40], ['Init', 44]];
+  h += '<div class="chead"><span>Attributes</span><span class="hint">score &middot; mod &middot; GS / TF</span></div><div class="pgattrs">' + rows.map(([a, n]) =>
+    '<div class="dstat"><small>' + a + '</small><span>' + esc(F(n)) + '</span><div class="hint">' + esc(F(n + 1) || '-') + ' &middot; ' + esc(F(n + 2)) + ' / ' + esc(F(n + 3)) + '</div></div>').join('') + '</div>';
+  h += '<div class="derived">' + [['Hit Points', F(49)], ['AC', F(48)], ['Luck', F(51)], ['Rerolls', F(53)], ['Death', F(55)], ['DDM', F(56)], ['Battle slots', F(109)], ['Pack slots', F(120)]]
+    .map(([k, v]) => '<div class="dstat"><small>' + k + '</small><span>' + esc(v || '-') + '</span></div>').join('') + '</div>';
+  const W = [[57, 63], [64, 70], [71, 77], [78, 84], [85, 91]].map(([a]) => [0, 1, 2, 3, 4, 5, 6].map(i => F(a + i)));
+  const ws = W.filter(w => w.some(Boolean));
+  if (ws.length) h += '<div class="chead"><span>Weapons</span></div><div class="cweps">' + ws.map(w => '<div class="cwep"><b>' + esc(w[0]) + '</b>' +
+    (w[1] ? ' <span>' + esc(w[1]) + '</span>' : '') + (w[2] ? ' <span>Hit ' + esc(w[2]) + '</span>' : '') + (w[3] ? ' <span>Dmg ' + esc(w[3]) + '</span>' : '') +
+    (w[5] ? ' <span>Crit ' + esc(w[5]) + '</span>' : '') + '<div class="hint">' + (w[4] ? 'Nat 19: ' + esc(w[4]) + '. ' : '') + esc(w[6]) + '</div></div>').join('') + '</div>';
+  const block = (title, nums) => { const t = nums.map(F).filter(Boolean); return t.length ? '<div class="chead"><span>' + title + '</span></div><div class="pgtext">' + t.map(esc).join('<br>') + '</div>' : ''; };
+  const range = (a, b) => Array.from({ length: b - a + 1 }, (_, i) => a + i);
+  h += block('Skills &amp; abilities', range(92, 108));
+  h += block('Battle gear', range(110, 119)) + block('Pack gear', range(121, 133)) + block('Worn', range(134, 136)) + block('Coin', [151]) + block('Notes', range(140, 150));
+  return h;
+}
+function drawCharacter() { $('sbody').innerHTML = PG != null && PREGENS[PG] ? pregenHtml(PREGENS[PG]) : charHtml(); }
+if (/^(localhost|127\.0\.0\.1)$/.test(location.hostname)) window.__argosaTest = { CLASSES, newCharacter, applyClass, derived, sheetData, weaponRows, curA, initText, gearOf };   // local testing only
 function openCharacter() {
   openSheet('Character', 'Character Creation - p.8');
-  CH = newCharacter(); CH.fixedCls = ''; swapSel = null; drawCharacter();
+  PG = null; CH = newCharacter(); CH.fixedCls = ''; swapSel = null; drawCharacter();
   logIt('Character', CH.name + ', ' + CH.race + ' ' + CH.cls + ' (' + CH.bg.name + ')');
 }
 $('sbody').addEventListener('click', e => {
   if (!CH || !$('cgo')) return;
-  if (e.target.id === 'cgo') { const k = CH.fixedCls; CH = newCharacter(k); let n = 0; while (k && !eligible(CH, k) && n++ < 2000) CH = newCharacter(k); CH.fixedCls = k; swapSel = null; drawCharacter(); logIt('Character', CH.name + ', ' + CH.race + ' ' + CH.cls + ' (' + CH.bg.name + ')'); return; }
+  if (e.target.id === 'cgo') { PG = null; const k = CH.fixedCls; CH = newCharacter(k); let n = 0; while (k && !eligible(CH, k) && n++ < 2000) CH = newCharacter(k); CH.fixedCls = k; swapSel = null; drawCharacter(); logIt('Character', CH.name + ', ' + CH.race + ' ' + CH.cls + ' (' + CH.bg.name + ')'); return; }
   const rm = e.target.closest('[data-rmode]');
   if (rm) {   // race mode applies from the race roll on, so it rolls a new character (keeping the class choice)
     RACEMODE.humansOnly = rm.dataset.rmode === '1'; try { localStorage.setItem('argosa.humansOnly', RACEMODE.humansOnly ? '1' : '0'); } catch (er) {}
@@ -866,7 +926,7 @@ $('sbody').addEventListener('click', e => {
   }
   const og = e.target.closest('[data-old]');
   if (og) {
-    const old = og.dataset.old === '1'; if (old === CH.old) return;
+    const old = og.dataset.old === '1'; if (old === CH.old || CH.traitElderly) return;
     CH.old = old;
     const last = CH.manual[CH.manual.length - 1];
     if (last && last.type === 'age') CH.manual.pop(); else CH.manual.push({ type: 'age', old });
@@ -891,6 +951,7 @@ $('sbody').addEventListener('click', e => {
   }
 });
 $('sbody').addEventListener('change', e => {
+  if (e.target.id === 'cpg') { PG = e.target.value === '' ? null : +e.target.value; drawCharacter(); if (PG != null) logIt('Pregen', PREGENS[PG].name); return; }
   if (e.target.id !== 'ccls') return;
   // keep name, race, background, rolled attributes, age, personality, trait and bond; redo only what the class decides
   const k = e.target.value, was = CH.cls; applyClass(CH, k); CH.fixedCls = k; swapSel = null;
@@ -928,9 +989,37 @@ const WEAPON_ALIAS = [[/great ?axe/i, 'Great Axe'], [/great ?sword/i, 'Great Swo
 const weaponOf = item => { for (const [re, k] of WEAPON_ALIAS) if (re.test(item)) return k; return null; };
 const GSTF = v => { const t = { 3: [1, 5], 4: [2, 7], 5: [2, 8], 6: [3, 10], 7: [3, 11], 8: [4, 13], 9: [4, 14], 10: [5, 16], 11: [5, 17], 12: [6, 19] };
   return t[v] || (v < 3 ? [1, 5] : [Math.floor(v / 2), 20]); };
-function critOf(dmg, level) {
-  const m = dmg.match(/^(\d+)d(\d+)(?:\+(\d+))?$/); if (!m) return '';
+function critOf(dmg, level) {   // crit = max damage + half level, round up (Melee & Ranged Attacks)
+  const m = dmg.match(/^(\d+)d(\d+)([+-]\d+)?$/); if (!m) return '';
   return String(+m[1] * +m[2] + (+m[3] || 0) + Math.ceil(level / 2));
+}
+const sgn0 = n => n === 0 ? '-' : sgn(n);   // the official pregens write a dash for zero
+// damage = weapon dice + Str mod (melee; Monk may use Dex) or Perc mod (ranged and thrown)
+function addMod(dice, mod) {
+  const m = dice.match(/^(\d+d\d+)([+-]\d+)?$/); if (!m) return dice;
+  const t = (+m[2] || 0) + mod; return m[1] + (t ? sgn(t) : '');
+}
+// weapon rows for the builder and the sheet: melee weapons say "Melee"; throwable ones get a second "(throw)" row
+function weaponRows(c, items) {
+  const C = CLASSES[c.cls], cur = a => curA(c, a), M = a => modOf(cur(a)), out = [];
+  const meleeMod = c.cls === 'Monk' ? Math.max(M('Str'), M('Dex')) : M('Str'), rangedMod = M('Perc');
+  for (const it of items) {
+    const k = weaponOf(it.split(/ or /i)[0]); if (!k) continue;
+    const W = WEAPONS[k], label = it.split(/ or /i)[0].replace(/\s*\(.*?\)/, '');
+    const props = halfNote(c, k) ? W[3].replace('+1 dmg two handed', 'Two hands (halfling), no +1') : W[3];
+    const row = (lab, rng, ab, mod) => { const dmg = addMod(W[0], mod); out.push({ label: lab, k, rng, hit: sgn0(C.ab + ab), dmg, nat19: W[2], crit: critOf(dmg, c.level), props }); };
+    if (W[4]) row(label, W[1], rangedMod, rangedMod);
+    else {
+      row(label, 'Melee', meleeMod, meleeMod);
+      if (W[1] !== '-') row(label + ' (throw)', W[1], rangedMod, rangedMod);
+    }
+  }
+  return out;
+}
+// Initiative with the first weapon's +2/-2 written after a slash, as on the pregens (eg 11/9)
+function initText(c, base, items) {
+  const k = items.map(it => weaponOf(it.split(/ or /i)[0])).find(Boolean); if (!k) return String(base);
+  const m = WEAPONS[k][3].match(/([+-]2) Initiative/); return m ? base + '/' + (base + +m[1]) : String(base);
 }
 function sheetData(c, kind) {
   const C = CLASSES[c.cls], D = derived(c), cur = a => curA(c, a), M = a => modOf(cur(a)), f = {};
@@ -941,13 +1030,13 @@ function sheetData(c, kind) {
   f.Text9 = ''; f.Text10 = firstBold(c.bond.r.c[0]) || bond;   // the wide line under "Party Bonds"; full text goes in the notes
   f.Text12 = String(ageOf(c)); f.Text13 = String(c.level); f.Text14 = '0'; f.Text15 = '10';
   const rows = { Str: 16, Dex: 20, Con: 24, Int: 28, Perc: 32, Will: 36, Cha: 40 };
-  for (const a of ATTR) { const n = rows[a], v = cur(a), g = GSTF(v); f['Text' + n] = String(v); f['Text' + (n + 1)] = sgn(M(a)); f['Text' + (n + 2)] = String(g[0]); f['Text' + (n + 3)] = String(g[1]); }
-  const gi = GSTF(D.init); f.Text44 = String(D.init); f.Text45 = sgn(modOf(D.init)); f.Text46 = String(gi[0]); f.Text47 = String(gi[1]);
-  f.Text48 = String(D.ac); f.Text49 = String(D.hp);
+  for (const a of ATTR) { const n = rows[a], v = cur(a), g = GSTF(v); f['Text' + n] = String(v); f['Text' + (n + 1)] = sgn0(M(a)); f['Text' + (n + 2)] = String(g[0]); f['Text' + (n + 3)] = String(g[1]); }
+  const G = gearOf(c), items = G.gear.concat([c.bg.item + ' (background)']);
+  const gi = GSTF(D.init); f.Text44 = initText(c, D.init, items); f.Text45 = sgn0(modOf(D.init)); f.Text46 = String(gi[0]); f.Text47 = String(gi[1]);
+  f.Text48 = String(D.ac); f.Text49 = String(D.hp); f.Text50 = String(D.hp);
   f.Text51 = String(D.luck); f.Text52 = String(D.luck); f.Text53 = String(D.rerolls); f.Text54 = String(D.rerolls);
   f.Text55 = D.death + (c.race === 'Half-Skorn' ? '+2' : ''); f.Text56 = '1';   // Death: roll-under; the half-skorn +2 doesn't stack with healing magic
   // gear: weapons and shield are battle gear, armour is worn, the rest goes in the pack
-  const G = gearOf(c), items = G.gear.concat([c.bg.item + ' (background)']);
   const weapons = [], battle = [], worn = [], pack = [];
   for (const it of items) {
     const w = weaponOf(it.split(' or ')[0]);
@@ -958,14 +1047,18 @@ function sheetData(c, kind) {
     else pack.push(it);
   }
   const wr = [[57, 58, 59, 60, 61, 62, 63], [64, 65, 66, 67, 68, 69, 70], [71, 72, 73, 74, 75, 76, 77], [78, 79, 80, 81, 82, 83, 84], [85, 86, 87, 88, 89, 90, 91]];
-  weapons.slice(0, 5).forEach(([label, k], i) => {
-    const W = WEAPONS[k], r = wr[i], hit = W[4] ? D.ranged : D.melee;
-    f['Text' + r[0]] = label; f['Text' + r[1]] = W[1]; f['Text' + r[2]] = sgn(hit); f['Text' + r[3]] = W[0];
-    f['Text' + r[4]] = W[2]; f['Text' + r[5]] = critOf(W[0], c.level);
-    f['Text' + r[6]] = halfNote(c, k) ? W[3].replace('+1 dmg two handed', 'Two hands (halfling), no +1') : W[3];
+  weaponRows(c, items).slice(0, 5).forEach((w, i) => {
+    const r = wr[i];
+    f['Text' + r[0]] = w.label; f['Text' + r[1]] = w.rng; f['Text' + r[2]] = w.hit; f['Text' + r[3]] = w.dmg;
+    // the Nat 19 column is narrow: dice only, with * pointing to the alternative in the properties (as on the pregens)
+    const d = w.nat19.match(/^\d+d\d+(?:[+-]\d+)?/), alt = /Nat 19 alt/.test(w.props);
+    f['Text' + r[4]] = d ? d[0] + (alt ? '*' : '') : '*';
+    f['Text' + r[5]] = w.crit;
+    f['Text' + r[6]] = d ? w.props.replace('Nat 19 alt', '*Nat 19 alt') : '*Nat 19: ' + w.nat19.toLowerCase() + (w.props ? '. ' + w.props : '');
   });
   // skills & abilities
-  let sk = c.skills.slice().concat([''], C.fixed, c.abil.map(a => a.name + (C.abil.table === 'Spell List' ? ' (spell)' : '')));
+  const U = C.uses + ' (' + usesOf(c) + ')';   // uses per adventure: one per level, +1 if elderly
+  let sk = c.skills.slice().concat([''], C.fixed.map(x => x === C.uses ? U : x), c.abil.length ? [U].concat(c.abil.map(a => a.name + (C.abil.table === 'Spell List' ? ' (spell)' : ''))) : []);
   const rt = RACE_TRAITS[c.race] ? [c.race + ' traits:'].concat(RACE_TRAITS[c.race]) : [];
   sk = sk.concat(sk.length + 1 + rt.length <= 17 ? [''] : [], rt);
   for (let i = 0; i < 17; i++) f['Text' + (92 + i)] = sk[i] || '';
@@ -978,7 +1071,7 @@ function sheetData(c, kind) {
   worn.forEach((it, i) => { const sl = [134, 135, 136][i]; if (sl) f['Text' + sl] = it; });
   // notes: party bond in full, adjustments
   const notes = ['Party bond: ' + bond].concat(spill, G.notes, c.manual.map(m => m.type === 'adj' ? 'Changed ' + m.a + ' ' + sgn(m.d) + ' (' + m.from + ' to ' + m.to + ')'
-      : m.type === 'swap' ? 'Swapped ' + m.a + ' and ' + m.b : m.type === 'age' ? 'Age set to ' + (m.old ? 'old' : 'average')
+      : m.type === 'swap' ? 'Swapped ' + m.a + ' and ' + m.b : m.type === 'age' ? 'Age set to ' + (m.old ? 'elderly' : 'average')
       : 'Class changed ' + m.from + ' to ' + m.to), c.notes, ageNotes(c));
   const nf = [140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150];
   return { f, notes, nf };
