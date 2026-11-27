@@ -1107,7 +1107,7 @@ function pregenHtml(p) {
   if (p.bond) h += '<div class="cnote">Party bond: ' + esc(p.bond) + '</div>';
   h += '<div><a class="pglink" href="' + url + '" target="_blank" rel="noopener">' + (p.kind === 'pdf' ? 'Parchment sheet (' : 'Sheet picture (') + (p.size / 1e6).toFixed(1) + ' MB)</a>' +
     (p.white ? ' <a class="pglink" href="pregens/' + p.white + '" target="_blank" rel="noopener">White sheet (' + (p.wsize / 1e6).toFixed(1) + ' MB)</a>' : '') + '</div>' +
-    '<div class="hint">Official pregen. The sheet opens in the home-screen app (psychedelos.github.io/argosa), not inside Claude.' + (p.kind === 'pdf' ? ' Both PDFs are form-fillable; the white one is printer friendly.' : '') + '</div>';
+    (p.kind === 'pdf' ? '<div class="hint">Both PDFs are form-fillable; the white one is printer friendly.</div>' : '');
   if (p.kind === 'image') return h + '<a href="' + url + '" target="_blank" rel="noopener"><img class="pgimg" alt="' + esc(p.name) + ' character sheet" src="' + url + '"></a>';
   const desc = [2, 3, 4, 5].map(F).filter(Boolean).join(' ');
   if (desc) h += '<div class="chead"><span>Character</span></div><div>' + esc(desc) + '</div>';
@@ -1373,7 +1373,7 @@ $('sbody').addEventListener('click', async e => {
     msg.textContent = 'Ready: tap "Save" to share or save it (Save to Files). The fields stay editable.';
   } catch (err) {
     console.error('sheet export failed', err);
-    msg.textContent = 'Sheet export works in the home-screen app (psychedelos.github.io/argosa), not inside Claude.';
+    msg.textContent = 'Couldn\'t make the sheet. Open the app once with a connection so it can keep the sheets for offline use, then try again.';
   }
 });
 

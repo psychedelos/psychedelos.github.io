@@ -1,5 +1,5 @@
 // Argosa Oracles offline cache. Network first for the page (so updates arrive when online), cache as fallback.
-const CACHE = 'argosa-v13';
+const CACHE = 'argosa-v14';
 const FILES = ['./', './index.html', './manifest.webmanifest', './icon-180.png', './icon-192.png', './icon-512.png',
   './sheets/classic.pdf', './sheets/simple.pdf', './lib/pdf-lib.min.js', './lib/fontkit.umd.min.js'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES)).then(() => self.skipWaiting())); });

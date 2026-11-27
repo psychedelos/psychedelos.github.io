@@ -7,7 +7,7 @@ Max's running notes for Claude. When a conversation resets, read this file, `REA
 - Site: https://psychedelos.github.io/argosa/ -- Max uses it as an iPhone home-screen web app ("Open as Web App" on). Repo: psychedelos/psychedelos.github.io (public, branch `main`). Git is the source of truth.
 - Tabs: Dice (d2 d3 d4 d6 d8 d10 d12 d20 d100 d66), Bones (Consult the Bones), Signs (draw two Deck of Signs cards), Tables (all 133 roll tables + generators: character, dungeon, room, lair, item, hireling).
 - Claude artifact copy: slug `5f5b61d6-a07e-4b47-8bcd-a152e525b8bb` (https://claude.ai/artifact/CmxPDiGfr7GVhmLgvfqBJz). Republish from `argosa-src/build/Argosa_Oracles.html` with `publish_files` (get the live version with `get_artifact` first). Sheet export does not work inside the artifact (no downloads, can't fetch the sheet files) -- that's expected.
-- Max no longer wants the HTML file sent to him; updates go to GitHub + artifact.
+- Max no longer wants the HTML file sent to him. He has moved entirely to the home-screen app (2026-11-27): GitHub is the target; the Claude artifact is optional (fine to keep updating, not required), and the app's text shouldn't mention Claude.
 
 ## How to change things
 
