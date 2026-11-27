@@ -114,7 +114,7 @@
   .front { transform: rotateY(180deg); }
   .label { text-align:center; margin-top:8px; font-size:.95rem; color:var(--muted); min-height:1.3em; }
   .zoom { position:fixed; inset:0; background:rgba(0,0,0,.88); display:none;
-    align-items:center; justify-content:center; z-index:10; cursor:zoom-out;
+    align-items:center; justify-content:center; z-index:30; cursor:zoom-out;   /* above the tables sheet (20) */
     padding: calc(env(safe-area-inset-top, 0px) + 16px) calc(env(safe-area-inset-right, 0px) + 16px) calc(env(safe-area-inset-bottom, 0px) + 16px) calc(env(safe-area-inset-left, 0px) + 16px); }
   .zoom.open { display:flex; }
   .zoom img { max-width:100%; max-height:100%; border-radius:12px; box-shadow:0 10px 40px #000; }
@@ -250,7 +250,7 @@
   .nest .nh b { color:var(--accent); font-weight:normal; }
   .minicards { display:flex; gap:8px; margin-top:6px; }
   .minicards figure { margin:0; width:96px; text-align:center; font-size:.75rem; color:var(--muted); }
-  .minicards img { width:96px; border-radius:6px; display:block; }
+  .minicards img { width:96px; border-radius:6px; display:block; cursor:zoom-in; }
   .foot { color:var(--muted); font-size:.82rem; margin-top:10px; line-height:1.45; }
   details.full { margin-top:18px; }
   details.full > summary { cursor:pointer; color:var(--fg); padding:8px 0; }
@@ -1127,6 +1127,12 @@ function pregenHtml(p) {
   h += block('Battle gear', range(110, 119)) + block('Pack gear', range(121, 133)) + block('Worn', range(134, 136)) + block('Coin', [151]) + block('Notes', range(140, 150));
   return h;
 }
+// tap a Signs card drawn by a table or generator to see it full size (the Signs tab's zoom view)
+document.addEventListener('click', e => {
+  const im = e.target.closest && e.target.closest('.minicards img'); if (!im) return;
+  e.preventDefault(); e.stopPropagation();
+  const z = $('zoom'); z.querySelector('img').src = im.src; z.classList.add('open');
+}, true);
 function drawCharacter() { $('sbody').innerHTML = PG != null && PREGENS[PG] ? pregenHtml(PREGENS[PG]) : charHtml(); }
 if (/^(localhost|127\.0\.0\.1)$/.test(location.hostname)) window.__argosaTest = { CLASSES, newCharacter, applyClass, derived, sheetData, weaponRows, curA, initText, gearOf };   // local testing only
 function openCharacter() {
